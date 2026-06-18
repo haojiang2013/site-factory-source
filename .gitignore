@@ -8,3 +8,6 @@ sites/
 *.log
 
 .vercel
+
+.vercel
+.env*

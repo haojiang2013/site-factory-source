@@ -17,9 +17,7 @@ export function CalculatorWidget({ toolCode, brandName }: { toolCode: string; br
   const [saved, setSaved] = useState(false);
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
-  const [inputs, setInputs] = useState<Record<string, string|boolean>>({
-    movingType:'', homeSize:'', distance:'', hasPiano:false, packingService:'', storageNeeded:false
-  });
+  const [inputs, setInputs] = useState<Record<string, string|boolean>>({});
 
   // Init engine + read dynamic params
   useEffect(() => {
@@ -99,7 +97,12 @@ export function CalculatorWidget({ toolCode, brandName }: { toolCode: string; br
         <button onClick={()=>setHasInteracted(true)} style={{flex:1,padding:'14px',borderRadius:12,border:'none',background:'#1a1a2e',color:'#fff',fontSize:15,fontWeight:600,cursor:'pointer',opacity:hasInteracted?0.6:1}}>
           {hasInteracted ? '✓ Calculating...' : 'Calculate Now →'}
         </button>
-        <button onClick={()=>{setInputs({movingType:'',homeSize:'',distance:'',hasPiano:false,packingService:'',storageNeeded:false});setResults(null);setError(false);setHasInteracted(false);}} style={{padding:'14px 20px',borderRadius:12,border:'1px solid #ddd',background:'#fff',color:'#666',cursor:'pointer'}}>Reset</button>
+        <button onClick={()=>{
+          const def: Record<string,string|boolean> = {};
+          const params = calcParams || DEFAULT_PARAMS;
+          params.forEach((p:any) => { def[p.name] = p.type==='checkbox' ? false : p.type==='select' && p.options ? p.options[0][0] : ''; });
+          setInputs(def); setResults(null); setError(false); setHasInteracted(false);
+        }} style={{padding:'14px 20px',borderRadius:12,border:'1px solid #ddd',background:'#fff',color:'#666',cursor:'pointer'}}>Reset</button>
       </div>
 
       {error && hasInteracted && (
