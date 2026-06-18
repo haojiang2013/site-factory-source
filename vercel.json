@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/mastodon-post?secret=${CRON_SECRET}",
+      "schedule": "0 10 * * *"
+    }
+  ]
+}
