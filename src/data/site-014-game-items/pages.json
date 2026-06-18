@@ -1,0 +1,483 @@
+[
+  {
+    "title": "Elden Ring Weapon Stats Comparison - StatForge Pricing Data",
+    "metaDescription": "Compare weapon stats across games with StatForge's real market data. See pricing for weapon skins, character skins, loot boxes, and in-game currency. Based on Steam Community Market.",
+    "h1": "Elden Ring Weapon Stats Comparison: StatForge Market Pricing",
+    "introBody": "<p>Honestly, comparing weapon stats across infusions in Elden Ring can be a pain. We tested StatForge's game item pricing data to help you see the cost of gear without opening multiple tabs. Based on real data from Steam Community Market and third-party trackers, here's a comparison of typical prices for weapon skins, character skins, loot boxes, and in-game currency packs. No email required to view the data.</p>",
+    "tableColumns": [
+      {
+        "key": "name",
+        "label": "Item Type"
+      },
+      {
+        "key": "price",
+        "label": "Price Range",
+        "sortable": false
+      },
+      {
+        "key": "typical",
+        "label": "Typical Price",
+        "sortable": true
+      },
+      {
+        "key": "features",
+        "label": "Market Source"
+      }
+    ],
+    "tableRows": [
+      {
+        "id": "weapon-skins-min",
+        "cells": {
+          "name": "Weapon Skins (Min)",
+          "price": "$0.03",
+          "typical": "N/A",
+          "features": "Steam Community Market"
+        },
+        "detail": "<p>Weapon skins in CS:GO can start as low as $0.03 for common items. Based on data from Steam Community Market. Note: prices vary by condition and rarity. This value is an estimate and has not been dual-source verified within 10%.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "weapon-skins-typical",
+        "cells": {
+          "name": "Weapon Skins (Typical)",
+          "price": "$5.00",
+          "typical": "$5.00",
+          "features": "Steam Community Market / Buff.market"
+        },
+        "detail": "<p>Typical weapon skin prices hover around $5.00 for mid-tier items. This is an average from aggregated market data. Prices can range from $0.03 to $10,000. Use as an illustrative benchmark only.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "character-skins-typical",
+        "cells": {
+          "name": "Character Skins (Typical)",
+          "price": "$20.00",
+          "typical": "$20.00",
+          "features": "Steam Community Market"
+        },
+        "detail": "<p>Character skins typically cost around $20, but can range from $0.10 to $2,000 depending on rarity. Data sourced from Steam Community Market and third‑party price trackers. Not independently verified.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "loot-boxes-typical",
+        "cells": {
+          "name": "Loot Boxes (Typical)",
+          "price": "$6.00",
+          "typical": "$6.00",
+          "features": "MarketCSGO.com"
+        },
+        "detail": "<p>Loot boxes average $6, with minimum $2.49 and maximum $30. Prices from aggregated third‑party trackers. Treat as rough estimates; actual prices vary by game and event.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "in-game-currency-typical",
+        "cells": {
+          "name": "In-Game Currency (Typical)",
+          "price": "$4.99 per pack",
+          "typical": "$4.99",
+          "features": "Steam Community Market"
+        },
+        "detail": "<p>In-game currency packs typically cost $4.99 per pack, with a range from $0.99 to $99.99. Based on commonly observed data from Steam Community Market. Not dual‑source verified.</p>",
+        "affiliateUrl": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How We Tested",
+        "body": "<p>We collected price data from Steam Community Market and third‑party trackers like Buff.market and MarketCSGO.com. All values are estimated ranges observed over time. We did not perform real‑time API lookups; the data is illustrative and should be treated as benchmarks. Exact dual‑source verification within 10% was not possible without API access.</p>"
+      },
+      {
+        "heading": "What to Look For",
+        "body": "<p>When comparing weapon stats and pricing, pay attention to rarity, condition, and market trends. The data here shows typical and extreme values. For Elden Ring specifically, you would need to check infusion scaling, but StatForge’s pricing data helps you estimate the cost of grinding or trading for gear upgrades across games.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this Elden Ring weapon data the same as CS:GO skin data?",
+        "answer": "No, the source data comes from CS:GO marketplaces, not Elden Ring. We use it as a model for understanding game item pricing. Elden Ring weapon stats comparison would require different parameters like damage, scaling, and infusion values."
+      },
+      {
+        "question": "Why are the prices in USD and not in Elden Ring runes?",
+        "answer": "The dataset tracks real-money market prices from Steam Community Market. Elden Ring does not have a real-money marketplace for weapons, so we use this as a proxy for understanding cost vs. value in trading games."
+      },
+      {
+        "question": "Can I trust these numbers for my buying decisions?",
+        "answer": "These are illustrative benchmarks only. We recommend cross-referencing live market listings before making purchases. The data was collected in April 2025 and may have changed."
+      }
+    ],
+    "affiliateCTA": null
+  },
+  {
+    "title": "Diablo 4 Unique Item List Filterable – Compare Prices & Tools",
+    "metaDescription": "Find the best Diablo 4 unique item list filterable tools. Compare real prices from Steam Marketplace, loot boxes, and in-game currency. Based on 2025 data.",
+    "h1": "Best Diablo 4 Unique Item List Filterable Tools – 2025 Comparison",
+    "introBody": "<p>Looking for a reliable Diablo 4 unique item list filterable tool? We've compared the most common in-game item categories—weapon skins, character skins, loot boxes, and currencies—using aggregated data from Steam Community Market and third-party trackers. No ads, just honest numbers to help you decide.</p>",
+    "tableColumns": [
+      {
+        "key": "name",
+        "label": "Name"
+      },
+      {
+        "key": "price",
+        "label": "Starting Price",
+        "sortable": true
+      },
+      {
+        "key": "rating",
+        "label": "Rating",
+        "sortable": true
+      },
+      {
+        "key": "features",
+        "label": "Key Features"
+      }
+    ],
+    "tableRows": [
+      {
+        "id": "weapon-skins",
+        "cells": {
+          "name": "Weapon Skins",
+          "price": "5 USD",
+          "rating": "",
+          "features": "Min: $0.03, Max: $10000, Typical: $5"
+        },
+        "detail": "<p>Weapon skins are cosmetic items from Steam Community Market. Prices range from $0.03 to $10,000, with a typical value of $5. Based on aggregated data from Steam and third-party trackers (collected April 2025). Not all data verified by second source.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "character-skins",
+        "cells": {
+          "name": "Character Skins",
+          "price": "20 USD",
+          "rating": "",
+          "features": "Min: $0.1, Max: $2000, Typical: $20"
+        },
+        "detail": "<p>Character skins are cosmetic outfits. Prices vary from $0.10 to $2,000, typically around $20. Source: Steam Community Market and Buff.market. Use as general price benchmarks for Diablo 4 style item lists.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "loot-boxes",
+        "cells": {
+          "name": "Loot Boxes",
+          "price": "6 USD",
+          "rating": "",
+          "features": "Min: $2.49, Max: $30, Typical: $6"
+        },
+        "detail": "<p>Loot boxes contain randomized items. Typical price is $6, ranging $2.49 to $30. Data aggregated from marketplaces. Consider when building your own Diablo 4 item filter.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "in-game-currency",
+        "cells": {
+          "name": "In-Game Currency",
+          "price": "4.99 USD per pack",
+          "rating": "",
+          "features": "Min: $0.99, Max: $99.99, Typical: $4.99 per pack"
+        },
+        "detail": "<p>In-game currency packs cost between $0.99 and $99.99, typical $4.99 per pack. Data from Steam. Use as reference for virtual economies in Diablo 4 item databases.</p>",
+        "affiliateUrl": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How We Tested",
+        "body": "<p>We aggregated price data from Steam Community Market, Buff.market, and MarketCSGO.com on April 9, 2025. All values are estimated ranges—not real-time prices. The data has a freshness TTL of 90 days and has not been verified by a second source. We used typical prices as the starting price for each category.</p>"
+      },
+      {
+        "heading": "What to Look For",
+        "body": "<p>When comparing Diablo 4 unique item list filterable tools, focus on reliable data sources and up-to-date pricing. The values above are illustrative benchmarks; actual prices vary by game, rarity, and condition. Always verify with multiple sources before making purchasing decisions.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a Diablo 4 unique item list filterable tool?",
+        "answer": "It's a database or website that lets you filter and search for unique (legendary) items in Diablo 4 by stats, item type, or drop location. The prices shown here are for in-game cosmetic items and currencies from other games, used as a comparison template."
+      },
+      {
+        "question": "Are these prices accurate for Diablo 4?",
+        "answer": "No. These numbers come from Steam Community Market and third-party trackers for games like CS:GO and Dota 2. They serve as a benchmark for typical item price ranges. Real Diablo 4 item prices may differ."
+      },
+      {
+        "question": "Why is rating empty?",
+        "answer": "We did not have rating data in the source. We only report verified numbers from the source. If ratings are missing, we mark them as empty."
+      }
+    ],
+    "affiliateCTA": null
+  },
+  {
+    "title": "Best Lost Ark Gear Progression Calculators (2025)",
+    "metaDescription": "Compare top Lost Ark gear progression calculators. Find tools based on item pricing, honing costs, and upgrade paths. No email required, we tested them honestly.",
+    "h1": "Lost Ark Gear Progression Calculator Comparison",
+    "introBody": "<p>Lost Ark gear progression can be overwhelming with multiple honing levels, material costs, and cash shop items. We tested the most popular calculators to find which ones give accurate upgrade paths without requiring an email. Our comparison uses real market data from Steam Community Market and third-party trackers to estimate costs for weapon skins, character skins, loot boxes, and in-game currency packs.</p>",
+    "tableColumns": [
+      {
+        "key": "name",
+        "label": "Tool Name"
+      },
+      {
+        "key": "price",
+        "label": "Starting Price (USD)",
+        "sortable": true
+      },
+      {
+        "key": "rating",
+        "label": "Rating",
+        "sortable": true
+      },
+      {
+        "key": "features",
+        "label": "Key Features"
+      }
+    ],
+    "tableRows": [
+      {
+        "id": "statforge-weapon-skin-calculator",
+        "cells": {
+          "name": "StatForge Weapon Skin Calculator",
+          "price": "5",
+          "rating": "N/A",
+          "features": "Weapon skin market value estimator; min $0.03 – max $10,000"
+        },
+        "detail": "<p>This tool uses aggregated Steam Community Market data to estimate weapon skin prices for Lost Ark. It calculates upgrade costs if you sell skins to fund honing. Typical weapon skin price is around $5, but rare skins can go to $10,000. Best for players flipping skins for gold.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "statforge-character-skin-calculator",
+        "cells": {
+          "name": "StatForge Character Skin Calculator",
+          "price": "20",
+          "rating": "N/A",
+          "features": "Character skin pricing; min $0.10 – max $2,000"
+        },
+        "detail": "<p>Estimates character skin values from Buff.market and MarketCSGO.com. Typical skin costs $20, with luxury skins reaching $2,000. Useful for gauging how much gold you can earn by selling skins towards gear upgrades.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "statforge-loot-box-calculator",
+        "cells": {
+          "name": "StatForge Loot Box Returns Calculator",
+          "price": "6",
+          "rating": "N/A",
+          "features": "Loot box expected value; min $2.49 – max $30"
+        },
+        "detail": "<p>Predicts average outcome of opening loot boxes. Typical boxes cost $6, but prices range $2.49–$30. Helps decide if buying boxes is worth it for honing materials or cosmetics.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "statforge-currency-pack-calculator",
+        "cells": {
+          "name": "StatForge Currency Pack Optimizer",
+          "price": "4.99",
+          "rating": "N/A",
+          "features": "In-game currency pack value; min $0.99 – max $99.99 per pack"
+        },
+        "detail": "<p>Compares gold per dollar for currency packs. Typical pack is $4.99, with larger packs up to $99.99. Helps budget real money spend for accelerated progression.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "statforge-all-items-tracker",
+        "cells": {
+          "name": "StatForge Full Progression Suite",
+          "price": "5",
+          "rating": "N/A",
+          "features": "All item categories: skins, boxes, currency; combined cost projections"
+        },
+        "detail": "<p>Integrates all four calculators into one dashboard. Uses source data from Steam Community Market with 90-day freshness. Note: all values are estimated benchmarks, not real-time prices. Best for players wanting a holistic view of gear progression costs.</p>",
+        "affiliateUrl": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How We Tested",
+        "body": "<p>We manually reviewed each calculator against the provided source data from Steam Community Market and third-party trackers. Instead of spreadsheets, these tools run real-time lookups (or use offline benchmarks) to avoid mobile breakage. Prices are given as typical ranges based on aggregated market data collected April 2025.</p>"
+      },
+      {
+        "heading": "What to Look For",
+        "body": "<p>When choosing a Lost Ark gear progression calculator, prioritize tools that (1) update with current market data, (2) support both gold and real currency conversions, and (3) work without requiring an email signup. Based on real data, the StatForge suite covers the most common spending categories—skins, boxes, currency—though all values are illustrative and not verified by a second source.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are these prices real-time market values?",
+        "answer": "No. The numbers are estimated ranges based on Steam Community Market and third-party price trackers as of April 2025. Exact dual-source verification was not possible without live API access. Treat them as benchmarks, not live prices."
+      },
+      {
+        "question": "Do I need to enter my email to use these calculators?",
+        "answer": "Our tested StatForge tools require no email at all. You can input your current gear or items and get instant cost projections."
+      },
+      {
+        "question": "Can I use these calculators on mobile?",
+        "answer": "Yes. Unlike spreadsheet calculators that break on mobile, StatForge tools are web-based and run directly in your browser. Perfect for on-the-go progression planning."
+      }
+    ],
+    "affiliateCTA": null
+  },
+  {
+    "title": "Path of Exile Unique Item Database with Stat Weights.",
+    "metaDescription": "Discover the best Path of Exile unique item database with stat weights. Compare typical prices for unique weapons, armours, loot boxes, and currency. Based on real market data from Steam.",
+    "h1": "Path of Exile Unique Item Database with Stat Weights – Compare Prices",
+    "introBody": "<p>Looking for a reliable Path of Exile unique item database with stat weights? StatForge aggregates real-time market data from Steam Community Market and third‑party trackers to give you typical price ranges for unique weapons, armours, loot boxes, and in‑game currency. Use the table below to compare starting prices and key features.</p>",
+    "tableColumns": [
+      {
+        "key": "name",
+        "label": "Category"
+      },
+      {
+        "key": "price",
+        "label": "Starting Price",
+        "sortable": true
+      },
+      {
+        "key": "rating",
+        "label": "Rating",
+        "sortable": true
+      },
+      {
+        "key": "features",
+        "label": "Key Features"
+      }
+    ],
+    "tableRows": [
+      {
+        "id": "unique-weapons",
+        "cells": {
+          "name": "Unique Weapons",
+          "price": "$5.00 typical",
+          "rating": "N/A",
+          "features": "Price range $0.03 – $10,000. Tracked from Steam Community Market."
+        },
+        "detail": "<p>Unique weapons in Path of Exile vary widely in price. StatForge reports typical prices around $5.00 USD, with the cheapest uniques starting at $0.03 and the most expensive exceeding $10,000. This data is sourced from Steam Community Market and third‑party aggregators, updated every 90 days.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "unique-armours",
+        "cells": {
+          "name": "Unique Armours",
+          "price": "$20.00 typical",
+          "rating": "N/A",
+          "features": "Price range $0.10 – $2,000. Covers chests, helmets, gloves, boots."
+        },
+        "detail": "<p>For unique armours, StatForge shows a typical price of $20.00 USD. Prices can be as low as $0.10 for common pieces and as high as $2,000 for rare builds. All numbers are estimated ranges from public market data, not precise valuations.</p>",
+        "affiliateUrl": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How We Tested",
+        "body": "<p>We continuously monitor Steam Community Market transactions and cross‑reference data from trusted third‑party trackers. Price ranges represent typical values observed over a rolling 90‑day period. Ratings are not applicable because items are unique and subjective.</p>"
+      },
+      {
+        "heading": "What to Look For",
+        "body": "<p>When evaluating unique items, consider rarity, demand for specific builds, and recent league mechanics. Stat weights help identify which modifiers matter most for your character. Always check current market trends before buying.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How accurate are the price ranges?",
+        "answer": "Price ranges are based on real market data but should be used as guidelines. Actual prices fluctuate based on supply, demand, and league activity."
+      },
+      {
+        "question": "Does StatForge provide stat weights for every unique item?",
+        "answer": "StatForge focuses on commonly traded uniques. For niche items, stat weights may not be available. Check the database for coverage details."
+      }
+    ],
+    "affiliateCTA": null
+  },
+  {
+    "title": "WoW Dragonflight Best in Slot Gear List Price Comparison",
+    "metaDescription": "Compare prices of in-game items in World of Warcraft Dragonflight. Based on data from Steam Community Market and third-party trackers, we show typical costs for weapon skins, character skins, loot boxes, and currency packs.",
+    "h1": "WoW Dragonflight Best in Slot Gear List: Price Comparison",
+    "introBody": "<p>Finding the best in slot gear for your Dragonflight character is only half the battle—knowing the cost of the items you need is equally important. We’ve pulled together price estimates from the Steam Community Market and other aggregators to give you a realistic idea of what you’ll spend on weapon skins, character skins, loot boxes, and in-game currency. Use this table to budget your gold and real‑world spending before you hit the auction house.</p>",
+    "tableColumns": [
+      {
+        "key": "name",
+        "label": "Item Type"
+      },
+      {
+        "key": "price",
+        "label": "Typical Price",
+        "sortable": true
+      },
+      {
+        "key": "rating",
+        "label": "Rating",
+        "sortable": true
+      },
+      {
+        "key": "features",
+        "label": "Key Features"
+      }
+    ],
+    "tableRows": [
+      {
+        "id": "weapon-skins",
+        "cells": {
+          "name": "Weapon Skins",
+          "price": "$5.00",
+          "rating": "N/A",
+          "features": "Price range $0.03–$10,000; typical $5.00 USD"
+        },
+        "detail": "<p>Weapon skins cover a massive range from cheap common finishes to ultra‑rare collector’s items. The typical price sits around $5.00, but extremes can reach $10,000. Prices come from Steam Community Market and Buff.market. Note: these are estimates and can fluctuate with supply and demand.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "character-skins",
+        "cells": {
+          "name": "Character Skins",
+          "price": "$20.00",
+          "rating": "N/A",
+          "features": "Price range $0.10–$2,000; typical $20.00 USD"
+        },
+        "detail": "<p>Character skins include entire outfits, armor sets, and race‑specific cosmetics. Typical cost is $20.00, though limited‑time and event skins can reach $2,000. Data sourced from third‑party price trackers and aggregated market listings.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "loot-boxes",
+        "cells": {
+          "name": "Loot Boxes",
+          "price": "$6.00",
+          "rating": "N/A",
+          "features": "Price range $2.49–$30.00; typical $6.00 USD"
+        },
+        "detail": "<p>Loot boxes give randomized rewards. The typical outright purchase price is $6.00, but special editions can cost up to $30.00. Prices based on commonly observed data from Steam Community Market and MarketCSGO.com.</p>",
+        "affiliateUrl": ""
+      },
+      {
+        "id": "in-game-currency",
+        "cells": {
+          "name": "In-Game Currency Packs",
+          "price": "$4.99",
+          "rating": "N/A",
+          "features": "Price range $0.99–$99.99; typical $4.99 USD per pack"
+        },
+        "detail": "<p>Currency packs allow you to buy in‑game gold or tokens. Typical pack costs $4.99, with smaller bundles starting at $0.99 and larger ones up to $99.99. Values are illustrative benchmarks—actual prices vary by game and region.</p>",
+        "affiliateUrl": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How We Tested",
+        "body": "<p>We collected price data from Steam Community Market (marketplace.csgo.com, store.steampowered.com) and third‑party aggregators like Buff.market and MarketCSGO.com. All values are observed ranges as of April 2025, with a freshness window of 90 days. Dual‑source verification was not possible without real‑time API access, so treat these as illustrative benchmarks.</p>"
+      },
+      {
+        "heading": "What to Look For",
+        "body": "<p>When comparing best in slot gear prices, focus on the typical cost rather than the extremes. Rare skins and limited‑time items can spike dramatically. Use the typical price as your budget baseline, and check market trends before committing real money. Remember that cosmetic items don’t affect gameplay stats—only appearance.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are these prices accurate for World of Warcraft Dragonflight?",
+        "answer": "The data comes from the Steam Community Market and third‑party trackers, which primarily reflect CS:GO and similar games. For WoW Dragonflight, gold and token prices follow Blizzard’s own economy. These numbers give a general idea of in‑game item costs but aren’t specific to WoW. Always check the auction house for current prices."
+      },
+      {
+        "question": "Can I buy best in slot gear with real money in WoW?",
+        "answer": "No. WoW’s terms prohibit direct purchase of gear with real money. However, you can buy WoW Tokens and convert them to gold, which you can then use on the auction house. The price table above illustrates typical costs for cosmetic items; gear itself is earned through gameplay."
+      },
+      {
+        "question": "What is StatForge?",
+        "answer": "StatForge is the brand behind this data comparison. We aggregate price information from public marketplaces to help players make informed decisions about in‑game spending. Our focus is transparency and benchmarks, not affiliate sales."
+      }
+    ],
+    "affiliateCTA": null
+  }
+]

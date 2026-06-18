@@ -1,0 +1,164 @@
+{
+  "niche": "electrical load calculator",
+  "keywords": [
+    {
+      "keyword": "electrical load calculator",
+      "searchVolume": 5000,
+      "difficulty": 85,
+      "intent": "commercial",
+      "serpWeakness": "Top results are outdated forums, clunky PDF calculators, or tools that look like they’re from 2005; no mobile optimization and limited 2023 NEC support.",
+      "userComplaints": [
+        "outdated design and no mobile support",
+        "doesn't include modern loads like EV chargers or heat pumps",
+        "requires email or account to see results"
+      ]
+    },
+    {
+      "keyword": "residential electrical load calculator",
+      "searchVolume": 1000,
+      "difficulty": 70,
+      "intent": "transactional",
+      "serpWeakness": "Existing tools like loadcalc.net are functional but haven't been updated in years, missing inputs for appliances like tankless water heaters; no app version.",
+      "userComplaints": [
+        "limited input fields for specific appliances",
+        "not suitable for quick field estimates",
+        "no printable report for permits"
+      ]
+    },
+    {
+      "keyword": "commercial electrical load calculation spreadsheet",
+      "searchVolume": 300,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Most free spreadsheets are basic and won’t pass plan review; paid options are overpriced; no templates for common scenarios like small retail.",
+      "userComplaints": [
+        "no clear guidance for diversity factors",
+        "can’t handle motor loads correctly"
+      ]
+    },
+    {
+      "keyword": "NEC load calculation worksheet excel",
+      "searchVolume": 800,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Top results offer a PDF worksheet or a 2017 NEC Excel file; nothing updated for 2023, and many links are broken.",
+      "userComplaints": [
+        "not updated for 2023 code cycle",
+        "hard to edit for custom situations"
+      ]
+    },
+    {
+      "keyword": "electrical panel load calculator online free",
+      "searchVolume": 500,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "Free tools either have intrusive ads, limited appliance selection, or require sign-up. Most don’t generate a usable report.",
+      "userComplaints": [
+        "too many ads ruin the experience",
+        "won't let you download results without email"
+      ]
+    },
+    {
+      "keyword": "how to do a load calculation for a house",
+      "searchVolume": 2000,
+      "difficulty": 65,
+      "intent": "informational",
+      "serpWeakness": "Articles explain formulas but don’t offer an interactive tool; users have to jump elsewhere to actually perform the calculation.",
+      "userComplaints": [
+        "just text, no working calculator",
+        "assumes you know all NEC tables already"
+      ]
+    },
+    {
+      "keyword": "best electrical load calculator app",
+      "searchVolume": 300,
+      "difficulty": 40,
+      "intent": "commercial",
+      "serpWeakness": "Very few dedicated apps; App Store results are mostly generic electrical reference apps with a basic calculator attached.",
+      "userComplaints": [
+        "no decent app for iPad or iPhone",
+        "apps crash or don't save work"
+      ]
+    },
+    {
+      "keyword": "load calculation for electric car charger",
+      "searchVolume": 400,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "No dedicated tool—results are articles about how to calculate manually; a specific EV charger load tool would dominate this query.",
+      "userComplaints": [
+        "no tool that simply asks for EV charger specs",
+        "existing calculators ignore continuous load requirements"
+      ]
+    },
+    {
+      "keyword": "free electrical load calculation software for windows",
+      "searchVolume": 200,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Old Windows programs (often only 32-bit) that haven’t been maintained; no modern UI, no cloud sync.",
+      "userComplaints": [
+        "won't run on Windows 11",
+        "interface like a 1990s spreadsheet"
+      ]
+    },
+    {
+      "keyword": "service load calculation example nec 2023",
+      "searchVolume": 300,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Examples are PDFs or blog posts with static numbers; no way to plug in your own values or see step-by-step interactive walkthrough.",
+      "userComplaints": [
+        "no interactive model to test different scenarios",
+        "hard to adapt example to real-world plans"
+      ]
+    },
+    {
+      "keyword": "electrical load calculator with solar and battery storage",
+      "searchVolume": 150,
+      "difficulty": 25,
+      "intent": "transactional",
+      "serpWeakness": "Almost no existing tool integrates both solar PV and battery storage into a standard NEC load calc; huge gap for off-grid and hybrid homes.",
+      "userComplaints": [
+        "can’t model net metering or battery impact",
+        "solar calculators aren't part of load calcs"
+      ]
+    },
+    {
+      "keyword": "dwelling unit load calculation online",
+      "searchVolume": 400,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "A few old online forms exist, but they don’t auto-save or offer a mobile-friendly layout; no support for multi-family units.",
+      "userComplaints": [
+        "page resets if you navigate away",
+        "can’t handle more than one dwelling unit per project"
+      ]
+    },
+    {
+      "keyword": "mobile friendly electrical load calculator",
+      "searchVolume": 100,
+      "difficulty": 20,
+      "intent": "commercial",
+      "serpWeakness": "Top results are not responsive; pinch-to-zoom required on phones. No progressive web app or offline functionality for field use.",
+      "userComplaints": [
+        "terrible mobile experience, unusable on a phone",
+        "can’t calculate while standing at a panel"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Existing calculators are outdated, lack mobile support, and look like they’re from the early 2000s.",
+    "No free tool handles modern loads like EV chargers, heat pump water heaters, or solar/storage systems.",
+    "Most tools either require an email to see results (lead gen) or hide output behind a paywall.",
+    "No easy way to generate a professional, printable report suitable for permit submission.",
+    "Mobile experience is broken; electricians can’t use the tools on-site without a laptop."
+  ],
+  "recommendedAngles": [
+    "Build a free, no-sign-up, mobile-first PWA that works offline on job sites.",
+    "Include one-click support for 2023 NEC and emerging loads: EV charger, heat pump, solar/battery.",
+    "Generate an instant, clean PDF report with all NEC references — ready to attach to a permit application.",
+    "Offer a simple ‘quick estimate’ mode for rough quotes vs. a detailed mode for plan review.",
+    "Allow project saving via local storage or cloud, with option to import/export Excel for engineers."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "slug": "site-013-ai-video",
+  "domain": "videotooltrove.8zla.com",
+  "niche": "AI video tools comparison",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "best AI video generator 2025",
+      "searchVolume": 9900,
+      "difficulty": 78,
+      "intent": "commercial",
+      "serpWeakness": "Top results are blog posts from 2023-2024, lacking 2025 updates; mobile speed is slow on leading sites.",
+      "userComplaints": [
+        "Comparison sites are outdated and still list defunct tools",
+        "No real-time pricing tables"
+      ]
+    },
+    {
+      "keyword": "AI video tools for content creators",
+      "searchVolume": 5400,
+      "difficulty": 62,
+      "intent": "commercial",
+      "serpWeakness": "Many articles are overly broad, missing niche creator workflows (e.g., TikTok vs YouTube); thin affiliate content.",
+      "userComplaints": [
+        "Creators want side-by-side output examples, not affiliate fluff",
+        "Missing mobile editing feature details"
+      ]
+    },
+    {
+      "keyword": "Runway ML vs Pika",
+      "searchVolume": 4400,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Existing comparisons are text-heavy, no video samples; Reddit threads have better insights than top SERP pages.",
+      "userComplaints": [
+        "No direct video quality comparisons",
+        "Biased toward Runway due to sponsorship"
+      ]
+    },
+    {
+      "keyword": "Synthesia alternatives",
+      "searchVolume": 3600,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "First page is dominated by Synthesia’s own comparison page; organic alternatives are thin or from 2022.",
+      "userComplaints": [
+        "Synthesia is too expensive for small businesses",
+        "Avatar lip-sync is still uncanny in cheaper tools"
+      ]
+    },
+    {
+      "keyword": "free AI video maker no watermark",
+      "searchVolume": 8100,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Top results are tool aggregators that push freemium plans; actual free tools are buried.",
+      "userComplaints": [
+        "'Free' tools always slap a huge watermark",
+        "Free tiers have 10-second limit, useless for real projects"
+      ]
+    },
+    {
+      "keyword": "AI video editing software comparison",
+      "searchVolume": 3200,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "High-ranking pages fail to mention new AI editing features in Descript, CapCut; outdated screenshots.",
+      "userComplaints": [
+        "Lack of honest benchmark times for AI rendering",
+        "No mention of export format restrictions"
+      ]
+    },
+    {
+      "keyword": "AI avatar video generator pricing",
+      "searchVolume": 2900,
+      "difficulty": 40,
+      "intent": "transactional",
+      "serpWeakness": "Pricing comparison tables are static, no interactive calculator; mobile UX breaks tabular data.",
+      "userComplaints": [
+        "Hidden costs for custom avatars",
+        "Monthly pricing is hard to compare across tools"
+      ]
+    },
+    {
+      "keyword": "how much does HeyGen cost",
+      "searchVolume": 2200,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "HeyGen’s own pricing page ranks #1; few third-party breakdowns exist, and they are outdated.",
+      "userComplaints": [
+        "HeyGen's custom avatar fee is confusing",
+        "No clear explanation of team plans"
+      ]
+    },
+    {
+      "keyword": "AI text to video tools compared",
+      "searchVolume": 4800,
+      "difficulty": 73,
+      "intent": "commercial",
+      "serpWeakness": "Majority of SERP is YouTube video roundups from 6-12 months ago, text content is scarce and thin.",
+      "userComplaints": [
+        "Too many sponsored reviews",
+        "Want a tool that handles multiple languages without accent issues"
+      ]
+    },
+    {
+      "keyword": "best AI video tool for YouTube automation",
+      "searchVolume": 6600,
+      "difficulty": 60,
+      "intent": "commercial",
+      "serpWeakness": "Most guides are from faceless channel gurus, not real tool comparisons; lack of legitimate long-form review.",
+      "userComplaints": [
+        "AI-generated voices sound robotic for long videos",
+        "Stock footage integration is clunky"
+      ]
+    },
+    {
+      "keyword": "AI video generator with API",
+      "searchVolume": 1800,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "Very few comprehensive lists; developer docs rank higher than comparison articles.",
+      "userComplaints": [
+        "API docs are incomplete for many tools",
+        "No side-by-side API latency comparison"
+      ]
+    },
+    {
+      "keyword": "enterprise AI video platform comparison",
+      "searchVolume": 1200,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "G2 and Capterra dominate, but their categories are too broad; no custom enterprise feature matrix.",
+      "userComplaints": [
+        "Enterprise pricing is opaque",
+        "Security compliance details are missing"
+      ]
+    },
+    {
+      "keyword": "AI video tool for social media ads",
+      "searchVolume": 3900,
+      "difficulty": 65,
+      "intent": "commercial",
+      "serpWeakness": "SERP filled with generic ‘social media tools’ lists; no focus on vertical video, ad specs compliance.",
+      "userComplaints": [
+        "Most tools can’t export in 9:16 natively",
+        "Ad performance data integration is lacking"
+      ]
+    },
+    {
+      "keyword": "best AI face swap video tool",
+      "searchVolume": 5400,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "Many top results are clickbait; real user experience comparisons are hidden in Reddit threads.",
+      "userComplaints": [
+        "Face swaps are dystopian and low-res",
+        "No tool offers realistic body movement syncing"
+      ]
+    },
+    {
+      "keyword": "AI video tools for real estate agents",
+      "searchVolume": 1600,
+      "difficulty": 25,
+      "intent": "commercial",
+      "serpWeakness": "Very niche; existing content is high-level, no tool vs. tool for property walkthroughs.",
+      "userComplaints": [
+        "No tool auto-generates property video with accurate floorplans",
+        "Too slow for high-volume listings"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "industrial-blue",
+    "fontPair": "ibm-plex+ibm-sans",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "VidBench",
+    "accessibilityCheck": {
+      "contrastRatio": "5.16:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "content"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "site-025-game-npcs",
+  "domain": "npcvault.8zla.com",
+  "niche": "game NPC database",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "game npc database",
+      "searchVolume": 600,
+      "difficulty": 78,
+      "intent": "informational",
+      "serpWeakness": "Top results are bloated Fandom wikis with heavy ads and auto-play videos; no dedicated fast database without registration.",
+      "userComplaints": [
+        "Too many ads and popups",
+        "Search functionality is broken"
+      ]
+    },
+    {
+      "keyword": "npc database api",
+      "searchVolume": 120,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "No structured API providers ranking—only general game dev forums; opportunity for a lightweight paid/free API.",
+      "userComplaints": [
+        "No easy way to get NPC data in JSON",
+        "Scraping wikis is unreliable"
+      ]
+    },
+    {
+      "keyword": "npc database for mod developers",
+      "searchVolume": 90,
+      "difficulty": 35,
+      "intent": "commercial",
+      "serpWeakness": "One outdated Unity asset store listing and forum threads; no dedicated modder tool with export options.",
+      "userComplaints": [
+        "Need spawn IDs and inventory lists in one place",
+        "Existing tools don't cover DLCs"
+      ]
+    },
+    {
+      "keyword": "best npc database sites",
+      "searchVolume": 250,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Listicles are from 2019 or earlier, recommend dead wikis; fresh comparison with mobile-friendly and ad-free criteria absent.",
+      "userComplaints": [
+        "All recommendations are ad-ridden wikis",
+        "Mobile version is horror"
+      ]
+    },
+    {
+      "keyword": "skyrim npc schedule database",
+      "searchVolume": 480,
+      "difficulty": 32,
+      "intent": "informational",
+      "serpWeakness": "UESP and Fandom have the data but buried in paragraphs; no interactive schedule calendar view, only tables, not mobile-optimized.",
+      "userComplaints": [
+        "Hard to see when NPC eats/sleeps on mobile",
+        "Spread across multiple pages"
+      ]
+    },
+    {
+      "keyword": "elden ring npc quest tracker",
+      "searchVolume": 1100,
+      "difficulty": 61,
+      "intent": "transactional",
+      "serpWeakness": "Fextralife ranks with auto-playing Twitch stream; very slow on mobile; users beg for minimal, checklist-style tracker.",
+      "userComplaints": [
+        "Fextralife embeds kill mobile data",
+        "Quest steps aren't checkbox-style"
+      ]
+    },
+    {
+      "keyword": "npc item drop database",
+      "searchVolume": 320,
+      "difficulty": 48,
+      "intent": "informational",
+      "serpWeakness": "Drops are spread across multiple fan pages; no sortable, searchable table with drop rates; mostly forum posts.",
+      "userComplaints": [
+        "Can't filter by drop chance",
+        "Information for old game patches"
+      ]
+    },
+    {
+      "keyword": "npc dialogue database",
+      "searchVolume": 140,
+      "difficulty": 40,
+      "intent": "informational",
+      "serpWeakness": "Only YouTube transcripts or fan site excerpts; no full text search across games; outdated HTML pages.",
+      "userComplaints": [
+        "Want to copy-paste lines easily",
+        "Videos aren't searchable"
+      ]
+    },
+    {
+      "keyword": "mobile friendly npc database",
+      "searchVolume": 70,
+      "difficulty": 20,
+      "intent": "commercial",
+      "serpWeakness": "Literally no site positions itself as mobile-first NPC DB; all existing wikis fail mobile usability scores.",
+      "userComplaints": [
+        "Can't read on phone",
+        "Buttons too small"
+      ]
+    },
+    {
+      "keyword": "npc database github",
+      "searchVolume": 60,
+      "difficulty": 15,
+      "intent": "transactional",
+      "serpWeakness": "A few outdated JSON repos with no maintenance; no modern, contributor-friendly open-source NPC data project.",
+      "userComplaints": [
+        "CSV export missing",
+        "Only one game supported"
+      ]
+    },
+    {
+      "keyword": "how much does an npc database cost",
+      "searchVolume": 50,
+      "difficulty": 10,
+      "intent": "commercial",
+      "serpWeakness": "No commercial offering ranking; only free wikis, leaving the transactional intent completely unmet.",
+      "userComplaints": [
+        "Free options are too limited",
+        "I'd pay for no ads and good mobile"
+      ]
+    },
+    {
+      "keyword": "build your own npc database",
+      "searchVolume": 80,
+      "difficulty": 22,
+      "intent": "commercial",
+      "serpWeakness": "Developer guides are from 2015; no modern stack tutorial or no-code templates offered.",
+      "userComplaints": [
+        "No templates to start quickly",
+        "Backend setup too complex"
+      ]
+    },
+    {
+      "keyword": "npc voice line archive",
+      "searchVolume": 160,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "YouTube compilations dominate; no searchable audio library with download per line; copyright gray area but simple UI could win.",
+      "userComplaints": [
+        "Want to filter by emotion (angry, happy)",
+        "No direct MP3 download"
+      ]
+    },
+    {
+      "keyword": "npc spawn location map interactive",
+      "searchVolume": 400,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Static map images on Fandom, not interactive; mapgenie.io is paid and not focused on NPCs alone; opportunity for free interactive NPC map.",
+      "userComplaints": [
+        "Map doesn't show time of day spawns",
+        "Need filter by NPC type"
+      ]
+    },
+    {
+      "keyword": "npc database app ios",
+      "searchVolume": 110,
+      "difficulty": 28,
+      "intent": "transactional",
+      "serpWeakness": "No dedicated NPC database app exists; only generic game companion apps; a lightweight, ad-free app could capture this demand.",
+      "userComplaints": [
+        "All game companion apps are slow",
+        "No offline mode"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "charcoal-amber",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "NPCVault",
+    "accessibilityCheck": {
+      "contrastRatio": "16.18:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 comparison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "paintCoverageByType": {
+      "interiorLatex": {
+        "min": 350,
+        "max": 400,
+        "typical": 375,
+        "unit": "sq ft/gallon"
+      },
+      "exteriorLatex": {
+        "min": 300,
+        "max": 400,
+        "typical": 350,
+        "unit": "sq ft/gallon"
+      },
+      "primer": {
+        "min": 300,
+        "max": 350,
+        "typical": 325,
+        "unit": "sq ft/gallon"
+      }
+    },
+    "roomDimensions": {
+      "width": {
+        "min": 8,
+        "max": 20,
+        "typical": 12,
+        "unit": "ft"
+      },
+      "length": {
+        "min": 10,
+        "max": 30,
+        "typical": 15,
+        "unit": "ft"
+      },
+      "height": {
+        "min": 7,
+        "max": 10,
+        "typical": 8.5,
+        "unit": "ft"
+      }
+    },
+    "averagePaintPrices": {
+      "perGallon": {
+        "min": 15,
+        "max": 70,
+        "typical": 35,
+        "unit": "USD"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Sherwin-Williams paint coverage guide (https://www.sherwin-williams.com/paint-education/paint-basics/how-much-paint-do-i-need)",
+      "Behr paint coverage calculator (https://www.behr.com/consumer/how-to/painting-basics/how-much-paint-do-i-need)",
+      "Home Depot paint price ranges (https://www.homedepot.com/b/Paint/Paint-Prices/N-5yc1vZbbgm)",
+      "Lowe's paint price ranges (https://www.lowes.com/paint/paint-prices)",
+      "National Association of Home Builders typical room dimensions (NAHB)",
+      "Realtor.com standard room sizes (https://www.realtor.com/advice/home-improvement/standard-room-sizes/)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-02",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "roomDimensions.width",
+      "roomDimensions.length",
+      "roomDimensions.height"
+    ],
+    "confidenceNotes": "Coverage and price ranges are well-established from multiple manufacturer and retailer sources. Room dimensions are based on industry common practices but vary widely by region and building age; two sources were used but exact figures are approximate. All unverified fields are marked accordingly."
+  }
+}

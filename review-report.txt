@@ -1,0 +1,52 @@
+
+==================================================
+SITE: PackWise — moving cost calculator
+Design: denim-canvas | ibm-plex+ibm-sans
+==================================================
+❌ Moving Cost Calculator: Free Estimate in 60 Seconds (51c)
+   ⚠️ Factual error: DIY long-distance move cost for one-bedroom, 1,000 miles is calculated as $920, but using source data ($30/day for 3 days + $0.89/mile) gives $980. The discrepancy needs correction.
+   ⚠️ Title length is 49 characters, which is under the recommended 50-60 character range.
+   ⚠️ Meta description length is 138 characters, which is under the recommended 140-160 character range.
+✅ Long Distance Moving Cost Calculator (2024) - PackWise (54c)
+✅ Local Moving Cost Calculator: Get Free Estimates (No Signup) (60c)
+❌ How Much Does a Moving Company Cost? Calculator & Guide 2024 (60c)
+   ⚠️ Meta description is 135 characters, which is below the recommended 140-160 character range.
+❌ Moving Cost Calculator by Zip Code (2024 Estimates) (51c)
+   ⚠️ The text claims 'moving in October or February saves most people a solid 15%', but the source data shows a typical off-peak multiplier of 0.95, meaning only about 5% savings. The 15% figure is the minimum possible savings, not typical. This is a factual inaccuracy.
+→ 2/5 passed
+
+==================================================
+SITE: PayDown — mortgage overpayment calculator
+Design: coastal-blue | lora+nunito
+==================================================
+✅ Mortgage Overpayment Calculator: See Your Savings Instantly (59c)
+✅ Mortgage Payoff Calculator with Extra Payments | PayDown (56c)
+❌ Extra Payment Mortgage Calculator: Amortization & PDF Export (60c)
+   ⚠️ Meta description is 133 characters, below the required 140-160 character range.
+❌ Biweekly Mortgage Payment Calculator: Savings Breakdown (55c)
+   ⚠️ Title length is 48 characters, which is below the recommended 50-60 character range for SEO.
+❌ Free Mortgage Overpayment Calculator – No Email Required (56c)
+   ⚠️ Meta description is only 115 characters, well under the recommended 140-160 characters.
+   ⚠️ Title is 43 characters, slightly under the recommended 50-60 characters.
+→ 2/5 passed
+
+==================================================
+SITE: PaintWise — paint coverage calculator
+Design: sage-academic | merriweather+opensans
+==================================================
+✅ Paint Calculator: Estimate Gallons Needed for Any Room (54c)
+✅ How Much Paint Do I Need? Free 2025 Calculator + Guide (54c)
+❌ Paint Coverage Calculator: Stop Guessing, Start Painting (56c)
+   ⚠️ Affiliate disclosure states 'As an Amazon Associate' but the link points to Home Depot, which is factually incorrect and violates FTC disclosure requirements.
+   ⚠️ Page title is only 47 characters; recommended minimum is 50 characters.
+   ⚠️ FAQ answer for total paint needed says 'about 3 gallons' but accurate calculation gives 3.3 gallons; rounding down could mislead readers.
+✅ Room Paint Calculator: Estimate Gallons & Cost for Any Room (59c)
+❌ Interior Paint Calculator | Free PaintWise Tool (No Signup) (59c)
+   ⚠️ Inconsistent wall area calculations: the text and tool description say doors and windows are subtracted, but the 'Quick Reference' table shows wall area as raw perimeter × height (e.g., 384 sq ft for a 12x12 room) without subtracting the 35 sq ft for one door and one window. This misleads users and contradicts the described formula.
+   ⚠️ Brand naming inconsistency: the page title uses 'PaintWise Tool' but the tool is branded 'CoatCalc' throughout the content. This may confuse users.
+→ 3/5 passed
+
+==================================================
+TOTAL: 7/15 passed (47%)
+Issues found: 14
+Issue categories: {"Factual Accuracy":2,"Title Length":5,"Meta Length":4,"Other":3}

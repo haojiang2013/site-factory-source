@@ -1,0 +1,69 @@
+{
+  "data": {
+    "pricing": {
+      "githubCopilot": {
+        "min": 0,
+        "max": 19,
+        "typical": 10,
+        "unit": "USD per user per month"
+      },
+      "cursor": {
+        "min": 0,
+        "max": 40,
+        "typical": 20,
+        "unit": "USD per user per month"
+      },
+      "amazonCodeWhisperer": {
+        "min": 0,
+        "max": 19,
+        "typical": 0,
+        "unit": "USD per user per month"
+      },
+      "tabnine": {
+        "min": 0,
+        "max": 39,
+        "typical": 12,
+        "unit": "USD per user per month"
+      }
+    },
+    "industryBenchmarks": {
+      "adoptionRate": {
+        "min": 40,
+        "max": 55,
+        "typical": 44,
+        "unit": "percent"
+      },
+      "productivityImprovement": {
+        "min": 20,
+        "max": 55,
+        "typical": 35,
+        "unit": "percent"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "GitHub Copilot pricing page (github.com/features/copilot/plans)",
+      "Cursor pricing page (cursor.com/pricing)",
+      "Amazon CodeWhisperer pricing page (aws.amazon.com/codewhisperer/pricing)",
+      "Tabnine pricing page (tabnine.com/pricing)",
+      "ZDNet article 'GitHub Copilot pricing: What you need to know' (zdnet.com)",
+      "TechCrunch article 'Cursor, the AI code editor, launches new pricing' (techcrunch.com)",
+      "AWS CodeWhisperer documentation (docs.aws.amazon.com/codewhisperer)",
+      "Tabnine Pro features page (tabnine.com/pro)",
+      "Stack Overflow Developer Survey 2023 (survey.stackoverflow.co)",
+      "Gartner report 'Predicts 2024: AI-Augmented Development' (gartner.com)",
+      "Microsoft Research study on Copilot productivity (arxiv.org)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-04",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [
+      "industryBenchmarks.adoptionRate.max (55% from Gartner prediction not dual-verified with exact same value)",
+      "industryBenchmarks.productivityImprovement.min (20% from one source, 25% from another – range used but exact numbers differ by more than 10%)",
+      "industryBenchmarks.productivityImprovement.max (55% from Copilot study vs 45% from other – not within 10%)",
+      "industryBenchmarks.productivityImprovement.typical (35% average of conflicting sources – not verified as typical)"
+    ],
+    "confidenceNotes": "All pricing values are confirmed via official website and at least one reputable tech publication. Industry benchmarks for adoption and productivity are based on survey and research reports but exact percentages vary between sources; the provided numbers are approximate ranges with low confidence. Use with caution."
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "site-010-boss-guide",
+  "domain": "bossbreak.8zla.com",
+  "niche": "game boss strategy guide",
+  "template": "C",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "Elden Ring boss order guide",
+      "searchVolume": 1200,
+      "difficulty": 45,
+      "intent": "informational",
+      "serpWeakness": "Existing pages are mostly lists without detailed strategies per boss, lack mobile optimization and level recommendations.",
+      "userComplaints": [
+        "No quick reference for recommended level",
+        "Text-heavy, hard to read on mobile"
+      ]
+    },
+    {
+      "keyword": "how to beat Malenia solo no summons",
+      "searchVolume": 800,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "Many YouTube videos but scattered text guides; no tool with mechanic breakdown by phase.",
+      "userComplaints": [
+        "Guides assume you have a specific build",
+        "No step-by-step for solo melee users"
+      ]
+    },
+    {
+      "keyword": "Dark Souls 3 boss weaknesses chart",
+      "searchVolume": 500,
+      "difficulty": 25,
+      "intent": "informational",
+      "serpWeakness": "Fextralife dominates but mobile UX is terrible, no filterable interactive table.",
+      "userComplaints": [
+        "Impossible to use on phone due to ads",
+        "No sorting by element/status weakness"
+      ]
+    },
+    {
+      "keyword": "best build for Godfrey first Elden Lord",
+      "searchVolume": 600,
+      "difficulty": 35,
+      "intent": "commercial",
+      "serpWeakness": "Most top results are Reddit threads; no curated guide with DPS comparisons.",
+      "userComplaints": [
+        "Outdated after patches",
+        "Assumes one playstyle, no caster options"
+      ]
+    },
+    {
+      "keyword": "Sekiro boss guide for beginners",
+      "searchVolume": 900,
+      "difficulty": 40,
+      "intent": "informational",
+      "serpWeakness": "IGN guide is old and lacks embedded video for mobile; no prosthetic tool recommendations per boss.",
+      "userComplaints": [
+        "Ads and pop-ups make scrolling hell",
+        "No summary of deflect timing patterns"
+      ]
+    },
+    {
+      "keyword": "Hollow Knight Pantheon of Hallownest guide",
+      "searchVolume": 400,
+      "difficulty": 20,
+      "intent": "informational",
+      "serpWeakness": "Only video playthroughs dominate; text guides lack charm build suggestions for each boss.",
+      "userComplaints": [
+        "Videos not helpful for checking details quickly",
+        "No written guide with damage benchmarks"
+      ]
+    },
+    {
+      "keyword": "Cuphead boss ranking difficulty",
+      "searchVolume": 300,
+      "difficulty": 15,
+      "intent": "informational",
+      "serpWeakness": "Static lists on gaming sites; no ability to filter by weapon type or personal rating.",
+      "userComplaints": [
+        "Can't see community-voted difficulty",
+        "No info on which weapon trivializes each boss"
+      ]
+    },
+    {
+      "keyword": "FF7 Remake Hell House boss fight strategy",
+      "searchVolume": 600,
+      "difficulty": 10,
+      "intent": "informational",
+      "serpWeakness": "Old 2020 guides not updated for Intergrade/hard mode; no materia loadout suggestions.",
+      "userComplaints": [
+        "Missing hard mode gimmick details",
+        "No video showing phase transitions clearly"
+      ]
+    },
+    {
+      "keyword": "interactive boss strategy tool",
+      "searchVolume": 200,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "No dedicated tool exists; SERP filled with general sites, creating a clear gap.",
+      "userComplaints": [
+        "Want to filter by boss name, weakness, game",
+        "Existing sites require too many clicks"
+      ]
+    },
+    {
+      "keyword": "boss guide with recommended level",
+      "searchVolume": 350,
+      "difficulty": 30,
+      "intent": "commercial",
+      "serpWeakness": "Few sites consistently provide level recommendations; most just give generic 'be level X' without reasoning.",
+      "userComplaints": [
+        "Level suggestions are often too vague",
+        "No scaling info for co-op/invasions"
+      ]
+    },
+    {
+      "keyword": "Elden Ring boss resistances and weaknesses table",
+      "searchVolume": 700,
+      "difficulty": 25,
+      "intent": "informational",
+      "serpWeakness": "Fextralife table is powerful but unreadable on mobile; no search/filter feature.",
+      "userComplaints": [
+        "Mobile page crashes due to ads",
+        "No simple column view for quick checks"
+      ]
+    },
+    {
+      "keyword": "free boss strategy guide without ads",
+      "searchVolume": 150,
+      "difficulty": 20,
+      "intent": "commercial",
+      "serpWeakness": "Almost all top results have aggressive ads; a clean, fast alternative would stand out.",
+      "userComplaints": [
+        "Ad-infested guides are unusable on mobile",
+        "None offer a paid ad-free option either"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "ocean-depth",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "single-column-centered",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "BossPlan",
+    "accessibilityCheck": {
+      "contrastRatio": "8.97:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "content"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

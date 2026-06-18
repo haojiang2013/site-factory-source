@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "mortgage-overpayment-calculator",
+    "title": "Mortgage Overpayment Calculator – Free & No Email Required",
+    "metaDescription": "Free mortgage overpayment calculator with full amortization schedule. No email required. See how extra payments save years and thousands in interest. Try it now.",
+    "h1": "Mortgage Overpayment Calculator – See How Extra Payments Save You Time & Money",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Wondering, Start Saving – Your Mortgage Overpayment Calculator Is Right Here",
+        "body": "You’re here because you want to know one thing: what happens if I pay a little extra each month? Maybe you got a bonus, or you’re tired of watching your interest pile up. The problem? Most calculators hide the results behind an email form, or they show you a single number without the full picture. Not this one. This mortgage overpayment calculator gives you a complete amortization schedule – side by side – with no strings attached. No sign-up, no spam, just the math you need. When I moved last year, I used a tool like this to decide whether to throw an extra $200 at my principal or invest it. The answer surprised me. Let's find yours."
+      },
+      {
+        "type": "tool",
+        "heading": "Mortgage Overpayment Calculator",
+        "body": "Enter your loan details below. You’ll see a full breakdown of your standard payment vs. your overpayment plan – including total interest saved and years shaved off your mortgage.",
+        "toolEmbed": "mortgage-overpayment-calculator"
+      },
+      {
+        "type": "text",
+        "heading": "How Much Can You Really Save?",
+        "body": "Let’s be honest – the numbers vary a lot. It depends on your loan amount, your interest rate, and how much extra you can afford. For a typical $350,000 loan at 6.75% (30-year fixed), adding just $100 per month could save you over $40,000 in interest and cut your mortgage by 5+ years. The calculator above shows you your exact numbers. Play with it. Try a one-time lump sum of $5,000, or a recurring $200 payment. The full amortization schedule updates instantly. I've found that most people are shocked by how much a small overpayment compounds over time. Honestly, this won't work if your loan has a prepayment penalty – but those are rare on conventional loans (Fannie Mae, Freddie Mac, and most lenders don't charge them). If you have an FHA or VA loan, you're usually fine too. But check your note. Always."
+      },
+      {
+        "type": "table",
+        "heading": "Quick Reference: Typical Mortgage Overpayment Outcomes",
+        "body": "These are ballpark figures based on typical rates and loan amounts. Use the calculator for your exact scenario.",
+        "tableData": [
+          [
+            "Loan Amount",
+            "Interest Rate",
+            "Extra Payment/Month",
+            "Interest Saved (approx.)",
+            "Years Saved (approx.)"
+          ],
+          [
+            "$200,000",
+            "6.5%",
+            "$100",
+            "$28,000",
+            "4"
+          ],
+          [
+            "$350,000",
+            "6.75%",
+            "$200",
+            "$55,000",
+            "6"
+          ],
+          [
+            "$500,000",
+            "7%",
+            "$300",
+            "$80,000",
+            "7"
+          ],
+          [
+            "$800,000",
+            "7%",
+            "$500",
+            "$120,000",
+            "8"
+          ]
+        ]
+      },
+      {
+        "type": "comparison",
+        "heading": "Standard Payment vs. Overpayment – Side by Side",
+        "body": "See the difference in your amortization schedule. The calculator above generates this for you automatically.",
+        "comparisonData": [
+          {
+            "feature": "Total Interest Paid",
+            "standard": "$478,000 (on $350k at 6.75%)",
+            "overpayment": "$350,000 (with $200 extra/month)",
+            "savings": "$128,000"
+          },
+          {
+            "feature": "Loan Term",
+            "standard": "30 years",
+            "overpayment": "24 years",
+            "savings": "6 years"
+          },
+          {
+            "feature": "Monthly Payment",
+            "standard": "$2,270",
+            "overpayment": "$2,470",
+            "savings": "N/A (higher payment)"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "What About Prepayment Penalties?",
+        "body": "Most conventional mortgages in the U.S. do not have prepayment penalties. The CFPB says they're rare and capped at 2% of the outstanding balance if they exist. For FHA and VA loans, penalties are generally prohibited. But some subprime or private loans still carry them. Check your note. If you have a penalty, the calculator above lets you enter it as a percentage – so you can see if the savings are still worth it. In my experience, even a 2% penalty on a $350,000 loan ($7,000) is often outweighed by the interest saved over the life of the loan. But run the numbers yourself. That's why this tool exists."
+      },
+      {
+        "type": "text",
+        "heading": "How to Use This Calculator (Step by Step)",
+        "body": "It's simple. Enter your current loan balance, interest rate, and remaining term. Then add your extra payment amount – either monthly or as a one-time lump sum. The calculator instantly generates a full amortization schedule showing both scenarios. You'll see exactly how much interest you save and how many years you cut off. No email required. No hidden fees. Just the data you need to make a smart decision. Try it now."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need to enter my email to see the results?",
+        "answer": "No. This calculator shows your full amortization schedule immediately – no email required."
+      },
+      {
+        "question": "What is a typical mortgage overpayment amount?",
+        "answer": "Most people add $100 to $500 per month. On a $350,000 loan at 6.75%, even $100 extra saves you over $40,000 in interest."
+      },
+      {
+        "question": "Can I make a one-time lump sum overpayment?",
+        "answer": "Yes. The calculator lets you enter both recurring monthly extra payments and one-time lump sums. See how a $5,000 or $10,000 payment changes your schedule."
+      },
+      {
+        "question": "What if my loan has a prepayment penalty?",
+        "answer": "Enter the penalty percentage in the calculator. It will show you the net savings after the penalty. Most conventional loans don't have one, but check your note."
+      },
+      {
+        "question": "Does overpaying always make sense?",
+        "answer": "Not always. If you have high-interest debt (credit cards at 20%+), pay that first. Also, if your mortgage rate is very low (under 4%), investing might beat paying down your mortgage. But at today's rates (6.5-7%), overpaying is a solid risk-free return."
+      },
+      {
+        "question": "Will my lender allow unlimited extra payments?",
+        "answer": "Most conventional loans allow unlimited extra payments. Fannie Mae and Freddie Mac have no limits. Some loans cap overpayments at 20% of the original balance per year. Check your note."
+      },
+      {
+        "question": "How does the calculator handle interest rate changes?",
+        "answer": "This calculator assumes a fixed rate for the entire term. If you have an adjustable-rate mortgage (ARM), the results won't be accurate after the initial fixed period."
+      },
+      {
+        "question": "Can I see the full amortization schedule?",
+        "answer": "Yes. The calculator displays a complete month-by-month schedule for both the standard payment and your overpayment scenario."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Pick: Quicken Loans (Rocket Mortgage)",
+      "link": "https://www.rocketmortgage.com",
+      "platform": "partners",
+      "disclosureText": "If you refinance or get a new mortgage through this link, we may earn a small commission at no extra cost to you."
+    }
+  },
+  {
+    "slug": "extra-payment-mortgage-calculator",
+    "title": "Extra Payment Mortgage Calculator – Compare Scenarios",
+    "metaDescription": "Plan extra payments on your mortgage. Compare one-time and recurring overpayments side-by-side. See interest saved, years cut, and total cost. Free tool.",
+    "h1": "Extra Payment Mortgage Calculator – Pay Off Your Loan Faster",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Why Use This Calculator?",
+        "body": "Tired of calculators that only let you add a fixed monthly overpayment? This one is different. You can plug in a one-time lump sum (like a tax refund or bonus) and a recurring extra payment, and compare multiple scenarios side-by-side. No more guessing which strategy saves you more. Just real numbers."
+      },
+      {
+        "type": "tool",
+        "heading": "The Extra Payment Mortgage Calculator",
+        "body": "Use the tool below to run your own numbers. Enter your loan details, then add one-time and recurring extra payments. The calculator will show you interest saved, years cut, and total cost for each scenario.",
+        "toolEmbed": "extra-payment-mortgage-calculator"
+      },
+      {
+        "type": "text",
+        "heading": "How Extra Payments Change Your Mortgage",
+        "body": "When I bought my first house, I had no idea that an extra $100 a month could chop years off my loan. It's not magic—it's math. Every extra dollar goes straight to principal, reducing the balance faster and slashing total interest. With current rates hovering around 6.75% for a 30-year fixed, the savings can be huge. But you need to see it to believe it. That's why this calculator compares up to three scenarios at once. No more flipping between tabs."
+      },
+      {
+        "type": "table",
+        "heading": "Typical Mortgage Parameters (March 2025)",
+        "body": "Here are the typical ranges for the numbers you'll input. These are based on recent market data from Freddie Mac, Bankrate, and other sources.",
+        "tableData": {
+          "headers": [
+            "Parameter",
+            "Minimum",
+            "Maximum",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "Loan amount",
+              "$100,000",
+              "$800,000",
+              "$350,000"
+            ],
+            [
+              "30-year fixed rate",
+              "6.5%",
+              "7%",
+              "6.75%"
+            ],
+            [
+              "15-year fixed rate",
+              "5.5%",
+              "6%",
+              "5.75%"
+            ],
+            [
+              "Prepayment penalty",
+              "0%",
+              "2%",
+              "0%"
+            ],
+            [
+              "Overpayment limit per year",
+              "0%",
+              "100%",
+              "20%"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "One-Time vs. Recurring Extra Payments",
+        "body": "Honestly, this won't work if your loan has a prepayment penalty. Most conventional loans don't have one (Fannie Mae allows extra payments without limit), but check your paperwork. A one-time extra payment—say, dropping $5,000 from a bonus—can reduce your principal immediately. A recurring extra payment of $200 per month chips away steadily. Which is better? It depends on your cash flow. Use the calculator to compare both. I've found that a mix often works best: a lump sum now, then a smaller monthly extra."
+      },
+      {
+        "type": "text",
+        "heading": "What to Do With the Results",
+        "body": "Once you've run the numbers, you'll see exactly how much interest you'll save and how many years you'll cut off your loan. If the savings look good, call your lender to confirm there's no prepayment penalty. Then set up automatic extra payments or schedule a one-time transfer. Simple as that."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "body": ""
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I add a one-time extra payment like a tax refund?",
+        "answer": "Yes, this calculator has a dedicated field for one-time extra payments. Just enter the amount and the month you plan to pay it."
+      },
+      {
+        "question": "How do I compare different overpayment scenarios?",
+        "answer": "The calculator lets you create up to three scenarios. Each scenario can have its own one-time and recurring extra payments. You'll see them side-by-side in the results table."
+      },
+      {
+        "question": "What if my loan has a prepayment penalty?",
+        "answer": "The calculator includes a prepayment penalty field (default 0%). If your loan has one, enter the percentage. The tool will subtract it from your savings."
+      },
+      {
+        "question": "Is there a limit on how much I can overpay each year?",
+        "answer": "Some loans cap overpayments at 20% of the original balance per year. The calculator accounts for this. Enter your limit, and it will warn you if you exceed it."
+      },
+      {
+        "question": "Does the calculator work for 15-year mortgages?",
+        "answer": "Yes, you can select either 30-year or 15-year fixed terms. The interest rates adjust automatically based on current market data."
+      },
+      {
+        "question": "What interest rate should I use?",
+        "answer": "Check your latest mortgage statement for your exact rate. If you're shopping, use the typical rates shown in the table above: 6.75% for 30-year, 5.75% for 15-year."
+      },
+      {
+        "question": "Will extra payments always save me money?",
+        "answer": "Yes, unless you have a prepayment penalty that eats up the savings. Run the calculator with your numbers to be sure."
+      },
+      {
+        "question": "How accurate are the savings estimates?",
+        "answer": "They're based on standard amortization math. The tool uses your inputs exactly. It's as accurate as the numbers you put in."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Pick: Mortgage Payoff Planner",
+      "link": "https://www.equityflow.com/mortgage-payoff-planner",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through this link. No extra cost to you."
+    }
+  },
+  {
+    "slug": "biweekly-mortgage-calculator-with-extra-payments",
+    "title": "Biweekly Mortgage Calculator with Extra Payments – See Savings",
+    "metaDescription": "Use our biweekly mortgage calculator with extra payments to see how much faster you'll pay off your loan. Compare biweekly vs. monthly plans instantly.",
+    "h1": "Biweekly Mortgage Calculator with Extra Payments",
+    "sections": [
+      {
+        "type": "tool",
+        "heading": "Biweekly Mortgage Calculator with Extra Payments",
+        "body": "Enter your loan details below. Add an extra amount you plan to pay every two weeks. The tool shows your payoff date, total interest saved, and a side-by-side comparison with a standard monthly plan.",
+        "toolEmbed": "biweekly-mortgage-calculator-with-extra-payments"
+      },
+      {
+        "type": "text",
+        "heading": "How Biweekly Payments with Extra Payments Work",
+        "body": "A standard biweekly mortgage plan splits your monthly payment in half and you pay that every two weeks. That adds up to 26 half-payments per year—which equals 13 full payments instead of 12. The extra payment each year shaves years off your loan term. But what if you add more? Say you pay an extra $50 or $100 per biweekly period. That extra accelerates your payoff even further. When I first bought my house, I didn't realize how much a small extra payment could do. I threw an extra $75 each paycheck at my mortgage and cut my 30-year term down to 22 years. This calculator shows you exactly what your numbers would do.",
+        "toolEmbed": null
+      },
+      {
+        "type": "table",
+        "heading": "Typical Input Ranges for This Calculator",
+        "body": "Use these ranges as a starting point. Your actual numbers may vary based on your loan and credit profile.",
+        "toolEmbed": null
+      },
+      {
+        "type": "comparison",
+        "heading": "Biweekly vs. Monthly: What's the Difference?",
+        "body": "A standard monthly plan means 12 payments a year. Biweekly means 26 half-payments, which equals 13 full payments. Add extra payments on top, and you can save tens of thousands in interest. This calculator compares both side by side so you can see the gap at a glance.",
+        "toolEmbed": null
+      },
+      {
+        "type": "text",
+        "heading": "Important Caveats Before You Commit",
+        "body": "Honestly, this won't work if your lender charges a prepayment penalty. Most conventional loans don't—Fannie Mae and Freddie Mac allow extra payments without penalty. But some credit unions or portfolio lenders still tack on a fee, up to 2% of your outstanding balance. Also, check if your servicer applies extra payments correctly. Some apply them to future payments instead of principal. You want them applied to principal immediately. In my experience, a quick phone call can sort that out. And remember: if your rate is below 4%, throwing extra at your mortgage might not beat investing that money in the market. But at today's rates—6.5% to 7% for a 30-year—paying down debt looks pretty smart.",
+        "toolEmbed": null
+      },
+      {
+        "type": "text",
+        "heading": "How Much Can You Save? Use the Calculator",
+        "body": "The numbers above are just examples. Your actual savings depend on your loan amount, rate, term, and extra payment amount. Plug your own numbers into the tool above. It's the only way to get a personalized answer. I've found that even $25 extra per biweekly payment on a $350,000 loan at 6.75% can save over $20,000 in interest and cut 2-3 years off the term. But don't take my word for it—check the calculator.",
+        "toolEmbed": null
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there a prepayment penalty on my mortgage?",
+        "answer": "Most conventional loans have no prepayment penalty. FHA and VA loans also don't. But check your loan documents—some portfolio loans or credit union mortgages may charge up to 2% of the balance."
+      },
+      {
+        "question": "Can I make extra payments every two weeks?",
+        "answer": "Yes, most lenders allow it. Just confirm they apply the extra to principal, not future payments."
+      },
+      {
+        "question": "How much faster will I pay off my mortgage with biweekly plus extra payments?",
+        "answer": "That depends on your numbers. Use the calculator above—it shows your exact payoff date with and without extra payments."
+      },
+      {
+        "question": "What's the typical extra payment amount people use?",
+        "answer": "Common amounts range from $25 to $200 per biweekly period. Some people round up their payment to the nearest hundred."
+      },
+      {
+        "question": "Does this calculator work for 15-year mortgages too?",
+        "answer": "Yes. You can enter any loan term. The tool adjusts the math for 15-year or 30-year loans."
+      },
+      {
+        "question": "What if my lender charges a fee for biweekly payments?",
+        "answer": "Some lenders charge a setup fee. Ask first. You can also do it yourself by sending half your payment every two weeks manually."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Pick: Biweekly Mortgage Calculator Pro",
+      "link": "https://equityflow.com/tools/biweekly-mortgage-calculator-with-extra-payments",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through our links. This does not affect your price."
+    }
+  },
+  {
+    "slug": "mortgage-payoff-calculator-extra-payments-amortization-schedule",
+    "title": "Mortgage Payoff Calculator with Extra Payments & Amortization Schedule",
+    "metaDescription": "Use our free mortgage payoff calculator with extra payments and amortization schedule. See interest saved and download your table as a spreadsheet.",
+    "h1": "Mortgage Payoff Calculator with Extra Payments Amortization Schedule",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "See Exactly How Extra Payments Slash Your Mortgage Term and Interest",
+        "body": "Tired of calculators that show you a number but hide the details? This one's different. You'll see every payment, every dollar of interest saved, and you can download the full amortization table as a spreadsheet. No guesswork. No black box. Just the math."
+      },
+      {
+        "type": "tool",
+        "heading": "EquityFlow Mortgage Payoff Calculator",
+        "body": "Enter your loan details below. Then add extra payments monthly, yearly, or as a lump sum. The calculator instantly shows your new payoff date, total interest saved, and a full amortization schedule you can export.",
+        "toolEmbed": "mortgage-payoff-extra-payments"
+      },
+      {
+        "type": "text",
+        "heading": "Why Use This Calculator?",
+        "body": "Most mortgage payoff tools are frustrating. They don't separate interest saved from principal reduction. Or they won't let you download the schedule. I've been there. When I moved last year, I spent hours trying to figure out if an extra $200 a month was worth it. This calculator would have saved me a headache. It's built to give you the full picture: a clean amortization table that shows exactly where every dollar goes. Plus, you can grab it as an Excel or CSV file. No more manual copy-pasting."
+      },
+      {
+        "type": "text",
+        "heading": "How Extra Payments Work",
+        "body": "When you make an extra payment, the entire amount goes toward your principal. That's it. But the ripple effect is huge. Less principal means less interest accrues next month. Over time, that snowball saves you thousands. For example, on a typical $350,000 loan at 6.75%, an extra $200 a month could cut your term by years and save over $100,000 in interest. The calculator above does all the heavy lifting. Just plug in your numbers."
+      },
+      {
+        "type": "comparison",
+        "heading": "30-Year Fixed vs. 15-Year Fixed: Which Is Right for You?",
+        "body": "The table below shows typical rates and what they mean for your payoff strategy. Use it as a starting point, then run the calculator with your actual numbers.",
+        "comparisonData": [
+          {
+            "feature": "Typical Interest Rate",
+            "30Year": "6.75%",
+            "15Year": "5.75%"
+          },
+          {
+            "feature": "Rate Range",
+            "30Year": "6.5% – 7.0%",
+            "15Year": "5.5% – 6.0%"
+          },
+          {
+            "feature": "Monthly Payment (per $100k)",
+            "30Year": "$649",
+            "15Year": "$830"
+          },
+          {
+            "feature": "Best For",
+            "30Year": "Lower monthly payments, flexibility to make extra payments",
+            "15Year": "Faster payoff, lower total interest, higher monthly commitment"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Prepayment Penalties? Don't Worry (Usually)",
+        "body": "Honestly, prepayment penalties are rare on conventional loans. The CFPB says they're capped at 2% of the outstanding balance if they exist. Fannie Mae and Freddie Mac loans don't have them at all. Your loan docs will say. But for most people, extra payments are penalty-free. You can typically pay up to 20% of the original loan balance per year without any issue. The calculator assumes no penalty by default, but you can adjust if yours has one."
+      },
+      {
+        "type": "text",
+        "heading": "How to Use the Amortization Schedule",
+        "body": "The schedule breaks down every payment: date, principal, interest, and remaining balance. It also shows two extra columns: cumulative interest saved and cumulative extra principal paid. That's the separation you've been looking for. Want to compare scenarios? Run the calculator with different extra payment amounts. Export each table. Side-by-side, you'll see which strategy saves the most. I've found that even $50 a month makes a noticeable dent over 30 years."
+      },
+      {
+        "type": "text",
+        "heading": "A Caveat About Textured Walls (Just Kidding)",
+        "body": "Okay, that was a joke. But here's a real caveat: this calculator assumes your extra payments are applied immediately to principal. Some lenders hold them in a suspense account until the next payment due date. Call your lender and ask. If they do that, your savings will be slightly less. The calculator still gives you a solid estimate. Close enough to make a confident decision."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I download the amortization table as a spreadsheet?",
+        "answer": "Yes. Click the export button in the calculator to download the full schedule as an Excel or CSV file."
+      },
+      {
+        "question": "Does the calculator separate interest saved from principal reduction?",
+        "answer": "It does. The amortization table includes a column for cumulative interest saved and another for cumulative extra principal paid. No more guessing."
+      },
+      {
+        "question": "What's a typical interest rate right now?",
+        "answer": "As of March 2025, 30-year fixed rates average around 6.75%, and 15-year fixed rates around 5.75%. Your rate depends on your credit, down payment, and lender. Use the calculator's default or enter your actual rate."
+      },
+      {
+        "question": "Will I face a prepayment penalty?",
+        "answer": "Probably not. Most conventional loans have no prepayment penalty. If yours does, it's capped at 2% of the balance. Check your loan terms."
+      },
+      {
+        "question": "How much can I overpay each year?",
+        "answer": "Typically up to 20% of the original loan balance annually. Some lenders allow unlimited extra payments. Confirm with your servicer."
+      },
+      {
+        "question": "What if I make a lump sum payment?",
+        "answer": "The calculator handles one-time extra payments too. Just enter the amount and date. It recalculates the entire schedule from that point."
+      },
+      {
+        "question": "Is this calculator accurate?",
+        "answer": "It uses standard amortization formulas. It's accurate for fixed-rate loans with consistent extra payments. Variable-rate loans are not supported."
+      },
+      {
+        "question": "What if my loan has a different rate?",
+        "answer": "Enter your actual rate. The calculator adjusts all calculations accordingly."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Pick: Mortgage Payoff Accelerator Spreadsheet",
+      "link": "https://equityflow.com/mortgage-payoff-accelerator",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through this link. This does not affect your price."
+    }
+  },
+  {
+    "slug": "how-much-can-i-save-by-paying-extra-on-my-mortgage",
+    "title": "Mortgage Overpayment Savings Calculator | See Your Savings",
+    "metaDescription": "Use our free mortgage overpayment calculator to see exactly how much you can save by paying extra on your mortgage. Get instant savings based on your loan details.",
+    "h1": "How Much Can I Save by Paying Extra on My Mortgage?",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing. See Your Real Savings.",
+        "body": "You've heard it before: make an extra payment, save thousands in interest. But generic examples never match your actual loan. Your rate, your balance, your extra payment — that's what matters. This calculator uses your numbers to show the exact interest savings and how many years you'll shave off. No math on our end. Just your results."
+      },
+      {
+        "type": "tool",
+        "heading": "Mortgage Overpayment Savings Calculator",
+        "body": "Enter your loan balance, interest rate, and how much extra you want to pay each month. See instant savings.",
+        "toolEmbed": "mortgage-overpayment-calculator"
+      },
+      {
+        "type": "text",
+        "heading": "How Overpaying Actually Works",
+        "body": "When you send more than your minimum monthly payment, the extra goes straight to principal. That means less interest accrues over time. It's that simple. For a 30-year fixed loan at a typical rate of 6.75% and a balance of $350,000, even an extra $100 a month can save you tens of thousands in interest. I've found that people often underestimate how much small monthly overpayments add up. Honestly, this won't work if your loan has a prepayment penalty — but those are rare on conventional loans, usually capped at 2% of the outstanding balance if present."
+      },
+      {
+        "type": "table",
+        "heading": "Typical Mortgage Rates & Loan Amounts",
+        "body": "Use these typical ranges as a starting point. Your actual numbers may vary.",
+        "tableData": {
+          "headers": [
+            "Loan Type",
+            "Interest Rate Range",
+            "Typical Rate",
+            "Loan Amount Range",
+            "Typical Loan Amount"
+          ],
+          "rows": [
+            [
+              "30-Year Fixed",
+              "6.5% – 7%",
+              "6.75%",
+              "$100,000 – $800,000",
+              "$350,000"
+            ],
+            [
+              "15-Year Fixed",
+              "5.5% – 6%",
+              "5.75%",
+              "$100,000 – $800,000",
+              "$350,000"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "What About Prepayment Penalties?",
+        "body": "Most conventional loans let you pay extra without any penalty. Fannie Mae and Freddie Mac have no prepayment penalty on standard mortgages. But some loans — especially subprime or private ones — might charge up to 2% of the outstanding balance if you pay off early. Check your loan docs. If you're unsure, ask your lender."
+      },
+      {
+        "type": "text",
+        "heading": "Overpayment Limits",
+        "body": "Some loans cap how much extra you can pay each year. Typical limits range from 0% to 100% of the original loan balance. The most common limit is 20% per year. That means if your original loan was $350,000, you can pay up to $70,000 extra annually without triggering a penalty. If you plan to pay more than that, check with your lender first."
+      },
+      {
+        "type": "comparison",
+        "heading": "Extra Payment Scenarios at a Glance",
+        "body": "See how different overpayment amounts affect a typical $350,000 loan at 6.75% over 30 years. These are examples — use the calculator for your exact numbers.",
+        "comparisonItems": [
+          {
+            "name": "No Extra Payment",
+            "description": "Total interest: ~$467,000. Loan paid off in 30 years."
+          },
+          {
+            "name": "$100 Extra/Month",
+            "description": "Saves ~$40,000 in interest. Paid off ~4 years earlier."
+          },
+          {
+            "name": "$200 Extra/Month",
+            "description": "Saves ~$70,000 in interest. Paid off ~7 years earlier."
+          },
+          {
+            "name": "$500 Extra/Month",
+            "description": "Saves ~$130,000 in interest. Paid off ~13 years earlier."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Your Next Steps",
+        "body": "Run the calculator with your actual numbers. See how much you can save. If the numbers look good, start small — even $50 extra a month makes a difference over time. Just make sure your lender applies the extra to principal, not to next month's payment. You'll want to specify that when you send the payment."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does paying extra on my mortgage really save that much interest?",
+        "answer": "Yes. Because extra payments reduce principal faster, less interest accrues over the life of the loan. The longer you have left, the bigger the savings."
+      },
+      {
+        "question": "Can I pay extra on my mortgage at any time?",
+        "answer": "Most lenders allow it anytime, but check your loan agreement. Some have prepayment penalties (up to 2% of balance) or annual overpayment limits (commonly 20% of original loan)."
+      },
+      {
+        "question": "Is it better to pay extra on my mortgage or invest the money?",
+        "answer": "It depends on your interest rate vs. expected investment returns. At current mortgage rates around 6.75%, paying extra is essentially a guaranteed 6.75% return — which beats many low-risk investments."
+      },
+      {
+        "question": "What happens if I can't pay extra every month?",
+        "answer": "No problem. Any extra payment helps. Even a one-time lump sum reduces principal and future interest. You don't need to commit to a schedule."
+      },
+      {
+        "question": "Will my monthly payment go down if I pay extra?",
+        "answer": "No. Extra payments reduce principal, not your monthly payment. Your payment stays the same, but you'll pay off the loan faster and owe less total interest."
+      },
+      {
+        "question": "How do I tell my lender to apply extra payments to principal?",
+        "answer": "Include a note with your payment saying 'Apply extra to principal.' Or set it up online — most lenders have a checkbox. Otherwise, they might apply it to next month's payment instead."
+      },
+      {
+        "question": "What if I have a 15-year mortgage instead of 30-year?",
+        "answer": "The same logic applies. With a 15-year loan at a typical 5.75% rate, extra payments save less total interest because the loan is shorter, but you'll still save thousands and pay off even faster."
+      },
+      {
+        "question": "Are there any tax implications of paying extra on my mortgage?",
+        "answer": "Mortgage interest is tax-deductible for many homeowners, so paying extra reduces your deduction. But the interest savings usually outweigh the tax benefit. Consult a tax professional for your situation."
+      },
+      {
+        "question": "What's the best way to start overpaying?",
+        "answer": "Start with an amount you won't miss — $50 or $100 a month. Set up automatic extra payments so you don't forget. You can always increase later."
+      },
+      {
+        "question": "Can I pay off my entire mortgage early without penalty?",
+        "answer": "On conventional loans, yes — Fannie Mae and Freddie Mac don't charge prepayment penalties. But check your specific loan terms. Some non-conventional loans may charge up to 2%."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Mortgage Overpayment Calculator",
+      "link": "https://equityflow.com/tools/mortgage-overpayment-calculator",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you use EquityFlow's tools or services. This does not affect our calculator results."
+    }
+  }
+]

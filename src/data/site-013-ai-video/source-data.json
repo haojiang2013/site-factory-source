@@ -1,0 +1,65 @@
+{
+  "data": {
+    "aiVideoTools": {
+      "textToVideoPricing": {
+        "min": 0,
+        "max": 100,
+        "typical": 30,
+        "unit": "USD/month"
+      },
+      "textToVideoMaxLength": {
+        "min": 4,
+        "max": 16,
+        "typical": 10,
+        "unit": "seconds"
+      },
+      "avatarGenPricing": {
+        "min": 22,
+        "max": 67,
+        "typical": 50,
+        "unit": "USD/month"
+      },
+      "avatarGenMaxVideoLength": {
+        "min": 5,
+        "max": 30,
+        "typical": 15,
+        "unit": "minutes"
+      },
+      "videoEditingPricing": {
+        "min": 0,
+        "max": 50,
+        "typical": 15,
+        "unit": "USD/month"
+      },
+      "costPerMinuteGenerated": {
+        "min": 0.5,
+        "max": 5,
+        "typical": 1.5,
+        "unit": "USD/min"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "RunwayML pricing page (https://runwayml.com/pricing)",
+      "Pika Labs pricing page (https://pika.art/pricing)",
+      "Synthesia pricing page (https://www.synthesia.io/pricing)",
+      "HeyGen pricing page (https://www.heygen.com/pricing)",
+      "CapCut pricing page (https://www.capcut.com/pricing)"
+    ],
+    "freshnessTTL_days": {
+      "textToVideoPricing": 90,
+      "textToVideoMaxLength": 180,
+      "avatarGenPricing": 90,
+      "avatarGenMaxVideoLength": 180,
+      "videoEditingPricing": 90,
+      "costPerMinuteGenerated": 365
+    },
+    "collectedAt": "2025-04-11",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "costPerMinuteGenerated"
+    ],
+    "confidenceNotes": "Pricing ranges verified across at least two independent tool vendors (Runway+Pika for text-to-video, Synthesia+HeyGen for avatars, CapCut+Runway for editing). Video length limits from tool documentation. Cost-per-minute benchmark is not directly published by vendors; estimated from pricing and usage limits, may vary significantly by workflow. No single industry report was used due to lack of verified dual sources."
+  }
+}

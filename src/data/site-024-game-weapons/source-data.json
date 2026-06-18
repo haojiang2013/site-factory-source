@@ -1,0 +1,125 @@
+{
+  "data": {
+    "airsoftRifles": {
+      "AEG": {
+        "price": {
+          "min": 120,
+          "max": 600,
+          "typical": 250,
+          "unit": "USD"
+        },
+        "fps": {
+          "min": 280,
+          "max": 420,
+          "typical": 380,
+          "unit": "feet per second"
+        },
+        "weight": {
+          "min": 2.5,
+          "max": 4.5,
+          "typical": 3.2,
+          "unit": "pounds"
+        },
+        "length": {
+          "min": 30,
+          "max": 45,
+          "typical": 38,
+          "unit": "inches"
+        }
+      },
+      "springSniper": {
+        "price": {
+          "min": 150,
+          "max": 800,
+          "typical": 350,
+          "unit": "USD"
+        },
+        "fps": {
+          "min": 400,
+          "max": 550,
+          "typical": 480,
+          "unit": "feet per second"
+        },
+        "weight": {
+          "min": 4,
+          "max": 8,
+          "typical": 5.5,
+          "unit": "pounds"
+        },
+        "length": {
+          "min": 44,
+          "max": 52,
+          "typical": 48,
+          "unit": "inches"
+        }
+      },
+      "gasBlowback": {
+        "price": {
+          "min": 180,
+          "max": 700,
+          "typical": 400,
+          "unit": "USD"
+        },
+        "fps": {
+          "min": 300,
+          "max": 450,
+          "typical": 380,
+          "unit": "feet per second"
+        },
+        "weight": {
+          "min": 3,
+          "max": 6,
+          "typical": 4,
+          "unit": "pounds"
+        },
+        "length": {
+          "min": 35,
+          "max": 50,
+          "typical": 42,
+          "unit": "inches"
+        }
+      },
+      "industryBenchmarks": {
+        "fieldFpsLimit": {
+          "min": 350,
+          "max": 400,
+          "typical": 400,
+          "unit": "feet per second"
+        },
+        "engagementDistance": {
+          "min": 50,
+          "max": 100,
+          "typical": 75,
+          "unit": "feet"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Evike.com - major airsoft retailer pricing and specs",
+      "AirsoftGI.com - major airsoft retailer pricing and specs",
+      "American Airsoft Association (industry benchmarks)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-03-18",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "airsoftRifles.AEG.price",
+      "airsoftRifles.AEG.fps",
+      "airsoftRifles.AEG.weight",
+      "airsoftRifles.AEG.length",
+      "airsoftRifles.springSniper.price",
+      "airsoftRifles.springSniper.fps",
+      "airsoftRifles.springSniper.weight",
+      "airsoftRifles.springSniper.length",
+      "airsoftRifles.gasBlowback.price",
+      "airsoftRifles.gasBlowback.fps",
+      "airsoftRifles.gasBlowback.weight",
+      "airsoftRifles.gasBlowback.length",
+      "airsoftRifles.industryBenchmarks.fieldFpsLimit",
+      "airsoftRifles.industryBenchmarks.engagementDistance"
+    ],
+    "confidenceNotes": "All values are estimated based on common market ranges from major US retailers (Evike, AirsoftGI). Actual prices and specs vary by brand and model. No formal dual-source verification performed; these are typical ballpark figures for mid-range airsoft rifles. Industry benchmarks are standard for outdoor fields but local rules may differ."
+  }
+}

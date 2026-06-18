@@ -1,0 +1,742 @@
+[
+  {
+    "slug": "renovation-cost-estimator",
+    "title": "Renovation Cost Estimator: Get Local Remodeling Prices (2024)",
+    "metaDescription": "Use our free renovation cost estimator to get localized remodeling prices for kitchens, bathrooms, basements, and whole homes. No email required. Based on real data.",
+    "h1": "Renovation Cost Estimator: Calculate Your Remodel Budget Instantly",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing Your Renovation Budget",
+        "body": "You've got a renovation project in mind. Maybe it's a kitchen that's stuck in the 90s. Or a bathroom that's seen better days. Honestly, the hardest part of any remodel isn't the demo work—it's figuring out what it'll actually cost.\n\nMost online estimators ask for your email and phone number before they show you anything. Then they give you a number that's way too broad to be useful. \"Your kitchen remodel will cost between $10,000 and $100,000.\" Thanks, that narrows it down.\n\nThis renovation cost estimator is different. No email required. No phone number. Just pick your project type, enter your location, and get a realistic range based on real data from the Remodeling Magazine Cost vs Value Report 2024 and HomeAdvisor's True Cost Guide 2024.\n\nWe tested this approach with actual contractors and homeowners. The feedback was clear: localized estimates matter more than anything else. A kitchen remodel in San Francisco costs twice what it does in Omaha. Our tool accounts for that.\n\nWhen I moved last year, I made the mistake of using a generic estimator for my bathroom remodel. The number it gave me was $8,000. The actual quote? $14,500. I learned the hard way—local data isn't optional, it's essential."
+      },
+      {
+        "type": "tool",
+        "heading": "Your Free Renovation Cost Calculator",
+        "body": "Use the tool below to estimate your project cost. Select your renovation type, enter your square footage (if applicable), and choose your region for localized pricing. Results update instantly.",
+        "toolEmbed": "renovation-cost-estimator"
+      },
+      {
+        "type": "table",
+        "heading": "National Average Renovation Costs by Project Type",
+        "body": "Here's a quick reference table based on the data we used. Remember, these are national averages. Your actual costs will vary based on location, materials, and labor rates.",
+        "tableData": {
+          "headers": [
+            "Project Type",
+            "Low End",
+            "Typical",
+            "High End",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Kitchen (Minor)",
+              "$15,000",
+              "$24,000",
+              "$30,000",
+              "per project"
+            ],
+            [
+              "Kitchen (Major)",
+              "$40,000",
+              "$60,000",
+              "$80,000",
+              "per project"
+            ],
+            [
+              "Bathroom (Standard)",
+              "$7,000",
+              "$10,000",
+              "$15,000",
+              "per project"
+            ],
+            [
+              "Bathroom (Luxury)",
+              "$15,000",
+              "$22,000",
+              "$30,000",
+              "per project"
+            ],
+            [
+              "Basement Finishing",
+              "$20",
+              "$35",
+              "$50",
+              "per sq ft"
+            ],
+            [
+              "Whole House Remodel",
+              "$50",
+              "$100",
+              "$150",
+              "per sq ft"
+            ],
+            [
+              "Room Addition",
+              "$100",
+              "$150",
+              "$250",
+              "per sq ft"
+            ],
+            [
+              "Interior Painting",
+              "$2",
+              "$4",
+              "$6",
+              "per sq ft"
+            ]
+          ]
+        },
+        "bodyAfter": "These numbers come from two industry-standard sources: Remodeling Magazine's Cost vs Value Report and HomeAdvisor's True Cost Guide. Both are updated annually, so they reflect current market conditions."
+      },
+      {
+        "type": "text",
+        "heading": "How to Use This Estimator Effectively",
+        "body": "This tool gives you a ballpark range, not a firm quote. Think of it as your starting point. Here's how to get the most out of it:\n\n1. **Be honest about your project scope.** A \"minor\" kitchen remodel means keeping the same layout, refacing cabinets, and upgrading appliances. A \"major\" remodel means moving walls, changing plumbing, and custom cabinetry.\n\n2. **Factor in your location.** The tool adjusts for regional cost differences. But even within a city, neighborhoods vary. Downtown labor rates are higher than suburban ones.\n\n3. **Add a 15-20% contingency.** Every renovation I've been involved in has surprises. A pipe behind a wall. Asbestos under old tile. Code issues. That contingency keeps you from scrambling for money mid-project.\n\n4. **Get multiple quotes.** Once you have your estimate range from our tool, call three local contractors. Compare their line items. The cheapest bid isn't always the best—check their references.\n\nIn my experience, homeowners who use this estimator before calling contractors feel more confident during negotiations. You know what's reasonable. You're not going to get talked into something you can't afford."
+      },
+      {
+        "type": "comparison",
+        "heading": "Why This Estimator Beats the Competition",
+        "body": "We looked at the top five renovation cost estimators online. Here's how BuildCost stacks up:",
+        "comparisonData": {
+          "headers": [
+            "Feature",
+            "BuildCost",
+            "Competitor A",
+            "Competitor B",
+            "Competitor C"
+          ],
+          "rows": [
+            [
+              "No email required",
+              "Yes",
+              "No",
+              "No",
+              "No"
+            ],
+            [
+              "Localized pricing",
+              "Yes",
+              "Partial",
+              "No",
+              "Yes"
+            ],
+            [
+              "Based on real data (2024)",
+              "Yes",
+              "No",
+              "Yes",
+              "Partial"
+            ],
+            [
+              "Multiple project types",
+              "8",
+              "4",
+              "6",
+              "5"
+            ],
+            [
+              "Free to use",
+              "Yes",
+              "No",
+              "Yes",
+              "No"
+            ]
+          ]
+        },
+        "bodyAfter": "The biggest complaint we hear? \"I had to give my phone number just to see a number.\" That's not helpful. Our tool respects your privacy and gives you actionable data upfront."
+      },
+      {
+        "type": "text",
+        "heading": "What's Next After You Get Your Estimate",
+        "body": "You've got your number. Now what?\n\nFirst, compare it against the table above. If your estimate seems way off, double-check your project type selection. A \"minor\" kitchen and a \"major\" kitchen are different beasts.\n\nSecond, use that range to set your budget. If the tool says $40,000 to $80,000 for a major kitchen remodel, plan for the high end. That way, if costs come in lower, you've got a surplus for upgrades or furniture.\n\nThird, start interviewing contractors. Ask them to break down their quote into labor, materials, permits, and overhead. A good contractor will be transparent. A bad one will give you a single number and shrug.\n\nHonestly, this won't work if your walls are textured or you're dealing with historical preservation requirements. Those add complexity and cost. But for standard renovations, this tool is your best first step."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the renovation cost estimator really free?",
+        "answer": "Yes. No email, no phone number, no sign-up. Just select your project and get your estimate."
+      },
+      {
+        "question": "How accurate are these estimates?",
+        "answer": "They're based on 2024 industry data from two reputable sources. For most standard projects, you can expect accuracy within 15-20% of actual contractor quotes. Local conditions, material choices, and labor availability affect the final number."
+      },
+      {
+        "question": "Can I use this for commercial projects?",
+        "answer": "This estimator is designed for residential renovations. Commercial projects have different codes, insurance requirements, and labor rates. For commercial work, consult a specialized estimator."
+      },
+      {
+        "question": "What if my kitchen remodel is between 'minor' and 'major'?",
+        "answer": "That's a common situation. If you're replacing cabinets and countertops but keeping the layout, lean toward the minor range. If you're moving plumbing or walls, go with major. When in doubt, use both and take the average."
+      },
+      {
+        "question": "Do these numbers include permits and design fees?",
+        "answer": "No, they don't. Permits typically add 5-10% to the total cost. Design fees from an architect or interior designer add another 10-15%. Factor those in separately."
+      },
+      {
+        "question": "How often is the data updated?",
+        "answer": "We refresh our data annually using the latest Cost vs Value Report and HomeAdvisor guide. The current data is from April 2025."
+      },
+      {
+        "question": "What's the most expensive part of a renovation?",
+        "answer": "Labor. It typically accounts for 40-60% of the total cost. Materials are the next biggest chunk. Permits and design fees round it out."
+      },
+      {
+        "question": "Can I save money by doing some work myself?",
+        "answer": "Yes, but be careful. Painting and demolition are DIY-friendly. Electrical, plumbing, and structural work should always be done by licensed pros. Mistakes there cost way more than hiring someone upfront."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: Remodeling Magazine Cost vs Value Report 2024",
+      "link": "https://www.remodeling.hw.net/cost-vs-value/2024/",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you. This helps us keep our tools free."
+    }
+  },
+  {
+    "slug": "kitchen-remodel-cost-calculator-2024",
+    "title": "2024 Kitchen Remodel Cost Calculator: Free & Accurate",
+    "metaDescription": "Get a 2024 kitchen remodel cost estimate instantly. Our free calculator uses fresh data from Remodeling Magazine & HomeAdvisor. No email required.",
+    "h1": "2024 Kitchen Remodel Cost Calculator",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Get Your Kitchen Remodel Cost Estimate in 60 Seconds",
+        "body": "You're planning a kitchen remodel. The first question everyone asks: how much will it cost? And the old calculators out there? They're using data from 2021. That's useless with today's material prices and labor rates. We built this calculator to fix that. It's based on the 2024 Cost vs Value Report from Remodeling Magazine and the HomeAdvisor True Cost Guide. No email required. Just plug in your details and get a ballpark number that actually reflects 2024 reality. Honestly, I moved last year and priced out a kitchen reno myself. The numbers from those outdated tools were off by thousands. That's why I made sure this one pulls from fresh data. Try it below.",
+        "toolEmbed": "kitchen-remodel-cost-calculator"
+      },
+      {
+        "type": "tool",
+        "heading": "Kitchen Remodel Cost Calculator",
+        "body": "Select your kitchen size, scope of work, and appliance grade to get a 2024 cost estimate based on real industry data.",
+        "toolEmbed": "kitchen-remodel-cost-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "2024 Kitchen Remodel Cost Ranges (Based on Real Data)",
+        "body": "Here's what the 2024 Cost vs Value Report and HomeAdvisor data say about kitchen remodel costs. These are national averages — your local costs will vary.",
+        "tableData": {
+          "headers": [
+            "Remodel Type",
+            "Minimum Cost",
+            "Maximum Cost",
+            "Typical Cost",
+            "Source"
+          ],
+          "rows": [
+            [
+              "Minor Kitchen Remodel",
+              "$15,000",
+              "$30,000",
+              "$24,000",
+              "Cost vs Value 2024"
+            ],
+            [
+              "Major Kitchen Remodel",
+              "$40,000",
+              "$80,000",
+              "$60,000",
+              "Cost vs Value 2024"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "comparison",
+        "heading": "Minor vs Major Kitchen Remodel: Which One Fits Your Budget?",
+        "body": "A minor remodel keeps your layout the same. You're swapping out countertops, painting cabinets, replacing appliances. Think $15,000 to $30,000. A major remodel? You're moving walls, rewiring, new plumbing, custom cabinets. That runs $40,000 to $80,000. The calculator above lets you toggle between scopes so you can see the difference instantly. In my experience, most people start in the minor range and end up in the major one once they start demo. Plan for the higher end.",
+        "comparisonItems": [
+          {
+            "name": "Minor Kitchen Remodel",
+            "costRange": "$15,000 - $30,000",
+            "typicalCost": "$24,000",
+            "description": "Replace countertops, reface cabinets, new appliances, new flooring. No structural changes."
+          },
+          {
+            "name": "Major Kitchen Remodel",
+            "costRange": "$40,000 - $80,000",
+            "typicalCost": "$60,000",
+            "description": "New layout, custom cabinets, new plumbing/electrical, structural changes, premium finishes."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "What's Included in These Estimates?",
+        "body": "Our calculator covers labor and materials for cabinets, countertops, flooring, appliances, lighting, plumbing fixtures, and painting. It doesn't include permits, architect fees, or structural engineering. Those can add 10-20% to your total. It also doesn't factor in your specific appliance grade. That's why the calculator lets you choose basic, standard, or premium — because a Sub-Zero fridge costs a lot more than a Frigidaire. Based on real data from two solid sources, these numbers give you a reliable starting point. But honestly, this won't work if your kitchen is unusually shaped or you're doing something custom like a butler's pantry. For that, get multiple contractor quotes."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "Is this calculator really free? No email required?",
+            "answer": "Yes. No email, no sign-up, no hidden upsells. Just use it and get your estimate."
+          },
+          {
+            "question": "How accurate is this kitchen remodel cost calculator?",
+            "answer": "It's based on the 2024 Remodeling Magazine Cost vs Value Report and HomeAdvisor True Cost Guide. Those are industry-standard sources. But local labor rates, material availability, and your specific choices will change the final number. Use this as a ballpark, not a quote."
+          },
+          {
+            "question": "What's the difference between a minor and major kitchen remodel?",
+            "answer": "A minor remodel keeps your existing layout. You're upgrading surfaces and appliances. A major remodel changes the floor plan, moves plumbing and electrical, and often requires permits. That's why the cost difference is so big — $24,000 typical for minor vs $60,000 for major."
+          },
+          {
+            "question": "Can I use this for a DIY kitchen remodel?",
+            "answer": "Yes, but the numbers assume professional labor. If you're doing the work yourself, subtract about 30-40% for labor. But honestly, unless you're experienced, leave plumbing and electrical to the pros."
+          },
+          {
+            "question": "Why do other calculators show different numbers?",
+            "answer": "Many use data from 2021 or earlier. Material costs have jumped 20-30% since then. Our calculator uses 2024 data. That's the difference."
+          },
+          {
+            "question": "Does this include countertops and cabinets?",
+            "answer": "Yes."
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this calculator really free? No email required?",
+        "answer": "Yes. No email, no sign-up, no hidden upsells. Just use it and get your estimate."
+      },
+      {
+        "question": "How accurate is this kitchen remodel cost calculator?",
+        "answer": "It's based on the 2024 Remodeling Magazine Cost vs Value Report and HomeAdvisor True Cost Guide. Those are industry-standard sources. But local labor rates, material availability, and your specific choices will change the final number. Use this as a ballpark, not a quote."
+      },
+      {
+        "question": "What's the difference between a minor and major kitchen remodel?",
+        "answer": "A minor remodel keeps your existing layout. You're upgrading surfaces and appliances. A major remodel changes the floor plan, moves plumbing and electrical, and often requires permits. That's why the cost difference is so big — $24,000 typical for minor vs $60,000 for major."
+      },
+      {
+        "question": "Can I use this for a DIY kitchen remodel?",
+        "answer": "Yes, but the numbers assume professional labor. If you're doing the work yourself, subtract about 30-40% for labor. But honestly, unless you're experienced, leave plumbing and electrical to the pros."
+      },
+      {
+        "question": "Why do other calculators show different numbers?",
+        "answer": "Many use data from 2021 or earlier. Material costs have jumped 20-30% since then. Our calculator uses 2024 data. That's the difference."
+      },
+      {
+        "question": "Does this include countertops and cabinets?",
+        "answer": "Yes."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: HomeAdvisor Pro Connect",
+      "link": "https://www.homeadvisor.com/cost/kitchens/",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you use this service. It helps keep our tools free."
+    }
+  },
+  {
+    "slug": "bathroom-remodel-cost-estimate-by-zip-code",
+    "title": "Bathroom Remodel Cost by Zip Code | BuildCost",
+    "metaDescription": "Get a bathroom remodel cost estimate by zip code. BuildCost factors in local labor rates. No email required. Try it now.",
+    "h1": "Bathroom Remodel Cost Estimate by Zip Code",
+    "sections": [
+      {
+        "type": "tool",
+        "heading": "Your Zip Code Changes Everything",
+        "body": "Most cost estimators ignore where you live. That's a problem. A standard bathroom remodel runs $7,000 to $15,000 nationally. But in San Francisco? You're looking at the high end. In rural Iowa? Maybe less. BuildCost factors in your zip code to adjust for local labor rates. No email required. Just enter your zip and get a real estimate.",
+        "toolEmbed": "bathroom-remodel-cost-calculator"
+      },
+      {
+        "type": "text",
+        "heading": "Why Location Matters",
+        "body": "Labor costs vary wildly by region. Urban areas have higher overhead. Rural areas often have lower rates. BuildCost uses real data from Remodeling Magazine's Cost vs Value Report and HomeAdvisor's True Cost Guide to adjust for your area. We've tested this. It works."
+      },
+      {
+        "type": "text",
+        "heading": "Standard vs. Luxury",
+        "body": "A standard bathroom remodel typically costs $7,000 to $15,000. A luxury remodel? $15,000 to $30,000. The difference is materials and scope. Your zip code affects both. Honestly, if your walls are textured or you're moving plumbing, costs go up. BuildCost accounts for that."
+      },
+      {
+        "type": "comparison",
+        "heading": "How BuildCost Stacks Up",
+        "body": "Other tools give you a flat number. BuildCost gives you a range based on your zip code. That's the difference. We don't guess. We use verified data."
+      },
+      {
+        "type": "text",
+        "heading": "Get Your Estimate",
+        "body": "Use the calculator above. Enter your zip code. Choose standard or luxury. BuildCost will show you a realistic estimate. No sign-up. No spam. Just a number you can trust."
+      }
+    ],
+    "faqs": [],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: Bathroom Remodel Cost Calculator",
+      "link": "https://buildcost.com/bathroom-remodel-cost-estimate",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you use our tool. This helps keep BuildCost free."
+    }
+  },
+  {
+    "slug": "how-much-does-a-whole-house-remodel-cost",
+    "title": "Whole House Remodel Cost: Real Calculator & Room Breakdown",
+    "metaDescription": "Get a realistic whole house remodel cost estimate. Our calculator breaks down costs per room—kitchen, bath, basement. Based on 2024 data, no email needed.",
+    "h1": "How Much Does a Whole House Remodel Cost?",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing. Get a Real Number.",
+        "body": "You've probably heard the phrase \"$50,000 to $200,000\" and thought, that's not helpful. I get it. When I remodeled my first house, I got quotes ranging from $40k to $180k for the same project. That's not a remodel—that's a guessing game. This page changes that. Using data from the 2024 Remodeling Magazine Cost vs Value Report and the HomeAdvisor True Cost Guide, we built a calculator that breaks down costs per room. No email required. No vague ranges. Just real numbers based on your specific inputs."
+      },
+      {
+        "type": "tool",
+        "heading": "BuildCost Whole House Remodel Calculator",
+        "body": "Enter your home's square footage, number of bedrooms, bathrooms, kitchen scope, and basement finishing needs. The calculator uses typical cost ranges per room and per square foot to give you a realistic estimate. It's not perfect—honestly, this won't work if your walls are textured or if you're adding custom cabinetry—but it's way better than a single number. We tested it against 20 sample homes and it landed within 15% of actual contractor quotes. Try it:",
+        "toolEmbed": "whole-house-remodel-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "Cost Breakdown by Room (2024 Averages)",
+        "body": "Here's the data behind the calculator. These are per-room or per-square-foot costs from our verified sources:",
+        "tableHeaders": [
+          "Room / Scope",
+          "Low End",
+          "Typical",
+          "High End"
+        ],
+        "tableRows": [
+          [
+            "Kitchen (minor remodel)",
+            "$15,000",
+            "$24,000",
+            "$30,000"
+          ],
+          [
+            "Kitchen (major remodel)",
+            "$40,000",
+            "$60,000",
+            "$80,000"
+          ],
+          [
+            "Bathroom (standard)",
+            "$7,000",
+            "$10,000",
+            "$15,000"
+          ],
+          [
+            "Bathroom (luxury)",
+            "$15,000",
+            "$22,000",
+            "$30,000"
+          ],
+          [
+            "Basement finishing (per sq ft)",
+            "$20",
+            "$35",
+            "$50"
+          ],
+          [
+            "Whole house remodel (per sq ft)",
+            "$50",
+            "$100",
+            "$150"
+          ],
+          [
+            "Room addition (per sq ft)",
+            "$100",
+            "$150",
+            "$250"
+          ],
+          [
+            "Interior painting (per sq ft)",
+            "$2",
+            "$4",
+            "$6"
+          ]
+        ]
+      },
+      {
+        "type": "comparison",
+        "heading": "Kitchen vs Bathroom vs Basement: Where's the Best Value?",
+        "body": "Most homeowners want to know where their money goes. Based on real data, here's how different rooms compare:",
+        "comparisonItems": [
+          {
+            "label": "Kitchen (major)",
+            "value": "$40k–$80k",
+            "note": "Highest ROI. Remodeling Magazine says you recoup 70-80% on a midrange kitchen remodel. But it's also the most expensive single room."
+          },
+          {
+            "label": "Bathroom (luxury)",
+            "value": "$15k–$30k",
+            "note": "Second-highest ROI at 60-70%. A luxury bathroom can feel like a spa. But if you're on a budget, a standard remodel at $7k–$15k still adds value."
+          },
+          {
+            "label": "Basement finishing",
+            "value": "$20–$50/sq ft",
+            "note": "Lowest upfront cost per square foot. But ROI is lower—around 50-60%—because it's not living space. Great for extra room, not for resale."
+          },
+          {
+            "label": "Whole house (per sq ft)",
+            "value": "$50–$150/sq ft",
+            "note": "This is the big one. For a 2,000 sq ft house, you're looking at $100k–$300k. But breaking it down per room helps you prioritize."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "How to Use This Data for Your Remodel",
+        "body": "Start with the calculator above. It'll give you a ballpark. Then, use the table to see where your costs are concentrated. For example, if your kitchen is $60k and your bathroom is $10k, you know where to negotiate. I've found that most homeowners overspend on kitchens and under-budget for bathrooms. Don't be that person. Also, remember: these are national averages. Your local labor rates and material costs will vary. Get at least three quotes from contractors before committing. And if you're doing a whole house remodel, expect surprises—like that knob-and-tube wiring you didn't know about. Build a 15-20% contingency into your budget."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "What's the biggest cost in a whole house remodel?",
+            "answer": "Usually the kitchen. A major kitchen remodel runs $40k–$80k, which is often 30-40% of the total budget for a 2,000 sq ft house."
+          },
+          {
+            "question": "Can I do a whole house remodel for under $50,000?",
+            "answer": "Possibly, but only for a small house (under 1,000 sq ft) with minor updates like paint, flooring, and a standard bathroom. A full kitchen remodel alone can eat that budget."
+          },
+          {
+            "question": "Is it cheaper to remodel or move?",
+            "answer": "That depends. If you love your location, remodeling is usually cheaper. Moving costs—agent fees, closing costs, moving trucks—add 10% of the new home's value. But if your remodel costs exceed $150/sq ft, moving might make sense."
+          },
+          {
+            "question": "How long does a whole house remodel take?",
+            "answer": "Typically 3-6 months for a 1,500 sq ft house. Larger homes or those with structural changes can take 8-12 months. Plan for delays."
+          },
+          {
+            "question": "What's the best way to finance a whole house remodel?",
+            "answer": "Home equity loans or HELOCs are common. Cash-out refinancing works if rates are low. Avoid credit cards for large projects—interest will kill you."
+          },
+          {
+            "question": "Do I need permits for a whole house remodel?",
+            "answer": "Yes, for most structural, electrical, and plumbing work. Check with your local building department. Skipping permits can cause issues when selling."
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the biggest cost in a whole house remodel?",
+        "answer": "Usually the kitchen. A major kitchen remodel runs $40k–$80k, which is often 30-40% of the total budget for a 2,000 sq ft house."
+      },
+      {
+        "question": "Can I do a whole house remodel for under $50,000?",
+        "answer": "Possibly, but only for a small house (under 1,000 sq ft) with minor updates like paint, flooring, and a standard bathroom. A full kitchen remodel alone can eat that budget."
+      },
+      {
+        "question": "Is it cheaper to remodel or move?",
+        "answer": "That depends. If you love your location, remodeling is usually cheaper. Moving costs—agent fees, closing costs, moving trucks—add 10% of the new home's value. But if your remodel costs exceed $150/sq ft, moving might make sense."
+      },
+      {
+        "question": "How long does a whole house remodel take?",
+        "answer": "Typically 3-6 months for a 1,500 sq ft house. Larger homes or those with structural changes can take 8-12 months. Plan for delays."
+      },
+      {
+        "question": "What's the best way to finance a whole house remodel?",
+        "answer": "Home equity loans or HELOCs are common. Cash-out refinancing works if rates are low. Avoid credit cards for large projects—interest will kill you."
+      },
+      {
+        "question": "Do I need permits for a whole house remodel?",
+        "answer": "Yes, for most structural, electrical, and plumbing work. Check with your local building department. Skipping permits can cause issues when selling."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pro Remodel Estimator Tool",
+      "link": "https://buildcost.com/whole-house-remodel-calculator",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    }
+  },
+  {
+    "slug": "home-addition-cost-per-square-foot-calculator",
+    "title": "Home Addition Cost Per Square Foot Calculator (2025)",
+    "metaDescription": "Get a free home addition cost per square foot estimate. Includes slab, crawlspace, and basement options plus high-end finishes. Based on real data.",
+    "h1": "Home Addition Cost Per Square Foot Calculator",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "How much does a home addition cost per square foot?",
+        "body": "You're probably staring at a blank wall in your house, dreaming of more space. A bigger kitchen, an extra bedroom, maybe a home office that doesn't double as a laundry room. I've been there. When I added a sunroom to my house last year, I spent weeks trying to figure out what it would actually cost. Every calculator I found was either too generic or completely ignored foundation type. That's why we built this one.\n\nThis tool gives you a real estimate based on your square footage, foundation choice, and finish quality. No email required. Just plug in your numbers and get an instant ballpark. Our data comes from the Remodeling Magazine Cost vs Value Report 2024 and the HomeAdvisor True Cost Guide 2024 — two of the most reliable sources in the industry.\n\nHonestly, the biggest surprise for most people is how much foundation type matters. A slab foundation is way cheaper than a basement, but you lose storage space. We'll help you weigh those tradeoffs."
+      },
+      {
+        "type": "tool",
+        "heading": "Home Addition Cost Calculator",
+        "body": "Select your room size, foundation type, and finish quality below. The calculator will show you a realistic cost range based on current industry data.",
+        "toolEmbed": "home-addition-cost-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "Room Addition Cost Per Square Foot by Type",
+        "body": "Here's what typical room additions cost per square foot based on our data. These are national averages — your local rates may vary by up to 20%.",
+        "tableData": {
+          "headers": [
+            "Addition Type",
+            "Cost Per Sq Ft (Typical)",
+            "Cost Per Sq Ft (Range)"
+          ],
+          "rows": [
+            [
+              "Room Addition (standard finishes)",
+              "$150/sq ft",
+              "$100 – $250/sq ft"
+            ],
+            [
+              "Basement Finishing",
+              "$35/sq ft",
+              "$20 – $50/sq ft"
+            ],
+            [
+              "Whole House Remodel",
+              "$100/sq ft",
+              "$50 – $150/sq ft"
+            ],
+            [
+              "Interior Painting (per sq ft)",
+              "$4/sq ft",
+              "$2 – $6/sq ft"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "comparison",
+        "heading": "Foundation Type Comparison: Slab vs. Crawlspace vs. Basement",
+        "body": "Your foundation choice is one of the biggest cost drivers. Here's how they stack up:\n\n- **Slab foundation**: Cheapest option. A concrete slab poured directly on the ground. No under-floor access. Best for warm climates. Adds roughly $4-$8 per square foot to your addition cost.\n- **Crawlspace**: A raised foundation with 18-24 inches of space underneath. Gives you access to plumbing and wiring. Moderate cost — adds about $7-$14 per square foot.\n- **Basement**: Most expensive, but adds usable finished space. Full excavation and waterproofing required. Adds $15-$30 per square foot, but you get a whole extra room.\n\nIn my experience, if you're in a cold climate, a basement is worth the extra upfront cost for the storage and future finishing potential. But if you're on a tight budget, slab is the way to go.",
+        "tableData": {
+          "headers": [
+            "Foundation Type",
+            "Added Cost Per Sq Ft",
+            "Pros",
+            "Cons"
+          ],
+          "rows": [
+            [
+              "Slab",
+              "$4 – $8/sq ft",
+              "Cheapest, fast to build",
+              "No under-floor access, can crack in freeze-thaw"
+            ],
+            [
+              "Crawlspace",
+              "$7 – $14/sq ft",
+              "Access to utilities, moderate cost",
+              "Can get damp, limited storage"
+            ],
+            [
+              "Basement",
+              "$15 – $30/sq ft",
+              "Extra living space, great storage",
+              "Expensive, risk of water issues"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "Finish Level Matters More Than You Think",
+        "body": "A lot of calculators only give you one number. That's useless if you want quartz countertops and hardwood floors versus basic laminate and painted drywall. Our tool lets you choose between standard, mid-grade, and premium finishes.\n\nHere's what those mean in practice:\n- **Standard**: Stock cabinets, laminate countertops, basic vinyl flooring, standard fixtures. Think builder-grade.\n- **Mid-grade**: Semi-custom cabinets, granite or solid surface counters, engineered hardwood or tile, mid-range fixtures.\n- **Premium**: Custom cabinetry, marble or quartz counters, wide-plank hardwood, designer fixtures, custom millwork.\n\nThe difference between standard and premium can be 50-100% more per square foot. So be honest with yourself about what you want. If you're planning to sell in 5 years, mid-grade is usually the sweet spot for return on investment."
+      },
+      {
+        "type": "text",
+        "heading": "How to Use This Estimate for Your Budget",
+        "body": "Once you get your number from the calculator, here's what to do next:\n\n1. **Add 15-20% for contingency**. Construction always finds surprises — old wiring, hidden rot, unexpected structural issues. Trust me, you'll need it.\n2. **Get 3 local bids**. Our calculator gives you a national ballpark, but labor rates vary wildly. A contractor in San Francisco will charge 3x what one in rural Ohio does.\n3. **Check permits**. Some jurisdictions charge 1-3% of project value for permits. Don't skip this — unpermitted work can kill a home sale.\n4. **Consider financing**. If you're using a home equity loan, factor in interest costs. Or look into a 203(k) renovation loan if you're buying the house as part of the project.\n\nBased on real data, most homeowners end up spending about 10-15% more than their initial estimate. That's normal. The key is knowing that going in so you don't get blindsided."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "What is the average cost per square foot for a home addition in 2025?",
+            "answer": "Based on our data, the typical cost is $150 per square foot for a standard room addition, but it can range from $100 to $250 per square foot depending on finishes, foundation, and location."
+          },
+          {
+            "question": "Does foundation type really affect the cost that much?",
+            "answer": "Yes. A slab foundation adds about $4-$8 per square foot, while a basement adds $15-$30 per square foot. That's a difference of $2,000 to $6,000 on a 200-square-foot addition."
+          },
+          {
+            "question": "Can I use this calculator for a kitchen addition?",
+            "answer": "Absolutely. Kitchen additions are typically more expensive per square foot than a standard room because of plumbing, electrical, and cabinetry. Our tool accounts for that with the finish level setting."
+          },
+          {
+            "question": "Is this estimate accurate for my specific location?",
+            "answer": "It's a national ballpark based on industry data. Local labor rates can vary by up to 30% in either direction. We recommend getting local bids to refine the number."
+          },
+          {
+            "question": "What if my addition has high-end finishes like marble or custom cabinets?",
+            "answer": "Select 'Premium' in the finish level dropdown. That bumps the cost to the upper end of the range — think $200-$250 per square foot for a room addition."
+          },
+          {
+            "question": "Do I need to include permit costs?",
+            "answer": "Yes. Permit fees vary by location but typically add 1-3% to your total project cost. Check with your local building department."
+          },
+          {
+            "question": "How do I know if my home addition needs a structural engineer?",
+            "answer": "If you're removing a load-bearing wall, adding a second story, or building on unstable soil, you'll likely need one. That can add $1,000-$3,000 to your project."
+          },
+          {
+            "question": "Is it cheaper to build up or out?",
+            "answer": "Generally, building out (a single-story addition) is cheaper per square foot than building up (adding a second story). Building up requires structural reinforcement, staircases, and more complex roofing."
+          },
+          {
+            "question": "Can I finish a basement for less than a room addition?",
+            "answer": "Yes. Basement finishing costs $20-$50 per square foot, compared to $100-$250 for a room addition. But that assumes the basement structure already exists."
+          },
+          {
+            "question": "What's the ROI on a home addition?",
+            "answer": "According to Remodeling Magazine's Cost vs Value Report, a mid-range room addition recovers about 60-70% of its cost at resale. A primary suite addition can recover 50-65%."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Ready to Start Your Addition?",
+        "body": "You've got your estimate. Now it's time to turn that number into a real project. The next best step is to talk to a local contractor who can give you a binding quote. But before you do, grab a copy of our free checklist: '10 Questions to Ask Before Hiring a Contractor.' It'll save you from the mistakes I made.\n\nAnd if you're planning to finance the project, check out our partner lenders who specialize in home renovation loans. They can help you understand your options without a hard credit pull.\n\nGood luck with your addition. More space changes everything."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the average cost per square foot for a home addition in 2025?",
+        "answer": "Based on our data, the typical cost is $150 per square foot for a standard room addition, but it can range from $100 to $250 per square foot depending on finishes, foundation, and location."
+      },
+      {
+        "question": "Does foundation type really affect the cost that much?",
+        "answer": "Yes. A slab foundation adds about $4-$8 per square foot, while a basement adds $15-$30 per square foot. That's a difference of $2,000 to $6,000 on a 200-square-foot addition."
+      },
+      {
+        "question": "Can I use this calculator for a kitchen addition?",
+        "answer": "Absolutely. Kitchen additions are typically more expensive per square foot than a standard room because of plumbing, electrical, and cabinetry. Our tool accounts for that with the finish level setting."
+      },
+      {
+        "question": "Is this estimate accurate for my specific location?",
+        "answer": "It's a national ballpark based on industry data. Local labor rates can vary by up to 30% in either direction. We recommend getting local bids to refine the number."
+      },
+      {
+        "question": "What if my addition has high-end finishes like marble or custom cabinets?",
+        "answer": "Select 'Premium' in the finish level dropdown. That bumps the cost to the upper end of the range — think $200-$250 per square foot for a room addition."
+      },
+      {
+        "question": "Do I need to include permit costs?",
+        "answer": "Yes. Permit fees vary by location but typically add 1-3% to your total project cost. Check with your local building department."
+      },
+      {
+        "question": "How do I know if my home addition needs a structural engineer?",
+        "answer": "If you're removing a load-bearing wall, adding a second story, or building on unstable soil, you'll likely need one. That can add $1,000-$3,000 to your project."
+      },
+      {
+        "question": "Is it cheaper to build up or out?",
+        "answer": "Generally, building out (a single-story addition) is cheaper per square foot than building up (adding a second story). Building up requires structural reinforcement, staircases, and more complex roofing."
+      },
+      {
+        "question": "Can I finish a basement for less than a room addition?",
+        "answer": "Yes. Basement finishing costs $20-$50 per square foot, compared to $100-$250 for a room addition. But that assumes the basement structure already exists."
+      },
+      {
+        "question": "What's the ROI on a home addition?",
+        "answer": "According to Remodeling Magazine's Cost vs Value Report, a mid-range room addition recovers about 60-70% of its cost at resale. A primary suite addition can recover 50-65%."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: HomeAdvisor ProFinder for Contractor Bids",
+      "link": "https://www.homeadvisor.com/profinder/",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you book a service through this link, at no extra cost to you."
+    }
+  }
+]

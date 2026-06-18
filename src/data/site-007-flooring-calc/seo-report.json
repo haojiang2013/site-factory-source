@@ -1,0 +1,28 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Title tag on /tile-flooring-calculator-with-waste is 46 characters, below the recommended 50-60 char range.",
+    "Meta descriptions for pages other than /flooring-cost-calculator were not provided; may be missing or suboptimal.",
+    "H1 uniqueness could not be verified across all pages; risk of duplicate or missing H1 tags.",
+    "Structured data (FAQPage, HowTo, or WebApplication schema) presence and validity unconfirmed; likely missing or invalid.",
+    "Internal linking structure unknown; potential orphan pages with no internal links pointing to them.",
+    "Anchor text diversity cannot be assessed; no internal link data available."
+  ],
+  "optimizations": [
+    "Expand title of /tile-flooring-calculator-with-waste to at least 50 characters, e.g., 'Tile Flooring Calculator with Waste — Free FloorWise Tool'.",
+    "Add unique, keyword-rich meta descriptions for all pages, keeping them between 140-160 characters.",
+    "Verify that each page has a unique H1 that matches the page's primary intent.",
+    "Implement FAQPage schema on the /flooring-cost-calculator page (since it has 7 FAQs) and consider HowTo or WebApplication schema on other calculator pages.",
+    "Ensure each page receives at least 2-8 internal links from other pages, with varied anchor text (e.g., from main calculator to specific ones).",
+    "Check for any cross-site links to other sites in the network and remove them to avoid PBN penalties.",
+    "Set canonical URLs to self-referencing for all pages and include them in the sitemap."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

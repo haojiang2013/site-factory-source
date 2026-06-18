@@ -1,0 +1,84 @@
+{
+  "data": {
+    "pricing": {
+      "costPerWatt": {
+        "min": 2.5,
+        "max": 3.5,
+        "typical": 2.95,
+        "unit": "USD/W"
+      },
+      "systemCost": {
+        "min": 10000,
+        "max": 35000,
+        "typical": 22000,
+        "unit": "USD"
+      },
+      "inverterCost": {
+        "min": 1000,
+        "max": 2500,
+        "typical": 1500,
+        "unit": "USD"
+      }
+    },
+    "specifications": {
+      "systemSize": {
+        "min": 4,
+        "max": 15,
+        "typical": 7.5,
+        "unit": "kW"
+      },
+      "panelEfficiency": {
+        "min": 15,
+        "max": 24,
+        "typical": 20,
+        "unit": "%"
+      },
+      "degradationRate": {
+        "min": 0.3,
+        "max": 0.7,
+        "typical": 0.5,
+        "unit": "% per year"
+      }
+    },
+    "performance": {
+      "annualProduction": {
+        "min": 1000,
+        "max": 1800,
+        "typical": 1350,
+        "unit": "kWh/kW/year"
+      }
+    },
+    "financial": {
+      "paybackPeriod": {
+        "min": 5,
+        "max": 15,
+        "typical": 9,
+        "unit": "years"
+      },
+      "federalTaxCreditPercent": {
+        "min": 30,
+        "max": 30,
+        "typical": 30,
+        "unit": "%"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "NREL 2023 U.S. Solar PV System Cost Benchmark: Q1 2023 (https://www.nrel.gov/solar/market-research-analysis/solar-installed-system-cost.html)",
+      "EnergySage 2024 Market Report (https://www.energysage.com/solar-panels/)",
+      "SEIA Solar Market Insight Report Q2 2024 (https://www.seia.org/research-resources/solar-market-insight-report)",
+      "DOE Homeowner's Guide to Solar (https://www.energy.gov/energysaver/homeowner-s-guide-solar)"
+    ],
+    "freshnessTTL_days": {
+      "pricing": 90,
+      "specifications": 365,
+      "performance": 365,
+      "financial": 365
+    },
+    "collectedAt": "2024-10-24",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [],
+    "confidenceNotes": "Most values from NREL 2023 cost benchmark and EnergySage market report. Annual production range based on NREL PVWatts assumptions and SEIA data. Efficiency and degradation from industry averages (DOE and manufacturer specs). Payback period estimates vary regionally; typical value is a national median. Federal tax credit percentage is statutory until 2032."
+  }
+}

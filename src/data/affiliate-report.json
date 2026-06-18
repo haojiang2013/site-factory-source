@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-06-16T17:18:59.413Z",
+  "issues": [
+    "⚠️ knowledge-base.json: parse error",
+    "⚠️ site-001-moving-calculator: \"Cost to Move a 3 Bedroom House: Calculat\" — https://www.uhaul.com/Trucks/15-foot-truck/ → unreachable",
+    "⚠️ site-001-moving-calculator: \"Local Move Cost Estimator: Get Accurate \" — https://www.uhaul.com → unreachable",
+    "⚠️ site-001-moving-calculator: \"Long Distance Moving Cost Calculator by \" — https://www.uhaul.com → unreachable",
+    "⚠️ site-001-moving-calculator: \"Furniture Moving Cost Calculator: Get Yo\" — https://www.uhaul.com/Trucks/ → unreachable",
+    "❌ site-002-mortgage-calc: \"Mortgage Overpayment Calculator – Free &\" — https://www.rocketmortgage.com → HTTP 500",
+    "❌ site-003-paint-calc: \"Paint Calculator – Estimate Gallons & Co\" — https://www.sherwin-williams.com/paint/superpaint-interior-latex → HTTP 404",
+    "❌ site-003-paint-calc: \"How Much Paint Do I Need? Calculator & G\" — https://www.sherwin-williams.com/paint/duration-home-interior → HTTP 404",
+    "❌ site-003-paint-calc: \"Paint Coverage Calculator: Gallons Neede\" — https://www.sherwin-williams.com/paint-education/paint-basics/how-much-paint-do-i-need → HTTP 404",
+    "❌ site-003-paint-calc: \"Paint Needed Calculator – Exact Gallons \" — https://www.sherwin-williams.com/paint/interior-paint/superpaint-interior-latex → HTTP 404",
+    "❌ site-003-paint-calc: \"Interior Paint Calculator: Free Tool for\" — https://www.homedepot.com/p/Behr-Premium-Plus-1-gal-Interior-Paint-and-Primer-in-One/100077441 → HTTP 403",
+    "❌ site-004-ai-tools: \"Best AI Writing Tools No Signup Required\" — https://www.writesage.com → HTTP 403",
+    "❌ site-004-ai-tools: \"AI Writing Tool Unlimited Words: Find Yo\" — https://writesage.com/pricing → HTTP 404",
+    "❌ site-004-ai-tools: \"AI Writing Tool for Fiction Writers: Fin\" — https://writesage.com/fiction-plan → HTTP 404",
+    "❌ site-004-ai-tools: \"Cheapest AI Copywriting Tool: Find the B\" — https://writesage.com/pricing → HTTP 404",
+    "⚠️ site-005-game-guide: \"Game Loot Database: Search Drops & Price\" — https://lootforge.example.com/premium → unreachable",
+    "⚠️ site-005-game-guide: \"Loot Table Database: Search & Track Drop\" — https://lootforge.example.com/premium → unreachable",
+    "❌ site-005-game-guide: \"Item Drop Rate Database: Live Calculator\" — https://lootforge.com/premium-tracker → HTTP 403",
+    "⚠️ site-005-game-guide: \"Loot Database App: Find Drop Rates Witho\" — https://lootforge.app → unreachable",
+    "❌ site-005-game-guide: \"Video Game Loot Tracker – Legendary Drop\" — https://lootforge.com/premium → HTTP 403"
+  ]
+}

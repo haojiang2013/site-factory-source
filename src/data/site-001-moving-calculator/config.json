@@ -1,0 +1,263 @@
+{
+  "slug": "site-001-moving-calculator",
+  "domain": "gomovecalc.xyz",
+  "niche": "moving cost calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "moving cost calculator",
+      "searchVolume": 22000,
+      "difficulty": 85,
+      "intent": "transactional",
+      "serpWeakness": "Top results are dominated by moving marketplaces (MoveBuddha, Moving.com) that gate estimates behind email forms; open-source or instant anonymous calculators are rare.",
+      "userComplaints": [
+        "Asks for email and phone before showing any estimate",
+        "Estimates are generic and don’t reflect real quotes from movers"
+      ]
+    },
+    {
+      "keyword": "how much does it cost to move a 3 bedroom house",
+      "searchVolume": 5400,
+      "difficulty": 55,
+      "intent": "informational",
+      "serpWeakness": "Most results are static blog posts from moving companies with 2020–2021 data; no interactive calculator that lets users input room-by-room inventory.",
+      "userComplaints": [
+        "Estimates are too low and don’t include packing or stairs",
+        "No way to account for specific heavy items like a piano"
+      ]
+    },
+    {
+      "keyword": "local move cost estimator",
+      "searchVolume": 3600,
+      "difficulty": 48,
+      "intent": "commercial",
+      "serpWeakness": "Many tools are not mobile-optimized and break on smaller screens; local moving companies’ sites often lack real-time pricing based on distance.",
+      "userComplaints": [
+        "Estimates don’t factor in hourly local labor rates accurately",
+        "Can’t adjust for moving supply costs"
+      ]
+    },
+    {
+      "keyword": "long distance moving cost calculator by zip code",
+      "searchVolume": 1900,
+      "difficulty": 35,
+      "intent": "commercial",
+      "serpWeakness": "Zip code lookup often fails or returns ‘service not available’ on many sites; few calculators incorporate real fuel surcharge data or mileage rates.",
+      "userComplaints": [
+        "Zip code tool doesn’t work, gives error",
+        "Didn’t include hidden long-haul fees like fuel surcharges"
+      ]
+    },
+    {
+      "keyword": "furniture moving cost calculator",
+      "searchVolume": 2400,
+      "difficulty": 42,
+      "intent": "transactional",
+      "serpWeakness": "No popular calculator allows itemized furniture list with dimensions; most ask only for number of rooms or cubic feet, leading to over/under estimates.",
+      "userComplaints": [
+        "No way to list individual furniture pieces (sofa, bed, dining table)",
+        "Estimates assume standard furniture, not custom or antique items"
+      ]
+    },
+    {
+      "keyword": "apartment move out cost calculator",
+      "searchVolume": 1600,
+      "difficulty": 30,
+      "intent": "commercial",
+      "serpWeakness": "Very few tools address move-out costs beyond the move itself (cleaning, repairs, security deposit deductions); existing pages are thin affiliate posts.",
+      "userComplaints": [
+        "Doesn’t include apartment cleaning fees or damages",
+        "No breakdown of move-out security deposit deductions"
+      ]
+    },
+    {
+      "keyword": "moving cost calculator with packing supplies",
+      "searchVolume": 900,
+      "difficulty": 25,
+      "intent": "transactional",
+      "serpWeakness": "Most calculators ignore packing materials entirely; no tool integrates a dynamic packing supply list with local box/tape prices.",
+      "userComplaints": [
+        "Can’t add boxes, tape, or bubble wrap costs",
+        "Packing supply estimates are just flat $50–$100 guesses"
+      ]
+    },
+    {
+      "keyword": "moving truck cost estimator",
+      "searchVolume": 4400,
+      "difficulty": 62,
+      "intent": "commercial",
+      "serpWeakness": "U-Haul dominates SERP but only shows its own trucks; Penske and Budget estimators are buried. No cross-company comparison.",
+      "userComplaints": [
+        "Only shows U-Haul prices, can’t compare with Penske or Budget",
+        "Doesn’t include mileage surcharges clearly"
+      ]
+    },
+    {
+      "keyword": "cost to move a studio apartment",
+      "searchVolume": 2800,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "Results are mostly generic listicles without an interactive estimator; a simple studio-specific calculator (item count + distance) would easily rank.",
+      "userComplaints": [
+        "Estimates are the same as for a 1-bedroom; studio shouldn’t cost that much",
+        "No option to say ‘only bed and desk’"
+      ]
+    },
+    {
+      "keyword": "international moving cost calculator",
+      "searchVolume": 1800,
+      "difficulty": 58,
+      "intent": "commercial",
+      "serpWeakness": "Many calculators are US-only; international ones lack customs fee calculations, shipping method options, and real-time container rates.",
+      "userComplaints": [
+        "Doesn’t factor in customs duties or port fees",
+        "Ocean freight vs air freight options missing"
+      ]
+    },
+    {
+      "keyword": "moving cost comparison tool",
+      "searchVolume": 1200,
+      "difficulty": 44,
+      "intent": "transactional",
+      "serpWeakness": "No site aggregates instant quotes from multiple moving companies side-by-side; users must fill out separate forms.",
+      "userComplaints": [
+        "Have to visit 5 different sites to get quotes",
+        "Wish there was a Kayak-like comparison for movers"
+      ]
+    },
+    {
+      "keyword": "moving cost calculator for seniors",
+      "searchVolume": 720,
+      "difficulty": 20,
+      "intent": "informational",
+      "serpWeakness": "Zero dedicated senior moving calculators; generic advice articles dominate. Opportunity for a tool tailored to downsizing, ADA requirements, and fixed income.",
+      "userComplaints": [
+        "No senior-specific discounts or downsizing inventory calculator",
+        "Doesn’t account for Medicare relocation or senior community move-in fees"
+      ]
+    },
+    {
+      "keyword": "moving cost estimator no sign up",
+      "searchVolume": 1100,
+      "difficulty": 32,
+      "intent": "transactional",
+      "serpWeakness": "Very few tools explicitly promise no sign-up; most lead-gen sites capture emails. A truly anonymous instant estimator could rank for this frustrated long-tail.",
+      "userComplaints": [
+        "Every site demands my email, then spams me",
+        "Just want a quick estimate without giving personal info"
+      ]
+    },
+    {
+      "keyword": "moving cost New York to Chicago",
+      "searchVolume": 800,
+      "difficulty": 35,
+      "intent": "transactional",
+      "userComplaints": [
+        "distance based rates unclear",
+        "toll costs hidden"
+      ]
+    },
+    {
+      "keyword": "moving cost Los Angeles to San Francisco",
+      "searchVolume": 600,
+      "difficulty": 32,
+      "intent": "transactional",
+      "userComplaints": [
+        "traffic surcharge not explained",
+        "instate rates wrong"
+      ]
+    },
+    {
+      "keyword": "moving cost Texas to California",
+      "searchVolume": 500,
+      "difficulty": 38,
+      "intent": "transactional",
+      "userComplaints": [
+        "weight based vs volume based",
+        "fuel surcharge variable"
+      ]
+    },
+    {
+      "keyword": "apartment moving cost Boston",
+      "searchVolume": 400,
+      "difficulty": 28,
+      "intent": "transactional",
+      "userComplaints": [
+        "stairs fee missing",
+        "elevator reservation not included"
+      ]
+    },
+    {
+      "keyword": "moving cost estimator Austin TX",
+      "searchVolume": 350,
+      "difficulty": 25,
+      "intent": "transactional",
+      "userComplaints": [
+        "local labor rates wrong",
+        "minimum hours not shown"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "industrial-blue",
+    "fontPair": "lora+nunito",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "MoveWise",
+    "accessibilityCheck": {
+      "contrastRatio": "7.1:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home+calculator",
+        "about",
+        "contact",
+        "privacy",
+        "1 city page"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "top 10 city pages",
+        "5 how-to guides",
+        "5 faq pages"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "30 more city pages",
+        "5 comparison pages",
+        "15 faq pages"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 100,
+      "pageTypes": [
+        "remaining city pages",
+        "more guides",
+        "more faq",
+        "tools"
+      ]
+    }
+  ]
+}

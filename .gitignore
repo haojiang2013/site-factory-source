@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+sites/
+.state/
+.env.local
+*.log
+
+.vercel

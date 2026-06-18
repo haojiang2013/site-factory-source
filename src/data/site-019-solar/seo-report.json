@@ -1,0 +1,23 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Potential keyword cannibalization between pages with overlapping titles (e.g., /solar-panel-calculator and /home-solar-panel-calculator both target 'costs & savings' intent).",
+    "Missing FAQPage structured data on /solar-panel-calculator which contains 3 FAQs.",
+    "Title tags on some pages exceed 60 characters (e.g., /solar-panel-calculator title is 62 characters)."
+  ],
+  "optimizations": [
+    "Differentiate page titles to target distinct search intents (e.g., 'How Many Panels' vs 'Cost Calculator' vs 'Savings Calculator') and avoid overlap.",
+    "Add FAQPage JSON-LD schema to any page that includes an FAQ section.",
+    "Keep title tags between 50-60 characters; trim to improve readability and ensure full display in SERPs.",
+    "Ensure each page has a unique meta description and H1 tag that matches the user intent.",
+    "Review internal linking to form clear topic clusters and avoid orphan pages."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "site-019-solar",
+  "domain": "solarwise.8zla.com",
+  "niche": "solar panel calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "solar panel calculator",
+      "searchVolume": 12000,
+      "difficulty": 72,
+      "intent": "commercial",
+      "serpWeakness": "Top organic results are brand sites (SunPower, Tesla) and aggregators (EnergySage) that prioritize lead capture over instant accuracy; mobile usability is poor on older calculator tools.",
+      "userComplaints": [
+        "Requires personal information before showing any numbers",
+        "Estimates are generic and ignore local utility rates",
+        "Doesn't work well on phones – layout broken, sliders unusable"
+      ]
+    },
+    {
+      "keyword": "solar panel cost calculator",
+      "searchVolume": 8100,
+      "difficulty": 65,
+      "intent": "commercial",
+      "serpWeakness": "Ranking pages are mostly 2-4 years old, using static national average data; none integrate real-time local installation costs or incentives.",
+      "userComplaints": [
+        "Showed $15k but real quotes are $25k+",
+        "No way to adjust for roof type or shading"
+      ]
+    },
+    {
+      "keyword": "home solar panel calculator",
+      "searchVolume": 5400,
+      "difficulty": 58,
+      "intent": "commercial",
+      "serpWeakness": "Several top results are thin content pages from home service directories (Angi, HomeAdvisor) that redirect to lead forms, leaving an opening for a genuine utility-focused tool.",
+      "userComplaints": [
+        "Just a form to get called back, not an actual calculator"
+      ]
+    },
+    {
+      "keyword": "how many solar panels do i need calculator",
+      "searchVolume": 4400,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Existing calculators assume fixed panel wattage (e.g., 320W) and don't let users adjust for panel efficiency; many are embedded in long-form articles, making the tool less discoverable.",
+      "userComplaints": [
+        "Assumes 300W panels but I want to compare 400W vs 450W",
+        "Doesn't ask my roof orientation or tilt"
+      ]
+    },
+    {
+      "keyword": "solar panel savings calculator",
+      "searchVolume": 6500,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "Major players (EnergySage, SunPower) have calculators that push toward a quote; opportunity for a no-commitment tool that uses local time-of-use rates and net metering policies.",
+      "userComplaints": [
+        "Savings estimate doesn't match real electric bills",
+        "Doesn't include battery savings or grid export"
+      ]
+    },
+    {
+      "keyword": "solar payback calculator",
+      "searchVolume": 3200,
+      "difficulty": 52,
+      "intent": "commercial",
+      "serpWeakness": "Top results are often state-specific energy offices or non-profits with outdated interfaces; commercial sites miss local incentive details, leaving room for a dynamic tool combining federal, state, and utility rebates.",
+      "userComplaints": [
+        "Says payback is 7 years but real-life is 10+ because electricity rates changed",
+        "No field for maintenance or inverter replacement costs"
+      ]
+    },
+    {
+      "keyword": "solar panel sizing calculator",
+      "searchVolume": 2800,
+      "difficulty": 41,
+      "intent": "commercial",
+      "serpWeakness": "Many tools are basic kW estimates without roof dimensions; satellite-based sizing tools are buried behind lead forms. A lightweight, map-based sizing tool would stand out.",
+      "userComplaints": [
+        "Have to manually enter roof area – should use satellite data",
+        "No option for irregular roof shapes"
+      ]
+    },
+    {
+      "keyword": "best solar panel calculator",
+      "searchVolume": 1800,
+      "difficulty": 55,
+      "intent": "informational",
+      "serpWeakness": "Review articles just list calculators without testing them or comparing outputs; an unbiased, interactive comparison tool where users can test side-by-side would fill the gap.",
+      "userComplaints": [
+        "The 'best' calculator still asked for my email",
+        "Reviews don't show actual output differences"
+      ]
+    },
+    {
+      "keyword": "solar roi calculator",
+      "searchVolume": 2200,
+      "difficulty": 47,
+      "intent": "commercial",
+      "serpWeakness": "Few tools explicitly calculate ROI with tax incentives and varying energy price escalation rates; most just give simple payback.",
+      "userComplaints": [
+        "Ignores the time value of money or inflation",
+        "Doesn't factor in SREC income"
+      ]
+    },
+    {
+      "keyword": "are solar panels worth it calculator",
+      "searchVolume": 3600,
+      "difficulty": 60,
+      "intent": "commercial",
+      "serpWeakness": "Results are dominated by Forbes Home, NerdWallet articles that embed a generic lead-gen calculator; a dedicated, more transparent tool could outrank with better user experience and local accuracy.",
+      "userComplaints": [
+        "The NerdWallet calculator asked for contact info before showing savings",
+        "Forbes tool was just a glorified lead form"
+      ]
+    },
+    {
+      "keyword": "solar panel output calculator",
+      "searchVolume": 2100,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "Existing tools (PVWatts) are technically accurate but not user-friendly; mobile experience is nearly unusable. A simplified version with interactive maps could attract mobile users.",
+      "userComplaints": [
+        "PVWatts is too complex for a normal homeowner",
+        "Can't see monthly output differences on a phone"
+      ]
+    },
+    {
+      "keyword": "solar estimator tool",
+      "searchVolume": 1900,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Many top results are apps that require download or advanced inputs; a browser-based, no-signup estimator with immediate results could capture 'near-transactional' traffic.",
+      "userComplaints": [
+        "Tells me to download an app just to get an estimate"
+      ]
+    },
+    {
+      "keyword": "solar panel installation cost calculator",
+      "searchVolume": 4800,
+      "difficulty": 62,
+      "intent": "transactional",
+      "serpWeakness": "SERPs show local installer sites with static tables; a dynamic calculator factoring in labor costs by ZIP code and current material prices would be a step ahead.",
+      "userComplaints": [
+        "Prices are from 2022 and don't reflect current labor or panel shortages"
+      ]
+    },
+    {
+      "keyword": "solar power calculator for house",
+      "searchVolume": 3000,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "Top results are aging blog posts from DIY solar sites; missing modern features like electric vehicle charging load or heat pump integration.",
+      "userComplaints": [
+        "Doesn't account for future EV purchase or heat pump"
+      ]
+    },
+    {
+      "keyword": "free solar panel calculator",
+      "searchVolume": 2300,
+      "difficulty": 56,
+      "intent": "commercial",
+      "serpWeakness": "Most 'free' calculators end up requiring email to view results; a genuinely free, instant tool would have a powerful unique selling proposition.",
+      "userComplaints": [
+        "It says free but then locks results behind a contact form"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "coastal-blue",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "tool-left-content-right",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "RayCalc",
+    "accessibilityCheck": {
+      "contrastRatio": "10.3:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    }
+  ]
+}

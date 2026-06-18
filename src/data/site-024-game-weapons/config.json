@@ -1,0 +1,204 @@
+{
+  "slug": "site-024-game-weapons",
+  "domain": "weaponwise.8zla.com",
+  "niche": "game weapon comparison",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "destiny 2 weapon comparison tool",
+      "searchVolume": 3200,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Top results are old forum threads and a 2019 spreadsheet; no modern interactive tool with Lightfall weapons.",
+      "userComplaints": [
+        "Perk combinations not supported",
+        "No way to compare two god rolls side-by-side"
+      ]
+    },
+    {
+      "keyword": "warframe weapon dps calculator",
+      "searchVolume": 1800,
+      "difficulty": 42,
+      "intent": "transactional",
+      "serpWeakness": "Existing calculators are outdated, missing Kuva/Tenet weapons, mobile-unfriendly tables.",
+      "userComplaints": [
+        "Doesn't factor status effects correctly",
+        "Broken after last update",
+        "No mobile view"
+      ]
+    },
+    {
+      "keyword": "elden ring weapon ar calculator",
+      "searchVolume": 2400,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "SERP leads to 2022 sheets; no tool with scaling visualization and buff stacking.",
+      "userComplaints": [
+        "Can't account for talismans and great runes simultaneously",
+        "UI is confusing"
+      ]
+    },
+    {
+      "keyword": "best weapon for mage build elden ring 2024",
+      "searchVolume": 1100,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "Articles are pre-1.09 patch, don't reflect current balance; no easy AR comparison.",
+      "userComplaints": [
+        "Only shows raw damage, not DPS vs boss armor",
+        "Recommendations outdated"
+      ]
+    },
+    {
+      "keyword": "weapon stat comparison site",
+      "searchVolume": 900,
+      "difficulty": 34,
+      "intent": "transactional",
+      "serpWeakness": "Generic sites try to cover all games poorly; no dedicated multi-game deep tool.",
+      "userComplaints": [
+        "Site holds only a few games",
+        "Data is user-submitted and often wrong"
+      ]
+    },
+    {
+      "keyword": "is [weapon] better than [weapon] destiny 2",
+      "searchVolume": 2800,
+      "difficulty": 60,
+      "intent": "commercial",
+      "serpWeakness": "Answers scattered on Reddit and Bungie forums; no visual side-by-side on a single page.",
+      "userComplaints": [
+        "Perk synergy not considered in forum answers",
+        "No damage falloff visualization"
+      ]
+    },
+    {
+      "keyword": "warframe kuva weapon tier list comparison",
+      "searchVolume": 980,
+      "difficulty": 44,
+      "intent": "informational",
+      "serpWeakness": "Most tier lists are outdated YouTube videos raw text, no interactive comparison on site.",
+      "userComplaints": [
+        "Can't filter by playstyle",
+        "Missing progenitor bonus impact"
+      ]
+    },
+    {
+      "keyword": "weapon compare with perks calculator",
+      "searchVolume": 1300,
+      "difficulty": 39,
+      "intent": "transactional",
+      "serpWeakness": "No dedicated tool; users rely on manual spreadsheets.",
+      "userComplaints": [
+        "Won't let me save my builds",
+        "Must re-enter stats every time"
+      ]
+    },
+    {
+      "keyword": "soulslike weapon ar spreadsheet download",
+      "searchVolume": 650,
+      "difficulty": 22,
+      "intent": "transactional",
+      "serpWeakness": "Reddit links to Google Sheets that are often locked, unedited since 2022.",
+      "userComplaints": [
+        "Sheet isn't updated for DLC",
+        "Can't compare on mobile"
+      ]
+    },
+    {
+      "keyword": "how much does weapon X cost vs Y warframe",
+      "searchVolume": 410,
+      "difficulty": 17,
+      "intent": "commercial",
+      "serpWeakness": "Platinum pricing on scattered trade sites, no unified weapon value comparison.",
+      "userComplaints": [
+        "Trade value hidden behind Discord bots",
+        "No historic price trend"
+      ]
+    },
+    {
+      "keyword": "pve weapon dps ranking site",
+      "searchVolume": 1500,
+      "difficulty": 50,
+      "intent": "informational",
+      "serpWeakness": "Most rankings are static images; no dynamic comparison with user input buffs.",
+      "userComplaints": [
+        "Doesn't include team buffs",
+        "Only shows single-target DPS"
+      ]
+    },
+    {
+      "keyword": "best weapon for nightfall destiny 2 this week",
+      "searchVolume": 2100,
+      "difficulty": 56,
+      "intent": "informational",
+      "serpWeakness": "Weekly articles on large sites but no tool that automatically adapts to Nightfall modifiers.",
+      "userComplaints": [
+        "Gotta dig through a 10-minute read instead of quick compare"
+      ]
+    },
+    {
+      "keyword": "weapon comparison mobile app",
+      "searchVolume": 720,
+      "difficulty": 28,
+      "intent": "transactional",
+      "serpWeakness": "Very few apps exist; most are abandoned and not installable on latest iOS/Android.",
+      "userComplaints": [
+        "App crashes on search",
+        "Not updated for newest season"
+      ]
+    },
+    {
+      "keyword": "compare weapon stats elden ring vs dark souls 3",
+      "searchVolume": 320,
+      "difficulty": 12,
+      "intent": "informational",
+      "serpWeakness": "Only a few Reddit threads manually comparing; no dedicated cross-game tool.",
+      "userComplaints": [
+        "Nobody has done this properly",
+        "Spreadsheets are messy"
+      ]
+    },
+    {
+      "keyword": "weapon perk combination damage calculator",
+      "searchVolume": 880,
+      "difficulty": 36,
+      "intent": "transactional",
+      "serpWeakness": "Only found in scattered GitHub scripts; no GUI for non-developers.",
+      "userComplaints": [
+        "Requires coding to use",
+        "Doesn't consider buff stacking"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "charcoal-amber",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "filled"
+    },
+    "brandName": "WeaponWise",
+    "accessibilityCheck": {
+      "contrastRatio": "14:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 comparison"
+      ]
+    }
+  ]
+}

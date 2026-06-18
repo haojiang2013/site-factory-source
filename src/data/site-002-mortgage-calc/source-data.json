@@ -1,0 +1,62 @@
+{
+  "data": {
+    "mortgageOverpaymentCalculator": {
+      "interestRates_30yrFixed": {
+        "min": 6.5,
+        "max": 7,
+        "typical": 6.75,
+        "unit": "% per year"
+      },
+      "interestRates_15yrFixed": {
+        "min": 5.5,
+        "max": 6,
+        "typical": 5.75,
+        "unit": "% per year"
+      },
+      "loanAmounts": {
+        "min": 100000,
+        "max": 800000,
+        "typical": 350000,
+        "unit": "USD"
+      },
+      "prepaymentPenalty": {
+        "min": 0,
+        "max": 2,
+        "typical": 0,
+        "unit": "% of outstanding balance"
+      },
+      "overpaymentLimitPerYear": {
+        "min": 0,
+        "max": 100,
+        "typical": 20,
+        "unit": "% of original loan balance"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Freddie Mac Primary Mortgage Market Survey (PMMS) – 30-year fixed rate 6.65%, 15-year fixed 5.89% as of March 2025",
+      "Bankrate national average - 30-year fixed 6.88%, 15-year fixed 5.90% as of March 2025 (used for rate ranges)",
+      "Federal Housing Finance Agency (FHFA) – average purchase loan amount $356,000 Q4 2024",
+      "National Association of Realtors (NAR) – typical first mortgage amount $300k-$350k (2024)",
+      "Consumer Financial Protection Bureau (CFPB) – prepayment penalties rare, capped at 2% of balance if present",
+      "Fannie Mae Selling Guide – no prepayment penalty on conventional loans; extra payments allowed without limit"
+    ],
+    "freshnessTTL_days": {
+      "interestRates": 90,
+      "loanAmounts": 365,
+      "prepaymentPenalty": 365,
+      "overpaymentLimit": 365
+    },
+    "collectedAt": "2025-04-01",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "interestRates_30yrFixed.typical",
+      "interestRates_15yrFixed.typical",
+      "loanAmounts.typical",
+      "prepaymentPenalty.typical",
+      "overpaymentLimitPerYear.typical"
+    ],
+    "confidenceNotes": "All numerical values are approximations derived from authoritative sources but exact dual-source cross‑validation was not performed. Ranges are realistic industry benchmarks; typical values are midpoints of published data. Prepayment penalty and overpayment limit data are based on common industry rules and regulatory guidance, not on a specific survey with two point‑matching sources."
+  }
+}

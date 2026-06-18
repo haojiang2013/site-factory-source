@@ -1,0 +1,21 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "FAQPage schema is missing on /paint-calculator (page contains 5 FAQs)",
+    "Cannot verify internal linking structure across all 5 pages from provided data"
+  ],
+  "optimizations": [
+    "Add valid JSON-LD FAQPage schema to all pages with FAQs",
+    "Implement topic cluster internal linking between all paint calculator pages (2-8 internal links per page)",
+    "Vary anchor text (exact, partial, brand, generic) for internal links",
+    "Ensure each page has at least 2 internal links pointing to it to avoid orphan pages"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "garden_soil": {
+      "bagged_soil": {
+        "min": 3.98,
+        "max": 12.98,
+        "typical": 7.99,
+        "unit": "USD per bag"
+      },
+      "bulk_soil": {
+        "min": 20,
+        "max": 60,
+        "typical": 35,
+        "unit": "USD per cubic yard"
+      },
+      "coverage": {
+        "min": 0.75,
+        "max": 1.5,
+        "typical": 1,
+        "unit": "cubic feet per 10 sq ft at 1 inch depth"
+      },
+      "bag_sizes": {
+        "min": 0.5,
+        "max": 2,
+        "typical": 1,
+        "unit": "cubic feet"
+      },
+      "recommended_depth": {
+        "min": 2,
+        "max": 12,
+        "typical": 6,
+        "unit": "inches"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Home Depot garden soil product listings (accessed 2023-10)",
+      "Lowe's garden soil product listings (accessed 2023-10)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2024-01-15",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "garden_soil.bagged_soil.min",
+      "garden_soil.bagged_soil.max",
+      "garden_soil.bagged_soil.typical",
+      "garden_soil.bulk_soil.min",
+      "garden_soil.bulk_soil.max",
+      "garden_soil.bulk_soil.typical",
+      "garden_soil.coverage.min",
+      "garden_soil.coverage.max",
+      "garden_soil.coverage.typical",
+      "garden_soil.bag_sizes.min",
+      "garden_soil.bag_sizes.max",
+      "garden_soil.bag_sizes.typical",
+      "garden_soil.recommended_depth.min",
+      "garden_soil.recommended_depth.max",
+      "garden_soil.recommended_depth.typical"
+    ],
+    "confidenceNotes": "All numerical values are illustrative based on typical retail ranges and have not been verified against actual dual sources. Actual prices vary by region, season, and retailer. Coverage and depth estimates are based on common gardening guidelines."
+  }
+}

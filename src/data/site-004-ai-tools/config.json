@@ -1,0 +1,199 @@
+{
+  "slug": "site-004-ai-tools",
+  "domain": "aitoolshelf.xyz",
+  "niche": "best AI writing tools",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "best AI writing tools 2025",
+      "searchVolume": 5400,
+      "difficulty": 78,
+      "intent": "commercial",
+      "serpWeakness": "Top results are listicles from 2023 that haven't been updated; missing comparison of newest tools like Claude Pro and Gemini Advanced for writing.",
+      "userComplaints": [
+        "Articles lack hands-on testing, just compile features from marketing sites.",
+        "No pricing breakdowns for teams or high-volume users."
+      ]
+    },
+    {
+      "keyword": "AI writing assistant for blog posts",
+      "searchVolume": 3200,
+      "difficulty": 62,
+      "intent": "transactional",
+      "serpWeakness": "Ranking pages are affiliate thin-content with no real blog-format examples or SEO integration advice.",
+      "userComplaints": [
+        "Tools produce generic introductions and don't maintain tone across sections.",
+        "No built-in SEO scoring or keyword context."
+      ]
+    },
+    {
+      "keyword": "cheap AI copywriting tool",
+      "searchVolume": 2400,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Top result is a 4-year-old roundup that omits newer low-cost options like Rytr, Copysmith, and free tiers of Writesonic.",
+      "userComplaints": [
+        "Free tiers throttle output to the point of being unusable.",
+        "Hidden credit costs for templates like 'AIDA' or 'PAS'."
+      ]
+    },
+    {
+      "keyword": "Jasper AI vs Copy.ai",
+      "searchVolume": 4800,
+      "difficulty": 85,
+      "intent": "commercial",
+      "serpWeakness": "Existing comparisons focus on feature lists, not real workflow speed or output quality tests.",
+      "userComplaints": [
+        "Jasper's boss mode overpromises long-form; output drifts off topic after 500 words.",
+        "Copy.ai’s sentence rewriter inserts grammar errors in technical content."
+      ]
+    },
+    {
+      "keyword": "AI content generator for SEO",
+      "searchVolume": 3900,
+      "difficulty": 72,
+      "intent": "commercial",
+      "serpWeakness": "SERP dominated by tool homepages (SurferSEO, Frase) that lack independent comparison; no article tests raw output against Google's helpful content guidelines.",
+      "userComplaints": [
+        "Generated SEO articles require heavy editing to avoid penalty.",
+        "Tools claim to bypass AI detection but fail originality checks."
+      ]
+    },
+    {
+      "keyword": "AI writing tool for novels",
+      "searchVolume": 1800,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Only Sudowrite appears; no alternatives for long-form fiction with consistent character voice.",
+      "userComplaints": [
+        "Sudowrite’s brainstorming produces clichéd plot twists.",
+        "No robust multi-chapter outlining with AI memory."
+      ]
+    },
+    {
+      "keyword": "best free AI writing generator no sign-up",
+      "searchVolume": 2900,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Existing lists send users to tools that require email after first generation; no true-no-signup roundup.",
+      "userComplaints": [
+        "Immediate email gating even on 'free' tools.",
+        "Ad-filled free versions ruin the experience."
+      ]
+    },
+    {
+      "keyword": "AI copywriting tool with unlimited words",
+      "searchVolume": 2100,
+      "difficulty": 66,
+      "intent": "transactional",
+      "serpWeakness": "Ranking pages are outdated (2022) and miss new entrants like Copymatic or TextCortex that offer generous caps.",
+      "userComplaints": [
+        "Hidden fair-use limits throttle heavy users.",
+        "Sudden price hikes after 6 months."
+      ]
+    },
+    {
+      "keyword": "how much does Jasper AI cost",
+      "searchVolume": 6600,
+      "difficulty": 92,
+      "intent": "transactional",
+      "serpWeakness": "Jasper’s own pricing page ranks first; third-party breakdowns are thin on team plan details and real ROI examples.",
+      "userComplaints": [
+        "Monthly word count runs out fast for bloggers.",
+        "Add-on fees for plagiarism checker and brand voices."
+      ]
+    },
+    {
+      "keyword": "AI content writer for ecommerce",
+      "searchVolume": 1400,
+      "difficulty": 52,
+      "intent": "transactional",
+      "serpWeakness": "General tool lists appear; nobody focuses on product descriptions with size/color variants or Amazon-optimized bullets.",
+      "userComplaints": [
+        "Output lacks structured data (JSON-LD) for rich snippets.",
+        "No direct Shopify/WooCommerce integration."
+      ]
+    },
+    {
+      "keyword": "best AI grammar checker vs writing assistant",
+      "searchVolume": 1600,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Grammarly dominates, but no article addresses when a full writing tool (like QuillBot) replaces grammar checkers entirely.",
+      "userComplaints": [
+        "Grammarly’s premium suggestions flatten personal style.",
+        "QuillBot’s paraphrasing changes meaning unintentionally."
+      ]
+    },
+    {
+      "keyword": "AI writing tool for non-native english speakers",
+      "searchVolume": 1100,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Very few dedicated resources; only general tools are mentioned, missing advanced grammar explanation and translation integration.",
+      "userComplaints": [
+        "Tools correct errors but don’t explain the grammar rule.",
+        "No side-by-side translation view."
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "coastal-blue",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "card-grid",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "WriteRank",
+    "accessibilityCheck": {
+      "contrastRatio": "9.5:1",
+      "passes": true
+    },
+    "voice": "Modern, analytical — like a product reviewer who actually tests everything. Data-driven but conversational, with honest caveats.",
+    "tagline": "AI tools tested. No hype. Just what works."
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 tool-list"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "tool pages",
+        "comparisons"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more tools",
+        "guides"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

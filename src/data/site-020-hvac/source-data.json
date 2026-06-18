@@ -1,0 +1,124 @@
+{
+  "data": {
+    "sizingRules": {
+      "coolingBTUPerSqFt": {
+        "min": 20,
+        "max": 30,
+        "typical": 25,
+        "unit": "BTU per sq ft"
+      },
+      "heatingBTUPerSqFt": {
+        "min": 30,
+        "max": 50,
+        "typical": 40,
+        "unit": "BTU per sq ft"
+      },
+      "sqFtPerTon": {
+        "min": 400,
+        "max": 600,
+        "typical": 500,
+        "unit": "sq ft per ton"
+      }
+    },
+    "costPerTon": {
+      "acUnitOnly": {
+        "min": 1500,
+        "max": 4000,
+        "typical": 2500,
+        "unit": "USD per ton"
+      },
+      "installedAC": {
+        "min": 3500,
+        "max": 7500,
+        "typical": 5000,
+        "unit": "USD per ton"
+      },
+      "installedHeatPump": {
+        "min": 4000,
+        "max": 8000,
+        "typical": 5500,
+        "unit": "USD per ton"
+      },
+      "gasFurnace": {
+        "min": 2500,
+        "max": 6000,
+        "typical": 4000,
+        "unit": "USD per unit (installed)"
+      }
+    },
+    "additionalCosts": {
+      "ductworkInstallation": {
+        "min": 1000,
+        "max": 6000,
+        "typical": 3000,
+        "unit": "USD"
+      },
+      "thermostatInstallation": {
+        "min": 150,
+        "max": 500,
+        "typical": 250,
+        "unit": "USD"
+      },
+      "laborPerHour": {
+        "min": 70,
+        "max": 150,
+        "typical": 100,
+        "unit": "USD per hour"
+      }
+    },
+    "efficiencyBenchmarks": {
+      "seerRating": {
+        "min": 14,
+        "max": 20,
+        "typical": 16,
+        "unit": "SEER"
+      },
+      "afueRating": {
+        "min": 80,
+        "max": 98,
+        "typical": 90,
+        "unit": "AFUE (%)"
+      },
+      "hspfRating": {
+        "min": 8.2,
+        "max": 13,
+        "typical": 10,
+        "unit": "HSPF"
+      }
+    },
+    "regulatoryMinimums": {
+      "seerMinimum": {
+        "value": 14,
+        "effectiveDate": "2023-01-01",
+        "unit": "SEER (DOE minimum for residential, south/southwest 15)"
+      },
+      "afueMinimum": {
+        "value": 80,
+        "effectiveDate": "2015-01-01",
+        "unit": "AFUE % (gas furnaces)"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "HomeAdvisor HVAC Installation Cost Guide (2025)",
+      "Fixr.com Cost to Install Central Air (2025)",
+      "Energy.gov - Central Air Conditioning Sizing",
+      "ACCA Manual J - Residential Load Calculation",
+      "DOE Energy Star - SEER Minimum Standards",
+      "DOE Appliance Standards - Furnace AFUE"
+    ],
+    "freshnessTTL_days": {
+      "pricing": 90,
+      "efficiencyBenchmarks": 365,
+      "regulatoryMinimums": 365
+    },
+    "collectedAt": "2025-04-10",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [
+      "heatingBTUPerSqFt (narrowly verified - rule of thumb varies widely by climate zone, typical 40 but sources give ranges 25-60; used lower bound from Energy.gov and HVAC.com)",
+      "hspfRating typical - not strongly agreed upon; used mid-range from DOE and Energy Star"
+    ],
+    "confidenceNotes": "All pricing and efficiency numbers are cross-referenced with at least two of the listed sources. Regional variations (climate, labor rates) can cause 20-30% deviations. Sizing rules are general guidelines; actual Manual J calculations should be performed. The unverified fields note that heating BTU/sq ft and HSPF typical values have less consensus but are within acceptable range for calculator defaults."
+  }
+}

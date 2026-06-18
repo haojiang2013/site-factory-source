@@ -1,0 +1,113 @@
+{
+  "slug": "site-006-concrete-calc",
+  "domain": "pourtrue.8zla.com",
+  "niche": "concrete calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "concrete calculator",
+      "searchVolume": 8000,
+      "difficulty": 45,
+      "intent": "transactional",
+      "userComplaints": [
+        "no metric option",
+        "no waste factor"
+      ]
+    },
+    {
+      "keyword": "how much concrete do i need",
+      "searchVolume": 12000,
+      "difficulty": 52,
+      "intent": "transactional",
+      "userComplaints": [
+        "only does slabs",
+        "units confusing"
+      ]
+    },
+    {
+      "keyword": "concrete slab calculator",
+      "searchVolume": 5000,
+      "difficulty": 40,
+      "intent": "transactional",
+      "userComplaints": [
+        "no rebar estimate",
+        "depth presets wrong"
+      ]
+    },
+    {
+      "keyword": "concrete cost estimator",
+      "searchVolume": 3500,
+      "difficulty": 48,
+      "intent": "commercial",
+      "userComplaints": [
+        "prices outdated",
+        "no delivery fee"
+      ]
+    },
+    {
+      "keyword": "cement calculator for fence posts",
+      "searchVolume": 2000,
+      "difficulty": 30,
+      "intent": "transactional",
+      "userComplaints": [
+        "wrong bag count",
+        "no hole diameter"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "industrial-blue",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "tool-left-content-right",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "filled"
+    },
+    "brandName": "MixWise",
+    "accessibilityCheck": {
+      "contrastRatio": "13.15:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "content"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

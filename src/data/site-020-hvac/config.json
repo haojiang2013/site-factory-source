@@ -1,0 +1,182 @@
+{
+  "slug": "site-020-hvac",
+  "domain": "hvacwise.8zla.com",
+  "niche": "HVAC sizing calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "Manual J load calculation online free",
+      "searchVolume": 3200,
+      "difficulty": 42,
+      "intent": "transactional",
+      "serpWeakness": "Top results either require an email sign‑up or are just landing pages for paid software trials; truly free, no‑strings tools are buried.",
+      "userComplaints": [
+        "Every 'free' Manual J tool I found forces me to enter my email before I can see the load calculation.",
+        "The free web‑based calculators are just rule‑of‑thumb disguised as Manual J."
+      ]
+    },
+    {
+      "keyword": "how many tons of AC do I need for 2000 sq ft",
+      "searchVolume": 4800,
+      "difficulty": 38,
+      "intent": "commercial",
+      "serpWeakness": "Page‑one results give oversimplified '500 sq ft per ton' advice, ignoring climate, insulation and window area; authoritative but nuanced answers are missing.",
+      "userComplaints": [
+        "Every article just tells me X tons per square foot without asking about my home's insulation or windows.",
+        "I can't find a calculator that actually walks me through Manual J steps for my exact house."
+      ]
+    },
+    {
+      "keyword": "best hvac sizing calculator for homeowners",
+      "searchVolume": 2100,
+      "difficulty": 28,
+      "intent": "commercial",
+      "serpWeakness": "High‑ranking pages are mostly round‑up lists from HVAC contractor sites, not independent tool comparisons; objective, user‑tested reviews are scarce.",
+      "userComplaints": [
+        "Most 'best' lists push their own paid services or refer me to pro software I can't use on my phone.",
+        "Nobody tells me which calculator works well on mobile and doesn't demand a contractor account."
+      ]
+    },
+    {
+      "keyword": "free hvac load calculator without email",
+      "searchVolume": 1800,
+      "difficulty": 24,
+      "intent": "transactional",
+      "serpWeakness": "Almost all results are lead‑gen tools that gate results behind email submission; a genuinely anonymous, instant‑result calculator would immediately distinguish itself.",
+      "userComplaints": [
+        "I just want a load estimate without handing over my email and getting spammed with quotes."
+      ]
+    },
+    {
+      "keyword": "what size heat pump for 2500 sq ft house",
+      "searchVolume": 2900,
+      "difficulty": 34,
+      "intent": "commercial",
+      "serpWeakness": "Answers rely on generic BTU charts; few incorporate heat pump‑specific variables like HSPF rating or cold‑climate performance, leaving an educated gap.",
+      "userComplaints": [
+        "Generic calculators don't ask if I have a heat pump or furnace, and the sizing rules are completely different."
+      ]
+    },
+    {
+      "keyword": "btu per square foot cooling calculator",
+      "searchVolume": 5400,
+      "difficulty": 52,
+      "intent": "informational",
+      "serpWeakness": "Top results are static tables, not interactive tools, and they rarely adjust for sun exposure or ceiling height.",
+      "userComplaints": [
+        "These tables are useless – my living room has a vaulted ceiling and south‑facing glass, and the simple BTU/sqft doesn't cut it."
+      ]
+    },
+    {
+      "keyword": "hvac sizing calculator for old homes",
+      "searchVolume": 920,
+      "difficulty": 15,
+      "intent": "commercial",
+      "serpWeakness": "Very little content specifically addresses loose‑fill insulation, leaky ducts, or single‑pane windows; a dedicated old‑home tool would have virtually no direct competition.",
+      "userComplaints": [
+        "My 1920s house has no wall insulation – how do I account for that in a sizing calculator? Nothing works."
+      ]
+    },
+    {
+      "keyword": "how much does manual j calculation cost",
+      "searchVolume": 1600,
+      "difficulty": 18,
+      "intent": "transactional",
+      "serpWeakness": "Only a handful of outdated articles quote vague prices; no clear, up‑to‑date cost breakdowns or free alternatives are easily found.",
+      "userComplaints": [
+        "I want to know if the $299 the contractor quoted for a Manual J is fair, but I can't find reliable pricing info online."
+      ]
+    },
+    {
+      "keyword": "free manual j software windows",
+      "searchVolume": 1400,
+      "difficulty": 33,
+      "intent": "transactional",
+      "serpWeakness": "Existing free software is poorly maintained (often last updated 2010s) and lacks Windows 10/11 compatibility; reviews aren't up‑to‑date.",
+      "userComplaints": [
+        "The only free Manual J software I found looks like it was built for Windows XP and crashes constantly."
+      ]
+    },
+    {
+      "keyword": "bedroom load calculation hvac",
+      "searchVolume": 660,
+      "difficulty": 8,
+      "intent": "informational",
+      "serpWeakness": "Room‑by‑room load calculation tools are almost nonexistent online; most treat the whole house as one block.",
+      "userComplaints": [
+        "I have a bonus room above the garage that's always too hot – how do I size a mini‑split just for that room?"
+      ]
+    },
+    {
+      "keyword": "best hvac sizing calculator app iphone",
+      "searchVolume": 1100,
+      "difficulty": 19,
+      "intent": "commercial",
+      "serpWeakness": "Only a couple of poorly rated apps exist on the App Store; none combine manual‑J methodology with a clean mobile UI.",
+      "userComplaints": [
+        "There's no decent HVAC sizing app for iPhone – they're either abandoned or full of ads."
+      ]
+    },
+    {
+      "keyword": "commercial hvac load calculation spreadsheet free",
+      "searchVolume": 1900,
+      "difficulty": 36,
+      "intent": "transactional",
+      "serpWeakness": "Most spreadsheet downloads come from shady file‑sharing sites; a trusted, openly hosted version with instructions is missing.",
+      "userComplaints": [
+        "I downloaded a 'free commercial load calculation spreadsheet' and my antivirus flagged it. There's nothing safe out there."
+      ]
+    },
+    {
+      "keyword": "how to calculate hvac size using manual j",
+      "searchVolume": 3800,
+      "difficulty": 44,
+      "intent": "informational",
+      "serpWeakness": "Guides are either overly academic (directly from ASHRAE) or too superficial; a practical, step‑by‑step walkthrough for DIYers is rare.",
+      "userComplaints": [
+        "Every tutorial assumes I'm an engineer. I just want a plain‑English walkthrough of Manual J so I can double‑check a contractor's work."
+      ]
+    },
+    {
+      "keyword": "hvac sizing calculator with ductwork",
+      "searchVolume": 2400,
+      "difficulty": 40,
+      "intent": "commercial",
+      "serpWeakness": "Tools that calculate both equipment size and duct sizing simultaneously are almost non‑existent outside expensive pro suites.",
+      "userComplaints": [
+        "Why can't I find one calculator that does the whole house load AND tells me the duct size for each room?"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "industrial-blue",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "tool-left-content-right",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "ThermoWise",
+    "accessibilityCheck": {
+      "contrastRatio": "7.2:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    }
+  ]
+}

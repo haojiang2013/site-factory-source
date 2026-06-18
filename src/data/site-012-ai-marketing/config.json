@@ -1,0 +1,207 @@
+{
+  "slug": "site-012-ai-marketing",
+  "domain": "markettooltrove.8zla.com",
+  "niche": "AI marketing tools comparison",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "best AI marketing tools",
+      "searchVolume": 4800,
+      "difficulty": 82,
+      "intent": "commercial",
+      "serpWeakness": "Top pages are generic listicles (e.g., HubSpot, Zapier) from 2022–2023, lacking interactive comparisons or real output examples; mobile UX is poor on many ranking sites.",
+      "userComplaints": [
+        "Most 'best of' lists only promote tools with high affiliate payouts, not actual usefulness.",
+        "They never show actual side-by-side output examples for the same prompt."
+      ]
+    },
+    {
+      "keyword": "AI marketing tools comparison",
+      "searchVolume": 2100,
+      "difficulty": 75,
+      "intent": "commercial",
+      "serpWeakness": "G2 and Capterra dominate but require free account; few independent, data-driven comparison tables exist. No site offers a dynamic filtering by use case (e.g., ecommerce vs B2B).",
+      "userComplaints": [
+        "Comparison sites all look the same—just feature lists copied from vendor pages, no real user testing.",
+        "G2 requires login to see full reviews, PITA."
+      ]
+    },
+    {
+      "keyword": "Jasper vs Copy.ai",
+      "searchVolume": 1900,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Top-ranking posts are from 2022 and often written by single reviewers; no one shows a head-to-head output quality test with same briefs across multiple industries.",
+      "userComplaints": [
+        "Jasper’s long-form assistant repeats itself after ~800 words.",
+        "Copy.ai’s brand voice feature is inconsistent—output sounds robotic if you don’t tweak it constantly."
+      ]
+    },
+    {
+      "keyword": "Writesonic alternatives",
+      "searchVolume": 1300,
+      "difficulty": 63,
+      "intent": "commercial",
+      "serpWeakness": "Many results are sponsored or affiliate-heavy; deep comparison tables missing features like API access, customer support quality, or cancellation ease. Old screenshots abound.",
+      "userComplaints": [
+        "Writesonic’s pricing page is misleading—annual discounts lock you in but cancel any time? It’s a lie, they make it impossible."
+      ]
+    },
+    {
+      "keyword": "AI content generator for small business",
+      "searchVolume": 1200,
+      "difficulty": 52,
+      "intent": "commercial",
+      "serpWeakness": "Most ranking blog posts are from 2022, ignoring newer tools like Claude-generated content or ChatGPT-based platforms. No focus on budget constraints and per‑word cost calculators.",
+      "userComplaints": [
+        "I only need 3 blog posts a month, but every tool wants $49+/month. Feels like a scam for small businesses."
+      ]
+    },
+    {
+      "keyword": "AI marketing software reviews",
+      "searchVolume": 1600,
+      "difficulty": 79,
+      "intent": "commercial",
+      "serpWeakness": "G2/Capterra rank but have paywalls for deep insights; no aggregator that combines review sentiment analysis with feature‑specific ratings (e.g., 'SEO-optimized content' sub-rating).",
+      "userComplaints": [
+        "Review sites don’t verify if reviewers actually used the tool beyond the free trial.",
+        "Can’t filter reviews by ‘small agency’ use case."
+      ]
+    },
+    {
+      "keyword": "free AI marketing tools",
+      "searchVolume": 2900,
+      "difficulty": 85,
+      "intent": "transactional",
+      "serpWeakness": "SERP dominated by big publishers (Forbes, Shopify) with outdated or overly promotional lists; no interactive tool that lets you filter by 'truly free with no credit card'.",
+      "userComplaints": [
+        "Every 'free' list is full of tools that demand a credit card after 7 days – it’s clickbait."
+      ]
+    },
+    {
+      "keyword": "best AI copywriting tool for SEO",
+      "searchVolume": 1400,
+      "difficulty": 71,
+      "intent": "commercial",
+      "serpWeakness": "Top articles lack actual SERP comparison tests; no side‑by‑side ranking data before/after using the tool. Outdated mentions of tools like Jarvis (rebranded).",
+      "userComplaints": [
+        "None of these 'SEO AI' tools actually research keywords like SurferSEO claims; the suggestions are generic and off‑topic."
+      ]
+    },
+    {
+      "keyword": "AI marketing tools pricing comparison",
+      "searchVolume": 1100,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Few pages offer interactive pricing calculators based on usage; most are static tables that are often 6+ months out of date. No true cost‑per‑credits analysis.",
+      "userComplaints": [
+        "Pricing pages hide overage fees until you hit the limit, then boom $200 charge."
+      ]
+    },
+    {
+      "keyword": "is Jasper worth it",
+      "searchVolume": 1800,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "Reddit discussions rank high but are ephemeral; a permanent, data‑backed page with real user ROI examples (e.g., time saved, traffic lift) is missing.",
+      "userComplaints": [
+        "Paid $600 for yearly Boss Mode, got 2 blog posts that needed complete rewrite. Huge regret."
+      ]
+    },
+    {
+      "keyword": "Copy.ai vs Writesonic vs Rytr",
+      "searchVolume": 900,
+      "difficulty": 58,
+      "intent": "commercial",
+      "serpWeakness": "Low‑quality spun content on small affiliate sites; no high‑authority hands‑on testing with identical prompts and strict quality metrics.",
+      "userComplaints": [
+        "Rytr is cheap but outputs weird word choices like a thesaurus exploded."
+      ]
+    },
+    {
+      "keyword": "AI marketing tool with best ROI",
+      "searchVolume": 740,
+      "difficulty": 44,
+      "intent": "commercial",
+      "serpWeakness": "SERP almost entirely Quora/Reddit; no site quantifies ROI per industry (e.g., ecommerce vs. agency) with real‑world benchmarks.",
+      "userComplaints": [
+        "I can’t justify $80/month when I’m editing 70% of the AI output. Where’s the ROI in that?"
+      ]
+    },
+    {
+      "keyword": "how much do AI marketing tools cost",
+      "searchVolume": 820,
+      "difficulty": 46,
+      "intent": "transactional",
+      "serpWeakness": "Blog posts from 2023 with vague price ranges; no interactive pricing slider comparing plans across 10+ tools on one page.",
+      "userComplaints": [
+        "Why does every tool start with a ‘team’ plan when I’m a solo marketer? No solo tier exists."
+      ]
+    },
+    {
+      "keyword": "AI marketing automation platform comparison",
+      "searchVolume": 620,
+      "difficulty": 38,
+      "intent": "commercial",
+      "serpWeakness": "Niche, but existing articles treat AI automation too broadly; no head‑to‑head flowchart showing if‑this‑then‑that capabilities for marketing workflows.",
+      "userComplaints": [
+        "Zapier integration is promised but often broken—no one tests this in comparisons."
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "industrial-blue",
+    "fontPair": "ibm-plex+ibm-sans",
+    "layout": "card-grid",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "MetricCraft",
+    "accessibilityCheck": {
+      "contrastRatio": "7.1:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "content"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

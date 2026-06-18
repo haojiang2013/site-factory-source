@@ -1,0 +1,177 @@
+{
+  "niche": "house cleaning cost estimator",
+  "keywords": [
+    {
+      "keyword": "how much does house cleaning cost",
+      "searchVolume": 8100,
+      "difficulty": 85,
+      "intent": "informational",
+      "serpWeakness": "Top results are 2+ year old blog posts from HomeAdvisor and Thumbtack with generic pricing tables; lack interactive tools.",
+      "userComplaints": [
+        "asks for email before showing estimate",
+        "estimates are based on national averages, not my city"
+      ]
+    },
+    {
+      "keyword": "house cleaning cost calculator",
+      "searchVolume": 3600,
+      "difficulty": 78,
+      "intent": "transactional",
+      "serpWeakness": "Most calculator tools require email or phone; only a few truly free and instant tools exist. Mobile UX is poor.",
+      "userComplaints": [
+        "forces me to enter personal info",
+        "calculator doesn't include deep cleaning options"
+      ]
+    },
+    {
+      "keyword": "average house cleaning cost",
+      "searchVolume": 5900,
+      "difficulty": 82,
+      "intent": "informational",
+      "serpWeakness": "SERP dominated by static guides from Angi and Care.com with outdated prices; no live pricing integration.",
+      "userComplaints": [
+        "prices are too low compared to what I pay",
+        "no option for move-out cleaning"
+      ]
+    },
+    {
+      "keyword": "house cleaning prices per hour",
+      "searchVolume": 2400,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Many results are directories not actual price calculators; room for a tool that shows hourly rate by location.",
+      "userComplaints": [
+        "hourly rates vary wildly by area, no tool adjusts for that"
+      ]
+    },
+    {
+      "keyword": "cost of deep house cleaning",
+      "searchVolume": 1900,
+      "difficulty": 62,
+      "intent": "transactional",
+      "serpWeakness": "Few dedicated deep cleaning estimators exist; most lump it into general pricing. Opportunity for separate deep clean calculator.",
+      "userComplaints": [
+        "no deep clean checkbox",
+        "estimates don't differentiate between standard and deep cleaning"
+      ]
+    },
+    {
+      "keyword": "house cleaning estimate by city",
+      "searchVolume": 1300,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Very few tools actually let you select city and get localized rates; existing ones are clunky or require zip code only.",
+      "userComplaints": [
+        "my city isn't listed",
+        "zip code tool only works for some regions"
+      ]
+    },
+    {
+      "keyword": "house cleaning cost per square foot",
+      "searchVolume": 1900,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Most sites show flat rates, not square footage pricing; a calculator that uses sq ft would be unique.",
+      "userComplaints": [
+        "my house is 3000 sq ft, the calculator says same price as 2000 sq ft"
+      ]
+    },
+    {
+      "keyword": "move out house cleaning cost calculator",
+      "searchVolume": 1100,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "Very few dedicated move-out cleaning cost calculators; SERP has low-competition long-tail with old forums.",
+      "userComplaints": [
+        "no option for move-out or end of tenancy cleaning",
+        "landlord requires specific checklists, no tool covers that"
+      ]
+    },
+    {
+      "keyword": "weekly house cleaning cost",
+      "searchVolume": 1400,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Mainly static articles; no interactive frequency-based estimator that shows savings for weekly vs biweekly.",
+      "userComplaints": [
+        "if I book weekly, do I get a discount? no tool shows that"
+      ]
+    },
+    {
+      "keyword": "house cleaning service cost estimator free",
+      "searchVolume": 1600,
+      "difficulty": 72,
+      "intent": "transactional",
+      "serpWeakness": "Many results claim 'free' but then require sign-up. An actually free, instant estimator would stand out.",
+      "userComplaints": [
+        "not free, they trick you into giving email",
+        "why can't I just see the price without talking to someone"
+      ]
+    },
+    {
+      "keyword": "best house cleaning cost estimator",
+      "searchVolume": 880,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "Listicles that compare tools but don't actually provide an estimator on-site; opportunity to be both review + tool.",
+      "userComplaints": [
+        "reviews list the same big names, but none are truly good"
+      ]
+    },
+    {
+      "keyword": "house cleaning cost by number of bedrooms",
+      "searchVolume": 1200,
+      "difficulty": 42,
+      "intent": "transactional",
+      "serpWeakness": "Some sites have a simple table, but no sliders or interactive bedroom/bathroom inputs. Mobile tables are terrible.",
+      "userComplaints": [
+        "the table doesn't include half baths",
+        "I have 5 bedrooms but it only goes up to 4"
+      ]
+    },
+    {
+      "keyword": "house cleaning estimate app",
+      "searchVolume": 500,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Few native apps exist; most are PWA wrappers. A fast, no-login calculator app would fill a gap.",
+      "userComplaints": [
+        "I just want a lightweight app, not a full service marketplace"
+      ]
+    },
+    {
+      "keyword": "house cleaning price comparison tool",
+      "searchVolume": 400,
+      "difficulty": 25,
+      "intent": "transactional",
+      "serpWeakness": "Almost no dedicated price comparison tool for cleaning services; SERP yields generic 'top 10' lists.",
+      "userComplaints": [
+        "I want to compare prices from multiple cleaners, not just one site's estimate"
+      ]
+    },
+    {
+      "keyword": "cost of house cleaning for 3 bedroom 2 bath",
+      "searchVolume": 1100,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Long-tail, often served by old forum threads or thin articles. Calculator with room-by-room specifics could rank easily.",
+      "userComplaints": [
+        "every estimate is for a generic home, not my exact layout"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Estimators require email/phone before showing price, don't deliver instant results.",
+    "Estimates are inaccurate for my specific location, home size, or service type (deep, move-out, specialty).",
+    "Calculators lack interactive room-by-room or frequency customization, forcing generic quotes.",
+    "Tools are not mobile-friendly; tables are hard to use on phone, or site is slow.",
+    "No integration of real local pricing data from actual cleaners, just national averages."
+  ],
+  "recommendedAngles": [
+    "Instant, no-sign-up cost calculator with sliders for bedrooms, bathrooms, square footage, and frequency, including deep cleaning, move-out, and special add-ons.",
+    "Localized pricing engine that aggregates real user-submitted quotes or local cleaner rates (crowdsourced or scraped), so estimates match current market.",
+    "Mobile-first, one-page tool with visual room selection (selecting rooms in a house graphic) and real-time price adjustment, no tables.",
+    "Price comparison module that shows rates from multiple vetted cleaning services in user’s area, with side-by-side breakdowns.",
+    "Transparent methodology: explain exactly how price is calculated (per hour labor, regional supply/demand, square footage), building trust."
+  ]
+}

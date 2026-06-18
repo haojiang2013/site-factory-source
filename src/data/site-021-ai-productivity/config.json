@@ -1,0 +1,171 @@
+{
+  "slug": "site-021-ai-productivity",
+  "domain": "prodtooltrove.8zla.com",
+  "niche": "AI productivity tools",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "best AI personal assistant app",
+      "searchVolume": 2400,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "Top results are listicles from 2022 with outdated recommendations, no interactive comparison or real-time pricing.",
+      "userComplaints": [
+        "Always triggers false reminders",
+        "No offline mode for basic tasks"
+      ]
+    },
+    {
+      "keyword": "AI meeting note taker that integrates with Zoom",
+      "searchVolume": 1400,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Many ranking pages are blog posts not dedicated tools; actual product landing pages lack integration filters.",
+      "userComplaints": [
+        "Transcription mistakes with accents",
+        "Generates 10-page summaries for a 30-minute call"
+      ]
+    },
+    {
+      "keyword": "AI to-do list that learns priorities",
+      "searchVolume": 980,
+      "difficulty": 28,
+      "intent": "commercial",
+      "serpWeakness": "Dominated by outdated Android apps and generic listicles; no tool offers real habit learning yet.",
+      "userComplaints": [
+        "Just reschedules overdue tasks to tomorrow forever",
+        "No natural language parsing for deadlines"
+      ]
+    },
+    {
+      "keyword": "free AI writing tool for business emails",
+      "searchVolume": 3300,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Top results are freemium tools that severely limit daily generations; no side-by-side free tier comparisons.",
+      "userComplaints": [
+        "Sign-up wall before you can even test",
+        "Makes emails sound too robotic or too casual"
+      ]
+    },
+    {
+      "keyword": "AI planner for ADHD adults",
+      "searchVolume": 1600,
+      "difficulty": 20,
+      "intent": "transactional",
+      "serpWeakness": "Very few dedicated tools; SERP filled with generic ADHD articles, creating a clear product gap.",
+      "userComplaints": [
+        "Sends too many notifications and becomes overwhelming",
+        "No integration with common task apps like Todoist"
+      ]
+    },
+    {
+      "keyword": "AI resume builder with ATS score",
+      "searchVolume": 2900,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Top pages are traditional resume builders that added a superficial AI label; no true ATS-optimization AI.",
+      "userComplaints": [
+        "Suggested skills I don't actually have",
+        "ATS score disappeared after the first use"
+      ]
+    },
+    {
+      "keyword": "AI email filter that unsubscribes automatically",
+      "searchVolume": 2100,
+      "difficulty": 38,
+      "intent": "commercial",
+      "serpWeakness": "Lists of apps but no in-depth privacy/accuracy comparisons; many tools require full inbox access, scaring users.",
+      "userComplaints": [
+        "Unsubscribed from newsletters I actually wanted",
+        "Stopped working after a week unless I paid"
+      ]
+    },
+    {
+      "keyword": "AI daily schedule optimizer for remote workers",
+      "searchVolume": 1200,
+      "difficulty": 22,
+      "intent": "commercial",
+      "serpWeakness": "Most results are time-blocking blogs, not actual AI tools; no tool considers energy levels or focus time.",
+      "userComplaints": [
+        "Puts deep work calls right after lunch",
+        "Can't handle recurring personal commitments"
+      ]
+    },
+    {
+      "keyword": "best AI proofreading tool for long documents",
+      "searchVolume": 1800,
+      "difficulty": 44,
+      "intent": "commercial",
+      "serpWeakness": "Outdated comparison tables from 2021; Grammarly dominates but is inaccurate for technical content.",
+      "userComplaints": [
+        "Ruins formatting in academic papers",
+        "Can't handle bilingual documents"
+      ]
+    },
+    {
+      "keyword": "AI expense tracker with receipt scanning",
+      "searchVolume": 2600,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Top apps rely on manual categorization; real AI auto-categorization is rare and not highlighted in SERP.",
+      "userComplaints": [
+        "Misreads foreign currency receipts",
+        "Receipt scan uses credits that run out quickly"
+      ]
+    },
+    {
+      "keyword": "AI project management tool for small teams",
+      "searchVolume": 1900,
+      "difficulty": 52,
+      "intent": "commercial",
+      "serpWeakness": "Established tools like Asana/ClickUp dominate but are overkill; lightweight AI-first alternatives are missing from page one.",
+      "userComplaints": [
+        "AI feature is just a gimmicky chatbot",
+        "Requires too much setup before it becomes useful"
+      ]
+    },
+    {
+      "keyword": "voice-controlled AI task manager",
+      "searchVolume": 950,
+      "difficulty": 15,
+      "intent": "transactional",
+      "serpWeakness": "Almost no dedicated voice-first AI task tool; SERP shows general voice assistant articles, not products.",
+      "userComplaints": [
+        "Can't handle multiple tasks in one sentence",
+        "Confuses similar-sounding task names"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "slate-green",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "MindForge",
+    "accessibilityCheck": {
+      "contrastRatio": "8.7:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 comparison"
+      ]
+    }
+  ]
+}

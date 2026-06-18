@@ -1,0 +1,21 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Meta description on /elden-ring-build-calculator is under 140 characters (128 chars).",
+    "FAQ page (/elden-ring-build-calculator) has 6 FAQs but no FAQPage structured data detected."
+  ],
+  "optimizations": [
+    "Expand meta descriptions to 140–160 characters across all pages.",
+    "Implement FAQPage JSON-LD schema on pages with FAQ sections.",
+    "Conduct internal linking audit to ensure each page has 2–8 internal links with varied anchor text.",
+    "Verify canonical URLs and sitemap inclusion for all pages."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

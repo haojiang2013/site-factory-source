@@ -1,0 +1,222 @@
+{
+  "slug": "site-003-paint-calc",
+  "domain": "paintwise.xyz",
+  "niche": "paint coverage calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "paint calculator",
+      "searchVolume": 33100,
+      "difficulty": 90,
+      "intent": "transactional",
+      "serpWeakness": "Dominated by big paint brands (Sherwin-Williams, Behr, Benjamin Moore) with calculators buried in store-locator UX, heavy scripts, and forced mobile redirects. Older independent sites lack modern UI and accessibility.",
+      "userComplaints": [
+        "Forces location/store selection before showing estimate",
+        "Slow loading because of heavy trackers and ad scripts"
+      ]
+    },
+    {
+      "keyword": "how much paint do i need",
+      "searchVolume": 27100,
+      "difficulty": 85,
+      "intent": "transactional",
+      "serpWeakness": "Most top results are blog posts with generic formulas, not interactive tools. The few calculators require step-by-step forms and no visual feedback.",
+      "userComplaints": [
+        "Results are vague (e.g., '2-3 gallons') without precision",
+        "No option to account for multiple coats or texture"
+      ]
+    },
+    {
+      "keyword": "paint coverage calculator",
+      "searchVolume": 8100,
+      "difficulty": 68,
+      "intent": "transactional",
+      "serpWeakness": "Top pages from calculators.net or omnicalculator are ad-heavy, slow on mobile, and don't support irregular rooms. No PWA or offline capability.",
+      "userComplaints": [
+        "Can't draw or input L-shaped rooms",
+        "Doesn't adjust for porous surfaces like fresh drywall"
+      ]
+    },
+    {
+      "keyword": "paint needed calculator",
+      "searchVolume": 4400,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "Most tools are from small blogs with dated UI and no metric unit toggle. Several are thin content with a single input field.",
+      "userComplaints": [
+        "Only works in square feet, no metric option",
+        "Does not subtract windows and doors automatically"
+      ]
+    },
+    {
+      "keyword": "interior paint calculator",
+      "searchVolume": 5400,
+      "difficulty": 72,
+      "intent": "transactional",
+      "serpWeakness": "Retailer calculators (Lowes, Home Depot) push product recommendations aggressively. Niche sites lack responsive design and are often unmaintained since 2019.",
+      "userComplaints": [
+        "Pushes specific paint brands even when not relevant",
+        "Asks for email to see the estimate"
+      ]
+    },
+    {
+      "keyword": "paint estimator",
+      "searchVolume": 6600,
+      "difficulty": 78,
+      "intent": "transactional",
+      "serpWeakness": "Many results are lead-gen pages for painting services, not self‑serve calculators. The remaining are generic affiliate sites with outdated JavaScript.",
+      "userComplaints": [
+        "Calculator is actually a quote request form",
+        "Estimates don't include ceiling or trim paint"
+      ]
+    },
+    {
+      "keyword": "paint square footage calculator",
+      "searchVolume": 8100,
+      "difficulty": 63,
+      "intent": "transactional",
+      "serpWeakness": "Simple tools that only multiply width × height, ignoring multiple walls. Some are Flash-based or have no mobile touch support.",
+      "userComplaints": [
+        "Can't input separate wall dimensions, only total area",
+        "No reset button, must reload page to start over"
+      ]
+    },
+    {
+      "keyword": "paint coverage per gallon",
+      "searchVolume": 2900,
+      "difficulty": 45,
+      "intent": "informational",
+      "serpWeakness": "SERP filled with manufacturer claims (350-400 sq ft) but no interactive tool to apply that to a real room. Opportunity to combine data with a calculator.",
+      "userComplaints": [
+        "Confusing because coverage varies by paint type, no explanation",
+        "Doesn't connect coverage to actual room dimensions"
+      ]
+    },
+    {
+      "keyword": "paint cost calculator",
+      "searchVolume": 9900,
+      "difficulty": 74,
+      "intent": "commercial",
+      "serpWeakness": "Home Depot and Lowe’s dominate with product‑heavy calculators that require brand selection. Independent sites lack pricing data and show ads that mislead.",
+      "userComplaints": [
+        "Estimates only for their own paint brands",
+        "Doesn't include primer, tape, rollers etc."
+      ]
+    },
+    {
+      "keyword": "best paint coverage calculator",
+      "searchVolume": 1900,
+      "difficulty": 48,
+      "intent": "commercial",
+      "serpWeakness": "Comparison articles list the same big‑brand calculators without real testing. No page offers a single superior tool for power users.",
+      "userComplaints": [
+        "Review sites just embed the same iframes, no original tool",
+        "No consideration for user experience or privacy"
+      ]
+    },
+    {
+      "keyword": "paint calculator for rooms",
+      "searchVolume": 3600,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Most tools assume rectangular rooms, fail with closets, vaulted ceilings, or arches. Mobile versions often break layout.",
+      "userComplaints": [
+        "Can't handle sloped ceilings or alcoves",
+        "No way to save the calculation for later"
+      ]
+    },
+    {
+      "keyword": "paint calculator gallons",
+      "searchVolume": 4400,
+      "difficulty": 58,
+      "intent": "transactional",
+      "serpWeakness": "Sites like PaintCare and calculator.net have outdated SSL certificates or excessive pop‑ups. None offer a printable summary.",
+      "userComplaints": [
+        "Requires too many steps to get a simple gallon count",
+        "Print layout breaks and wastes paper"
+      ]
+    },
+    {
+      "keyword": "paint quantity calculator",
+      "searchVolume": 2400,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Small WordPress sites with abandoned plugins. Often not secure (no HTTPS) or error‑prone with JavaScript.",
+      "userComplaints": [
+        "Gives significantly low estimates, not enough paint",
+        "No guidance on primer or number of coats included"
+      ]
+    },
+    {
+      "keyword": "paint coverage calculator square meters",
+      "searchVolume": 1300,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Almost no US-focused tool offers metric by default; metric users forced to convert, causing friction. Top results are EU sites with different can sizes.",
+      "userComplaints": [
+        "Must convert meters to feet first, defeats purpose",
+        "Assumes gallon sizes that don't match local purchase"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "coastal-blue",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "tool-left-content-right",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "CoverWise",
+    "accessibilityCheck": {
+      "contrastRatio": "8.5:1",
+      "passes": true
+    },
+    "voice": "Creative, inspiring — like a professional painter sharing hard-won tips. Visual, concrete, excited about color.",
+    "tagline": "Know how much paint you need before you open a single can."
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home+calculator",
+        "about",
+        "contact",
+        "privacy",
+        "1 how-to"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "how-tos",
+        "faqs",
+        "color guides"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more guides",
+        "comparisons"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

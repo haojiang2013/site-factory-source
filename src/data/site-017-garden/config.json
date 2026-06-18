@@ -1,0 +1,219 @@
+{
+  "slug": "site-017-garden",
+  "domain": "soilwise.8zla.com",
+  "niche": "garden soil calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "garden soil calculator",
+      "searchVolume": 480,
+      "difficulty": 68,
+      "intent": "informational",
+      "serpWeakness": "Top results are basic calculators from gardening blogs or Home Depot/Gardener's Supply, lacking compaction factors, no price estimates, and poor mobile UX.",
+      "userComplaints": [
+        "estimates are too low because they ignore soil settling and compaction",
+        "only works for rectangular beds, not curves or circles",
+        "no option to compare bulk vs bagged delivery costs"
+      ]
+    },
+    {
+      "keyword": "soil volume calculator for raised bed",
+      "searchVolume": 320,
+      "difficulty": 45,
+      "intent": "commercial",
+      "serpWeakness": "Most tools don't let you specify bed height in inches and then convert to cubic yards; old websites with lots of ads.",
+      "userComplaints": [
+        "inputs reset if I change from feet to inches",
+        "doesn't tell me how many bags of soil to buy",
+        "ad-heavy pages crash on mobile"
+      ]
+    },
+    {
+      "keyword": "how much dirt do I need",
+      "searchVolume": 590,
+      "difficulty": 52,
+      "intent": "commercial",
+      "serpWeakness": "Top results are static articles, not interactive calculators; weak on step-by-step guidance for irregular shapes.",
+      "userComplaints": [
+        "I have to download a separate app or fill a long form to get a number",
+        "results are in cubic yards but I need bag counts too",
+        "does not consider different soil types like topsoil vs garden blend"
+      ]
+    },
+    {
+      "keyword": "topsoil calculator yards",
+      "searchVolume": 390,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Existing calculators are buried on landscaping company sites, often not mobile optimized and require ZIP code before showing results.",
+      "userComplaints": [
+        "asks for my email to email me the ‘free’ estimate",
+        "can’t calculate for multiple areas at once",
+        "interface is from 2010 and doesn't load on phone"
+      ]
+    },
+    {
+      "keyword": "bulk soil cost calculator",
+      "searchVolume": 210,
+      "difficulty": 38,
+      "intent": "transactional",
+      "serpWeakness": "Few dedicated tools; most are just contact forms for landscaping companies, not instant calculators.",
+      "userComplaints": [
+        "doesn't include delivery fees",
+        "no comparison with bagged soil from big box stores",
+        "prices are outdated or hidden behind a quote request"
+      ]
+    },
+    {
+      "keyword": "garden soil amendment calculator",
+      "searchVolume": 140,
+      "difficulty": 28,
+      "intent": "commercial",
+      "serpWeakness": "No modern tool that combines volume with amendment ratios (compost, perlite, peat); old agriculture extension pages dominate.",
+      "userComplaints": [
+        "only calculates total volume, not how much of each amendment I need",
+        "doesn't ask what I'm planting so the mix ratio may be wrong",
+        "unit conversions are broken on mobile"
+      ]
+    },
+    {
+      "keyword": "raised bed soil mix calculator",
+      "searchVolume": 260,
+      "difficulty": 33,
+      "intent": "commercial",
+      "serpWeakness": "Existing tools are either simple volume calculators or recipe blogs; no interactive mix designer with real-time bag counts.",
+      "userComplaints": [
+        "want a calculator that spits out a shopping list",
+        "mixes are given in parts but I need actual cubic feet per amendment",
+        "none of them handle multiple beds at once"
+      ]
+    },
+    {
+      "keyword": "cubic yards calculator for garden",
+      "searchVolume": 480,
+      "difficulty": 60,
+      "intent": "informational",
+      "serpWeakness": "Generic construction calculators rank, not garden-specific; they don't factor in soil types or compaction.",
+      "userComplaints": [
+        "assumes my garden is a perfect rectangle, no curves",
+        "no option to add 10% overage for settling",
+        "doesn't explain why cubic yards matter for gardening"
+      ]
+    },
+    {
+      "keyword": "potting soil calculator",
+      "searchVolume": 390,
+      "difficulty": 47,
+      "intent": "commercial",
+      "serpWeakness": "Many tools only do rectangular containers; round pots require manual math, and no bag count for different sizes.",
+      "userComplaints": [
+        "round pots are a pain to calculate",
+        "I need to know how many 1.5 cu ft bags for my 10-inch pot collection",
+        "calculator doesn't remember my pot dimensions when I switch shapes"
+      ]
+    },
+    {
+      "keyword": "landscape soil estimator",
+      "searchVolume": 320,
+      "difficulty": 44,
+      "intent": "commercial",
+      "serpWeakness": "Often tied to local delivery services, not usable as a standalone estimator; weak on visual aids.",
+      "userComplaints": [
+        "forces me to pick a delivery date before showing the volume",
+        "no visual diagram of the area I'm filling",
+        "can't handle irregular shapes without doing math myself"
+      ]
+    },
+    {
+      "keyword": "how many bags of soil do I need",
+      "searchVolume": 480,
+      "difficulty": 40,
+      "intent": "transactional",
+      "serpWeakness": "Static tables dominate SERPs; no interactive calculator that adjusts for bag size and compaction.",
+      "userComplaints": [
+        "bags come in different sizes but tables only show one brand",
+        "doesn't account for fluffing or settling of soil",
+        "have to calculate total cubic feet separately then convert"
+      ]
+    },
+    {
+      "keyword": "mulch and soil calculator",
+      "searchVolume": 290,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Combined calculators are rare; users need to switch between separate tools or sites.",
+      "userComplaints": [
+        "I need mulch depth in one and soil volume in another, should be unified",
+        "mulch calculators often use 3-inch depth but I use 4",
+        "no side-by-side cost comparison between mulch and soil"
+      ]
+    },
+    {
+      "keyword": "vegetable garden soil calculator",
+      "searchVolume": 170,
+      "difficulty": 24,
+      "intent": "commercial",
+      "serpWeakness": "Very niche; SERP is thin, mostly blog posts with simple formulas. No tool optimizes for vegetable root depth.",
+      "userComplaints": [
+        "doesn't adjust depth for root vegetables vs leafy greens",
+        "no companion planting spacing impact on soil volume",
+        "missing a printable guide for amendments per planting zone"
+      ]
+    },
+    {
+      "keyword": "soil delivery cost estimator",
+      "searchVolume": 140,
+      "difficulty": 27,
+      "intent": "transactional",
+      "serpWeakness": "Very weak competition; most are old contact form pages, no instant live pricing integration.",
+      "userComplaints": [
+        "have to call and get spam calls later",
+        "won't show delivery fee until checkout",
+        "no way to compare multiple local suppliers in one place"
+      ]
+    },
+    {
+      "keyword": "compost calculator for garden",
+      "searchVolume": 210,
+      "difficulty": 33,
+      "intent": "commercial",
+      "serpWeakness": "Pages are either about composting bin size or general soil volume; no calculator that tells how much compost to mix into existing soil.",
+      "userComplaints": [
+        "I need to know how many bags of compost to amend my 200 sq ft garden",
+        "existing tools don’t let me set my existing soil quality level",
+        "results don't include a recommended ratio for different soil types"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "pine-white",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "tool-top-content-bottom",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "EarthWise",
+    "accessibilityCheck": {
+      "contrastRatio": "10.3:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    }
+  ]
+}

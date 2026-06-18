@@ -1,0 +1,27 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All page URLs are '/undefined' (missing descriptive, keyword-rich slugs)",
+    "Sample page meta description is 172 characters, exceeding the 160-character limit",
+    "No internal linking data provided; pages may be orphans with no internal links",
+    "Missing canonical URLs on all pages (potential duplicate content risk)",
+    "No evidence of structured data (FAQPage schema) despite FAQ sections on sample page",
+    "No robots.txt or sitemap info verified; may not allow indexing or include all pages"
+  ],
+  "optimizations": [
+    "Assign unique, keyword-inclusive URL slugs to each page (e.g., /elden-ring-weapon-stats-comparison)",
+    "Trim meta description to under 160 characters, ensure keyword inclusion and compelling call-to-action",
+    "Implement a clear internal linking structure with 2-8 links per page and varied anchor text (exact, partial, brand, generic)",
+    "Add FAQPage JSON-LD schema to pages with FAQ sections",
+    "Set canonical URL to self for each page to prevent duplicate content issues",
+    "Verify robots.txt allows indexing and sitemap.xml contains all 5 page URLs"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

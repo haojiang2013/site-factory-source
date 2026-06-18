@@ -1,0 +1,22 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "FAQPage schema missing on /game-loot-database page which contains 6 FAQs",
+    "No meta descriptions provided for other 4 pages (assumed missing or not optimized)",
+    "Internal linking structure not audited but likely insufficient due to small site size; risk of orphan pages"
+  ],
+  "optimizations": [
+    "Add FAQPage JSON-LD schema to /game-loot-database to enable rich results",
+    "Write unique meta descriptions (140-160 chars) for all pages",
+    "Implement internal links between related pages (e.g., cross-reference loot database, calculator, tracker) to form topic clusters",
+    "Verify all pages are included in sitemap.xml and robots.txt allows indexing"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

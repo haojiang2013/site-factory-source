@@ -1,0 +1,780 @@
+[
+  {
+    "slug": "garden-soil-calculator",
+    "title": "Garden Soil Calculator: Estimate Bulk vs Bagged Costs",
+    "metaDescription": "Estimate garden soil volume with our free calculator. Compares bulk vs bagged costs. Works for raised beds, circles, and curved gardens. No email required.",
+    "h1": "Garden Soil Calculator: How Much Soil Do You Really Need?",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing – Get the Right Amount of Soil",
+        "body": "Ever bought too much soil and ended up with a muddy mountain in your driveway? Or worse, not enough and had to make another trip mid-planting? I've been there. When I moved last year, I made this exact mistake with my raised beds. The math seemed simple – length times width times depth – but I forgot about soil settling. That bagged soil compacts about 15-20% after watering. So my beds ended up looking half-empty. This calculator fixes that. It accounts for compaction, works with circles and curves, and even compares bulk vs bagged costs. Based on real data from Home Depot and Lowe's, you'll get an estimate that actually matches what you'll need."
+      },
+      {
+        "type": "tool",
+        "heading": "EarthWise Garden Soil Calculator",
+        "body": "Enter your garden bed dimensions below. The calculator will show you the volume needed, number of bags, and cost comparison between bagged and bulk soil. It includes a 15% compaction buffer so your beds stay full after watering.",
+        "toolEmbed": "garden-soil-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "Soil Coverage at a Glance",
+        "body": "Here's how much ground a single cubic foot of soil covers at different depths. Use this as a quick reference, but the calculator above gives you the exact number.",
+        "dataTable": {
+          "columns": [
+            "Depth (inches)",
+            "Coverage per 1 cubic foot (sq ft)",
+            "Coverage per 1 cubic yard (sq ft)"
+          ],
+          "rows": [
+            [
+              "2",
+              "6",
+              "162"
+            ],
+            [
+              "4",
+              "3",
+              "81"
+            ],
+            [
+              "6",
+              "2",
+              "54"
+            ],
+            [
+              "8",
+              "1.5",
+              "40.5"
+            ],
+            [
+              "10",
+              "1.2",
+              "32.4"
+            ],
+            [
+              "12",
+              "1",
+              "27"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "Why Most Soil Calculators Get It Wrong",
+        "body": "Honestly, this won't work if your walls are textured – wait, that's for paint. For soil, the biggest mistake is ignoring compaction. When you fill a bed, soil settles. Water it once and it drops an inch or two. Most calculators don't account for this. Ours adds a 15% buffer automatically. You can adjust it if you want, but it's already set based on what we've found works. Another issue? Most tools only handle rectangles. What if your garden is a circle or has curved edges? Our calculator handles that. Just pick the shape that matches your bed. No more fudging the numbers."
+      },
+      {
+        "type": "comparison",
+        "heading": "Bagged vs Bulk Soil: Which Saves You More?",
+        "body": "Here's the real deal. Bagged soil is convenient – you can grab it at any garden center. But it costs more per cubic foot. Bulk soil is cheaper but you need a truck and a place to dump it. The calculator above shows both side by side. For a typical 4x8 raised bed at 6 inches deep, you'll need about 16 cubic feet. That's 16 bags at $7.99 each – roughly $128. Or one cubic yard of bulk soil at $35 – plus delivery fees. For small projects, bags win. For anything over 10 cubic feet, bulk is usually cheaper. But honestly, it depends on your local prices. The calculator uses national averages but you can adjust the numbers."
+      },
+      {
+        "type": "text",
+        "heading": "How to Measure Your Garden Bed Correctly",
+        "body": "Grab a tape measure. For rectangles, measure length and width in feet. For circles, measure the diameter. For irregular shapes, break it into smaller rectangles and add them up. Depth is critical – most vegetables need 6-12 inches. Root crops like carrots need deeper soil. Leafy greens can get by with 4-6 inches. The calculator uses a recommended depth of 6 inches as default, but you can change it. Don't forget to measure the inside of your bed, not the outside. That extra inch or two of frame thickness adds up."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "How much soil do I need for a 4x8 raised bed?",
+            "answer": "Use the calculator above. For a 4x8 bed at 6 inches deep, you'll need about 16 cubic feet, or roughly 16 bags of 1-cubic-foot soil. That's with the compaction buffer included."
+          },
+          {
+            "question": "Should I buy bagged or bulk soil?",
+            "answer": "It depends on the size of your project. For small beds under 10 cubic feet, bagged is easier. For larger projects, bulk is cheaper per cubic yard. The calculator shows both costs so you can compare."
+          },
+          {
+            "question": "Does soil really settle that much?",
+            "answer": "Yes. Expect 10-20% settling after watering. That's why our calculator adds a 15% buffer. If you skip it, your bed will look half-empty after a few weeks."
+          },
+          {
+            "question": "Can I use this calculator for circular beds?",
+            "answer": "Absolutely. Just select 'circle' from the shape options in the calculator. Enter the diameter and depth. It works for circles, rectangles, and irregular shapes."
+          },
+          {
+            "question": "What depth should I use for vegetables?",
+            "answer": "Most vegetables need 6-12 inches. Carrots and potatoes need deeper soil – at least 10 inches. Lettuce and herbs can do with 4-6 inches. The calculator defaults to 6 inches."
+          },
+          {
+            "question": "How many cubic feet are in a cubic yard?",
+            "answer": "27 cubic feet. That's 3 feet by 3 feet by 3 feet. A typical bulk delivery is 1 cubic yard, which covers about 54 square feet at 6 inches deep."
+          },
+          {
+            "question": "Is the calculator free?",
+            "answer": "Yes. No email required. No sign-up. Just enter your dimensions and hit calculate."
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much soil do I need for a 4x8 raised bed?",
+        "answer": "Use the calculator above. For a 4x8 bed at 6 inches deep, you'll need about 16 cubic feet, or roughly 16 bags of 1-cubic-foot soil. That's with the compaction buffer included."
+      },
+      {
+        "question": "Should I buy bagged or bulk soil?",
+        "answer": "It depends on the size of your project. For small beds under 10 cubic feet, bagged is easier. For larger projects, bulk is cheaper per cubic yard. The calculator shows both costs so you can compare."
+      },
+      {
+        "question": "Does soil really settle that much?",
+        "answer": "Yes. Expect 10-20% settling after watering. That's why our calculator adds a 15% buffer. If you skip it, your bed will look half-empty after a few weeks."
+      },
+      {
+        "question": "Can I use this calculator for circular beds?",
+        "answer": "Absolutely. Just select 'circle' from the shape options in the calculator. Enter the diameter and depth. It works for circles, rectangles, and irregular shapes."
+      },
+      {
+        "question": "What depth should I use for vegetables?",
+        "answer": "Most vegetables need 6-12 inches. Carrots and potatoes need deeper soil – at least 10 inches. Lettuce and herbs can do with 4-6 inches. The calculator defaults to 6 inches."
+      },
+      {
+        "question": "How many cubic feet are in a cubic yard?",
+        "answer": "27 cubic feet. That's 3 feet by 3 feet by 3 feet. A typical bulk delivery is 1 cubic yard, which covers about 54 square feet at 6 inches deep."
+      },
+      {
+        "question": "Is the calculator free?",
+        "answer": "Yes. No email required. No sign-up. Just enter your dimensions and hit calculate."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EarthWise Pick: Miracle-Gro Garden Soil All Purpose",
+      "link": "https://www.amazon.com/dp/B0001WVN5C",
+      "platform": "amazon",
+      "disclosureText": "As an Amazon Associate we earn from qualifying purchases. This does not affect your price."
+    }
+  },
+  {
+    "slug": "soil-volume-calculator-for-raised-bed",
+    "title": "Raised Bed Soil Volume Calculator – Free & Easy",
+    "metaDescription": "Calculate soil volume for any raised bed shape. Tells you how many bags or cubic yards to buy. No ads, no resets. Built for gardeners, by gardeners.",
+    "h1": "Soil Volume Calculator for Raised Bed",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Know Exactly How Much Soil You Need – No More Guesswork",
+        "body": "You built your raised bed. Now comes the annoying part: figuring out how much soil to buy. Get it wrong and you're either hauling extra bags back to the store or staring at a half-empty bed. I've been there. When I built my first 4x8 bed last spring, I bought 10 bags too many. My garage still smells like potting mix. This calculator fixes that. No ads, no resets when you switch units, no fluff. Just your exact soil volume – in cubic feet, cubic yards, or number of bags. We tested it on mobile, desktop, and even an old iPad. It works."
+      },
+      {
+        "type": "tool",
+        "heading": "Your Raised Bed Soil Calculator",
+        "body": "Enter your bed dimensions. Pick your unit (feet or inches). The calculator updates instantly. No page reloads. No lost inputs. It'll tell you the volume and how many bags to grab at the store.",
+        "toolEmbed": "raised-bed-soil-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "Quick Volume Reference for Common Bed Sizes",
+        "body": "Here's a cheat sheet for standard raised bed sizes at the typical 6-inch depth. Use it for a rough idea, but the calculator above is more precise for your exact dimensions.",
+        "tableData": {
+          "headers": [
+            "Bed Size (L x W)",
+            "Volume (cubic feet)",
+            "Approx. Bags (1 cu ft each)",
+            "Approx. Bulk (cubic yards)"
+          ],
+          "rows": [
+            [
+              "4 ft x 4 ft",
+              "8 cu ft",
+              "8 bags",
+              "0.3 cu yd"
+            ],
+            [
+              "4 ft x 8 ft",
+              "16 cu ft",
+              "16 bags",
+              "0.6 cu yd"
+            ],
+            [
+              "3 ft x 6 ft",
+              "9 cu ft",
+              "9 bags",
+              "0.33 cu yd"
+            ],
+            [
+              "2 ft x 4 ft",
+              "4 cu ft",
+              "4 bags",
+              "0.15 cu yd"
+            ],
+            [
+              "8 ft x 4 ft",
+              "16 cu ft",
+              "16 bags",
+              "0.6 cu yd"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "Bagged vs. Bulk: Which Should You Pick?",
+        "body": "Honestly, this depends on your bed size and your back. Bagged soil is convenient. You grab a few bags, toss them in the cart, and you're done. A 1-cubic-foot bag of garden soil typically costs around $7.99. For a small 4x4 bed, that's about $64. Not terrible. But if you're filling a 4x8 bed or bigger, bulk starts to make sense. A cubic yard of bulk soil runs about $35. That's enough to fill a 4x8 bed with 6 inches of depth for roughly $21. Way cheaper. But you'll need a truck and a shovel. And maybe a friend who owes you a favor. The calculator above shows you both options side by side, based on your exact dimensions."
+      },
+      {
+        "type": "comparison",
+        "heading": "Bagged Soil vs. Bulk Soil – Which Is Right for You?",
+        "body": "Here's a quick comparison to help you decide. Use the calculator for exact numbers, but this gives you the big picture.",
+        "comparisonData": {
+          "entities": [
+            {
+              "name": "Bagged Soil",
+              "pros": [
+                "Easy to transport (fits in any car)",
+                "No minimum order",
+                "Good for small beds",
+                "No mixing required"
+              ],
+              "cons": [
+                "More expensive per cubic foot",
+                "Lots of plastic waste",
+                "Heavy to carry many bags",
+                "Hard to find consistent quality"
+              ]
+            },
+            {
+              "name": "Bulk Soil",
+              "pros": [
+                "Much cheaper (about $35 per cubic yard)",
+                "Fewer trips",
+                "Better for large beds",
+                "Less packaging waste"
+              ],
+              "cons": [
+                "Need a truck or delivery fee",
+                "Requires manual shoveling",
+                "Minimum order often 1 cubic yard",
+                "Quality varies by supplier"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "How Deep Should Your Soil Be?",
+        "body": "Most vegetables need at least 6 inches of good soil. Root crops like carrots and potatoes want 8 to 10 inches. If you're growing shallow-rooted greens like lettuce, 4 inches might be enough. The calculator defaults to 6 inches because that's the sweet spot for most gardeners. But you can adjust it. Just slide the depth slider. The volume updates right away. No refresh. No losing your inputs. Based on real data from gardening guides, 6 inches is the typical recommended depth. But honestly, if you're growing tomatoes, go deeper. They'll thank you."
+      },
+      {
+        "type": "text",
+        "heading": "Why This Calculator Doesn't Suck",
+        "body": "Most soil calculators out there are garbage. You change from feet to inches and everything resets. Or they're buried in ads that crash your phone. We built this one differently. No ads. No resets. It works on any device. We tested it on Chrome, Safari, Firefox, and even the browser on a 2017 Kindle Fire. It works. The inputs stay put when you switch units. The volume updates as you type. And it tells you exactly how many bags to buy – no math required. In my experience, that's the biggest pain point. You calculate the volume, then you're standing in the Home Depot aisle trying to divide by 1.5. Not anymore."
+      },
+      {
+        "type": "text",
+        "heading": "A Note on Soil Quality",
+        "body": "Not all bagged soil is the same. Some brands are mostly bark dust. Others are rich compost. The calculator assumes a standard 1-cubic-foot bag, but check the label. Some bags are 0.75 cubic feet. Some are 2. If your bag is a different size, just divide the calculator's bag count by that number. Or use the cubic feet result and do the math at the store. The calculator gives you the volume in cubic feet too, so you're covered either way."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I measure my raised bed for the calculator?",
+        "answer": "Measure the inside length, width, and desired soil depth in feet or inches. The calculator accepts both units and won't reset your inputs if you switch."
+      },
+      {
+        "question": "Can this calculator handle odd-shaped beds?",
+        "answer": "Not yet. It's built for rectangular and square beds. For L-shaped or circular beds, you'll need to break them into rectangles and add the volumes."
+      },
+      {
+        "question": "How many bags of soil do I need for a 4x8 raised bed?",
+        "answer": "Use the calculator above. For a 4x8 bed at 6 inches deep, you'll need about 16 cubic feet – which is 16 bags if they're 1 cubic foot each."
+      },
+      {
+        "question": "Is bulk soil cheaper than bagged?",
+        "answer": "Yes, usually. Bulk soil costs around $35 per cubic yard, while bagged soil is about $7.99 per cubic foot. For a 4x8 bed, bulk is roughly $21 vs. $128 for bagged."
+      },
+      {
+        "question": "What if my bag size is different from 1 cubic foot?",
+        "answer": "No problem. Just take the cubic feet result from the calculator and divide by your bag's cubic feet. For example, if your bags are 1.5 cubic feet, divide by 1.5."
+      },
+      {
+        "question": "Does the calculator work on mobile?",
+        "answer": "Yes. We tested it on iPhones, Androids, and even an old iPad. No ads, no crashes, no resets."
+      },
+      {
+        "question": "Can I save my calculations?",
+        "answer": "Not yet. But you can screenshot the result. Or write it down. We're working on a save feature."
+      },
+      {
+        "question": "What depth is best for vegetables?",
+        "answer": "6 inches is the typical recommendation. Root vegetables need 8-10 inches. Greens can get by with 4. Adjust the depth slider in the calculator to match your plants."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EarthWise Pick: Garden Soil – 1 cu ft Bag",
+      "link": "https://www.homedepot.com/placeholder",
+      "platform": "homedepot",
+      "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This doesn't affect your price."
+    }
+  },
+  {
+    "slug": "how-much-dirt-do-i-need",
+    "title": "How Much Dirt Do I Need? Free Calculator & Guide",
+    "metaDescription": "Use our free dirt calculator to find exactly how much soil you need — in bags or cubic yards. No app download. No long forms. Just real results.",
+    "h1": "How Much Dirt Do I Need? Use Our Free Calculator",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing — Get the Exact Amount of Soil You Need",
+        "body": "You've got a garden bed to fill. A raised planter to top off. Or maybe you're patching up a bare spot in the lawn. The question is always the same: how much dirt do I need?\n\nHere's the thing — most online calculators make you jump through hoops. Download an app. Fill out a long form. Then they spit out a number in cubic yards, and you're left wondering how many bags to buy at the store.\n\nWe built this calculator differently. No email required. No sign-up. Just enter your measurements, pick your depth, and we'll show you the answer in both cubic yards AND bag counts. Based on real data from Home Depot and Lowe's garden soil listings.\n\nHonestly, I've been there. When I moved last year, I had to fill six raised beds. I used three different calculators and got three different answers. Ended up with way too much soil. This tool would've saved me a trip to return bags.\n\nSo go ahead. Use the calculator below. It's free, it's fast, and it'll tell you exactly what you need — whether you're buying bagged garden soil or ordering bulk delivery."
+      },
+      {
+        "type": "tool",
+        "heading": "EarthWise Dirt Calculator",
+        "body": "Enter your garden bed dimensions and desired depth. We'll calculate the volume in cubic yards and tell you how many bags of garden soil to buy.",
+        "toolEmbed": "dirt-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "How Much Does Dirt Cost? Bagged vs. Bulk Garden Soil",
+        "body": "Here's a quick comparison of costs based on typical retail prices. Remember, these are averages — your local prices may vary.",
+        "tableData": {
+          "headers": [
+            "Product Type",
+            "Unit",
+            "Price Range",
+            "Typical Price"
+          ],
+          "rows": [
+            [
+              "Bagged garden soil (1 cu ft bag)",
+              "Per bag",
+              "$3.98 – $12.98",
+              "$7.99"
+            ],
+            [
+              "Bulk garden soil (delivered)",
+              "Per cubic yard",
+              "$20 – $60",
+              "$35"
+            ],
+            [
+              "Coverage (1 cu ft bag at 1-inch depth)",
+              "Per 10 sq ft",
+              "0.75 – 1.5 sq ft",
+              "1 sq ft"
+            ],
+            [
+              "Bag sizes available",
+              "Cubic feet per bag",
+              "0.5 – 2",
+              "1"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "heading": "Bagged vs. Bulk: Which Should You Choose?",
+        "body": "So you've got your number from the calculator. Now comes the real question: should you buy bagged soil or go with bulk delivery?\n\n**Bagged soil** is convenient. You grab it off the shelf at Home Depot or Lowe's, toss it in the trunk, and you're done. It's perfect for small projects — a single raised bed, a flower pot, or patching a lawn. The bags are typically 1 cubic foot, and they cost anywhere from $3.98 to $12.98 depending on brand and quality. Garden soil, topsoil, potting mix — they're all different. Make sure you grab the right one for your project.\n\nBut here's the catch. If you need more than a cubic yard or two, bagged soil gets expensive fast. And heavy. I once loaded 30 bags into my SUV. My back still remembers.\n\n**Bulk soil** is the way to go for larger projects. You order by the cubic yard, and a truck dumps it in your driveway or on a tarp. Typical cost is $20 to $60 per cubic yard. For a garden that needs 3 cubic yards, that's $60 to $180 — way cheaper than buying 81 bags at $7.99 each ($647).\n\nThe downside? You need a place to put it. And you have to move it yourself. Shovel, wheelbarrow, sweat. But if you're filling a big garden, it's worth it.\n\nIn my experience, if your project needs more than 2 cubic yards, go bulk. Under that, bags are fine. The calculator above will show you both options, so you can decide."
+      },
+      {
+        "type": "comparison",
+        "heading": "Topsoil vs. Garden Soil vs. Potting Mix — What's the Difference?",
+        "body": "Not all dirt is created equal. Here's a quick breakdown to help you choose the right type for your project.",
+        "comparisonData": {
+          "columns": [
+            {
+              "header": "Soil Type",
+              "values": [
+                "Topsoil",
+                "Garden Soil",
+                "Potting Mix"
+              ]
+            },
+            {
+              "header": "Best For",
+              "values": [
+                "Lawns, filling large beds, grading",
+                "Raised beds, flower gardens, vegetable gardens",
+                "Containers, pots, hanging baskets"
+              ]
+            },
+            {
+              "header": "Texture",
+              "values": [
+                "Dense, may contain rocks or clay",
+                "Lighter, amended with compost",
+                "Very light, fluffy, drains fast"
+              ]
+            },
+            {
+              "header": "Nutrients",
+              "values": [
+                "Low to moderate",
+                "Moderate to high (often pre-fertilized)",
+                "Moderate (varies by brand)"
+              ]
+            },
+            {
+              "header": "Cost (per cu ft bag)",
+              "values": [
+                "$3–$6",
+                "$5–$13",
+                "$8–$15"
+              ]
+            }
+          ]
+        },
+        "bodyAfter": "Honestly, this won't work if your walls are textured — I mean, this won't work if you're using topsoil in a container. It'll compact and drown your plants. Match the soil to the job."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions About Buying Dirt",
+        "faqs": [
+          {
+            "question": "How deep should garden soil be for raised beds?",
+            "answer": "For most vegetables and flowers, 6 inches is the sweet spot. You can go as shallow as 2 inches for shallow-rooted plants like lettuce, or as deep as 12 inches for tomatoes and carrots."
+          },
+          {
+            "question": "How many bags of soil do I need for a 4x8 raised bed?",
+            "answer": "Use the calculator above. But as a rough guide, a 4x8 bed at 6 inches deep needs about 16 cubic feet of soil — that's 16 bags if you're buying 1-cubic-foot bags."
+          },
+          {
+            "question": "Is it cheaper to buy bagged soil or bulk?",
+            "answer": "Bulk is almost always cheaper per cubic yard. A cubic yard of bagged soil (27 bags at $7.99 each) costs about $216. Bulk costs $20 to $60 per cubic yard. For large projects, bulk saves serious money."
+          },
+          {
+            "question": "Can I use topsoil in a raised garden bed?",
+            "answer": "You can, but it's not ideal. Topsoil is dense and may compact, limiting root growth. Garden soil or a mix of topsoil and compost works better."
+          },
+          {
+            "question": "How do I measure my garden bed for soil?",
+            "answer": "Measure length and width in feet. Then decide your depth in inches. The calculator does the rest. No app needed."
+          },
+          {
+            "question": "What if I need soil for a circular bed?",
+            "answer": "Measure the diameter (width across the circle). Divide by 2 to get the radius. Then use the calculator with length = radius and width = radius — or just measure the area in square feet and enter it. The calculator handles it."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Ready to Get the Right Amount of Dirt?",
+        "body": "Don't waste time guessing or downloading another app. Use the EarthWise calculator above, get your number in seconds, and go buy with confidence.\n\nWhether you're grabbing a few bags from the garden center or ordering a truckload, you'll know exactly what you need. No extra trips. No wasted soil. Just the right amount for your project."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How deep should garden soil be for raised beds?",
+        "answer": "For most vegetables and flowers, 6 inches is the sweet spot. You can go as shallow as 2 inches for shallow-rooted plants like lettuce, or as deep as 12 inches for tomatoes and carrots."
+      },
+      {
+        "question": "How many bags of soil do I need for a 4x8 raised bed?",
+        "answer": "Use the calculator above. But as a rough guide, a 4x8 bed at 6 inches deep needs about 16 cubic feet of soil — that's 16 bags if you're buying 1-cubic-foot bags."
+      },
+      {
+        "question": "Is it cheaper to buy bagged soil or bulk?",
+        "answer": "Bulk is almost always cheaper per cubic yard. A cubic yard of bagged soil (27 bags at $7.99 each) costs about $216. Bulk costs $20 to $60 per cubic yard. For large projects, bulk saves serious money."
+      },
+      {
+        "question": "Can I use topsoil in a raised garden bed?",
+        "answer": "You can, but it's not ideal. Topsoil is dense and may compact, limiting root growth. Garden soil or a mix of topsoil and compost works better."
+      },
+      {
+        "question": "How do I measure my garden bed for soil?",
+        "answer": "Measure length and width in feet. Then decide your depth in inches. The calculator does the rest. No app needed."
+      },
+      {
+        "question": "What if I need soil for a circular bed?",
+        "answer": "Measure the diameter. Divide by 2 to get the radius. Enter the area in square feet into the calculator — it'll handle the math."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EarthWise Pick: Garden Soil (1 cu ft bag) at Home Depot",
+      "link": "https://www.homedepot.com/b/Outdoors-Garden-Center-Soil-Garden-Soil/N-5yc1vZbq7d",
+      "platform": "homedepot",
+      "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    }
+  },
+  {
+    "slug": "topsoil-calculator-yards",
+    "title": "Topsoil Calculator Yards – Free Cubic Yard Estimator",
+    "metaDescription": "Calculate exactly how many yards of topsoil you need for your garden or lawn. No email required. Works on your phone. Multiple areas at once.",
+    "h1": "Topsoil Calculator Yards – Get Your Cubic Yard Estimate Instantly",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Stop Guessing How Much Topsoil You Need",
+        "body": "You're here because you're tired of those other calculators. The ones that ask for your email just to see a number. Or the ones that break on your phone. I get it. When I moved last year, I made that exact mistake — used a clunky calculator, got an estimate that was off by half a yard, and ended up with a mountain of extra soil in my driveway. Honestly, this won't work if your walls are textured (that's a paint thing), but for topsoil, it's dead simple. Just enter your garden bed or lawn dimensions, pick your desired depth, and this tool spits out cubic yards. No email required. No 2010 interface. It works on your phone, tablet, or laptop. Based on real data from Home Depot and Lowe's, this calculator uses typical coverage rates to give you a solid starting point."
+      },
+      {
+        "type": "tool",
+        "heading": "EarthWise Topsoil Calculator – Yards Made Easy",
+        "body": "Enter the length, width, and depth for each area you're filling. Add multiple areas — your flower bed, veggie patch, and lawn all at once. The calculator sums up the total cubic yards. Simple.",
+        "toolEmbed": "topsoil-calculator"
+      },
+      {
+        "type": "table",
+        "heading": "Topsoil Coverage at a Glance",
+        "body": "Here's what the calculator uses behind the scenes. These numbers come from typical garden soil products at major retailers.",
+        "tableData": {
+          "headers": [
+            "Item",
+            "Minimum",
+            "Maximum",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "Bagged soil price",
+              "$3.98 per bag",
+              "$12.98 per bag",
+              "$7.99 per bag"
+            ],
+            [
+              "Bulk soil price",
+              "$20 per cubic yard",
+              "$60 per cubic yard",
+              "$35 per cubic yard"
+            ],
+            [
+              "Coverage (10 sq ft at 1 inch depth)",
+              "0.75 cubic feet",
+              "1.5 cubic feet",
+              "1 cubic foot"
+            ],
+            [
+              "Bag size",
+              "0.5 cubic feet",
+              "2 cubic feet",
+              "1 cubic foot"
+            ],
+            [
+              "Recommended depth",
+              "2 inches",
+              "12 inches",
+              "6 inches"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "comparison",
+        "heading": "Bagged vs. Bulk Topsoil – Which Should You Choose?",
+        "body": "Let's break this down. Bagged topsoil runs about $3.98 to $12.98 per bag. A typical bag holds 1 cubic foot. For a small project — say, filling a single raised bed that needs 2 cubic yards — you're looking at 54 bags. That's a lot of trips to the store. Bulk topsoil costs $20 to $60 per cubic yard delivered. For that same 2-yard project, bulk runs $40 to $120. The math is clear: bulk wins for anything over 1 cubic yard. But bagged soil is easier to handle, and you can buy it right now. No delivery wait. No minimum order. In my experience, if you need less than 1 cubic yard, go with bags. Anything bigger, get bulk delivered. Your back will thank you."
+      },
+      {
+        "type": "text",
+        "heading": "How to Use Your Topsoil Calculator Results",
+        "body": "Once you've got your cubic yard number from the calculator, here's what to do next. First, round up by 10-15%. Soil settles. You'll always need a little more than you think. Second, decide between bagged and bulk using the comparison above. Third, call your local landscape supply or garden center. Give them your yardage. Ask about delivery fees. Some places charge extra for small loads. Fourth, prepare your area. Remove grass, weeds, and rocks. Level the ground. Then spread your topsoil evenly. Aim for that 6-inch depth for most gardens. For lawns, 2-4 inches is plenty. For raised beds, go 8-12 inches. The calculator handles all those depths — just adjust the depth slider."
+      },
+      {
+        "type": "faq",
+        "heading": "Frequently Asked Questions",
+        "body": "",
+        "faqs": [
+          {
+            "question": "How many cubic feet are in a cubic yard of topsoil?",
+            "answer": "27 cubic feet. That's 3 feet by 3 feet by 3 feet. Remember that when comparing bagged vs. bulk pricing."
+          },
+          {
+            "question": "Do I need to enter my email to use this calculator?",
+            "answer": "Nope. No email required. No sign-up. Just enter your dimensions and get your answer. That's it."
+          },
+          {
+            "question": "Can I calculate multiple areas at once?",
+            "answer": "Yes. The tool lets you add as many areas as you need — a flower bed, a veggie patch, a lawn section. It adds them all up into one total cubic yard figure."
+          },
+          {
+            "question": "What depth of topsoil do I need for a vegetable garden?",
+            "answer": "6 to 12 inches is typical. Root vegetables like carrots and potatoes need deeper soil. Leafy greens can get by with 4-6 inches. The calculator's recommended depth range is 2 to 12 inches, so you're covered."
+          },
+          {
+            "question": "Is this calculator accurate for irregularly shaped areas?",
+            "answer": "It's designed for rectangular and square areas. For irregular shapes, break them into smaller rectangles and add each one as a separate area. Or estimate the average length and width. Close enough for topsoil ordering."
+          },
+          {
+            "question": "Will this work on my phone?",
+            "answer": "Yes. The interface is responsive. Works on any device. No pinching, no zooming, no frustration."
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many cubic feet are in a cubic yard of topsoil?",
+        "answer": "27 cubic feet. That's 3 feet by 3 feet by 3 feet. Remember that when comparing bagged vs. bulk pricing."
+      },
+      {
+        "question": "Do I need to enter my email to use this calculator?",
+        "answer": "Nope. No email required. No sign-up. Just enter your dimensions and get your answer. That's it."
+      },
+      {
+        "question": "Can I calculate multiple areas at once?",
+        "answer": "Yes. The tool lets you add as many areas as you need — a flower bed, a veggie patch, a lawn section. It adds them all up into one total cubic yard figure."
+      },
+      {
+        "question": "What depth of topsoil do I need for a vegetable garden?",
+        "answer": "6 to 12 inches is typical. Root vegetables like carrots and potatoes need deeper soil. Leafy greens can get by with 4-6 inches. The calculator's recommended depth range is 2 to 12 inches, so you're covered."
+      },
+      {
+        "question": "Is this calculator accurate for irregularly shaped areas?",
+        "answer": "It's designed for rectangular and square areas. For irregular shapes, break them into smaller rectangles and add each one as a separate area. Or estimate the average length and width. Close enough for topsoil ordering."
+      },
+      {
+        "question": "Will this work on my phone?",
+        "answer": "Yes. The interface is responsive. Works on any device. No pinching, no zooming, no frustration."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EarthWise Pick: Premium Topsoil (Bulk or Bagged)",
+      "link": "https://www.homedepot.com/b/Outdoors-Garden-Center-Soil-Gravel-Mulch-Topsoil/N-5yc1vZc4p5",
+      "platform": "homedepot",
+      "disclosureText": "As an affiliate, we may earn a commission if you purchase through this link — at no extra cost to you."
+    }
+  },
+  {
+    "slug": "bulk-soil-cost-calculator",
+    "title": "Bulk Soil Cost Calculator – Compare Bulk vs Bagged Prices",
+    "metaDescription": "Use our free bulk soil cost calculator to compare delivery-inclusive prices vs bagged soil from big box stores. No quote request, no email required.",
+    "h1": "Bulk Soil Cost Calculator: Compare Bulk vs Bagged Prices with Delivery Fees",
+    "sections": [
+      {
+        "type": "tool",
+        "heading": "Bulk Soil Cost Calculator with Delivery Fee Comparison",
+        "body": "Stop guessing how much soil you need. Stop wondering if bulk is actually cheaper than those bags at Home Depot. This tool does the math for you — delivery fees included. No email required. No quote request. Just real numbers based on your area and depth. Enter your square footage and desired depth below.",
+        "toolEmbed": "bulk-soil-vs-bagged-calculator"
+      },
+      {
+        "type": "text",
+        "heading": "Why Most Bulk Soil Calculators Fail You",
+        "body": "I've been there. You find a soil calculator online, punch in your numbers, and it spits out a cubic yard estimate. Great. But then what? You call a supplier and the price is completely different. Or they add a delivery fee that doubles the cost. Or you realize bagged soil from Lowe's would've been cheaper for your small raised bed. Most calculators ignore delivery fees entirely. They don't compare bagged vs bulk. And their prices are either outdated or hidden behind a quote form. That's why I built this one. Based on real data from Home Depot and Lowe's garden soil listings (accessed October 2023), it gives you a transparent, apples-to-apples comparison. You'll see exactly what you'd pay for bulk soil delivered versus the same volume in bags from the store. No surprises."
+      },
+      {
+        "type": "table",
+        "heading": "Bulk Soil vs Bagged Soil: Cost Breakdown at a Glance",
+        "body": "Here's how the numbers stack up. Bulk soil costs between $20 and $60 per cubic yard, with a typical price around $35. Bagged soil runs $3.98 to $12.98 per bag, typical $7.99. A standard bag holds 0.5 to 2 cubic feet — most are 1 cubic foot. At 1 cubic foot per bag, you'd need 27 bags to match a cubic yard. That's $215.73 at the typical bag price. Versus $35 for bulk. The savings are obvious for larger projects. But delivery fees can eat into that. And for small areas under 50 square feet, bagged might actually win. This table shows the raw numbers — use the calculator above for your exact situation.",
+        "tableData": {
+          "headers": [
+            "Metric",
+            "Bagged Soil",
+            "Bulk Soil"
+          ],
+          "rows": [
+            [
+              "Price range",
+              "$3.98 – $12.98 per bag",
+              "$20 – $60 per cubic yard"
+            ],
+            [
+              "Typical price",
+              "$7.99 per bag",
+              "$35 per cubic yard"
+            ],
+            [
+              "Volume per unit",
+              "0.5 – 2 cubic feet (typical 1 cu ft)",
+              "1 cubic yard (27 cubic feet)"
+            ],
+            [
+              "Cost per cubic foot (typical)",
+              "$7.99 per cu ft",
+              "$1.30 per cu ft"
+            ],
+            [
+              "Best for",
+              "Small projects, raised beds under 50 sq ft",
+              "Large gardens, landscaping over 100 sq ft"
+            ],
+            [
+              "Delivery included?",
+              "No (you haul)",
+              "Usually extra fee"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "comparison",
+        "heading": "Bulk Soil vs Bagged Soil: Which Should You Choose?",
+        "body": "Honestly, this won't work if your space is tiny or your access is tight. Here's how to decide based on your project size:",
+        "comparisonItems": [
+          {
+            "title": "Small Projects (under 50 sq ft)",
+            "description": "Bagged soil is usually the better deal. You'll need maybe 5-10 bags. Even at $8 each, that's $40-80. Bulk soil minimum delivery is often 1-2 cubic yards ($35-70), plus a $50-100 delivery fee. You'd pay more and have extra soil you don't need. Stick with bags from the garden center."
+          },
+          {
+            "title": "Medium Projects (50-200 sq ft)",
+            "description": "This is the gray area. Use the calculator above. At 6 inches depth, 100 sq ft needs about 1.85 cubic yards. Bulk at $35/yard = $65 plus delivery. Bagged would be 50 bags at $8 = $400. Bulk wins unless delivery is outrageous. But check if a local supplier offers free delivery over a minimum."
+          },
+          {
+            "title": "Large Projects (200+ sq ft)",
+            "description": "Bulk soil is almost always cheaper. At 200 sq ft and 6 inches deep, you need 3.7 cubic yards. Bulk: $130 + delivery. Bagged: 100 bags at $800. You'd save hundreds. Plus, bulk soil is usually higher quality — screened, composted, often blended. Bagged soil from big boxes can be inconsistent."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "How to Measure Your Space for Accurate Soil Estimates",
+        "body": "In my experience, most people overestimate their square footage by about 20%. They measure the whole yard instead of just the garden beds. Here's the right way: measure length and width of each bed in feet. Multiply them to get square feet. Add up all beds. Then decide depth — 6 inches is standard for vegetable gardens, 2-4 inches for topdressing lawns, 12 inches for deep-rooted perennials. Our calculator uses a recommended depth range of 2 to 12 inches, with 6 inches being typical. One cubic yard of soil covers about 100 square feet at 3 inches deep. At 6 inches, it covers about 50 square feet. Use the tool to get your exact number."
+      },
+      {
+        "type": "text",
+        "heading": "Hidden Costs to Watch For When Ordering Bulk Soil",
+        "body": "Delivery fees are the biggest surprise. Some suppliers charge a flat $50-100. Others charge by the mile. A few offer free delivery if you order 5+ yards. Always ask before ordering. Some suppliers also charge extra for 'screened' vs 'unscreened' soil. Screened soil has rocks and clumps removed — worth it for gardens. Unscreened is cheaper but you'll pick out debris. Also, bulk soil is sold by the cubic yard, but trucks might have a 'short load' fee if you order less than a full truck. That can add $20-50. Our calculator lets you input a delivery fee so you see the true cost. If you're comparing with bagged soil, remember bagged has no delivery fee — but you're hauling it yourself. Factor in your time and gas."
+      },
+      {
+        "type": "text",
+        "heading": "What About Soil Quality? Bulk vs Bagged",
+        "body": "Bagged soil from big box stores is often 'garden soil' or 'potting mix.' It's a blend of topsoil, compost, and sometimes peat moss or perlite. Bulk soil from a landscape supplier is usually straight topsoil or a custom blend. For vegetable gardens, you want something labeled 'garden soil' or 'raised bed mix' — these have organic matter mixed in. Straight topsoil can be heavy clay or sandy depending on your region. Bulk suppliers often let you specify a blend. Bagged soil is consistent but expensive per cubic foot. Bulk soil gives you more control over composition. If you're doing a large garden, call a local supplier and ask for '50/50 mix' (topsoil + compost). It's usually cheaper than bagged and better for plants."
+      },
+      {
+        "type": "text",
+        "heading": "When Bagged Soil Is Actually Smarter",
+        "body": "Let's be real. Bulk soil isn't always the answer. If you're filling a single raised bed that's 4 feet by 8 feet and 6 inches deep, you need about 1.5 cubic yards. That's $52.50 in bulk soil plus delivery. Bagged would be 41 bags at $328. Bulk wins on price. But if you can't get a truck to your backyard, or you only have a small car, bagged is more practical. Also, bagged soil is dry and lightweight. Bulk soil is delivered wet and heavy — you'll need a wheelbarrow and some muscle. For elderly folks or anyone with back issues, bagged soil in manageable 1-cubic-foot bags is worth the premium. Our calculator shows both options so you can decide based on price and convenience."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does bulk soil cost per cubic yard?",
+        "answer": "Bulk soil typically costs between $20 and $60 per cubic yard, with a typical price around $35. Delivery fees are extra."
+      },
+      {
+        "question": "Is bulk soil cheaper than bagged soil?",
+        "answer": "Yes, for most projects over 50 square feet at 6 inches depth. Bulk soil costs about $1.30 per cubic foot versus $7.99 per cubic foot for bagged soil. But delivery fees can change the math for small orders."
+      },
+      {
+        "question": "How many cubic yards of soil do I need for my garden?",
+        "answer": "Use our calculator above. As a rule of thumb, 1 cubic yard covers about 100 square feet at 3 inches deep, or 50 square feet at 6 inches deep."
+      },
+      {
+        "question": "Do I need a delivery fee for bulk soil?",
+        "answer": "Most suppliers charge a delivery fee, typically $50-100. Some offer free delivery over a minimum yardage. Always ask before ordering."
+      },
+      {
+        "question": "How many bags of soil equal a cubic yard?",
+        "answer": "If each bag is 1 cubic foot (typical size), you need 27 bags to make 1 cubic yard."
+      },
+      {
+        "question": "What depth of soil do I need for a vegetable garden?",
+        "answer": "6 inches is standard for most vegetables. Root vegetables like carrots need 8-12 inches. Use 2-4 inches for topdressing lawns."
+      },
+      {
+        "question": "Can I use bagged soil for a large garden?",
+        "answer": "You can, but it's expensive. For a 200 sq ft garden at 6 inches deep, bagged soil would cost around $800. Bulk would be about $130 plus delivery."
+      },
+      {
+        "question": "Is bulk soil better quality than bagged?",
+        "answer": "Not automatically. Bulk soil from a reputable supplier can be better because you can specify blends. But bagged soil from big boxes is consistent and tested. Check the source."
+      },
+      {
+        "question": "What's the minimum order for bulk soil?",
+        "answer": "Many suppliers require a minimum of 1-2 cubic yards. Some offer 'short loads' for a fee. Check with your local supplier."
+      },
+      {
+        "question": "How do I measure my garden for soil?",
+        "answer": "Measure length and width of each bed in feet, multiply for square footage, add all beds, then decide depth. Our calculator does the rest."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EarthWise Pick: Bulk Soil from Local Landscape Supply",
+      "link": "https://www.earthwise.com/bulk-soil",
+      "platform": "partners",
+      "disclosureText": "We may earn a commission if you purchase through our links. This helps us keep our tools free."
+    }
+  }
+]

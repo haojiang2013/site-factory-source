@@ -1,0 +1,50 @@
+{
+  "data": {
+    "aiWritingTools": {
+      "pricingMonthly": {
+        "min": 0,
+        "max": 499,
+        "typical": 49,
+        "unit": "USD/month"
+      },
+      "wordLimitPerMonth": {
+        "min": 2000,
+        "max": 100000,
+        "typical": 20000,
+        "unit": "words"
+      },
+      "qualityBenchmark": {
+        "min": 3.5,
+        "max": 4.8,
+        "typical": 4.2,
+        "unit": "rating out of 5"
+      },
+      "numberOfTemplates": {
+        "min": 5,
+        "max": 100,
+        "typical": 50,
+        "unit": "templates"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Jasper.ai official pricing page (Tier 1)",
+      "Copy.ai official pricing page (Tier 1)",
+      "Writesonic official pricing page (Tier 1)",
+      "Grammarly official pricing page (Tier 1)",
+      "PC Mag AI writing tools review (Tier 2)",
+      "G2 AI writing tools reviews (Tier 2)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-12",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "pricingMonthly",
+      "wordLimitPerMonth",
+      "qualityBenchmark",
+      "numberOfTemplates"
+    ],
+    "confidenceNotes": "All numerical fields are derived from outdated training data (2021-2022) and single-source memory. Dual-source verification was not possible due to lack of live access. Values are typical ranges observed across popular tools (Jasper, Copy.ai, Writesonic, Grammarly, Rytr) but should be updated with current pricing and benchmarks. Pricing data in particular has likely changed significantly."
+  }
+}

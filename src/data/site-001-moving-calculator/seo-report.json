@@ -1,0 +1,22 @@
+{
+  "overallVerdict": "PASS",
+  "issues": [
+    "Unable to verify structured data (FAQPage schema) for pages with FAQs – assume missing until confirmed",
+    "Internal linking structure not auditable from provided data; risk of orphan pages if no cross-links exist",
+    "Title tags on pages 1 and 4 are slightly under 50 characters (45 and 46 respectively), though acceptable"
+  ],
+  "optimizations": [
+    "Add FAQPage JSON-LD schema to all pages with FAQ sections for rich results eligibility",
+    "Implement a strong internal linking network between all 5 calculator pages using varied anchor text (exact match, partial, brand, generic)",
+    "Consistently include brand name 'MoveWise' in all page titles for brand reinforcement",
+    "Verify canonical URLs, robots.txt allowing indexing, and sitemap inclusion for all pages"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

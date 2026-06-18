@@ -1,0 +1,110 @@
+{
+  "slug": "site-007-flooring-calc",
+  "domain": "floorfound.8zla.com",
+  "niche": "flooring cost calculator",
+  "template": "A",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "flooring cost calculator",
+      "searchVolume": 6000,
+      "difficulty": 50,
+      "intent": "transactional",
+      "userComplaints": [
+        "no install cost",
+        "metric missing"
+      ]
+    },
+    {
+      "keyword": "hardwood flooring cost estimator",
+      "searchVolume": 4000,
+      "difficulty": 55,
+      "intent": "commercial",
+      "userComplaints": [
+        "prices per sqft wrong",
+        "finish missing"
+      ]
+    },
+    {
+      "keyword": "how much flooring do i need",
+      "searchVolume": 9000,
+      "difficulty": 42,
+      "intent": "transactional",
+      "userComplaints": [
+        "no room shape options"
+      ]
+    },
+    {
+      "keyword": "carpet cost calculator per square foot",
+      "searchVolume": 2500,
+      "difficulty": 38,
+      "intent": "commercial",
+      "userComplaints": [
+        "padding not included"
+      ]
+    },
+    {
+      "keyword": "tile flooring calculator with waste",
+      "searchVolume": 1800,
+      "difficulty": 35,
+      "intent": "transactional",
+      "userComplaints": [
+        "grout not accounted"
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "forest-floor",
+    "fontPair": "fraunces+work-sans",
+    "layout": "tool-left-content-right",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "md",
+      "inputStyle": "outlined"
+    },
+    "brandName": "FloorWise",
+    "accessibilityCheck": {
+      "contrastRatio": "8.7:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 content"
+      ]
+    },
+    {
+      "stage": "sprout",
+      "startWeek": 3,
+      "pageCount": 20,
+      "pageTypes": [
+        "content"
+      ]
+    },
+    {
+      "stage": "growth",
+      "startWeek": 6,
+      "pageCount": 50,
+      "pageTypes": [
+        "more"
+      ]
+    },
+    {
+      "stage": "mature",
+      "startWeek": 11,
+      "pageCount": 80,
+      "pageTypes": [
+        "remaining"
+      ]
+    }
+  ]
+}

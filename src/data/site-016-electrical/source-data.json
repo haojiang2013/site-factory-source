@@ -1,0 +1,97 @@
+{
+  "data": {
+    "electricalLoadCalculator": {
+      "generalLightingLoad": {
+        "min": 3,
+        "max": 3,
+        "typical": 3,
+        "unit": "VA/sq ft"
+      },
+      "smallApplianceCircuit": {
+        "min": 1500,
+        "max": 1500,
+        "typical": 1500,
+        "unit": "VA/circuit"
+      },
+      "laundryCircuit": {
+        "min": 1500,
+        "max": 1500,
+        "typical": 1500,
+        "unit": "VA"
+      },
+      "rangeLoad": {
+        "min": 8000,
+        "max": 12000,
+        "typical": 10000,
+        "unit": "W"
+      },
+      "dryerLoad": {
+        "min": 5000,
+        "max": 6000,
+        "typical": 5500,
+        "unit": "W"
+      },
+      "waterHeaterLoad": {
+        "min": 4500,
+        "max": 5500,
+        "typical": 5000,
+        "unit": "W"
+      },
+      "centralACLoad": {
+        "min": 3000,
+        "max": 6000,
+        "typical": 4000,
+        "unit": "W"
+      },
+      "heatPumpLoad": {
+        "min": 3000,
+        "max": 6000,
+        "typical": 4000,
+        "unit": "W"
+      },
+      "electricHeatingLoad": {
+        "min": 10,
+        "max": 15,
+        "typical": 12,
+        "unit": "W/sq ft"
+      },
+      "typicalServiceSize": {
+        "min": 100,
+        "max": 400,
+        "typical": 200,
+        "unit": "A"
+      },
+      "averageElectricityRate": {
+        "min": 0.1,
+        "max": 0.2,
+        "typical": 0.145,
+        "unit": "$/kWh"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "National Electrical Code (NEC) 2020, Tables 220.12, 220.55, 220.54, Articles 210.52, 220.14",
+      "U.S. Energy Information Administration (EIA) - Average retail price of electricity, 2023",
+      "U.S. Bureau of Labor Statistics (BLS) - CPI for electricity (for rate verification)",
+      "U.S. Department of Energy (DOE) - Appliance energy standards for typical ratings"
+    ],
+    "freshnessTTL_days": {
+      "generalLightingLoad": 365,
+      "smallApplianceCircuit": 365,
+      "laundryCircuit": 365,
+      "rangeLoad": 365,
+      "dryerLoad": 365,
+      "waterHeaterLoad": 365,
+      "centralACLoad": 365,
+      "heatPumpLoad": 365,
+      "electricHeatingLoad": 365,
+      "typicalServiceSize": 365,
+      "averageElectricityRate": 90
+    },
+    "collectedAt": "2025-04-12",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [],
+    "confidenceNotes": "General lighting and circuit loads are from NEC 2020, which is legally binding in most US jurisdictions. Appliance ratings are typical nameplate values from DOE standards and manufacturer data; actual values may vary. Electricity rate from EIA and BLS shows close agreement (within 5%) for 2023 national average."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Missing FAQPage structured data on /renovation-cost-estimator which contains 8 FAQs",
+    "Missing HowTo or WebApplication schema on calculator/tool pages (e.g., renovation-cost-estimator, kitchen-remodel-cost-calculator-2024, etc.)",
+    "Unable to verify internal link count and diversity from provided data; ensure each page has 2-8 internal links with varied anchor text",
+    "No technical audit data (canonical, robots.txt, sitemap, broken links) – manual verification recommended"
+  ],
+  "optimizations": [
+    "Add JSON-LD FAQPage schema to all pages that include an FAQ section",
+    "Add HowTo schema to calculator/tool pages to enhance rich result eligibility",
+    "Implement a clear internal linking structure forming topic clusters (e.g., each calculator page links to related cost guides)",
+    "Ensure all pages have a self-referencing canonical URL and are included in the sitemap"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

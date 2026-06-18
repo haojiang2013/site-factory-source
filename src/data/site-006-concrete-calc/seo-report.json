@@ -1,0 +1,25 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Missing FAQPage structured data on /concrete-calculator (8 FAQs present)",
+    "Missing WebApplication or HowTo schema for calculator tool pages",
+    "Internal linking count and anchor text diversity not verifiable from provided data; ensure each page has 2-8 internal links with varied anchor text",
+    "Canonical URL not specified; ensure each page has a self-referencing canonical tag",
+    "Robots.txt and sitemap.xml not confirmed; verify they allow indexing and include all pages"
+  ],
+  "optimizations": [
+    "Add FAQPage schema in JSON-LD format to /concrete-calculator",
+    "Add WebApplication schema to calculator-type pages (e.g., /concrete-calculator, /concrete-slab-calculator)",
+    "Audit internal links: ensure each page has at least 2 internal links and avoid orphan pages",
+    "Set canonical tags to self-referencing URLs for all pages",
+    "Ensure robots.txt allows crawling of all pages and sitemap.xml lists all 5 URLs"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

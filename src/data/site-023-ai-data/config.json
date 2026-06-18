@@ -1,0 +1,171 @@
+{
+  "slug": "site-023-ai-data",
+  "domain": "datatooltrove.8zla.com",
+  "niche": "AI data analysis tools",
+  "template": "B",
+  "targetCountry": "US",
+  "language": "en",
+  "keywords": [
+    {
+      "keyword": "best AI data analysis tool",
+      "searchVolume": 2400,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Top results are mainly listicles from 2022–2023 with outdated tools; few include 2024 models like Claude 3 for analysis. No page offers interactive tool comparison by use case.",
+      "userComplaints": [
+        "Lists are just affiliate blogs regurgitating the same tools without real testing.",
+        "Missing comparison of actual accuracy on messy real-world data."
+      ]
+    },
+    {
+      "keyword": "AI for data analysis free",
+      "searchVolume": 1600,
+      "difficulty": 62,
+      "intent": "transactional",
+      "serpWeakness": "Free options mentioned are limited to ChatGPT with code interpreter (upload limits) or open-source tools that require setup. No clear listing of truly free unlimited AI analysis.",
+      "userComplaints": [
+        "Most 'free' tools demand credit card after trial or severely limit file size (5MB).",
+        "ChatGPT code interpreter forgets context after a few messages."
+      ]
+    },
+    {
+      "keyword": "AI data analysis without coding",
+      "searchVolume": 1300,
+      "difficulty": 54,
+      "intent": "commercial",
+      "serpWeakness": "Existing pages target beginners but either push outdated drag-and-drop BI tools (like Tableau) or overpromise no-code while still requiring SQL/Python knowledge. No recent, hands-on review of true zero-code AI.",
+      "userComplaints": [
+        "Tools claim 'no-code' but then ask you to write prompts with complex logic.",
+        "Can't handle large datasets without crashing or timing out."
+      ]
+    },
+    {
+      "keyword": "julius ai alternative",
+      "searchVolume": 880,
+      "difficulty": 32,
+      "intent": "commercial",
+      "serpWeakness": "Julius AI is new; few direct alternative pages exist. Main competitor pages list generic tools, not feature-by-feature match. Opportunity to capture users leaving Julius due to recent pricing changes.",
+      "userComplaints": [
+        "Julius AI became too expensive for casual users ($20+/month).",
+        "Often misinterprets column names and generates wrong charts."
+      ]
+    },
+    {
+      "keyword": "akkio ai review",
+      "searchVolume": 720,
+      "difficulty": 28,
+      "intent": "commercial",
+      "serpWeakness": "Only a handful of reviews from 2023 exist; none from real users post-rebrand/pivot. No in-depth comparisons with newer AI copilots for business analytics.",
+      "userComplaints": [
+        "Akkio’s free tier is almost useless for actual work.",
+        "Accuracy drops significantly on non-CSV formats or merged cells."
+      ]
+    },
+    {
+      "keyword": "chatgpt data analysis review",
+      "searchVolume": 1900,
+      "difficulty": 58,
+      "intent": "commercial",
+      "serpWeakness": "Top results are generic 'ChatGPT new feature' articles from tech news; few hands-on comparisons of code interpreter vs dedicated tools for data cleaning and visualization.",
+      "userComplaints": [
+        "ChatGPT fails on moderate-size files (>10MB) and times out.",
+        "It confidently produces wrong statistical summaries and doesn’t warn about limitations."
+      ]
+    },
+    {
+      "keyword": "ai tool to analyze excel sheet",
+      "searchVolume": 2400,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Many results promote Microsoft Copilot or simple add-ins, but no clear review of third-party AI tools that directly read multi-sheet Excel with formulas.",
+      "userComplaints": [
+        "Most AI tools can't preserve Excel formatting or pivot tables.",
+        "They ask to convert to CSV first, which loses data."
+      ]
+    },
+    {
+      "keyword": "ai data cleaning tool",
+      "searchVolume": 1100,
+      "difficulty": 44,
+      "intent": "commercial",
+      "serpWeakness": "Existing guides lump AI cleaning with general ETL tools; no page dedicated to lightweight, user-friendly AI cleaning for non-technical analysts.",
+      "userComplaints": [
+        "AI cleaning tools misinterpret missing values and replace them with nonsense.",
+        "No way to review what the AI changed before applying."
+      ]
+    },
+    {
+      "keyword": "ai for business analytics",
+      "searchVolume": 1600,
+      "difficulty": 72,
+      "intent": "commercial",
+      "serpWeakness": "Dominated by enterprise BI vendors (Tableau, Power BI). SMB-focused AI analytics tools are underrepresented; no page contrasts ease vs. cost for small teams.",
+      "userComplaints": [
+        "Enterprise AI analytics tools have steep learning curves and require IT integration.",
+        "Startups need AI insights from spreadsheets, not a full BI stack."
+      ]
+    },
+    {
+      "keyword": "local AI data analysis tool",
+      "searchVolume": 590,
+      "difficulty": 20,
+      "intent": "transactional",
+      "serpWeakness": "Very few pages address privacy-sensitive users who want local-only AI analysis. Most results push cloud services. Opportunity for self-hosted/offline AI tools comparison.",
+      "userComplaints": [
+        "Scared to upload confidential business data to third-party AI servers.",
+        "No easy way to run analysis on a local LLM with a simple GUI."
+      ]
+    },
+    {
+      "keyword": "how to analyze data with ai for free",
+      "searchVolume": 1400,
+      "difficulty": 50,
+      "intent": "informational",
+      "serpWeakness": "Tutorials are either outdated (2022) or assume you have Python skills. No step-by-step for a non-coder using free tools.",
+      "userComplaints": [
+        "Free methods require spending hours on setup, then still hit usage limits.",
+        "Guides never mention data privacy when using free cloud AI."
+      ]
+    },
+    {
+      "keyword": "ai data visualization tool",
+      "searchVolume": 2100,
+      "difficulty": 60,
+      "intent": "commercial",
+      "serpWeakness": "Focus on traditional BI tools that added AI, not native AI-first visualization like Julius or VizGPT. No comparison of AI chart customization vs. drag-and-drop.",
+      "userComplaints": [
+        "AI generates ugly, unreadable charts that can’t be edited.",
+        "Can’t handle time-series data with irregular intervals."
+      ]
+    }
+  ],
+  "designConfig": {
+    "colorScheme": "slate-green",
+    "fontPair": "space-grotesk+dm-sans",
+    "layout": "two-panel-split",
+    "componentStyles": {
+      "buttonRadius": 8,
+      "cardShadow": "sm",
+      "inputStyle": "outlined"
+    },
+    "brandName": "FuseLens",
+    "accessibilityCheck": {
+      "contrastRatio": "7.6:1",
+      "passes": true
+    }
+  },
+  "growthPlan": [
+    {
+      "stage": "seed",
+      "startWeek": 1,
+      "pageCount": 5,
+      "pageTypes": [
+        "home",
+        "about",
+        "contact",
+        "privacy",
+        "1 comparison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "npcCreationCosts": {
+      "voiceActing": {
+        "min": 200,
+        "max": 1000,
+        "typical": 500,
+        "unit": "USD per session hour"
+      },
+      "characterDesign": {
+        "min": 500,
+        "max": 3000,
+        "typical": 1500,
+        "unit": "USD per NPC"
+      },
+      "animation": {
+        "min": 1000,
+        "max": 8000,
+        "typical": 4000,
+        "unit": "USD per NPC (basic rig + animations)"
+      },
+      "dialogueWriting": {
+        "min": 100,
+        "max": 1000,
+        "typical": 400,
+        "unit": "USD per NPC (simple backstory and dialogue lines)"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "https://www.gamedesigning.org/career/video-game-voice-over-rates/",
+      "https://www.gamedev.net/tutorials/business/the-cost-of-npc-creation-r3959/"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-04",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "npcCreationCosts.voiceActing",
+      "npcCreationCosts.characterDesign",
+      "npcCreationCosts.animation",
+      "npcCreationCosts.dialogueWriting"
+    ],
+    "confidenceNotes": "All values are estimated from general industry blog posts and forum discussions; no two authoritative sources agree on exact numbers. These are placeholder ranges for tool demonstration and should not be used for financial decisions without independent verification."
+  }
+}

@@ -1,0 +1,35 @@
+// 20 color palettes — mapped to CSS variable sets
+export const COLOR_PALETTES: Record<string, { bg: string; surface: string; text: string; muted: string; accent: string; accentHover: string; border: string; navBg: string }> = {
+  'denim-canvas':      { bg:'#F5F7FA', surface:'#FFFFFF', text:'#1E293B', muted:'#64748B', accent:'#1E40AF', accentHover:'#1E3A8A', border:'#E2E8F0', navBg:'#FFFFFF' },
+  'coastal-blue':      { bg:'#F0F8FF', surface:'#FFFFFF', text:'#0F172A', muted:'#475569', accent:'#0077B6', accentHover:'#023E8A', border:'#BAE6FD', navBg:'#F0F9FF' },
+  'sage-academic':     { bg:'#F5F9F2', surface:'#FFFFFF', text:'#1A2E1A', muted:'#4A7C59', accent:'#2D5016', accentHover:'#1A3A0A', border:'#D4E8D0', navBg:'#F0F5ED' },
+  'maritime-navy':     { bg:'#F4F7FB', surface:'#FFFFFF', text:'#0F172A', muted:'#475569', accent:'#0F3460', accentHover:'#0A2351', border:'#CBD5E1', navBg:'#0F172A' },
+  'industrial-blue':   { bg:'#F7FAFC', surface:'#FFFFFF', text:'#1A202C', muted:'#718096', accent:'#2B6CB0', accentHover:'#2C5282', border:'#E2E8F0', navBg:'#FFFFFF' },
+  'warm-wood':         { bg:'#FFFBF5', surface:'#FFFFFF', text:'#3B2F1E', muted:'#8B7355', accent:'#D4A574', accentHover:'#C49A6C', border:'#F0E6D8', navBg:'#FFF8F0' },
+  'terracotta-clay':   { bg:'#FDF8F5', surface:'#FFFFFF', text:'#2D1A0F', muted:'#8B5E3C', accent:'#C7522A', accentHover:'#A0421E', border:'#F0D8CC', navBg:'#FDF5F0' },
+  'slate-green':       { bg:'#F7FAF7', surface:'#FFFFFF', text:'#1A2E1A', muted:'#5A7A5A', accent:'#38A169', accentHover:'#2F855A', border:'#D4E8D4', navBg:'#FFFFFF' },
+  'charcoal-amber':    { bg:'#F9FAFB', surface:'#1F2937', text:'#F9FAFB', muted:'#9CA3AF', accent:'#D97706', accentHover:'#B45309', border:'#374151', navBg:'#111827' },
+  'pine-white':        { bg:'#F5FDF9', surface:'#FFFFFF', text:'#0F2F1F', muted:'#5A8A6A', accent:'#059669', accentHover:'#047857', border:'#D0F0DD', navBg:'#FFFFFF' },
+  'ocean-depth':       { bg:'#ECFEFF', surface:'#FFFFFF', text:'#0C4A5E', muted:'#0E7490', accent:'#0891B2', accentHover:'#0E7490', border:'#CFFAFE', navBg:'#F0FAFD' },
+  'steel-workshop':    { bg:'#F8FAFC', surface:'#FFFFFF', text:'#0F172A', muted:'#64748B', accent:'#0284C7', accentHover:'#0369A1', border:'#E2E8F0', navBg:'#FFFFFF' },
+  'brick-kitchen':     { bg:'#FEF2F2', surface:'#FFFFFF', text:'#1A0D0D', muted:'#991B1B', accent:'#DC2626', accentHover:'#B91C1C', border:'#FECACA', navBg:'#FEF5F5' },
+  'concrete-rose':     { bg:'#FAFAF9', surface:'#FFFFFF', text:'#292524', muted:'#78716C', accent:'#E11D48', accentHover:'#BE123C', border:'#E7E5E4', navBg:'#FFFFFF' },
+  'forest-floor':      { bg:'#F0FDF4', surface:'#FFFFFF', text:'#14532D', muted:'#166534', accent:'#22C55E', accentHover:'#16A34A', border:'#BBF7D0', navBg:'#F5FDF7' },
+  'harvest-gold':      { bg:'#FFFBEB', surface:'#FFFFFF', text:'#451A03', muted:'#92400E', accent:'#D97706', accentHover:'#B45309', border:'#FDE68A', navBg:'#FFFBF0' },
+  'workshop-cream':    { bg:'#FFFBEB', surface:'#FFFDF5', text:'#292524', muted:'#78716C', accent:'#D97706', accentHover:'#B45309', border:'#F5F0E0', navBg:'#FFFDF5' },
+  'moss-stone':        { bg:'#F7FEE7', surface:'#FFFFFF', text:'#1A2E0A', muted:'#4D7C0F', accent:'#65A30D', accentHover:'#4D7C0F', border:'#D9F99D', navBg:'#F9FEF0' },
+  'canyon-dusk':       { bg:'#FFF7ED', surface:'#FFFFFF', text:'#2D1606', muted:'#9A3412', accent:'#EA580C', accentHover:'#C2410C', border:'#FED7AA', navBg:'#FFF7ED' },
+  'ochre-field':       { bg:'#FFFBF0', surface:'#FFFFFF', text:'#3B2E0A', muted:'#8B6F0E', accent:'#D49208', accentHover:'#B77A06', border:'#FDE68A', navBg:'#FFFDF5' },
+};
+
+export const FONT_PAIRS: Record<string, { heading: string; body: string; googleUrl: string }> = {
+  'merriweather+opensans':   { heading:'Merriweather', body:'Open Sans', googleUrl:'Merriweather:wght@700&family=Open+Sans:wght@400;600' },
+  'playfair+source-sans':    { heading:'Playfair Display', body:'Source Sans 3', googleUrl:'Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600' },
+  'crimson+inter':           { heading:'Crimson Text', body:'Inter', googleUrl:'Crimson+Text:wght@600&family=Inter:wght@400;600' },
+  'ibm-plex+ibm-sans':       { heading:'IBM Plex Serif', body:'IBM Plex Sans', googleUrl:'IBM+Plex+Serif:wght@600&family=IBM+Plex+Sans:wght@400;600' },
+  'lora+nunito':             { heading:'Lora', body:'Nunito', googleUrl:'Lora:wght@700&family=Nunito:wght@400;600' },
+  'space-grotesk+dm-sans':   { heading:'Space Grotesk', body:'DM Sans', googleUrl:'Space+Grotesk:wght@700&family=DM+Sans:wght@400;600' },
+  'dm-serif+inter':          { heading:'DM Serif Display', body:'Inter', googleUrl:'DM+Serif+Display&family=Inter:wght@400;600' },
+  'fraunces+work-sans':      { heading:'Fraunces', body:'Work Sans', googleUrl:'Fraunces:wght@700&family=Work+Sans:wght@400;600' },
+  'merriweather+sans':       { heading:'Merriweather', body:'Open Sans', googleUrl:'Merriweather:wght@700&family=Open+Sans:wght@400;600' },
+};

@@ -1,0 +1,27 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All page URLs are '/undefined' – missing proper URL slugs",
+    "Sample page title exceeds 60 characters (69 chars)",
+    "One page title references 'Warframe Weapon DPS Calculator' – off-topic for airsoft rifle site",
+    "FAQPage schema not detected – likely missing on page with 4 FAQs",
+    "No internal links found on sample page – orphan pages risk",
+    "Canonical URL not set (URLs are undefined)"
+  ],
+  "optimizations": [
+    "Create unique, keyword-rich URL slugs for each page (e.g., /airsoft-rifle-types-comparison)",
+    "Trim title to 50-60 characters, place primary keyword near front",
+    "Rewrite off-topic page to align with airsoft rifle comparison theme or remove it",
+    "Add FAQPage JSON-LD structured data to pages with FAQs",
+    "Implement a minimum of 2-3 internal links per page to build topic clusters",
+    "Set canonical URLs to the correct page URL and ensure robots.txt allows indexing"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

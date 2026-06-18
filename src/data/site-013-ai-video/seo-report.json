@@ -1,0 +1,27 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All title tags contain '[undefined]' prefix, indicating a placeholder error",
+    "All URLs are '/undefined', missing proper keyword-rich slugs",
+    "Missing FAQPage schema for pages with FAQs (e.g., sample page has 2 FAQs)",
+    "No canonical tags detected (likely missing or pointing incorrectly)",
+    "Internal linking structure unclear; sample page may lack links to other pages",
+    "Anchor text diversity cannot be verified due to missing internal link data"
+  ],
+  "optimizations": [
+    "Remove '[undefined]' from all title tags and ensure each title is unique, under 60 chars, and includes primary keyword near the front",
+    "Create descriptive, hyphenated URL slugs for each page (e.g., /best-ai-video-generators-2025)",
+    "Implement FAQPage structured data (JSON-LD) on pages with FAQ sections",
+    "Add self-referencing canonical tags to avoid duplicate content issues",
+    "Build internal links between pages using varied anchor text (exact, partial, brand, generic) to form topic clusters",
+    "Review robots.txt and sitemap.xml to ensure all pages are indexable and included"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

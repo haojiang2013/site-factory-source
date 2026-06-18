@@ -1,0 +1,39 @@
+{
+  "data": {
+    "lootBoxPricing": {
+      "singleLootBoxPrice": {
+        "min": 0.99,
+        "max": 9.99,
+        "typical": 4.99,
+        "unit": "USD"
+      },
+      "monthlySpendingPerPayingUser": {
+        "min": 10,
+        "max": 50,
+        "typical": 25,
+        "unit": "USD"
+      },
+      "annualUSMarketSpend": {
+        "min": 5000000000,
+        "max": 15000000000,
+        "typical": 10000000000,
+        "unit": "USD"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Federal Trade Commission (FTC) - Inside the Game: Unlocking the Consumer Issues Surrounding Loot Boxes (August 2019)",
+      "Entertainment Software Association (ESA) - Essential Facts About the Video Game Industry (2021)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-03",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "singleLootBoxPrice",
+      "monthlySpendingPerPayingUser",
+      "annualUSMarketSpend"
+    ],
+    "confidenceNotes": "Pricing data not explicitly verified across two independent sources due to lack of publicly available, consistent granular data on loot box pricing in the US market. The FTC report provides context but no exact averages; the ESA report provides industry-wide spending but not loot box specifics. Numbers are estimates based on typical in-app purchase ranges and must be treated as approximations."
+  }
+}

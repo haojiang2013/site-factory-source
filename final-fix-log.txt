@@ -1,0 +1,21 @@
+=== FIX 1: UI Designer — site-003 redo (avoid denim-canvas overlap) ===
+New design: coastal-blue | space-grotesk+dm-sans | PaintWise
+Site-003 design updated. Brand: PaintWise
+
+=== FIX 2: Title/meta length fixes ===
+Fixing site-002 page 1 (65 chars → target 53-57)...
+  New title: Mortgage Overpayment Calculator: See Your Savings Instantly (59 chars)
+Fixing site-002 page 4 (61 chars → target 53-57)...
+  New title: Biweekly Mortgage Payment Calculator: Extra Savings Breakdown (61 chars)
+Fixing site-003 page 2 (49 chars → target 52-58)...
+  New title: How Much Paint Do I Need? Free Calculator + Guide (49 chars)
+Fixing site-001 page 1 (meta 161 chars → target 145-155)...
+  New meta: 154 chars
+
+=== FINAL QA ===
+site-001-moving-calculator: PackWise | denim-canvas | ibm-plex+ibm-sans
+site-002-mortgage-calc: EquityBoost | maritime-navy | ibm-plex+ibm-sans
+site-003-paint-calc: PaintWise | coastal-blue | space-grotesk+dm-sans
+
+Titles OK: 12/15
+Metas OK: 15/15
