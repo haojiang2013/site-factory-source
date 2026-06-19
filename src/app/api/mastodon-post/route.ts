@@ -1,7 +1,11 @@
 /**
  * Mastodon daily auto-post endpoint
- * Called by Vercel Cron Job (vercel.json)
- * Protected by CRON_SECRET to prevent abuse
+ * Called by Vercel Cron Job (vercel.json): 3x/day at 02:03, 10:07, 18:13 UTC
+ * Protected by CRON_SECRET to prevent abuse.
+ *
+ * Twitter/X posting disabled — X API moved to pay-per-use model (Feb 2026).
+ * No free tier available for new developer accounts.
+ * OAuth 1.0a code preserved in git (commit 53304ad) for future re-enable.
  */
 import { NextRequest, NextResponse } from 'next/server';
 import c1 from '@/data/site-001-moving-calculator/config.json'; import c2 from '@/data/site-002-mortgage-calc/config.json'; import c3 from '@/data/site-003-paint-calc/config.json';
@@ -33,7 +37,7 @@ function generatePost(cfg: any): string {
   return templates[Math.floor(Math.random() * templates.length)];
 }
 
-// Simple rotation: store last index in a global (persists across warm invocations)
+// Simple rotation: lastIndex persists across warm invocations
 let lastIndex = -1;
 
 async function postToMastodon(text: string, token: string, server: string) {
@@ -50,57 +54,6 @@ async function postToMastodon(text: string, token: string, server: string) {
   return { ok: true, url: data.url };
 }
 
-function oauth1a(method: string, url: string, consumerKey: string, consumerSecret: string, token: string, tokenSecret: string): string {
-  const crypto = require('crypto');
-  const nonce = crypto.randomBytes(16).toString('hex');
-  const timestamp = Math.floor(Date.now() / 1000).toString();
-
-  const params: Record<string, string> = {
-    oauth_consumer_key: consumerKey,
-    oauth_nonce: nonce,
-    oauth_signature_method: 'HMAC-SHA1',
-    oauth_timestamp: timestamp,
-    oauth_token: token,
-    oauth_version: '1.0',
-  };
-
-  // Build signature base string
-  const paramStr = Object.keys(params).sort().map(k => `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`).join('&');
-  const baseStr = `${method.toUpperCase()}&${encodeURIComponent(url)}&${encodeURIComponent(paramStr)}`;
-  const signingKey = `${encodeURIComponent(consumerSecret)}&${encodeURIComponent(tokenSecret)}`;
-  const signature = crypto.createHmac('sha1', signingKey).update(baseStr).digest('base64');
-
-  params.oauth_signature = signature;
-  return 'OAuth ' + Object.keys(params).sort().map(k => `${k}="${encodeURIComponent(params[k])}"`).join(', ');
-}
-
-async function postToTwitter(text: string) {
-  const apiKey = process.env.TWITTER_API_KEY || '';
-  const apiSecret = process.env.TWITTER_API_SECRET || '';
-  const accessToken = process.env.TWITTER_ACCESS_TOKEN || '';
-  const accessSecret = process.env.TWITTER_ACCESS_SECRET || '';
-  if (!apiKey || !accessToken) return { ok: false, error: 'Twitter not configured' };
-
-  try {
-    const url = 'https://api.twitter.com/2/tweets';
-    const auth = oauth1a('POST', url, apiKey, apiSecret, accessToken, accessSecret);
-
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Authorization': auth, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text }),
-    });
-    if (!res.ok) {
-      const e = await res.json().catch(() => ({}));
-      return { ok: false, error: JSON.stringify(e).substring(0, 100) };
-    }
-    const data = await res.json();
-    return { ok: true, url: `https://x.com/i/status/${data.data?.id}` };
-  } catch (e: any) {
-    return { ok: false, error: e.message?.substring(0, 60) };
-  }
-}
-
 export async function GET(req: NextRequest) {
   const secret = req.nextUrl.searchParams.get('secret');
   if (secret !== process.env.CRON_SECRET) {
@@ -115,21 +68,18 @@ export async function GET(req: NextRequest) {
   const site = ALL[lastIndex];
   const text = generatePost(site);
 
-  // Post to both platforms in parallel
-  const results: any = { index: lastIndex, domain: site.domain };
-
-  const [mastoResult, twitterResult] = await Promise.allSettled([
-    mastodonToken ? postToMastodon(text, mastodonToken, mastodonServer) : Promise.resolve({ ok: false as const, error: 'no token' }),
-    postToTwitter(text),
-  ]);
-
-  const mv = mastoResult.status === 'fulfilled' ? mastoResult.value : null;
-  results.mastodon = mv?.ok ? (mv as any).url : `FAIL: ${(mv as any)?.error || 'rejected'}`;
-
-  const tv = twitterResult.status === 'fulfilled' ? twitterResult.value : null;
-  if (tv && !(tv.error as string)?.includes('not configured')) {
-    results.twitter = tv.ok ? (tv as any).url : `FAIL: ${tv.error}`;
+  let mastodon: string;
+  if (!mastodonToken) {
+    mastodon = 'FAIL: no token';
+  } else {
+    const result = await postToMastodon(text, mastodonToken, mastodonServer);
+    mastodon = result.ok ? (result as any).url : `FAIL: ${(result as any).error}`;
   }
 
-  return NextResponse.json({ success: true, ...results });
+  return NextResponse.json({
+    success: true,
+    index: lastIndex,
+    domain: site.domain,
+    mastodon,
+  });
 }

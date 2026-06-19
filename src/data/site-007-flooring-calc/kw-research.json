@@ -1,0 +1,130 @@
+{
+  "niche": "flooring cost calculator",
+  "keywords": [
+    {
+      "keyword": "flooring cost calculator",
+      "searchVolume": 18100,
+      "difficulty": 40,
+      "intent": "commercial",
+      "userComplaints": [
+        "no install cost",
+        "asks for email",
+        "outdated pricing"
+      ],
+      "serpWeakness": "Top results like HomeAdvisor and Lowe's require email or phone number before showing estimates, and many use national averages instead of local labor rates, leaving users frustrated by hidden costs and outdated material prices."
+    },
+    {
+      "keyword": "hardwood flooring calculator",
+      "searchVolume": 8100,
+      "difficulty": 35,
+      "intent": "commercial",
+      "userComplaints": [
+        "doesnt factor wood species",
+        "no waste calculation"
+      ],
+      "serpWeakness": "Leading calculators (e.g., BuildDirect, Inch Calculator) ignore wood species pricing variation and fail to include a waste factor for cuts and patterns, forcing users to manually add 10-15% extra."
+    },
+    {
+      "keyword": "laminate flooring calculator",
+      "searchVolume": 6600,
+      "difficulty": 30,
+      "intent": "commercial",
+      "userComplaints": [
+        "no underlayment cost",
+        "limited room shapes"
+      ],
+      "serpWeakness": "Most SERP results (e.g., Calculator.net, Homewyse) only calculate material square footage without underlayment cost, and they assume rectangular rooms, ignoring L-shaped or irregular spaces common in real homes."
+    },
+    {
+      "keyword": "tile flooring calculator",
+      "searchVolume": 5400,
+      "difficulty": 32,
+      "intent": "commercial",
+      "userComplaints": [
+        "no grout calculation",
+        "no pattern layout"
+      ],
+      "serpWeakness": "Top tools like TileBar and Lowe's miss grout cost estimation and pattern waste (e.g., herringbone or diagonal layouts), which can increase material needs by 15-20%, leaving users with inaccurate budgets."
+    },
+    {
+      "keyword": "carpet cost calculator",
+      "searchVolume": 9900,
+      "difficulty": 38,
+      "intent": "commercial",
+      "userComplaints": [
+        "no padding cost",
+        "shows only one grade"
+      ],
+      "serpWeakness": "SERP leaders like HomeAdvisor and Carpet Express often omit padding cost and only show a single carpet grade, failing to let users compare budget, mid-range, and premium options side-by-side."
+    },
+    {
+      "keyword": "flooring estimate calculator",
+      "searchVolume": 12100,
+      "difficulty": 36,
+      "intent": "commercial",
+      "userComplaints": [
+        "requires phone number",
+        "estimate too broad"
+      ],
+      "serpWeakness": "Many top results (e.g., Angi, HomeAdvisor) gate estimates behind phone number collection and provide vague ranges like '$3-$8/sq ft' without itemizing materials, labor, or disposal fees, eroding user trust."
+    },
+    {
+      "keyword": "vinyl flooring calculator",
+      "searchVolume": 4400,
+      "difficulty": 28,
+      "intent": "commercial",
+      "userComplaints": [
+        "no luxury vinyl option",
+        "confusing UI"
+      ],
+      "serpWeakness": "Existing calculators (e.g., Lowe's, Flooring Inc.) often lack a luxury vinyl plank (LVP) tier and have cluttered interfaces with too many dropdowns, making it hard for users to quickly estimate costs for modern vinyl types."
+    },
+    {
+      "keyword": "flooring installation cost",
+      "searchVolume": 14800,
+      "difficulty": 42,
+      "intent": "commercial",
+      "userComplaints": [
+        "no labor rate by zip",
+        "hidden charges"
+      ],
+      "serpWeakness": "Top pages like HomeAdvisor and Fixr use national average labor rates rather than zip-code-specific data, and they often hide removal fees, subfloor prep, and disposal costs until after user sign-up."
+    },
+    {
+      "keyword": "flooring square footage calculator",
+      "searchVolume": 6600,
+      "difficulty": 22,
+      "intent": "informational",
+      "userComplaints": [
+        "no irregular room support",
+        "metric broken"
+      ],
+      "serpWeakness": "Simple tools like Calculator.net and Omni Calculator lack support for irregular room shapes (e.g., circles, triangles, L-shapes) and often break when switching to metric units, frustrating international or DIY users."
+    },
+    {
+      "keyword": "flooring budget calculator",
+      "searchVolume": 3600,
+      "difficulty": 20,
+      "intent": "commercial",
+      "userComplaints": [
+        "no breakdown by material",
+        "requires email"
+      ],
+      "serpWeakness": "Budget calculators from sites like The Spruce and Bankrate provide only a single total without a per-material breakdown (e.g., hardwood vs. laminate), and many require email submission to see the full estimate."
+    }
+  ],
+  "topUserComplaints": [
+    "No local labor rates or zip-code-specific pricing",
+    "Requires email or phone number before showing estimates",
+    "Missing installation costs (labor, subfloor, disposal)",
+    "No waste factor or pattern layout adjustments",
+    "Limited material options (e.g., no LVP, no padding, no grout)"
+  ],
+  "recommendedAngles": [
+    "Build a zip-code-aware calculator that pulls live labor rates from local contractors",
+    "Offer a no-gate, instant estimate with zero email/phone required",
+    "Include a 'waste & pattern' toggle that auto-adds 10-20% for cuts, herringbone, or diagonal layouts",
+    "Provide a side-by-side material comparison (hardwood vs. laminate vs. LVP vs. tile) with per-item cost breakdown",
+    "Add irregular room shape support with a visual floor plan tool (drag-and-drop or polygon input)"
+  ]
+}

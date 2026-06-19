@@ -1,0 +1,130 @@
+{
+  "niche": "concrete calculator",
+  "keywords": [
+    {
+      "keyword": "concrete calculator",
+      "searchVolume": 54000,
+      "difficulty": 42,
+      "intent": "commercial",
+      "userComplaints": [
+        "no metric option",
+        "asks for email",
+        "hidden fees"
+      ],
+      "serpWeakness": "Top results (e.g., Calculator.net, Inch Calculator) lack a toggle for metric/imperial units and often require email sign-up to view results, frustrating users who want quick, free estimates."
+    },
+    {
+      "keyword": "concrete cost calculator",
+      "searchVolume": 12100,
+      "difficulty": 35,
+      "intent": "commercial",
+      "userComplaints": [
+        "doesnt include delivery",
+        "inaccurate estimates"
+      ],
+      "serpWeakness": "Leading pages (e.g., HomeAdvisor, ImproveNet) omit delivery fees and short-load surcharges, leading to estimates that are often 20-30% lower than actual costs."
+    },
+    {
+      "keyword": "concrete slab calculator",
+      "searchVolume": 9900,
+      "difficulty": 38,
+      "intent": "commercial",
+      "userComplaints": [
+        "wont let me adjust thickness",
+        "no waste factor"
+      ],
+      "serpWeakness": "SERP leaders (e.g., ConcreteNetwork, EverythingAboutConcrete) fix slab thickness at 4 inches and ignore waste factors, failing DIYers who need custom thicknesses and 5-10% overage."
+    },
+    {
+      "keyword": "concrete yard calculator",
+      "searchVolume": 8100,
+      "difficulty": 30,
+      "intent": "commercial",
+      "userComplaints": [
+        "confusing unit conversion",
+        "requires signup"
+      ],
+      "serpWeakness": "Top results (e.g., Sakrete, QUIKRETE) force users to convert manually between feet, inches, and yards, and many require account creation to save or print results."
+    },
+    {
+      "keyword": "how much concrete do i need",
+      "searchVolume": 27100,
+      "difficulty": 45,
+      "intent": "informational",
+      "userComplaints": [
+        "too many ads",
+        "estimates are off by 20%"
+      ],
+      "serpWeakness": "High-traffic pages (e.g., The Spruce, Lowe's) are cluttered with ads and affiliate links, and their calculators use oversimplified formulas that ignore slab depth variations, causing 20%+ errors."
+    },
+    {
+      "keyword": "bagged concrete calculator",
+      "searchVolume": 5400,
+      "difficulty": 25,
+      "intent": "commercial",
+      "userComplaints": [
+        "only shows 80lb bags",
+        "no cost estimate"
+      ],
+      "serpWeakness": "Existing tools (e.g., QUIKRETE's official calculator) only support 80lb bags and never show total cost per bag or project, leaving users to manually multiply bag count by price."
+    },
+    {
+      "keyword": "cement calculator for fence posts",
+      "searchVolume": 3600,
+      "difficulty": 22,
+      "intent": "commercial",
+      "userComplaints": [
+        "only works for posts",
+        "no mixing ratio"
+      ],
+      "serpWeakness": "Specialized calculators (e.g., Lowe's, Home Depot) are rigidly designed for fence posts only and omit mixing ratios for different bag sizes, frustrating users with non-standard post dimensions."
+    },
+    {
+      "keyword": "ready mix concrete calculator",
+      "searchVolume": 6600,
+      "difficulty": 32,
+      "intent": "commercial",
+      "userComplaints": [
+        "assumes one mix type",
+        "no short load fee"
+      ],
+      "serpWeakness": "Top SERP results (e.g., ConcreteReadyMix, National Ready Mix) assume a single standard mix (e.g., 3000 psi) and ignore short-load fees for small orders, which can double the price."
+    },
+    {
+      "keyword": "concrete driveway calculator",
+      "searchVolume": 4400,
+      "difficulty": 28,
+      "intent": "commercial",
+      "userComplaints": [
+        "no rebar option",
+        "no thickness options"
+      ],
+      "serpWeakness": "Driveway calculators (e.g., ConcreteNetwork, DrivewayCalculator.net) lack rebar/mesh cost add-ons and only offer 4-inch thickness, ignoring common 5-6 inch reinforced driveways."
+    },
+    {
+      "keyword": "concrete volume calculator",
+      "searchVolume": 8100,
+      "difficulty": 25,
+      "intent": "informational",
+      "userComplaints": [
+        "metric conversion broken",
+        "no irregular shapes"
+      ],
+      "serpWeakness": "Volume calculators (e.g., CalculatorSoup, Gigacalculator) often have broken metric-to-imperial conversions and only support rectangular prisms, failing users with circular footings or trapezoidal slabs."
+    }
+  ],
+  "topUserComplaints": [
+    "No metric/imperial toggle or broken unit conversion",
+    "Forced sign-up or email to view results",
+    "Inaccurate estimates (ignoring delivery fees, waste factor, short-load fees)",
+    "Rigid input options (fixed thickness, only 80lb bags, no rebar)",
+    "Too many ads and affiliate clutter"
+  ],
+  "recommendedAngles": [
+    "Build a free, ad-light calculator with instant metric/imperial toggle and no email gate",
+    "Include adjustable waste factor (5-15%), slab thickness (2-12 inches), and rebar/mesh cost add-ons",
+    "Add delivery fee and short-load surcharge sliders for ready-mix estimates",
+    "Support irregular shapes (circles, L-shapes, trapezoids) with visual guides",
+    "Offer bagged concrete calculator with all bag sizes (40, 60, 80, 90lb) and per-bag cost input"
+  ]
+}
