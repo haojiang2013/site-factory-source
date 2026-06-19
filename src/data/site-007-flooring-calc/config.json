@@ -8,49 +8,103 @@
   "keywords": [
     {
       "keyword": "flooring cost calculator",
-      "searchVolume": 6000,
-      "difficulty": 50,
-      "intent": "transactional",
-      "userComplaints": [
-        "no install cost",
-        "metric missing"
-      ]
-    },
-    {
-      "keyword": "hardwood flooring cost estimator",
-      "searchVolume": 4000,
-      "difficulty": 55,
+      "searchVolume": 18100,
+      "difficulty": 40,
       "intent": "commercial",
       "userComplaints": [
-        "prices per sqft wrong",
-        "finish missing"
+        "no install cost",
+        "asks for email",
+        "outdated pricing"
       ]
     },
     {
-      "keyword": "how much flooring do i need",
-      "searchVolume": 9000,
-      "difficulty": 42,
-      "intent": "transactional",
+      "keyword": "hardwood flooring calculator",
+      "searchVolume": 8100,
+      "difficulty": 35,
+      "intent": "commercial",
       "userComplaints": [
-        "no room shape options"
+        "doesnt factor wood species",
+        "no waste calculation"
       ]
     },
     {
-      "keyword": "carpet cost calculator per square foot",
-      "searchVolume": 2500,
+      "keyword": "laminate flooring calculator",
+      "searchVolume": 6600,
+      "difficulty": 30,
+      "intent": "commercial",
+      "userComplaints": [
+        "no underlayment cost",
+        "limited room shapes"
+      ]
+    },
+    {
+      "keyword": "tile flooring calculator",
+      "searchVolume": 5400,
+      "difficulty": 32,
+      "intent": "commercial",
+      "userComplaints": [
+        "no grout calculation",
+        "no pattern layout"
+      ]
+    },
+    {
+      "keyword": "carpet cost calculator",
+      "searchVolume": 9900,
       "difficulty": 38,
       "intent": "commercial",
       "userComplaints": [
-        "padding not included"
+        "no padding cost",
+        "shows only one grade"
       ]
     },
     {
-      "keyword": "tile flooring calculator with waste",
-      "searchVolume": 1800,
-      "difficulty": 35,
-      "intent": "transactional",
+      "keyword": "flooring estimate calculator",
+      "searchVolume": 12100,
+      "difficulty": 36,
+      "intent": "commercial",
       "userComplaints": [
-        "grout not accounted"
+        "requires phone number",
+        "estimate too broad"
+      ]
+    },
+    {
+      "keyword": "vinyl flooring calculator",
+      "searchVolume": 4400,
+      "difficulty": 28,
+      "intent": "commercial",
+      "userComplaints": [
+        "no luxury vinyl option",
+        "confusing UI"
+      ]
+    },
+    {
+      "keyword": "flooring installation cost",
+      "searchVolume": 14800,
+      "difficulty": 42,
+      "intent": "commercial",
+      "userComplaints": [
+        "no labor rate by zip",
+        "hidden charges"
+      ]
+    },
+    {
+      "keyword": "flooring square footage calculator",
+      "searchVolume": 6600,
+      "difficulty": 22,
+      "intent": "informational",
+      "userComplaints": [
+        "no irregular room support",
+        "metric broken"
+      ]
+    },
+    {
+      "keyword": "flooring budget calculator",
+      "searchVolume": 3600,
+      "difficulty": 20,
+      "intent": "commercial",
+      "userComplaints": [
+        "no breakdown by material",
+        "requires email"
       ]
     }
   ],

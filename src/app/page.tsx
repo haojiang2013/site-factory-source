@@ -4,6 +4,7 @@ import { CalculatorPage } from '@/templates/template-a-calculator/page-template'
 import { DataPage } from '@/templates/template-b-data/DataPage';
 import { GuidePage } from '@/templates/template-c-guide/GuidePage';
 import { PageContent, DesignConfig } from '@/lib/site-config';
+import { getRelatedPagesForDomain } from '@/lib/page-registry';
 import c1 from '@/data/site-001-moving-calculator/config.json';
 import p1 from '@/data/site-001-moving-calculator/pages.json';
 import t1 from '@/data/site-001-moving-calculator/tool-code.json';
@@ -56,9 +57,30 @@ function getHost() {
 export function generateMetadata(): Metadata {
   const host = getHost();
   const site = SITES[host] || SITES['gomovecalc.xyz'];
+  const brand = site.config.designConfig.brandName;
+  const desc = (site.pages[0] as PageContent).metaDescription || '';
+  const domain = site.config.domain;
+  // Never use www — Google treats it as duplicate
+  const url = `https://${domain.replace(/^www\./, '')}`;
   return {
-    title: `${site.config.designConfig.brandName} — Free ${site.config.niche}`,
-    description: (site.pages[0] as PageContent).metaDescription || '',
+    title: `${brand} — Free ${site.config.niche}`,
+    description: desc,
+    metadataBase: new URL(url),
+    alternates: { canonical: '/' },
+    openGraph: {
+      title: `${brand} — Free ${site.config.niche}`,
+      description: desc,
+      url,
+      siteName: brand,
+      type: 'website',
+      locale: 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${brand} — Free ${site.config.niche}`,
+      description: desc,
+    },
+    robots: { index: true, follow: true },
   };
 }
 
@@ -82,6 +104,8 @@ export default function HomePage(props: any) {
     : (SITES[host] || SITES['gomovecalc.xyz'] || Object.values(SITES)[0]);
   const page = site.pages[0] as PageContent;
   const brand = site.config.designConfig.brandName;
+  const domain = site.config.domain;
+  const relatedPages = getRelatedPagesForDomain(domain);
 
   // Template B: data comparison pages
   if (site.config.template === 'B') {
@@ -114,6 +138,8 @@ export default function HomePage(props: any) {
         }}
         brandName={brand}
         designConfig={site.config.designConfig as DesignConfig}
+        domain={domain}
+        relatedPages={relatedPages}
       />
     );
   }
@@ -147,6 +173,8 @@ export default function HomePage(props: any) {
         }}
         brandName={brand}
         designConfig={site.config.designConfig as DesignConfig}
+        domain={domain}
+        relatedPages={relatedPages}
       />
     );
   }
@@ -158,6 +186,9 @@ export default function HomePage(props: any) {
       brandName={brand}
       toolCode={site.tool.jsCode || ''}
       designConfig={site.config.designConfig as DesignConfig}
+      domain={domain}
+      relatedPages={relatedPages}
+      productHuntUrl={domain === 'gomovecalc.xyz' ? 'https://www.producthunt.com/products/movewise' : undefined}
     />
   );
 }

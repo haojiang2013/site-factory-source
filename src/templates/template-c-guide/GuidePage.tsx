@@ -3,6 +3,7 @@ import { DesignConfig } from '@/lib/site-config';
 import { COLOR_PALETTES } from '@/lib/design-tokens';
 import { TableOfContents } from './TableOfContents';
 import { DataCard, DataCardItem } from './DataCard';
+import { RelatedPages } from '@/components/RelatedPages';
 
 export interface GuidePageContent {
   title: string;
@@ -16,15 +17,41 @@ export interface GuidePageContent {
   faqs: { question: string; answer: string }[];
 }
 
-export function GuidePage({ page, brandName, designConfig }: {
+export function GuidePage({ page, brandName, designConfig, domain, currentSlug, relatedPages }: {
   page: GuidePageContent;
   brandName: string;
   designConfig?: DesignConfig;
+  domain?: string;
+  currentSlug?: string;
+  relatedPages?: Array<{ slug: string; h1: string }>;
 }) {
   const palette = designConfig?.colorScheme ? COLOR_PALETTES[designConfig.colorScheme] : null;
 
+  // JSON-LD structured data for rich snippets
+  const schemaJson: any[] = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: page.h1,
+      description: page.metaDescription,
+      author: { '@type': 'Organization', name: brandName },
+    },
+  ];
+  if (page.faqs.length > 0) {
+    schemaJson.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: page.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+      })),
+    });
+  }
+
   return (
     <Layout brandName={brandName} designConfig={designConfig}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson.length === 1 ? schemaJson[0] : { '@context': 'https://schema.org', '@graph': schemaJson }) }} />
       <article className="max-w-5xl mx-auto px-4 py-8">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight" style={{ color: palette?.text || '#1a1a1a' }}>
@@ -89,6 +116,11 @@ export function GuidePage({ page, brandName, designConfig }: {
               ))}
             </dl>
           </section>
+        )}
+
+        {/* Internal linking */}
+        {domain && relatedPages && relatedPages.length > 1 && (
+          <RelatedPages domain={domain} currentSlug={currentSlug} pages={relatedPages} />
         )}
       </article>
     </Layout>

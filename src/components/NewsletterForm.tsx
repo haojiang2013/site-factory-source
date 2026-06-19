@@ -5,12 +5,21 @@ export function NewsletterForm({ palette }: { palette: { text: string; muted: st
   const [email, setEmail] = useState('');
   const [done, setDone] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.includes('@')) {
-      try { localStorage.setItem('nl-signed', '1'); } catch {}
-      setDone(true);
-    }
+    if (!email.includes('@')) return;
+    setLoading(true);
+    try {
+      await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+    } catch {}
+    try { localStorage.setItem('nl-signed', '1'); } catch {}
+    setDone(true);
+    setLoading(false);
   };
 
   if (done) return null;
@@ -27,9 +36,9 @@ export function NewsletterForm({ palette }: { palette: { text: string; muted: st
         <form onSubmit={handleSubmit}>
           <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="your@email.com" required
             style={{ padding: '8px 12px', borderRadius: 4, border: `1px solid ${palette.border}`, width: 220, fontSize: 13 }} />
-          <button type="submit"
-            style={{ marginLeft: 8, padding: '8px 16px', borderRadius: 4, background: palette.accent, color: '#fff', border: 'none', fontSize: 13, cursor: 'pointer' }}>
-            Subscribe
+          <button type="submit" disabled={loading}
+            style={{ marginLeft: 8, padding: '8px 16px', borderRadius: 4, background: palette.accent, color: '#fff', border: 'none', fontSize: 13, cursor: loading ? 'wait' : 'pointer', opacity: loading ? 0.7 : 1 }}>
+            {loading ? 'Subscribing…' : 'Subscribe'}
           </button>
         </form>
         <p style={{ margin: '8px 0 0 0', fontSize: 10, color: '#ccc' }}>No spam. Unsubscribe anytime.</p>

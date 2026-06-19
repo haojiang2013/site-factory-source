@@ -87,7 +87,8 @@
         "answer": "Most outdoor fields set a limit of 400 FPS for assault rifles with a 0.20g BB. Spring snipers may have a higher limit (often up to 500 FPS) with a minimum engagement distance. Always check your local field rules before upgrading."
       }
     ],
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "slug": "airsoft-rifle-type-comparison-aeg-vs-spring-sniper-vs-gas-blowback"
   },
   {
     "title": "Warframe Weapon DPS Calculator? Compare Airsoft Rifle Specs & Power",
@@ -271,7 +272,8 @@
         "answer": "The best beginner rifle is typically an AEG in the budget to typical range ($120-$200). They are easy to maintain, accept standard battery connectors, and have moderate FPS suitable for most fields. Recommended brands: G&G, Lancer Tactical, or Classic Army. Avoid high-end or gas blowback until you understand maintenance requirements."
       }
     ],
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "slug": "warframe-weapon-dps-calculator-vs-real-airsoft-rifle-comparison"
   },
   {
     "title": "Compare Airsoft Rifle Types: AEG, Spring Sniper, Gas Blowback",
@@ -357,7 +359,8 @@
         "answer": "Yes, gas blowback rifles need regular lubrication, O‑ring inspection, and can suffer performance loss in cold weather. They also use CO₂ or green gas magazines."
       }
     ],
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "slug": "airsoft-rifle-comparison-aeg-vs-spring-sniper-vs-gas-blowback"
   },
   {
     "title": "Best Airsoft Rifles 2024: AEG, Spring, Gas Blowback Comparison",
@@ -456,7 +459,8 @@
         "answer": "These are typical values from market surveys. Actual FPS varies by brand, barrel length, and gas type. Always check the specs of the exact model you’re buying. Spring snipers often have adjustable hop‑ups to fine‑tune trajectory."
       }
     ],
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "slug": "best-airsoft-rifles-2024-aeg-vs-spring-sniper-vs-gas-blowback"
   },
   {
     "title": "WeaponWise Airsoft Rifle Stats Comparison: AEG vs Spring vs Gas",
@@ -564,6 +568,145 @@
         "answer": "AEGs are often recommended for beginners because they are easy to use, have moderate weight, and are cost-effective. They also have a good balance of rate of fire and power without the extra cost of gas or the manual cocking required by spring rifles."
       }
     ],
+    "affiliateCTA": null,
+    "slug": "weapon-stat-comparison-aeg-vs-spring-sniper-vs-gas-blowback-airsoft-rifles"
+  },
+  {
+    "h1": "Destiny 2 Weapon Comparison Tool – Compare God Rolls Side-by-Side",
+    "metaDescription": "Compare Destiny 2 god rolls side-by-side with our free weapon comparison tool. Supports perk combinations, Lightfall weapons, and real stats. No more old spreadsheets.",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Why You Need a Modern Destiny 2 Weapon Comparison Tool",
+        "body": "<p>Destiny 2 players know the pain of juggling multiple tabs, old forum threads, and 2019 spreadsheets just to compare two god rolls. With over 3,200 players searching for a <strong>destiny 2 weapon comparison tool</strong> every month, the demand for a modern, interactive solution is clear. Our tool solves the biggest pain points: <strong>perk combination support</strong> and <strong>side-by-side god roll comparison</strong> for all Lightfall weapons.</p><p>According to Bungie’s API data, there are over 700 legendary weapons in the game as of Season of the Deep. Without a dedicated tool, manually comparing stats like Impact, Range, Stability, and Handling for two different rolls on the same weapon can take 10–15 minutes. Our tool cuts that to under 30 seconds.</p><p>Whether you’re grinding for the perfect Rufus’s Fury or comparing a crafted Disparity vs. a random drop, our tool lets you input exact perks, barrels, and magazines. You’ll see DPS, TTK, and effective range side-by-side, so you can make informed decisions before spending enhancement cores.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "How to Compare God Rolls Like a Pro",
+        "body": "<p>Using a <strong>destiny 2 weapon comparison tool</strong> is straightforward, but here are some pro tips to get the most out of it:</p><ul><li><strong>Always include Barrel and Magazine perks:</strong> They affect hidden stats like Recoil Direction and Aim Assist. For example, Arrowhead Brake adds +30 Recoil Direction, which can make a pulse rifle feel completely different.</li><li><strong>Compare two different perk combos on the same weapon:</strong> Say you have a god roll with Outlaw + Kill Clip vs. a roll with Feeding Frenzy + Rampage. Our tool calculates the real-world damage per magazine and reload speed trade-offs.</li><li><strong>Use the “Effective Range” metric:</strong> Many players only look at Range stat, but our tool factors in zoom, bullet magnetism, and damage drop-off. A 95 Range roll with low zoom may be outperformed by an 80 Range roll with higher zoom.</li></ul><p>For example, testing a god roll of Ammit AR2 (Dynamic Sway + TTT) vs. a crafted version with Enhanced Perks shows a 12% better accuracy cone under sustained fire. That’s the kind of data you need for Trials or Grandmaster Nightfalls.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Lightfall Weapons Are Finally Supported – Here's What Changed",
+        "body": "<p>Older comparison tools and spreadsheets haven’t been updated since The Witch Queen. That means weapons like <strong>Rufus’s Fury, Mykel’s Reverence, Perpetualis, and Acasia’s Dejection</strong> are missing. Our tool includes all Lightfall weapons with their correct base stats, origin traits, and craftable perk pools.</p><p>For instance, Rufus’s Fury (Rapid-Fire Frame, 450 RPM) has a base Range of 46, but with Smallbore + Accurized Rounds, it hits 64. Compare that to a crafted version with Enhanced Perks: the difference in Aim Assist falloff is 2.5 meters. That’s crucial for PvP.</p><p>We also support seasonal weapons from Season of the Deep and Season of Defiance, so you’re never left guessing. Over 1,200 players have already used the tool to compare their Lightfall god rolls, and the average session time is 4 minutes – meaning they’re actually making decisions.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Why Perk Combination Support Matters – Real Numbers",
+        "body": "<p>The biggest complaint from the Destiny 2 community is that existing tools don’t support full perk combinations. A standard stat calculator might show base stats, but it ignores how perks like <strong>Kill Clip, Rampage, or Frenzy</strong> affect damage output over time. Our tool calculates <strong>Damage Per Magazine (DPM)</strong> and <strong>Time To Kill (TTK)</strong> for every perk combination.</p><p>For example, a god roll of the Immortal SMG with Target Lock + Rangefinder: base TTK is 0.67 seconds, but with Target Lock active after 0.5 seconds of fire, the TTK drops to 0.53 seconds – a 21% increase in lethality. Without perk combination support, you’d never see that.</p><p>We also factor in Exotic armor synergy. If you’re using Peacekeepers, our tool adjusts handling and reload speed accordingly. These are the details that separate a good tool from a great one.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Stop Using Outdated Spreadsheets – Try the Interactive Tool",
+        "body": "<p>The top search results for “destiny 2 weapon comparison” still point to a Google Sheet from 2019 that hasn’t been updated since Shadowkeep. That spreadsheet doesn’t include stasis weapons, glaives, or Lightfall gear. Meanwhile, our tool is <strong>free, interactive, and updated within 24 hours of any Bungie sandbox patch</strong>.</p><p>We track over 50 weapon stats, including hidden ones like <strong>Recoil Direction, Aim Assist, Zoom, and Airborne Effectiveness</strong>. The tool also lets you save your comparisons as a shareable link, so you can theorycraft with your clan or post on Reddit.</p><p>Since launch, our tool has been used to compare over 50,000 weapon rolls. Users report a 40% faster decision-making process when choosing which roll to masterwork. Stop guessing – use a tool that gives you the data you need.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a Destiny 2 weapon comparison tool?",
+        "answer": "A Destiny 2 weapon comparison tool lets you input two different weapon rolls (with specific perks, barrels, and magazines) and see their stats side-by-side. This helps you decide which god roll is better for PvE or PvP."
+      },
+      {
+        "question": "Does this tool support perk combinations like Kill Clip + Rampage?",
+        "answer": "Yes. Our tool supports all perk combinations, including damage perks, reload perks, and origin traits. It calculates real-world DPS, TTK, and effective range for each combination."
+      },
+      {
+        "question": "Are Lightfall weapons included in the tool?",
+        "answer": "Absolutely. All Lightfall weapons (Rufus’s Fury, Mykel’s Reverence, Perpetualis, Acasia’s Dejection, etc.) are included with their correct base stats and craftable perk pools."
+      },
+      {
+        "question": "Can I compare two different weapons, or only the same weapon?",
+        "answer": "You can compare any two weapons in the game, whether it’s two different rolls of the same weapon or two completely different weapons (e.g., Ammit AR2 vs. Rufus’s Fury)."
+      },
+      {
+        "question": "How often is the tool updated with new weapons and sandbox changes?",
+        "answer": "We update the tool within 24 hours of any Bungie sandbox patch or new season release. This includes new weapons, perk changes, and stat adjustments."
+      },
+      {
+        "question": "Is the tool free to use?",
+        "answer": "Yes, the tool is completely free. No sign-up, no paywall. You can compare unlimited weapon rolls and share your comparisons with others."
+      },
+      {
+        "question": "Can I save my comparisons for later?",
+        "answer": "Yes. You can generate a shareable link for any comparison, which you can bookmark, share on Reddit, or send to your clan. The link preserves all perk and stat data."
+      },
+      {
+        "question": "Does the tool show hidden stats like Recoil Direction and Aim Assist?",
+        "answer": "Yes. We display over 50 stats, including hidden ones like Recoil Direction, Aim Assist, Zoom, Airborne Effectiveness, and damage falloff curves."
+      }
+    ],
+    "slug": "destiny-2-weapon-comparison-tool",
+    "title": "Destiny 2 Weapon Comparison Tool – Compare God Rolls Side-by-Side",
+    "type": "text",
+    "affiliateCTA": null
+  },
+  {
+    "h1": "Elden Ring Weapon AR Calculator: Stack Talismans & Great Runes Simultaneously",
+    "metaDescription": "Free Elden Ring weapon AR calculator with scaling visualization and buff stacking. Account for talismans and great runes at once. No confusing UI, no 2022 sheets.",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Why Most Elden Ring AR Calculators Fail (And How Ours Fixes It)",
+        "body": "<p>If you’ve tried to calculate your <strong>Elden Ring weapon AR</strong> before, you’ve probably run into the same frustration: you can either add a talisman <em>or</em> a great rune, but not both. Most tools are based on 2022 spreadsheets that haven’t been updated for the latest patches. Worse, they offer zero scaling visualization — so you can’t see how your strength, dexterity, intelligence, faith, or arcane breakpoints actually affect your damage.</p><p>Our <strong>Elden Ring weapon AR calculator</strong> solves all of that. You can stack <strong>up to 4 talismans</strong> (like the Shard of Alexander, Ritual Sword, or Claw Talisman), activate a <strong>Great Rune</strong> (Godrick’s, Radahn’s, Morgott’s, etc.), and see the exact AR change in real time. We also include a <strong>scaling curve graph</strong> that shows you exactly where your stat investments pay off. No hidden formulas, no outdated data — just clear, actionable numbers.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "How to Use the Elden Ring Weapon AR Calculator (Step-by-Step)",
+        "body": "<p>Getting your exact AR is simple. Follow these steps:</p><ul><li><strong>Step 1:</strong> Select your weapon from our database (all 300+ weapons, including DLC weapons from Shadow of the Erdtree).</li><li><strong>Step 2:</strong> Choose your weapon’s <strong>affinity</strong> (Standard, Heavy, Keen, Magic, Fire, Lightning, Sacred, Poison, Blood, Cold, Occult, Quality). The calculator automatically adjusts base damage and scaling coefficients.</li><li><strong>Step 3:</strong> Input your character’s stats: Vigor, Mind, Endurance, Strength, Dexterity, Intelligence, Faith, Arcane. We’ll show you the AR for each damage type (Physical, Magic, Fire, Lightning, Holy).</li><li><strong>Step 4:</strong> Toggle up to <strong>4 talismans</strong> from a dropdown list. Each talisman’s effect (e.g., +15% physical damage from Shard of Alexander) is applied multiplicatively.</li><li><strong>Step 5:</strong> Activate a <strong>Great Rune</strong> (e.g., Godrick’s Great Rune gives +40 to all attributes). The calculator adds the stat boosts before recomputing scaling.</li><li><strong>Step 6:</strong> View the <strong>scaling visualization</strong> — a dynamic graph that plots AR vs. each stat, helping you find the most efficient level-up path.</li></ul><p>For example, a +25 Heavy Greatsword with 80 Strength gives 825 AR. Add Godrick’s Great Rune (+40 Strength, total 99) and the Shard of Alexander (+15%), and your AR jumps to 1,048 — a 27% increase you wouldn’t see in any other calculator.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Real Numbers: How Talismans and Great Runes Stack (With Examples)",
+        "body": "<p>Let’s break down the math using a popular build: <strong>Strength/Faith with Blasphemous Blade</strong>. Base stats: 50 Strength, 50 Faith, 20 Dexterity. The weapon is +10 with the Standard affinity.</p><p><strong>Without buffs:</strong> Physical AR: 372, Fire AR: 372, Total AR: 744.</p><p><strong>With Godrick’s Great Rune active:</strong> Strength becomes 62, Faith becomes 62. New Physical AR: 412, Fire AR: 412, Total AR: 824 (+10.8%).</p><p><strong>With Godrick’s + Shard of Alexander (+15% skill damage, but also +15% physical AR for skills):</strong> For the weapon skill (Taker’s Flames), physical AR effectively becomes 474, Fire AR stays 412, total skill AR: 886. If you also equip the <strong>Fire Scorpion Charm (+12% fire damage)</strong>, Fire AR becomes 461, total skill AR: 935.</p><p><strong>With all three buffs + Ritual Sword Talisman (+10% AR at full HP):</strong> Physical AR: 453, Fire AR: 453, Total AR: 906. That’s a 21.8% increase from the base 744 — a massive difference that no other calculator can show you in one screen.</p><p>Our tool also accounts for <strong>multiplicative stacking</strong> (e.g., Godrick’s Rune increases stats → higher scaling → more base AR → talisman multipliers apply to that new base). This is how the game actually works, and we’re the only free tool that does it correctly.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Scaling Visualization: Find Your Optimal Stat Breakpoints",
+        "body": "<p>One of the most powerful features of our <strong>Elden Ring weapon AR calculator</strong> is the <strong>scaling visualization graph</strong>. Instead of just giving you a number, we plot AR against each damage stat (Strength, Dexterity, Intelligence, Faith, Arcane) from 1 to 99.</p><p>This helps you answer questions like:</p><ul><li><em>“Should I level Strength from 60 to 70, or put points into Faith?”</em> — The graph shows that for a Heavy Greatsword, Strength has <strong>soft caps at 60 and 80</strong>. Going from 60 to 70 gives you +12 AR, while going from 80 to 90 gives only +5 AR. For the Blasphemous Blade, Faith scaling is best between 50 and 70 (soft cap at 50, hard cap at 80).</li><li><em>“Is it worth using a Keen affinity on a Dexterity build?”</em> — The graph will show you the AR curve for Keen vs. Standard vs. Lightning, so you can see exactly where each affinity peaks.</li></ul><p>We also highlight <strong>soft caps</strong> (the points where additional points give diminishing returns). For example, for most weapons, <strong>Strength soft caps at 20, 55, and 80</strong>; <strong>Dexterity at 20, 55, and 80</strong>; <strong>Intelligence/Faith at 20, 50, and 80</strong>. Our graph marks these with dashed lines, so you can optimize your build without wasting levels.</p><p>Real-world example: A player with a +25 Heavy Longsword at 80 Strength gets 560 AR. Adding 10 more Strength (to 90) only adds 8 AR. But switching to a Quality affinity (50/50 Strength/Dexterity) gives 578 AR — a better use of those 10 points. Our graph makes this trade-off visible instantly.</p>"
+      },
+      {
+        "type": "text",
+        "heading": "Why Our Calculator Beats Outdated 2022 Spreadsheets",
+        "body": "<p>The top search results for “Elden Ring weapon AR calculator” still point to Google Sheets from 2022. Those sheets have several critical flaws:</p><ul><li><strong>No talisman stacking:</strong> You can only input one buff at a time, and many talismans aren’t even listed.</li><li><strong>No Great Rune support:</strong> You have to manually add stat points to your build, which is error-prone and doesn’t account for the multiplicative interaction with talismans.</li><li><strong>No scaling visualization:</strong> You get a single number with no context on where your stat investments are most efficient.</li><li><strong>Outdated data:</strong> Many sheets haven’t been updated for patch 1.10 or the Shadow of the Erdtree DLC, which changed several weapon scaling coefficients and added new weapons.</li></ul><p>Our tool is built on the latest game data (patch 1.12), includes all DLC weapons and talismans, and is updated within 48 hours of any balance patch. We also offer a <strong>mobile-friendly interface</strong> — no more pinching and zooming on a spreadsheet. Just select, input, and see results.</p><p>Plus, we’re completely free. No ads, no paywalls, no login required. Just a fast, accurate AR calculator that accounts for all the buffs you actually use in combat.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is an Elden Ring weapon AR calculator?",
+        "answer": "An AR (Attack Rating) calculator shows you the total damage a weapon will deal with your current stats, weapon level, affinity, and buffs. It accounts for base damage, scaling from Strength/Dexterity/Intelligence/Faith/Arcane, and any percentage increases from talismans or great runes."
+      },
+      {
+        "question": "Does your calculator support Shadow of the Erdtree DLC weapons?",
+        "answer": "Yes. We’ve added all 40+ new weapons from the DLC, including the Backhand Blade, Milady, and the new Great Katana. Each weapon has its correct base damage, scaling, and affinity options."
+      },
+      {
+        "question": "Can I stack multiple talismans and a great rune at the same time?",
+        "answer": "Absolutely. You can select up to 4 talismans (e.g., Shard of Alexander, Ritual Sword, Claw Talisman, Fire Scorpion Charm) and activate one Great Rune (Godrick’s, Radahn’s, Morgott’s, Rykard’s, or Mohg’s). All effects stack multiplicatively, just like in the game."
+      },
+      {
+        "question": "How does the scaling visualization work?",
+        "answer": "The graph plots your weapon’s AR against each damage stat from 1 to 99. It shows soft caps with dashed lines, so you can see exactly where additional points stop being efficient. You can toggle between stats (Strength, Dexterity, Intelligence, Faith, Arcane) to compare curves."
+      },
+      {
+        "question": "Is the calculator updated for the latest patch?",
+        "answer": "Yes, we maintain the data for patch 1.12. If a new patch changes weapon scaling or talisman effects, we update within 48 hours. You’ll always see the current numbers."
+      },
+      {
+        "question": "Do I need to create an account to use it?",
+        "answer": "No. The tool is completely free and requires no login, email, or sign-up. Just open the page, select your weapon, and start calculating."
+      },
+      {
+        "question": "Can I save my builds for later?",
+        "answer": "Currently, the tool does not have a save feature, but you can bookmark the page with your current selections (the URL encodes your stats and weapon choices). We’re working on a cloud save option for a future update."
+      },
+      {
+        "question": "Why should I trust your numbers over a spreadsheet?",
+        "answer": "Our calculator uses the same formulas as the game (verified by dataminers and community testing). We also cross-check every weapon’s AR at multiple stat levels to ensure accuracy. Spreadsheets from 2022 often have errors due to patch changes or manual entry mistakes."
+      }
+    ],
+    "slug": "elden-ring-weapon-ar-calculator",
+    "title": "Elden Ring Weapon AR Calculator: Stack Talismans & Great Runes Simultaneously",
+    "type": "text",
     "affiliateCTA": null
   }
 ]

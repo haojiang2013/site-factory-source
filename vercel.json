@@ -1,8 +1,20 @@
 {
   "crons": [
-    {
-      "path": "/api/mastodon-post?secret=${CRON_SECRET}",
-      "schedule": "0 10 * * *"
-    }
+    { "path": "/api/mastodon-post?secret=${CRON_SECRET}", "schedule": "3 2 * * *" },
+    { "path": "/api/mastodon-post?secret=${CRON_SECRET}", "schedule": "7 10 * * *" },
+    { "path": "/api/mastodon-post?secret=${CRON_SECRET}", "schedule": "13 18 * * *" },
+    { "path": "/api/generate-pages?secret=${CRON_SECRET}", "schedule": "17 4 * * 3" }
+  ],
+  "redirects": [
+    { "source": "/", "has": [{ "type": "host", "value": "www.gomovecalc.xyz" }], "destination": "https://gomovecalc.xyz/", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.gomovecalc.xyz" }], "destination": "https://gomovecalc.xyz/:path*", "permanent": true },
+    { "source": "/", "has": [{ "type": "host", "value": "www.payitoff.xyz" }], "destination": "https://payitoff.xyz/", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.payitoff.xyz" }], "destination": "https://payitoff.xyz/:path*", "permanent": true },
+    { "source": "/", "has": [{ "type": "host", "value": "www.paintwise.xyz" }], "destination": "https://paintwise.xyz/", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.paintwise.xyz" }], "destination": "https://paintwise.xyz/:path*", "permanent": true },
+    { "source": "/", "has": [{ "type": "host", "value": "www.aitoolshelf.xyz" }], "destination": "https://aitoolshelf.xyz/", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.aitoolshelf.xyz" }], "destination": "https://aitoolshelf.xyz/:path*", "permanent": true },
+    { "source": "/", "has": [{ "type": "host", "value": "www.lootcove.xyz" }], "destination": "https://lootcove.xyz/", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.lootcove.xyz" }], "destination": "https://lootcove.xyz/:path*", "permanent": true }
   ]
 }

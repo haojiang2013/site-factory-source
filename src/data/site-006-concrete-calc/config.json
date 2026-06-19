@@ -8,52 +8,103 @@
   "keywords": [
     {
       "keyword": "concrete calculator",
-      "searchVolume": 8000,
-      "difficulty": 45,
-      "intent": "transactional",
+      "searchVolume": 54000,
+      "difficulty": 42,
+      "intent": "commercial",
       "userComplaints": [
         "no metric option",
-        "no waste factor"
+        "asks for email",
+        "hidden fees"
       ]
     },
     {
-      "keyword": "how much concrete do i need",
-      "searchVolume": 12000,
-      "difficulty": 52,
-      "intent": "transactional",
+      "keyword": "concrete cost calculator",
+      "searchVolume": 12100,
+      "difficulty": 35,
+      "intent": "commercial",
       "userComplaints": [
-        "only does slabs",
-        "units confusing"
+        "doesnt include delivery",
+        "inaccurate estimates"
       ]
     },
     {
       "keyword": "concrete slab calculator",
-      "searchVolume": 5000,
-      "difficulty": 40,
-      "intent": "transactional",
+      "searchVolume": 9900,
+      "difficulty": 38,
+      "intent": "commercial",
       "userComplaints": [
-        "no rebar estimate",
-        "depth presets wrong"
+        "wont let me adjust thickness",
+        "no waste factor"
       ]
     },
     {
-      "keyword": "concrete cost estimator",
-      "searchVolume": 3500,
-      "difficulty": 48,
+      "keyword": "concrete yard calculator",
+      "searchVolume": 8100,
+      "difficulty": 30,
       "intent": "commercial",
       "userComplaints": [
-        "prices outdated",
-        "no delivery fee"
+        "confusing unit conversion",
+        "requires signup"
+      ]
+    },
+    {
+      "keyword": "how much concrete do i need",
+      "searchVolume": 27100,
+      "difficulty": 45,
+      "intent": "informational",
+      "userComplaints": [
+        "too many ads",
+        "estimates are off by 20%"
+      ]
+    },
+    {
+      "keyword": "bagged concrete calculator",
+      "searchVolume": 5400,
+      "difficulty": 25,
+      "intent": "commercial",
+      "userComplaints": [
+        "only shows 80lb bags",
+        "no cost estimate"
       ]
     },
     {
       "keyword": "cement calculator for fence posts",
-      "searchVolume": 2000,
-      "difficulty": 30,
-      "intent": "transactional",
+      "searchVolume": 3600,
+      "difficulty": 22,
+      "intent": "commercial",
       "userComplaints": [
-        "wrong bag count",
-        "no hole diameter"
+        "only works for posts",
+        "no mixing ratio"
+      ]
+    },
+    {
+      "keyword": "ready mix concrete calculator",
+      "searchVolume": 6600,
+      "difficulty": 32,
+      "intent": "commercial",
+      "userComplaints": [
+        "assumes one mix type",
+        "no short load fee"
+      ]
+    },
+    {
+      "keyword": "concrete driveway calculator",
+      "searchVolume": 4400,
+      "difficulty": 28,
+      "intent": "commercial",
+      "userComplaints": [
+        "no rebar option",
+        "no thickness options"
+      ]
+    },
+    {
+      "keyword": "concrete volume calculator",
+      "searchVolume": 8100,
+      "difficulty": 25,
+      "intent": "informational",
+      "userComplaints": [
+        "metric conversion broken",
+        "no irregular shapes"
       ]
     }
   ],

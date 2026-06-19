@@ -1,0 +1,203 @@
+# Product Hunt 提交内容
+提交地址: https://www.producthunt.com/posts/new
+
+--- 1. MoveWise ---
+Name: MoveWise
+URL: https://gomovecalc.xyz/
+Tagline: No more "Asks for email and phone before showing ..."
+Description: Free moving cost calculator. No email, no signup, instant results.
+Topics: moving cost calculator, free, tool, no-signup
+First Comment: Built this because moving cost calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 2. EquityFlow ---
+Name: EquityFlow
+URL: https://payitoff.xyz/
+Tagline: No more "Asks for email address before showing re..."
+Description: Free mortgage overpayment calculator. No email, no signup, instant results.
+Topics: mortgage overpayment calculator, free, tool, no-signup
+First Comment: Built this because mortgage overpayment calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 3. CoverWise ---
+Name: CoverWise
+URL: https://paintwise.xyz/
+Tagline: No more "Forces location/store selection before s..."
+Description: Free paint coverage calculator. No email, no signup, instant results.
+Topics: paint coverage calculator, free, tool, no-signup
+First Comment: Built this because paint coverage calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 4. WriteRank ---
+Name: WriteRank
+URL: https://aitoolshelf.xyz/
+Tagline: No more "Articles lack hands-on testing, just com..."
+Description: Free best AI writing tools. No email, no signup, instant results.
+Topics: best AI writing tools, free, tool, no-signup
+First Comment: Built this because best AI writing tools tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 5. LootLedger ---
+Name: LootLedger
+URL: https://lootcove.xyz/
+Tagline: No more "Pages are cluttered with ads..."
+Description: Free game loot database. No email, no signup, instant results.
+Topics: game loot database, free, tool, no-signup
+First Comment: Built this because game loot database tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 6. MixWise ---
+Name: MixWise
+URL: https://pourtrue.8zla.com/
+Tagline: No more "no metric option..."
+Description: Free concrete calculator. No email, no signup, instant results.
+Topics: concrete calculator, free, tool, no-signup
+First Comment: Built this because concrete calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 7. FloorWise ---
+Name: FloorWise
+URL: https://floorfound.8zla.com/
+Tagline: No more "no install cost..."
+Description: Free flooring cost calculator. No email, no signup, instant results.
+Topics: flooring cost calculator, free, tool, no-signup
+First Comment: Built this because flooring cost calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 8. CodeBench ---
+Name: CodeBench
+URL: https://devtooltrove.8zla.com/
+Tagline: No more "Outdated comparisons list tools that no ..."
+Description: Free AI coding tools comparison. No email, no signup, instant results.
+Topics: AI coding tools comparison, free, tool, no-signup
+First Comment: Built this because AI coding tools comparison tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 9. BuildCost ---
+Name: BuildCost
+URL: https://renowise.8zla.com/
+Tagline: No more "Ask for email and phone before showing r..."
+Description: Free renovation cost estimator. No email, no signup, instant results.
+Topics: renovation cost estimator, free, tool, no-signup
+First Comment: Built this because renovation cost estimator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 10. BossPlan ---
+Name: BossPlan
+URL: https://bossbreak.8zla.com/
+Tagline: No more "No quick reference for recommended level..."
+Description: Free game boss strategy guide. No email, no signup, instant results.
+Topics: game boss strategy guide, free, tool, no-signup
+First Comment: Built this because game boss strategy guide tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 11. DesignBench ---
+Name: DesignBench
+URL: https://designtooltrove.8zla.com/
+Tagline: No more "comparison sites don't update when tools..."
+Description: Free AI design tools comparison. No email, no signup, instant results.
+Topics: AI design tools comparison, free, tool, no-signup
+First Comment: Built this because AI design tools comparison tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 12. MetricCraft ---
+Name: MetricCraft
+URL: https://markettooltrove.8zla.com/
+Tagline: No more "Most 'best of' lists only promote tools ..."
+Description: Free AI marketing tools comparison. No email, no signup, instant results.
+Topics: AI marketing tools comparison, free, tool, no-signup
+First Comment: Built this because AI marketing tools comparison tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 13. VidBench ---
+Name: VidBench
+URL: https://videotooltrove.8zla.com/
+Tagline: No more "Comparison sites are outdated and still ..."
+Description: Free AI video tools comparison. No email, no signup, instant results.
+Topics: AI video tools comparison, free, tool, no-signup
+First Comment: Built this because AI video tools comparison tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 14. StatForge ---
+Name: StatForge
+URL: https://itemarchive.8zla.com/
+Tagline: No more "No way to see DPS scaling across infusio..."
+Description: Free game item stats database. No email, no signup, instant results.
+Topics: game item stats database, free, tool, no-signup
+First Comment: Built this because game item stats database tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 15. StatForge ---
+Name: StatForge
+URL: https://buildcraft.8zla.com/
+Tagline: No more "doesn't account for recent patch changes..."
+Description: Free game character build calculator. No email, no signup, instant results.
+Topics: game character build calculator, free, tool, no-signup
+First Comment: Built this because game character build calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 16. AmpFlow ---
+Name: AmpFlow
+URL: https://voltwise.8zla.com/
+Tagline: No more "outdated design and no mobile support..."
+Description: Free electrical load calculator. No email, no signup, instant results.
+Topics: electrical load calculator, free, tool, no-signup
+First Comment: Built this because electrical load calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 17. EarthWise ---
+Name: EarthWise
+URL: https://soilwise.8zla.com/
+Tagline: No more "estimates are too low because they ignor..."
+Description: Free garden soil calculator. No email, no signup, instant results.
+Topics: garden soil calculator, free, tool, no-signup
+First Comment: Built this because garden soil calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 18. TidyCost ---
+Name: TidyCost
+URL: https://cleancalc.8zla.com/
+Tagline: No more "asks for email before showing estimate..."
+Description: Free house cleaning cost estimator. No email, no signup, instant results.
+Topics: house cleaning cost estimator, free, tool, no-signup
+First Comment: Built this because house cleaning cost estimator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 19. RayCalc ---
+Name: RayCalc
+URL: https://solarwise.8zla.com/
+Tagline: No more "Requires personal information before sho..."
+Description: Free solar panel calculator. No email, no signup, instant results.
+Topics: solar panel calculator, free, tool, no-signup
+First Comment: Built this because solar panel calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 20. ThermoWise ---
+Name: ThermoWise
+URL: https://hvacwise.8zla.com/
+Tagline: No more "Every 'free' Manual J tool I found force..."
+Description: Free HVAC sizing calculator. No email, no signup, instant results.
+Topics: HVAC sizing calculator, free, tool, no-signup
+First Comment: Built this because HVAC sizing calculator tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 21. MindForge ---
+Name: MindForge
+URL: https://prodtooltrove.8zla.com/
+Tagline: No more "Always triggers false reminders..."
+Description: Free AI productivity tools. No email, no signup, instant results.
+Topics: AI productivity tools, free, tool, no-signup
+First Comment: Built this because AI productivity tools tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 22. WaveCraft ---
+Name: WaveCraft
+URL: https://wavecraft.8zla.com/
+Tagline: No more "Free generators add a loud watermark tha..."
+Description: Free AI audio tools. No email, no signup, instant results.
+Topics: AI audio tools, free, tool, no-signup
+First Comment: Built this because AI audio tools tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 23. FuseLens ---
+Name: FuseLens
+URL: https://datatooltrove.8zla.com/
+Tagline: No more "Lists are just affiliate blogs regurgita..."
+Description: Free AI data analysis tools. No email, no signup, instant results.
+Topics: AI data analysis tools, free, tool, no-signup
+First Comment: Built this because AI data analysis tools tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 24. WeaponWise ---
+Name: WeaponWise
+URL: https://weaponwise.8zla.com/
+Tagline: No more "Perk combinations not supported..."
+Description: Free game weapon comparison. No email, no signup, instant results.
+Topics: game weapon comparison, free, tool, no-signup
+First Comment: Built this because game weapon comparison tools always ask for email. No signup, no ads. Feedback welcome!
+
+--- 25. NPCVault ---
+Name: NPCVault
+URL: https://npcvault.8zla.com/
+Tagline: No more "Too many ads and popups..."
+Description: Free game NPC database. No email, no signup, instant results.
+Topics: game NPC database, free, tool, no-signup
+First Comment: Built this because game NPC database tools always ask for email. No signup, no ads. Feedback welcome!
+
