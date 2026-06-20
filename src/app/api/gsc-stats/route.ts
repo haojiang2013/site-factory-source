@@ -82,38 +82,45 @@ export async function GET(req: Request) {
       } catch { return null; }
     }).filter(Boolean);
 
+    // ── Summary: query 6 GSC properties ──
+    // 8zla.com covers all 19 *.8zla.com subdomains
+    // Plus 5 standalone .xyz domains
+    const gscProperties = [
+      { label: '8zla.com (19站)', url: 'sc-domain:8zla.com' },
+      { label: 'gomovecalc.xyz', url: 'https://gomovecalc.xyz/' },
+      { label: 'payitoff.xyz', url: 'https://payitoff.xyz/' },
+      { label: 'paintwise.xyz', url: 'https://paintwise.xyz/' },
+      { label: 'aitoolshelf.xyz', url: 'https://aitoolshelf.xyz/' },
+      { label: 'lootcove.xyz', url: 'https://lootcove.xyz/' },
+    ];
+
     const summaries: any[] = [];
-    for (const domain of domains.slice(0, 5)) {
-      let found = false;
-      for (const url of [`sc-domain:${domain}`, `https://${domain}/`]) {
-        try {
-          const res = await searchconsole.searchanalytics.query({
-            siteUrl: url,
-            requestBody: {
-              startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
-              endDate: new Date().toISOString().split('T')[0],
-              rowLimit: 1,
-            },
-          });
-          const row = (res.data.rows || [])[0];
-          summaries.push({
-            domain,
-            siteUrl: url,
-            clicks: row?.clicks || 0,
-            impressions: row?.impressions || 0,
-            ctr: row?.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
-          });
-          found = true;
-          break;
-        } catch { continue; }
+    for (const prop of gscProperties) {
+      try {
+        const res = await searchconsole.searchanalytics.query({
+          siteUrl: prop.url,
+          requestBody: {
+            startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
+            endDate: new Date().toISOString().split('T')[0],
+            rowLimit: 1,
+          },
+        });
+        const row = (res.data.rows || [])[0];
+        summaries.push({
+          label: prop.label,
+          clicks: row?.clicks || 0,
+          impressions: row?.impressions || 0,
+          ctr: row?.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
+        });
+      } catch {
+        summaries.push({ label: prop.label, error: 'not_verified' });
       }
-      if (!found) summaries.push({ domain, error: 'not_verified' });
     }
 
     const verified = summaries.filter(s => !s.error).length;
 
     return NextResponse.json({
-      totalSites: domains.length,
+      gscProperties: gscProperties.length,
       queried: summaries.length,
       verified,
       sites: summaries,

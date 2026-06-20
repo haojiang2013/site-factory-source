@@ -399,9 +399,9 @@ export default function DashboardPage() {
                 <div style={{display:'flex',justifyContent:'space-between',color:'#71717a',fontWeight:600,marginBottom:4}}>
                   <span>站点</span><span>点击/展示</span>
                 </div>
-                {gscData.sites.filter((s:any)=>!s.error).slice(0,6).map((s:any,i:number)=>(
+                {gscData.sites.filter((s:any)=>!s.error).slice(0,7).map((s:any,i:number)=>(
                   <div key={i} style={{display:'flex',justifyContent:'space-between'}}>
-                    <span>{s.domain}</span>
+                    <span>{s.label}</span>
                     <span style={{color:'#71717a'}}>{s.clicks}/{s.impressions}</span>
                   </div>
                 ))}
