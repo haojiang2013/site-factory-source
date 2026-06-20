@@ -1,0 +1,151 @@
+{
+  "niche": "renovation cost estimator",
+  "keywords": [
+    {
+      "keyword": "renovation cost estimator",
+      "searchVolume": 12100,
+      "difficulty": 85,
+      "intent": "commercial",
+      "serpWeakness": "Top tools are generic aggregators (HomeAdvisor, RemodelingCalculator) that require personal info; no instant, anonymous result.",
+      "userComplaints": [
+        "Ask for email and phone before showing results",
+        "Estimates too broad and not localized"
+      ]
+    },
+    {
+      "keyword": "kitchen remodel cost calculator 2024",
+      "searchVolume": 2400,
+      "difficulty": 62,
+      "intent": "commercial",
+      "serpWeakness": "Many results are static blog posts with average ranges, not interactive calculators that let you choose materials.",
+      "userComplaints": [
+        "Can't select appliance grade",
+        "Data feels like it's from 2021"
+      ]
+    },
+    {
+      "keyword": "bathroom remodel cost estimate by zip code",
+      "searchVolume": 880,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Very few tools actually integrate zip-code-specific labor rates; most give a single national average.",
+      "userComplaints": [
+        "No real location factor",
+        "Estimates don't account for urban vs. rural labor"
+      ]
+    },
+    {
+      "keyword": "how much does a whole house remodel cost",
+      "searchVolume": 3900,
+      "difficulty": 72,
+      "intent": "informational",
+      "serpWeakness": "Results are listicles or general guides with huge cost ranges, lacking interactive square footage inputs.",
+      "userComplaints": [
+        "Too vague—$50k–$200k isn't helpful",
+        "No option to break down per room"
+      ]
+    },
+    {
+      "keyword": "home addition cost per square foot calculator",
+      "searchVolume": 1600,
+      "difficulty": 48,
+      "intent": "commercial",
+      "serpWeakness": "Most calculators are basic, missing foundation type, second-story addition, or finish level options.",
+      "userComplaints": [
+        "Can't choose between slab, crawlspace, or basement",
+        "No option for high-end finishes"
+      ]
+    },
+    {
+      "keyword": "free renovation budget template excel",
+      "searchVolume": 950,
+      "difficulty": 22,
+      "intent": "transactional",
+      "serpWeakness": "Top downloads are generic budget sheets from 2019, not renovation-specific with line items and formulas.",
+      "userComplaints": [
+        "Templates are too simple, not customizable",
+        "No pre-filled cost categories"
+      ]
+    },
+    {
+      "keyword": "renovation cost estimator without email",
+      "searchVolume": 450,
+      "difficulty": 18,
+      "intent": "transactional",
+      "serpWeakness": "No major tool offers an email-free, instant estimate with full detail; mostly gated content.",
+      "userComplaints": [
+        "Immediate popup demanding email",
+        "Results hidden behind a lead-gen form"
+      ]
+    },
+    {
+      "keyword": "best renovation cost estimator app",
+      "searchVolume": 1300,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "App store listings dominate; web-based options are underwhelming and often non-interactive.",
+      "userComplaints": [
+        "Apps are clunky and require too many permissions",
+        "Web tools are not mobile responsive"
+      ]
+    },
+    {
+      "keyword": "interior renovation cost breakdown room by room",
+      "searchVolume": 720,
+      "difficulty": 38,
+      "intent": "commercial",
+      "serpWeakness": "Results are text-based articles, not an interactive room-by-room selector with real-time total calculation.",
+      "userComplaints": [
+        "Can't add custom rooms",
+        "No visual layout to pick rooms"
+      ]
+    },
+    {
+      "keyword": "diy vs contractor renovation cost comparison",
+      "searchVolume": 580,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "Few tools compare side-by-side with labor vs. material costs per project type; mostly static blog opinions.",
+      "userComplaints": [
+        "No slider to adjust labor rates",
+        "Can't see cost difference by skill level"
+      ]
+    },
+    {
+      "keyword": "basement finishing cost estimator 2024",
+      "searchVolume": 1100,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Similar to other room calculators—static averages, no moisture/foundation condition factor, no local labor.",
+      "userComplaints": [
+        "No consideration of basement condition (dry/wet)",
+        "Finishing options too limited"
+      ]
+    },
+    {
+      "keyword": "renovation cost estimator with sliders for quality",
+      "searchVolume": 320,
+      "difficulty": 15,
+      "intent": "transactional",
+      "serpWeakness": "Very few tools offer granular sliders for material/finish level; most just have 'basic/mid/high' dropdowns.",
+      "userComplaints": [
+        "Quality choices are too broad",
+        "Can't see how each upgrade affects total"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Estimators demand personal information (email/phone) before showing any results.",
+    "Estimates are generic and ignore local labor/material costs (no zip code adjustment).",
+    "Lack of customization for material quality, room size, finish levels, or DIY vs. pro.",
+    "Mobile experience is poor—tools are not responsive or hard to use on a phone.",
+    "Data is outdated (2019–2021 costs) and doesn’t reflect current market prices."
+  ],
+  "recommendedAngles": [
+    "No‑gate calculator that gives detailed, instant estimates and offers a ‘save as PDF’ without requiring an email.",
+    "Zip‑code‑powered pricing engine that pulls local labor rates and material costs for truly personalized numbers.",
+    "Granular sliders for every attribute (material quality, appliance grade, labor skill) with live cost reflection.",
+    "Room‑by‑room visual builder where users click on a floor plan, select finishes, and see a total that can be exported to Excel.",
+    "Side‑by‑side DIY vs. Pro comparison tool showing material, labor, tool rental, and permit costs with adjustable rates."
+  ]
+}

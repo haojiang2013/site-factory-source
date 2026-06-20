@@ -1,0 +1,23 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All page URLs are set to '/undefined' instead of descriptive, keyword-rich slugs",
+    "No structured data (e.g., FAQPage) detected on pages with FAQs",
+    "Internal linking data not provided; potential orphan pages",
+    "Missing canonical tags, robots.txt, and sitemap information"
+  ],
+  "optimizations": [
+    "Assign each page a proper URL slug (e.g., /best-ai-voice-generator-youtube) containing primary keyword",
+    "Add FAQPage JSON-LD schema to pages with FAQ sections",
+    "Implement a topic cluster internal linking strategy with 2-8 relevant links per page",
+    "Set canonical URLs, allow indexing in robots.txt, and submit a complete sitemap.xml"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

@@ -7,7 +7,7 @@ import { headers } from 'next/headers';
 import { getAllEntries } from '@/lib/page-registry';
 
 export async function GET(req: NextRequest) {
-  const heads = headers();
+  const heads = await headers();
   const host = (heads.get('x-forwarded-host') || heads.get('host') || '').replace(/:\d+$/, '');
 
   const allPages = getAllEntries();

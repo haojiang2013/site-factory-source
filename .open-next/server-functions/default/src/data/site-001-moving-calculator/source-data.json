@@ -1,0 +1,175 @@
+{
+  "data": {
+    "averageCostByHomeSize": {
+      "local_move_studio": {
+        "min": 200,
+        "max": 400,
+        "typical": 300,
+        "unit": "USD"
+      },
+      "local_move_2BR": {
+        "min": 300,
+        "max": 600,
+        "typical": 450,
+        "unit": "USD"
+      },
+      "local_move_3BR": {
+        "min": 500,
+        "max": 900,
+        "typical": 700,
+        "unit": "USD"
+      },
+      "local_move_4plus": {
+        "min": 800,
+        "max": 1200,
+        "typical": 1000,
+        "unit": "USD"
+      },
+      "long_distance_1BR": {
+        "min": 1000,
+        "max": 2500,
+        "typical": 1750,
+        "unit": "USD"
+      },
+      "long_distance_2BR": {
+        "min": 2000,
+        "max": 4000,
+        "typical": 3000,
+        "unit": "USD"
+      },
+      "long_distance_3BR": {
+        "min": 3000,
+        "max": 6000,
+        "typical": 4500,
+        "unit": "USD"
+      },
+      "long_distance_4plus": {
+        "min": 5000,
+        "max": 10000,
+        "typical": 7500,
+        "unit": "USD"
+      }
+    },
+    "truckSizes": {
+      "10ft": {
+        "capacity_cu_ft": 400,
+        "daily_rental_min": 20,
+        "daily_rental_max": 30,
+        "typical_daily_rental": 25,
+        "unit": "USD"
+      },
+      "14ft": {
+        "capacity_cu_ft": 600,
+        "daily_rental_min": 30,
+        "daily_rental_max": 40,
+        "typical_daily_rental": 35,
+        "unit": "USD"
+      },
+      "17ft": {
+        "capacity_cu_ft": 800,
+        "daily_rental_min": 35,
+        "daily_rental_max": 50,
+        "typical_daily_rental": 42,
+        "unit": "USD"
+      },
+      "20ft": {
+        "capacity_cu_ft": 1000,
+        "daily_rental_min": 40,
+        "daily_rental_max": 60,
+        "typical_daily_rental": 50,
+        "unit": "USD"
+      },
+      "26ft": {
+        "capacity_cu_ft": 1600,
+        "daily_rental_min": 50,
+        "daily_rental_max": 80,
+        "typical_daily_rental": 65,
+        "unit": "USD"
+      }
+    },
+    "packingCosts": {
+      "packing_supplies_fullHouse": {
+        "min": 300,
+        "max": 800,
+        "typical": 500,
+        "unit": "USD"
+      },
+      "packing_labor_perHour_perPerson": {
+        "min": 40,
+        "max": 70,
+        "typical": 55,
+        "unit": "USD"
+      },
+      "packing_labor_fullHouse": {
+        "min": 500,
+        "max": 2000,
+        "typical": 1000,
+        "unit": "USD"
+      }
+    },
+    "storageFees": {
+      "5x5_unit_monthly": {
+        "min": 50,
+        "max": 120,
+        "typical": 80,
+        "unit": "USD"
+      },
+      "10x10_unit_monthly": {
+        "min": 100,
+        "max": 200,
+        "typical": 150,
+        "unit": "USD"
+      },
+      "10x20_unit_monthly": {
+        "min": 150,
+        "max": 300,
+        "typical": 220,
+        "unit": "USD"
+      }
+    },
+    "pianoMovingFees": {
+      "upright_piano_addOn": {
+        "min": 200,
+        "max": 500,
+        "typical": 350,
+        "unit": "USD"
+      },
+      "grand_piano_addOn": {
+        "min": 400,
+        "max": 800,
+        "typical": 600,
+        "unit": "USD"
+      }
+    },
+    "seasonalMultipliers": {
+      "peakSeason_multiplier": {
+        "min": 10,
+        "max": 20,
+        "typical": 15,
+        "unit": "percent"
+      },
+      "offPeak_multiplier": {
+        "min": -20,
+        "max": -10,
+        "typical": -15,
+        "unit": "percent"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "HomeAdvisor / Angi (2024 moving cost guide)",
+      "Moving.com (2024 average moving costs)",
+      "U-Haul Corp. (2024 rental rates)",
+      "Penske Truck Rental (2024 pricing)",
+      "SpareFoot / StorageMart (2024 storage rates)",
+      "U.S. News & World Report (2024 moving cost article)",
+      "American Moving & Storage Association (historical data, updated via industry surveys)"
+    ],
+    "freshnessTTL_days": 180,
+    "collectedAt": "2025-03-24",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [],
+    "confidenceNotes": "All values are based on widely cited industry averages. Ranges reflect variation across regions and service providers. Seasonal multipliers are general guidelines; actual discounts may be steeper in slow markets. Truck daily rental rates do not include mileage or additional fees."
+  }
+}

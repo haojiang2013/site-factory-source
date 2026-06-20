@@ -1,0 +1,184 @@
+{
+  "niche": "AI design tools comparison",
+  "keywords": [
+    {
+      "keyword": "best AI design tools 2025",
+      "searchVolume": 2400,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Top results from 2023-2024 lists, outdated for 2025 releases; many lack direct comparison of output quality for vector vs. raster.",
+      "userComplaints": [
+        "comparison sites don't update when tools change pricing",
+        "no side-by-side output examples for realistic design tasks"
+      ]
+    },
+    {
+      "keyword": "ai graphic design software comparison",
+      "searchVolume": 1700,
+      "difficulty": 54,
+      "intent": "commercial",
+      "serpWeakness": "Most articles are blog-style listings without interactive filters; outdated tools listed.",
+      "userComplaints": [
+        "sites compare features but not final design quality",
+        "lists include dead tools"
+      ]
+    },
+    {
+      "keyword": "free ai design tools no sign up",
+      "searchVolume": 2900,
+      "difficulty": 42,
+      "intent": "transactional",
+      "serpWeakness": "SERP dominated by sign-up gated tools posing as 'free'; no aggregator filtering by no-account-required.",
+      "userComplaints": [
+        "every 'free' tool asks for email after first export",
+        "watermarked outputs ruin the point"
+      ]
+    },
+    {
+      "keyword": "canva ai vs figma ai",
+      "searchVolume": 1600,
+      "difficulty": 49,
+      "intent": "commercial",
+      "serpWeakness": "Existing comparisons only mention feature lists, no hands-on UX breakdown of AI-assisted workflows.",
+      "userComplaints": [
+        "Canva AI feels like clipart generation",
+        "Figma AI features are still in beta and unreliable"
+      ]
+    },
+    {
+      "keyword": "ai logo design tool comparison reddit",
+      "searchVolume": 1300,
+      "difficulty": 33,
+      "intent": "commercial",
+      "serpWeakness": "Reddit threads dominate but are messy; no structured comparison summarizing consensus.",
+      "userComplaints": [
+        "most AI logos look generic and need heavy tweaking",
+        "tools charge for vector downloads"
+      ]
+    },
+    {
+      "keyword": "best ai for ui ux design",
+      "searchVolume": 2200,
+      "difficulty": 61,
+      "intent": "commercial",
+      "serpWeakness": "Result pages review tools for wireframing but miss new AI design-to-code tools; no performance metrics.",
+      "userComplaints": [
+        "AI UI generators produce inconsistent spacing",
+        "no tool handles whole design system generation well"
+      ]
+    },
+    {
+      "keyword": "ai interior design tool comparison",
+      "searchVolume": 1400,
+      "difficulty": 38,
+      "intent": "commercial",
+      "serpWeakness": "Visual results not compared side-by-side; many sites just embed YouTube reviews.",
+      "userComplaints": [
+        "renders don't match actual dimensions",
+        "limited style options unless you pay"
+      ]
+    },
+    {
+      "keyword": "adobe firefly vs midjourney for graphic design",
+      "searchVolume": 1800,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Comparisons are image-generation focused; missing vector and layout generation comparison.",
+      "userComplaints": [
+        "Firefly is too limited in style controls",
+        "Midjourney can't output layered designs"
+      ]
+    },
+    {
+      "keyword": "ai design tools for non designers",
+      "searchVolume": 2500,
+      "difficulty": 45,
+      "intent": "informational",
+      "serpWeakness": "Articles list tools but lack learning curve ratings; no 'quick start' comparison.",
+      "userComplaints": [
+        "tutorials assume you already know design terms",
+        "outputs look amateur without manual tweaking"
+      ]
+    },
+    {
+      "keyword": "ai design tool with vector export",
+      "searchVolume": 880,
+      "difficulty": 28,
+      "intent": "transactional",
+      "serpWeakness": "No dedicated roundup; information scattered. Many tools claim vector but only offer SVG with embedded raster.",
+      "userComplaints": [
+        "vector exports are actually raster images embedded in SVG",
+        "editable vectors are rarely provided"
+      ]
+    },
+    {
+      "keyword": "ai fashion design tool comparison",
+      "searchVolume": 720,
+      "difficulty": 25,
+      "intent": "commercial",
+      "serpWeakness": "Very few comparison pages; mostly single-tool promo content.",
+      "userComplaints": [
+        "generated designs ignore fabric physics",
+        "no integration with pattern making"
+      ]
+    },
+    {
+      "keyword": "ai presentation design tools compared",
+      "searchVolume": 1100,
+      "difficulty": 40,
+      "intent": "commercial",
+      "serpWeakness": "Existing pages are from 2022; ignore Gamma.app, Tome updates, and Decktopus AI.",
+      "userComplaints": [
+        "AI blows up slide layout if you edit text",
+        "limited brand customization in free tiers"
+      ]
+    },
+    {
+      "keyword": "best ai design tool for social media graphics",
+      "searchVolume": 1900,
+      "difficulty": 52,
+      "intent": "commercial",
+      "serpWeakness": "Articles focus on Canva, ignore specialized smaller tools. No platform-specific template coverage comparison.",
+      "userComplaints": [
+        "resizing for different platforms often breaks layout",
+        "AI captions generation feels tacked on"
+      ]
+    },
+    {
+      "keyword": "ai design tools with commercial license",
+      "searchVolume": 600,
+      "difficulty": 32,
+      "intent": "transactional",
+      "serpWeakness": "Licensing information is buried; no easy filter. Trust issues with AI-generated content rights.",
+      "userComplaints": [
+        "unclear usage rights lead to legal anxiety",
+        "some tools change license terms retroactively"
+      ]
+    },
+    {
+      "keyword": "ai 3d design tools comparison",
+      "searchVolume": 980,
+      "difficulty": 46,
+      "intent": "commercial",
+      "serpWeakness": "Comparison articles mix 3D modelling (non-AI) with text-to-3D; no clear categorisation.",
+      "userComplaints": [
+        "text-to-3D models are low-poly and unusable for print",
+        "lack of export to standard CAD formats"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Free tools gate exports behind sign-up walls or add watermarks, making them useless for quick mock-ups.",
+    "Comparisons don't show real design output quality—feature lists do not reflect how 'professional' the final graphic looks.",
+    "AI tools fail at vector/editable formats; SVG exports often contain embedded raster, defeating purpose for designers.",
+    "Licensing terms are unclear or change suddenly, creating legal risk for commercial projects.",
+    "Existing comparison sites are outdated, listing dead tools or ignoring 2024-2025 releases like Relume AI, Codia, or Motiff."
+  ],
+  "recommendedAngles": [
+    "Interactive comparison tool with side-by-side exemples of the same design brief across tools (logos, UI mockups, social posts).",
+    "Curated 2025 'No-sign-up-required' filter showing tools that let you download without email/account",
+    "Vector output quality audit: actual test of SVG/EPS exports from each AI tool, with editability score",
+    "Commercial license clarity grid: plainly state allowed usage, indemnification, and print-on-demand friendliness",
+    "Reddit-powered sentiment timeline: aggregate user satisfaction over time per tool to show stability/decline"
+  ]
+}

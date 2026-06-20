@@ -1,0 +1,63 @@
+{
+  "data": {
+    "AIDataAnalysisTools": {
+      "perUserMonthlyPricing": {
+        "min": 10,
+        "max": 70,
+        "typical": 40,
+        "unit": "USD per user per month"
+      },
+      "organizationMonthlyPricing": {
+        "min": 5000,
+        "max": 20000,
+        "typical": 10000,
+        "unit": "USD per organization per month"
+      },
+      "freeTierDataLimits": {
+        "maxRows": {
+          "min": 1000000,
+          "max": 10000000,
+          "typical": 5000000,
+          "unit": "rows"
+        },
+        "maxDatasetSizeGB": {
+          "min": 1,
+          "max": 10,
+          "typical": 5,
+          "unit": "GB"
+        }
+      },
+      "benchmarkProcessingTime": {
+        "min": 0.5,
+        "max": 10,
+        "typical": 3,
+        "unit": "seconds per 1M rows"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Microsoft Power BI pricing page (https://powerbi.microsoft.com/en-us/pricing/)",
+      "Tableau pricing page (https://www.tableau.com/pricing/teams)",
+      "G2 AI Data Analysis Tools pricing report (https://www.g2.com/categories/ai-data-analysis)",
+      "Capterra AI Data Analysis Tools pricing (https://www.capterra.com/ai-data-analysis-software/)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-02",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "perUserMonthlyPricing.typical",
+      "organizationMonthlyPricing.min",
+      "organizationMonthlyPricing.max",
+      "organizationMonthlyPricing.typical",
+      "freeTierDataLimits.maxRows.typical",
+      "freeTierDataLimits.maxDatasetSizeGB.min",
+      "freeTierDataLimits.maxDatasetSizeGB.max",
+      "freeTierDataLimits.maxDatasetSizeGB.typical",
+      "benchmarkProcessingTime.min",
+      "benchmarkProcessingTime.max",
+      "benchmarkProcessingTime.typical"
+    ],
+    "confidenceNotes": "Only the min and max values for perUserMonthlyPricing are verified by two independent sources (official vendor pages and G2/Capterra). All other numerical fields are based on single sources, industry averages from one report, or inferred from tool documentation; they should be treated as unverified and used with caution."
+  }
+}

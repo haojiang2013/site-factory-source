@@ -43,7 +43,14 @@ export interface PageContent {
   title: string;
   metaDescription: string;
   h1: string;
+  introBody?: string;
   sections: PageSection[];
+  dataCards?: Array<{
+    title: string;
+    subtitle: string;
+    stats: Array<{ label: string; value: string }>;
+    notes?: string;
+  }>;
   faqs: FAQ[];
   affiliateCTA: AffiliateCTA | null;
 }

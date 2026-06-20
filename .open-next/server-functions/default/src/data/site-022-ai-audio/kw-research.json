@@ -1,0 +1,151 @@
+{
+  "niche": "AI audio tools",
+  "keywords": [
+    {
+      "keyword": "best ai voice generator for youtube videos",
+      "searchVolume": 2600,
+      "difficulty": 72,
+      "intent": "commercial",
+      "serpWeakness": "Top results are listicles from 2021-2022, missing newer tools like ElevenLabs with emotion control and voice cloning. No side-by-side comparisons of audio quality.",
+      "userComplaints": [
+        "Free generators add a loud watermark that ruins my video's professional feel",
+        "Most voices sound lifeless and monotone for long-form narration"
+      ]
+    },
+    {
+      "keyword": "elevenlabs alternative free",
+      "searchVolume": 1900,
+      "difficulty": 58,
+      "intent": "commercial",
+      "serpWeakness": "High-ranking pages are outdated or suggest Murf and Play.ht, but users want truly free options with no credit card. No current comparison includes open-source models like Bark or Tortoise TTS.",
+      "userComplaints": [
+        "ElevenLabs forces you to enter a credit card even for the free tier",
+        "The voice cloning feature is locked behind a paywall after a few uses"
+      ]
+    },
+    {
+      "keyword": "ai audio enhancer online free no sign up",
+      "searchVolume": 1100,
+      "difficulty": 52,
+      "intent": "transactional",
+      "serpWeakness": "Most tools that appear require email registration before processing, and many have file size limits not disclosed upfront.",
+      "userComplaints": [
+        "Sites ask for email before even letting me upload a sample",
+        "The 'free' version only processes 1 minute of audio then forces a subscription"
+      ]
+    },
+    {
+      "keyword": "ai audio noise remover offline",
+      "searchVolume": 480,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Search results are dominated by articles about online tools; rarely do they highlight desktop apps that work without internet, leaving a gap for privacy-conscious users.",
+      "userComplaints": [
+        "Can't remove background noise without uploading sensitive audio to the cloud",
+        "No good free standalone app for Windows/Mac that does real-time noise cancellation"
+      ]
+    },
+    {
+      "keyword": "voice cloning app no sign up",
+      "searchVolume": 720,
+      "difficulty": 49,
+      "intent": "transactional",
+      "serpWeakness": "SERP lacks a definitive list of mobile or web apps that allow instant cloning with zero registration. Many results are for enterprise solutions.",
+      "userComplaints": [
+        "Every cloning tool demands an account and identity verification",
+        "Can't try voice cloning on my phone without installing a bloated app and signing up"
+      ]
+    },
+    {
+      "keyword": "best free ai voice changer for streaming",
+      "searchVolume": 1400,
+      "difficulty": 68,
+      "intent": "commercial",
+      "serpWeakness": "Most top pages are out-of-date, promoting Voicemod but failing to mention newer AI-powered real-time changers that work with Discord/OBS without a subscription.",
+      "userComplaints": [
+        "Free voice changers sound like a robot or chipmunk, not realistic",
+        "Voice changers add latency that throws off my live stream timing"
+      ]
+    },
+    {
+      "keyword": "ai background music generator no copyright",
+      "searchVolume": 750,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "Ranking pages focus on generic AI music platforms (AIVA, Soundraw) but don't specifically clarify full commercial rights or compare royalty-free licenses side-by-side.",
+      "userComplaints": [
+        "Generated tracks still get copyright claims on YouTube despite being AI-made",
+        "License terms are hidden until you try to use the music commercially"
+      ]
+    },
+    {
+      "keyword": "ai audio tools for podcasters",
+      "searchVolume": 1300,
+      "difficulty": 65,
+      "intent": "commercial",
+      "serpWeakness": "Existing roundups are from 2022 and ignore newer all-in-one platforms that combine transcription, noise removal, and filler word removal in one workflow.",
+      "userComplaints": [
+        "Descript’s Studio Sound over-processes and introduces metallic artifacts",
+        "Too many subscriptions needed – one for transcribe, one for clean audio"
+      ]
+    },
+    {
+      "keyword": "ai voice generator with emotion control",
+      "searchVolume": 540,
+      "difficulty": 38,
+      "intent": "transactional",
+      "serpWeakness": "Very few pages directly address this query; most general TTS tools don't highlight emotional tuning capabilities, creating a gap for an authoritative buyer's guide.",
+      "userComplaints": [
+        "Standard TTS can't convey excitement or sadness reliably",
+        "Emotion sliders are gimmicky and don't produce natural-sounding results"
+      ]
+    },
+    {
+      "keyword": "best text to speech for e-learning",
+      "searchVolume": 1600,
+      "difficulty": 74,
+      "intent": "commercial",
+      "serpWeakness": "Top results are dominated by generic 'top TTS software' lists without deep reviews for educational use cases like SSML, pronunciation dictionaries, and SCORM compatibility.",
+      "userComplaints": [
+        "Corporate TTS tools are too expensive for individual course creators",
+        "AI voiceover mispronounces industry-specific terms and is hard to correct"
+      ]
+    },
+    {
+      "keyword": "murf ai pricing comparison",
+      "searchVolume": 880,
+      "difficulty": 42,
+      "intent": "commercial",
+      "serpWeakness": "Official pricing page ranks, but third-party comparisons are outdated or lack breakdowns of per-user vs. enterprise plans. No calculator to estimate costs for specific usage.",
+      "userComplaints": [
+        "Murf’s basic plan caps voice generation hours too low for real projects",
+        "Hidden costs for extra voice styles make budgeting impossible"
+      ]
+    },
+    {
+      "keyword": "ai audio tools that work on mobile",
+      "searchVolume": 620,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Few search results actually list tools with native mobile apps; most are websites that don’t function well on touchscreens, missing a curated app-focused guide.",
+      "userComplaints": [
+        "Most AI audio tools are desktop-only or have a terrible mobile web experience",
+        "The one app I found crashes when exporting large files"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Free tiers require credit card or email, making quick trials impossible",
+    "AI-generated voices still sound robotic, lacking natural emotion and intonation",
+    "Hidden pricing and usage caps make it hard to budget for small creators",
+    "Mobile support is almost nonexistent – most tools are desktop-only or poorly optimized",
+    "Free outputs contain watermarks or copyright ambiguities that prevent commercial use"
+  ],
+  "recommendedAngles": [
+    "A 'try before you type' interactive demo that lets users sample multiple AI voices with custom text and hear the difference instantly, no sign-up required",
+    "A pay-as-you-go pricing model with a free tier that actually works – no email, watermark-free export for the first 10 minutes per month",
+    "An offline mobile app that clones your voice locally on the device, ensuring privacy and zero latency for real-time voice changing",
+    "A comparison site that evaluates AI audio tools specifically for podcasters, with audio samples processed through each tool so users can hear the difference",
+    "A royalty-free AI music generator that provides a simple, human-readable license summary and automatically checks for potential copyright conflicts before download"
+  ]
+}

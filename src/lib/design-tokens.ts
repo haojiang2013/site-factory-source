@@ -20,6 +20,12 @@ export const COLOR_PALETTES: Record<string, { bg: string; surface: string; text:
   'moss-stone':        { bg:'#F7FEE7', surface:'#FFFFFF', text:'#1A2E0A', muted:'#4D7C0F', accent:'#65A30D', accentHover:'#4D7C0F', border:'#D9F99D', navBg:'#F9FEF0' },
   'canyon-dusk':       { bg:'#FFF7ED', surface:'#FFFFFF', text:'#2D1606', muted:'#9A3412', accent:'#EA580C', accentHover:'#C2410C', border:'#FED7AA', navBg:'#FFF7ED' },
   'ochre-field':       { bg:'#FFFBF0', surface:'#FFFFFF', text:'#3B2E0A', muted:'#8B6F0E', accent:'#D49208', accentHover:'#B77A06', border:'#FDE68A', navBg:'#FFFDF5' },
+  // ── 5 Dark-mode-first styles (2026 template differentiation) ──
+  'dark-gradient':     { bg:'#EEF2FF', surface:'#FFFFFF', text:'#1E293B', muted:'#64748B', accent:'#4F46E5', accentHover:'#4338CA', border:'#C7D2FE', navBg:'#FFFFFF' },
+  'minimal-white':     { bg:'#FFFFFF', surface:'#F8FAFC', text:'#0F172A', muted:'#64748B', accent:'#2563EB', accentHover:'#1D4ED8', border:'#E2E8F0', navBg:'#FFFFFF' },
+  'fresh-green':       { bg:'#F0FDF4', surface:'#FFFFFF', text:'#14532D', muted:'#166534', accent:'#16A34A', accentHover:'#15803D', border:'#BBF7D0', navBg:'#F7FDF9' },
+  'industrial-warm':   { bg:'#FFF7ED', surface:'#FFFFFF', text:'#1C1917', muted:'#78716C', accent:'#F97316', accentHover:'#EA580C', border:'#FED7AA', navBg:'#FFF7ED' },
+  'game-dark':         { bg:'#F5F3FF', surface:'#FFFFFF', text:'#1E1B4B', muted:'#6D28D9', accent:'#7C3AED', accentHover:'#6D28D9', border:'#DDD6FE', navBg:'#FFFFFF' },
 };
 
 export const FONT_PAIRS: Record<string, { heading: string; body: string; googleUrl: string }> = {

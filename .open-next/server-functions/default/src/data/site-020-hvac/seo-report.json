@@ -1,0 +1,25 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Meta description on /manual-j-load-calculation-online-free is 132 characters, below the recommended 140-160 range.",
+    "Missing structured data (e.g., HowTo or WebApplication schema) on the calculator/tool page; no schema detected in sample.",
+    "H1 tag on sample page is identical to the title tag (minor – best practice recommends slight variation).",
+    "Internal linking data not provided – unable to verify anchor diversity, link count, or orphan status.",
+    "Technical elements (canonical, robots.txt, sitemap) not audited due to missing information."
+  ],
+  "optimizations": [
+    "Expand meta description for /manual-j-load-calculation-online-free to 140-160 characters, including a clear call-to-action.",
+    "Add JSON-LD structured data (HowTo or WebApplication schema) to all calculator/tool pages to enhance rich snippets.",
+    "Differentiate H1 from title tag slightly – e.g., use a more descriptive H1 that includes the primary benefit.",
+    "Ensure all 5 pages have at least 2-8 internal links with varied anchor text; build topic clusters.",
+    "Set canonical URLs, allow indexing in robots.txt, and include all pages in sitemap.xml."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

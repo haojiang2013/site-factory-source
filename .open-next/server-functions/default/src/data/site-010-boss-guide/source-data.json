@@ -1,0 +1,55 @@
+{
+  "data": {
+    "gameBossStrategyGuide": {
+      "pricing": {
+        "min": 9.99,
+        "max": 29.99,
+        "typical": 19.99,
+        "unit": "USD"
+      },
+      "lengthPages": {
+        "min": 150,
+        "max": 400,
+        "typical": 250,
+        "unit": "pages"
+      },
+      "difficultyRating": {
+        "min": 1,
+        "max": 10,
+        "typical": 5,
+        "unit": "1-10 scale"
+      },
+      "numStrategiesPerBoss": {
+        "min": 1,
+        "max": 5,
+        "typical": 3,
+        "unit": "strategies"
+      },
+      "completionTimePerBoss": {
+        "min": 0.25,
+        "max": 2,
+        "typical": 0.75,
+        "unit": "hours"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Amazon.com pricing for official strategy guides (e.g., Dark Souls, Breath of the Wild)",
+      "Prima Games official website pricing",
+      "IGN walkthroughs (page count, difficulty ratings)",
+      "GameFAQs boss difficulty polls"
+    ],
+    "freshnessTTL_days": 180,
+    "collectedAt": "2025-04-08",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "pricing (sources differ by more than 10% across individual titles)",
+      "lengthPages (no aggregate data; estimates from product listings)",
+      "difficultyRating (highly subjective, no industry standard)",
+      "numStrategiesPerBoss (informal observation)",
+      "completionTimePerBoss (varies widely by game and player skill)"
+    ],
+    "confidenceNotes": "All numerical fields are approximate estimates based on common ranges from online retailers and community sites. No two independent authoritative sources were found that agree within 10% for any field. Data should be treated as illustrative rather than verified benchmark."
+  }
+}

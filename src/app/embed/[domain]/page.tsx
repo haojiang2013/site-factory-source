@@ -8,8 +8,9 @@ import { CalculatorWidget } from '@/templates/template-a-calculator/CalculatorWi
 import { PageContent } from '@/lib/site-config';
 import { getSiteByDomain } from '@/lib/page-registry';
 
-export default function EmbedPage({ params }: { params: { domain: string } }) {
-  const entry = getSiteByDomain(params.domain);
+export default async function EmbedPage({ params }: { params: Promise<{ domain: string }> }) {
+  const { domain } = await params;
+  const entry = getSiteByDomain(domain);
   if (!entry || entry.config.template !== 'A') {
     notFound();
   }
@@ -57,7 +58,7 @@ export default function EmbedPage({ params }: { params: { domain: string } }) {
           brandName={brand}
         />
         <div className="embed-brand">
-          <a href={`https://${params.domain}/`} target="_blank" rel="noopener">
+          <a href={`https://${domain}/`} target="_blank" rel="noopener">
             ⚡ {brand} — Free {entry.config.niche} — open ↗
           </a>
         </div>

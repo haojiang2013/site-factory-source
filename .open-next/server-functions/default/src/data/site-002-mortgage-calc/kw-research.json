@@ -1,0 +1,162 @@
+{
+  "niche": "mortgage overpayment calculator",
+  "keywords": [
+    {
+      "keyword": "mortgage overpayment calculator",
+      "searchVolume": 5400,
+      "difficulty": 70,
+      "intent": "transactional",
+      "serpWeakness": "Top results often gate the calculator behind a lead form, ask for personal information, or are simple single-screen tools without amortization export.",
+      "userComplaints": [
+        "Asks for email address before showing results.",
+        "Does not display a full amortization schedule with extra payments."
+      ]
+    },
+    {
+      "keyword": "extra payment mortgage calculator",
+      "searchVolume": 3600,
+      "difficulty": 65,
+      "intent": "transactional",
+      "serpWeakness": "Many calculators only support regular extra payments, not one‑time lump sums; the UI is cluttered and not mobile‑friendly.",
+      "userComplaints": [
+        "No option to add one‑time extra payments (e.g., tax refund).",
+        "Cannot compare multiple overpayment scenarios side‑by‑side."
+      ]
+    },
+    {
+      "keyword": "biweekly mortgage calculator with extra payments",
+      "searchVolume": 1400,
+      "difficulty": 50,
+      "intent": "transactional",
+      "serpWeakness": "Few tools combine bi‑weekly scheduling with discretionary extra payments; most bi‑weekly calculators only show the accelerated payoff without manual overrides.",
+      "userComplaints": [
+        "Does not let me apply an extra amount on top of bi‑weekly payments.",
+        "Can’t see how much faster I’d pay off compared to a standard monthly plan."
+      ]
+    },
+    {
+      "keyword": "mortgage payoff calculator with extra payments amortization schedule",
+      "searchVolume": 2200,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Many calculators offer a schedule but do not allow CSV/Excel export; others hide the schedule behind a pop‑up or email wall.",
+      "userComplaints": [
+        "Cannot download the amortization table as a spreadsheet.",
+        "The schedule does not separate interest saved from principal reduction clearly."
+      ]
+    },
+    {
+      "keyword": "how much can I save by paying extra on my mortgage",
+      "searchVolume": 2900,
+      "difficulty": 50,
+      "intent": "informational",
+      "serpWeakness": "Top articles are text‑heavy with static examples and no embedded interactive calculator; users bounce because they can’t enter their own numbers.",
+      "userComplaints": [
+        "Articles only show generic examples, not my actual loan details.",
+        "No quick interactive widget to see savings instantly."
+      ]
+    },
+    {
+      "keyword": "mortgage prepayment calculator US",
+      "searchVolume": 1800,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "Many US‑specific calculators ignore common American features like PMI removal or escrow adjustments, giving unrealistic payment forecasts.",
+      "userComplaints": [
+        "Does not factor in when PMI will drop off, skewing future payment amounts.",
+        "Real monthly payment includes taxes and insurance, but calculator only shows principal+interest."
+      ]
+    },
+    {
+      "keyword": "extra principal payment calculator",
+      "searchVolume": 1600,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "Existing tools are mostly basic widgets from small blogs; they rarely allow irregular extra payments or variable interest rates.",
+      "userComplaints": [
+        "Can only add a fixed extra amount every month, not random lump sums.",
+        "No way to model an adjustable‑rate mortgage with extra payments."
+      ]
+    },
+    {
+      "keyword": "free mortgage overpayment calculator no email",
+      "searchVolume": 900,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "Explicit searches for ‘no email’ have very few dedicated landing pages; most sites still force email collection.",
+      "userComplaints": [
+        "Every calculator I try forces me to enter an email address to see the full results.",
+        "After entering email, I get spammed with lender calls."
+      ]
+    },
+    {
+      "keyword": "mortgage overpayment calculator excel",
+      "searchVolume": 1200,
+      "difficulty": 40,
+      "intent": "transactional",
+      "serpWeakness": "Top results are from template sites with outdated designs and no guidance; some require payment for full features.",
+      "userComplaints": [
+        "Downloaded Excel template is broken on newer versions of Excel.",
+        "No instructions on how to change loan parameters properly."
+      ]
+    },
+    {
+      "keyword": "best mortgage overpayment calculator 2025",
+      "searchVolume": 1300,
+      "difficulty": 55,
+      "intent": "commercial",
+      "serpWeakness": "Listicles are often affiliate‑heavy and recommend tools that ask for personal data; reviews are not based on real user testing.",
+      "userComplaints": [
+        "Review sites just list the same big‑brand calculators without testing them.",
+        "The ‘best’ calculators still require sign‑ups, which defeats the purpose."
+      ]
+    },
+    {
+      "keyword": "mortgage overpayment calculator with lump sum payments",
+      "searchVolume": 1100,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Very few calculators allow entering multiple irregular lump sums at specific future dates; most only accept a single extra‑monthly amount.",
+      "userComplaints": [
+        "I want to model yearly lump sums from bonuses, but the tool doesn’t allow it.",
+        "Can’t schedule a future one‑time payment and see its impact."
+      ]
+    },
+    {
+      "keyword": "how does paying extra on mortgage work",
+      "searchVolume": 2100,
+      "difficulty": 35,
+      "intent": "informational",
+      "serpWeakness": "Articles often bury the explanation in financial jargon and lack visual examples; no interactive ‘what‑if’ tool to solidify understanding.",
+      "userComplaints": [
+        "Too much finance terminology – I just want to see how an extra $200/month helps.",
+        "No visual graph showing interest saved over time."
+      ]
+    },
+    {
+      "keyword": "mortgage calculator with extra payments biweekly",
+      "searchVolume": 1500,
+      "difficulty": 48,
+      "intent": "transactional",
+      "serpWeakness": "Existing bi‑weekly calculators rarely let you combine both bi‑weekly acceleration and additional extra payments, limiting comparison options.",
+      "userComplaints": [
+        "Can’t see side‑by‑side comparison of bi‑weekly only vs bi‑weekly + extra $100.",
+        "The amortization schedule does not reflect the different payment frequency."
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Calculators require an email address before showing full results, leading to spam and unwanted sales calls.",
+    "No ability to add irregular or one‑time extra payments (e.g., bonuses, tax refunds) alongside recurring overpayments.",
+    "Missing exportable amortization schedule that clearly separates interest saved, principal reduction, and total savings over the loan life.",
+    "Poor mobile experience – calculators are not responsive, have tiny text, or break on phones.",
+    "Lack of US‑specific features like PMI removal, escrow/tax inclusion, and adjustable‑rate mortgage support."
+  ],
+  "recommendedAngles": [
+    "Build a completely free, email‑wall‑free tool that instantly generates a full, exportable amortization schedule with detailed interest vs. principal breakdown.",
+    "Support for multiple irregular payments (lump sums on specific future dates) with a visual timeline, showing the impact of each extra payment on payoff date and interest saved.",
+    "Include US‑specific mortgage options: PMI removal date, escrow (tax+insurance) estimation, and adjustable‑rate modeling with future rate changes.",
+    "Provide a clean, mobile‑first interactive dashboard that compares up to three overpayment scenarios side‑by‑side (e.g., no extra payment, $200/month, $500/month + yearly lump sum).",
+    "Create an educational ‘how it works’ section with dynamic, slider‑based graphics that explain amortization and early payoff in plain English."
+  ]
+}

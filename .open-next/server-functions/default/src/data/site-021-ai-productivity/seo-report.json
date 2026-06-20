@@ -1,0 +1,24 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All 5 pages use URL slug '/undefined' instead of a descriptive, keyword-rich slug",
+    "No canonical URL or robots.txt/sitemap information provided (likely missing or broken)",
+    "No structured data (schema) detected on the sample page",
+    "Internal linking status unknown – risk of orphan pages"
+  ],
+  "optimizations": [
+    "Assign unique, descriptive URL slugs for each page (e.g., '/best-ai-personal-assistant-apps-2025')",
+    "Add proper canonical tags pointing to the correct page URLs",
+    "Implement FAQPage schema on pages with FAQs (none found yet)",
+    "Ensure each page has 2–8 internal links with diverse anchor text",
+    "Create and submit an XML sitemap, and verify robots.txt allows indexing"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

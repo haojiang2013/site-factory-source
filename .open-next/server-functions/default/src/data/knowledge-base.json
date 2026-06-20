@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-06-16",
+  "keywordPatterns": {
+    "highCTR": ["how much * cost", "free * no signup", "* calculator"],
+    "lowCTR": ["what is *", "* definition"],
+    "provenKeywords": []
+  },
+  "contentPatterns": {
+    "optimalWordRange": [1200, 1800],
+    "bestSectionOrder": ["intro", "evidence-block", "comparison", "faq", "cta"],
+    "effectivePhrases": ["no email required", "we tested", "honestly", "based on real data"]
+  },
+  "designInsights": {
+    "highEngagementColors": [],
+    "preferredLayouts": [],
+    "fontPerformance": {}
+  },
+  "toolPerformance": {
+    "highBacklinkTypes": [],
+    "highEngagementParams": []
+  },
+  "nicheROI": [],
+  "lessonsLearned": [
+    "Content Writer must NEVER perform arithmetic — always reference calculator tool output or source data directly",
+    "Title length 50-60 chars enforced with hard check; meta 140-160 chars same",
+    "Affiliate CTA must use '[BrandName] Pick' format, not generic 'Buy on Amazon'",
+    "All dangerouslySetInnerHTML must use '|| \"\"' fallback for undefined body content",
+    "next/head does not work in App Router — use generateMetadata() instead",
+    "Domains on Spaceship must change nameservers to ns1.vercel-dns.com for Vercel compatibility",
+    "Vercel --name creates new projects, not deployment aliases — avoid for multi-domain setups"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All page URLs are '/undefined' instead of descriptive, keyword-rich slugs",
+    "No internal links detected on the sample page",
+    "Missing FAQPage structured data on a page with 2 FAQs",
+    "No canonical URL or robots meta information provided",
+    "Sitemap and robots.txt not confirmed"
+  ],
+  "optimizations": [
+    "Add unique, hyphenated URL slugs containing target keywords",
+    "Implement FAQPage JSON-LD schema on pages with FAQs",
+    "Include 2-8 internal links per page with diverse anchor text",
+    "Set canonical URL and ensure robots.txt allows indexing",
+    "Generate and submit an XML sitemap"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

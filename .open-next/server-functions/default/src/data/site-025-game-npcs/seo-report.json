@@ -1,0 +1,23 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All pages have URL '/undefined' - missing descriptive slug with keywords",
+    "FAQ page(s) likely missing FAQPage schema",
+    "No internal linking data provided, but insufficient linking expected",
+    "Titles are similar across pages, possible keyword cannibalization"
+  ],
+  "optimizations": [
+    "Create unique, keyword-rich slugs for each page (e.g., /best-game-npc-database-tools)",
+    "Add FAQPage structured data (JSON-LD) to pages with FAQs",
+    "Implement internal linking strategy with varied anchor text targeting topic clusters",
+    "Differentiate title tags to target distinct search intents (e.g., comparisons vs. guides)"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

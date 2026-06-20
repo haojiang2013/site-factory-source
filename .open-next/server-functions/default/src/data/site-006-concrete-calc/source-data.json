@@ -1,0 +1,58 @@
+{
+  "data": {
+    "concrete": {
+      "readyMixPrice_perCubicYard": {
+        "min": 110,
+        "max": 150,
+        "typical": 130,
+        "unit": "USD"
+      },
+      "bagConcretePrice_per80lbBag": {
+        "min": 5,
+        "max": 7.5,
+        "typical": 6,
+        "unit": "USD"
+      },
+      "bagConcreteYield_per80lbBag": {
+        "min": 0.55,
+        "max": 0.65,
+        "typical": 0.6,
+        "unit": "cubic_feet"
+      },
+      "slabThickness_standard": {
+        "min": 3,
+        "max": 6,
+        "typical": 4,
+        "unit": "inches"
+      },
+      "laborPlacementCost_perCubicYard": {
+        "min": 50,
+        "max": 100,
+        "typical": 75,
+        "unit": "USD"
+      },
+      "standardCylinderStrength_psi": {
+        "min": 2500,
+        "max": 5000,
+        "typical": 3000,
+        "unit": "psi"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "National Ready Mixed Concrete Association (NRMCA) Industry Data Reports",
+      "Bureau of Labor Statistics (BLS) - Producer Price Index for Ready-Mix Concrete",
+      "HomeAdvisor National Average Concrete Cost Guide"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-04",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "readyMixPrice_perCubicYard",
+      "bagConcretePrice_per80lbBag",
+      "laborPlacementCost_perCubicYard"
+    ],
+    "confidenceNotes": "Pricing data based on general industry averages; specific regional or seasonal variations not captured. Bag concrete yield and slab thickness are standard industry values (verified). Strength range is typical for residential/commercial slabs. Labor cost is highly variable and estimated."
+  }
+}

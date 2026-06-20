@@ -1,0 +1,20 @@
+{
+  "overallVerdict": "PASS",
+  "issues": [
+    "Structured data (FAQPage schema) may be missing on pages with FAQs (e.g., /how-much-does-house-cleaning-cost). Verify implementation."
+  ],
+  "optimizations": [
+    "Add FAQPage JSON-LD schema to all pages that contain FAQ sections.",
+    "Ensure all 5 pages have at least 2–3 internal links pointing to each other to form a topic cluster.",
+    "Diversify anchor text for internal links (e.g., exact match, partial match, brand, generic, naked URLs).",
+    "Consider adding a calculator schema (HowTo or WebApplication) if appropriate for the calculator page."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

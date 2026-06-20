@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的任务</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #f8fafc; color: #0f172a; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .subtitle { font-size: 12px; color: #94a3b8; margin-bottom: 24px; }
+  .task { background: #fff; border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); border: 1px solid #f1f5f9; border-left: 3px solid #3b82f6; }
+  .task h3 { margin: 0 0 6px; font-size: 15px; }
+  .freq { font-size: 10px; background: #dbeafe; color: #1e40af; padding: 2px 7px; border-radius: 4px; margin-left: 6px; }
+  .task p { margin: 4px 0; font-size: 13px; color: #64748b; }
+  .step { display: flex; gap: 8px; align-items: flex-start; margin: 6px 0; font-size: 13px; line-height: 1.6; }
+  .step-num { width: 20px; height: 20px; border-radius: 50%; background: #dbeafe; color: #1e40af; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; }
+  .copy-box { background: #f8fafc; border: 1px dashed #e2e8f0; border-radius: 8px; padding: 10px 14px; margin: 6px 0; font-size: 12px; color: #475569; cursor: pointer; user-select: all; }
+  .copy-box:hover { background: #eff6ff; border-color: #93c5fd; }
+  .link-btn { display: inline-block; background: #3b82f6; color: #fff; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 12px; margin: 4px 4px 4px 0; }
+  .link-btn:hover { background: #2563eb; }
+  .warn { background: #fef2f2; border-left: 3px solid #dc2626; }
+</style>
+</head>
+<body>
+
+<h1>📋 我的任务</h1>
+<div class="subtitle">只列需要我自己动手的 · 其他全自动</div>
+
+<div class="task">
+  <h3>1. Reddit 每日回复 <span class="freq">每天 · 3分钟</span></h3>
+  <p>点链接 → 找问题 → 用<strong>中文</strong>写 2 句话 → 发送。不提站名，不提链接。</p>
+  <div class="step"><span class="step-num">1</span> 打开 <a href="g:/cc-test/site-factory/reddit-daily.html" style="color:#2563eb">reddit-daily.html</a>，点今天日期的链接</div>
+  <div class="step"><span class="step-num">2</span> 找 1 个帖子 → 用中文答 → Comment</div>
+  <div class="step"><span class="step-num">3</span> 完事。</div>
+</div>
+
+<div class="task">
+  <h3>2. Product Hunt 提交 <span class="freq">想做就做 · 2分钟/站</span></h3>
+  <p>跟我说要提交哪个站 → 我生成英文内容 → 你打开链接粘贴</p>
+  <div class="step"><span class="step-num">1</span> 跟我说 "提交 [站名]"</div>
+  <div class="step"><span class="step-num">2</span> 我生成所有英文内容</div>
+  <div class="step"><span class="step-num">3</span> 打开 <a href="https://www.producthunt.com/posts/new" target="_blank" class="link-btn">Product Hunt ↗</a> → 粘贴</div>
+</div>
+
+<div class="task warn">
+  <h3>3. 买域名 <span class="freq">自己定时间</span></h3>
+  <table style="font-size:12px;margin:8px 0">
+    <tr><td style="padding:4px 12px 4px 0;color:#64748b">①</td><td>5个 .xyz → .com 替换</td></tr>
+    <tr><td style="padding:4px 12px 4px 0;color:#64748b">②</td><td>4个语义域名（家庭/专业/AI/游戏）</td></tr>
+  </table>
+  <div class="step">去 <a href="https://namecheap.com" target="_blank">Namecheap</a> 或 <a href="https://porkbun.com" target="_blank">Porkbun</a> 买</div>
+</div>
+
+</body>
+</html>

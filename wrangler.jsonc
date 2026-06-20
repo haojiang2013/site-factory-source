@@ -1,0 +1,6 @@
+{
+  "main": ".open-next/worker.js",
+  "assets": { "directory": ".open-next/assets" },
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true }
+}

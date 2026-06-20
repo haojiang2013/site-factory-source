@@ -1,0 +1,25 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All pages have URL '/undefined' which is invalid and not SEO-friendly",
+    "Title tag on sample page is 63 characters, slightly exceeding the recommended 50-60 range",
+    "Missing FAQPage structured data on page with 3 FAQs",
+    "No canonical URL set (assumed)",
+    "No internal linking between pages detected (likely orphan pages)"
+  ],
+  "optimizations": [
+    "Create unique, descriptive URL slugs for each page (e.g., /best-ai-data-analysis-tools)",
+    "Trim title tag to within 60 characters (e.g., 'Best AI Data Analysis Tools: Pricing & Features')",
+    "Add valid FAQPage JSON-LD schema for pages with FAQs",
+    "Add self-referencing canonical URLs to avoid duplicate content issues",
+    "Implement a topic cluster internal linking structure (2-8 links per page) using varied anchor text"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

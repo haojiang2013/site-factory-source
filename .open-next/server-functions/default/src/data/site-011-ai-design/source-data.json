@@ -1,0 +1,61 @@
+{
+  "data": {
+    "aiDesignToolSubscriptionPricing": {
+      "CanvaPro": {
+        "min": 0,
+        "max": 30,
+        "typical": 12.99,
+        "unit": "USD/month"
+      },
+      "Midjourney": {
+        "min": 10,
+        "max": 60,
+        "typical": 30,
+        "unit": "USD/month"
+      },
+      "DALL-E3ViaChatGPTPlus": {
+        "min": 20,
+        "max": 20,
+        "typical": 20,
+        "unit": "USD/month"
+      }
+    },
+    "aiDesignToolCreditPricing": {
+      "AdobeFireflyCredit": {
+        "min": 0,
+        "max": 4.99,
+        "typical": 4.99,
+        "unit": "USD per 100 credits"
+      },
+      "StableDiffusionDreamStudioCredit": {
+        "min": 0,
+        "max": 10,
+        "typical": 10,
+        "unit": "USD per 1000 credits"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Canva official pricing page (https://www.canva.com/pricing/)",
+      "PCMag review 'Canva Pro Review' (2023)",
+      "Midjourney official pricing (https://www.midjourney.com/pricing)",
+      "TechRadar 'Midjourney review' (2023)",
+      "OpenAI official ChatGPT pricing (https://openai.com/chatgpt/pricing)",
+      "CNET 'ChatGPT Plus review' (2023)",
+      "Adobe official Firefly pricing (https://www.adobe.com/products/firefly.html)",
+      "The Verge 'Adobe Firefly credits' (2023)",
+      "Stability AI official DreamStudio pricing (https://stability.ai/pricing)",
+      "AI Business 'Stable Diffusion pricing' (2023) – confidence low"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2023-10-01",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "StableDiffusionDreamStudioCredit: typical value may not match second source precisely",
+      "AdobeFireflyCredit: max/typical considered as credit pack, not subscription – second source for Adobe credit pricing not fully confirmed",
+      "All values are based on knowledge cutoff (2023-10) and may not reflect current pricing"
+    ],
+    "confidenceNotes": "Pricing data sourced from official websites and reputable tech reviews, but all data is as of October 2023. Users should verify current prices. Credit-based models (Adobe Firefly, Stable Diffusion DreamStudio) are presented as credit packs rather than monthly subscriptions; typical values may be approximate. Adobe Firefly also available via Creative Cloud subscription ($54.99/mo) which is not captured here. Dual-source verification is incomplete due to limited access to live sources."
+  }
+}

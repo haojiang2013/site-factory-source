@@ -1,0 +1,402 @@
+[
+  {
+    "domain": "gomovecalc.xyz",
+    "template": "A",
+    "brand": "MoveWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /how-much-does-it-cost-to-move-a-3-bedroom-house",
+    "issues": []
+  },
+  {
+    "domain": "payitoff.xyz",
+    "template": "A",
+    "brand": "EquityFlow",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /extra-payment-mortgage-calculator",
+    "issues": []
+  },
+  {
+    "domain": "paintwise.xyz",
+    "template": "A",
+    "brand": "CoverWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /how-much-paint-do-i-need",
+    "issues": []
+  },
+  {
+    "domain": "aitoolshelf.xyz",
+    "template": "B",
+    "brand": "WriteRank",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /best-ai-writing-assistant-for-blog-posts-2025-comparison",
+    "issues": []
+  },
+  {
+    "domain": "lootcove.xyz",
+    "template": "C",
+    "brand": "LootLedger",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /loot-table-database",
+    "issues": []
+  },
+  {
+    "domain": "pourtrue.8zla.com",
+    "template": "A",
+    "brand": "MixWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /how-much-concrete-do-i-need",
+    "issues": []
+  },
+  {
+    "domain": "floorfound.8zla.com",
+    "template": "A",
+    "brand": "FloorWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /hardwood-flooring-cost-estimator",
+    "issues": []
+  },
+  {
+    "domain": "devtooltrove.8zla.com",
+    "template": "B",
+    "brand": "CodeBench",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "500 ✅ /github-copilot-vs-cursor-which-ai-coding-assistant-wins-in-2025",
+    "issues": []
+  },
+  {
+    "domain": "renowise.8zla.com",
+    "template": "A",
+    "brand": "BuildCost",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /kitchen-remodel-cost-calculator-2024",
+    "issues": []
+  },
+  {
+    "domain": "bossbreak.8zla.com",
+    "template": "C",
+    "brand": "BossPlan",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /malenia-solo-no-summons-a-melee-players-winning-strategy",
+    "issues": []
+  },
+  {
+    "domain": "designtooltrove.8zla.com",
+    "template": "B",
+    "brand": "DesignBench",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /ai-graphic-design-software-comparison-find-the-right-tool-for-your-creative-work",
+    "issues": []
+  },
+  {
+    "domain": "markettooltrove.8zla.com",
+    "template": "B",
+    "brand": "MetricCraft",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /ai-marketing-tools-comparison-pricing-features-and-benchmarks",
+    "issues": []
+  },
+  {
+    "domain": "videotooltrove.8zla.com",
+    "template": "B",
+    "brand": "VidBench",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /ai-video-tools-for-content-creators-side-by-side-comparison",
+    "issues": []
+  },
+  {
+    "domain": "itemarchive.8zla.com",
+    "template": "B",
+    "brand": "StatForge",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /best-diablo-4-unique-item-list-filterable-tools-2025-comparison",
+    "issues": []
+  },
+  {
+    "domain": "buildcraft.8zla.com",
+    "template": "A",
+    "brand": "StatForge",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /path-of-exile-skill-tree-planner",
+    "issues": []
+  },
+  {
+    "domain": "voltwise.8zla.com",
+    "template": "A",
+    "brand": "AmpFlow",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /residential-electrical-load-calculator",
+    "issues": []
+  },
+  {
+    "domain": "soilwise.8zla.com",
+    "template": "A",
+    "brand": "EarthWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /soil-volume-calculator-for-raised-bed",
+    "issues": []
+  },
+  {
+    "domain": "cleancalc.8zla.com",
+    "template": "A",
+    "brand": "TidyCost",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /house-cleaning-cost-calculator",
+    "issues": []
+  },
+  {
+    "domain": "solarwise.8zla.com",
+    "template": "A",
+    "brand": "RayCalc",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /solar-panel-cost-calculator",
+    "issues": []
+  },
+  {
+    "domain": "hvacwise.8zla.com",
+    "template": "A",
+    "brand": "ThermoWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /how-many-tons-of-ac-for-2000-sq-ft",
+    "issues": []
+  },
+  {
+    "domain": "prodtooltrove.8zla.com",
+    "template": "B",
+    "brand": "MindForge",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /best-ai-meeting-note-takers-that-integrate-with-zoom-compared",
+    "issues": []
+  },
+  {
+    "domain": "wavecraft.8zla.com",
+    "template": "B",
+    "brand": "WaveCraft",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /wavecraft-the-best-elevenlabs-alternative-free-no-credit-card-required",
+    "issues": []
+  },
+  {
+    "domain": "datatooltrove.8zla.com",
+    "template": "B",
+    "brand": "FuseLens",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /free-ai-for-data-analysis-compare-tools-with-no-credit-card-required",
+    "issues": []
+  },
+  {
+    "domain": "weaponwise.8zla.com",
+    "template": "B",
+    "brand": "WeaponWise",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /warframe-weapon-dps-calculator-vs-real-airsoft-rifle-comparison",
+    "issues": []
+  },
+  {
+    "domain": "npcvault.8zla.com",
+    "template": "B",
+    "brand": "NPCVault",
+    "home": {
+      "ok": true,
+      "status": 200,
+      "hasH1": true,
+      "hasMeta": true,
+      "hasOG": true,
+      "hasJSONLD": true,
+      "chineseText": []
+    },
+    "subPages": "200 ✅ /best-npc-database-apis-for-game-developers",
+    "issues": []
+  }
+]

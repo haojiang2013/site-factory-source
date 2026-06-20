@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
 
-export default function robots(): MetadataRoute.Robots {
-  const heads = headers();
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  const heads = await headers();
   const host = (heads.get('x-forwarded-host') || heads.get('host') || '').replace(/:\d+$/, '');
 
   return {

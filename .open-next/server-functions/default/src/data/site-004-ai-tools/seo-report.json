@@ -1,0 +1,22 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All page URLs appear to be '/undefined' instead of descriptive, keyword-rich slugs",
+    "No FAQPage structured data found on the sample page despite having an FAQ section",
+    "Internal linking data is missing; likely insufficient or absent across pages"
+  ],
+  "optimizations": [
+    "Assign unique, hyphenated URL slugs containing primary keywords (e.g., /best-ai-writing-tools-2025)",
+    "Implement FAQPage JSON-LD schema on pages with FAQ sections",
+    "Ensure each page has at least 2-8 internal links forming topic clusters",
+    "Verify canonical, robots.txt, and sitemap settings for proper indexing"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

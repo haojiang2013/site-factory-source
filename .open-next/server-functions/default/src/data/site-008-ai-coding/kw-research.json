@@ -1,0 +1,150 @@
+{
+  "niche": "AI coding tools comparison",
+  "keywords": [
+    {
+      "keyword": "best ai coding assistant 2025",
+      "searchVolume": 4800,
+      "difficulty": 75,
+      "intent": "commercial",
+      "serpWeakness": "Many top results from 2023 or early 2024, missing new tools like Cursor with Sonnet, Codeium's free tier changes, and Copilot's 2025 updates. Most lack side-by-side feature tables.",
+      "userComplaints": [
+        "Outdated comparisons list tools that no longer exist or have changed pricing",
+        "No mention of privacy differences or offline support"
+      ]
+    },
+    {
+      "keyword": "github copilot vs cursor",
+      "searchVolume": 3800,
+      "difficulty": 55,
+      "intent": "commercial/transactional",
+      "serpWeakness": "Only a handful of dedicated comparison pages; many are forum discussions (Reddit/Stack Overflow) lacking structured analysis. Official sites bogged down with PR fluff.",
+      "userComplaints": [
+        "Cursor is slower on large repos",
+        "Copilot's suggestions break after refactoring"
+      ]
+    },
+    {
+      "keyword": "cursor vs codeium",
+      "searchVolume": 1200,
+      "difficulty": 30,
+      "intent": "commercial",
+      "serpWeakness": "Very few direct head-to-head articles; mostly YouTube reviews or single Reddit threads with anecdotal evidence. No benchmark data.",
+      "userComplaints": [
+        "Codeium occasionally misses entire function completions",
+        "Cursor's AI rewrites too aggressively"
+      ]
+    },
+    {
+      "keyword": "free ai coding assistant no login",
+      "searchVolume": 850,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Most 'free' lists require GitHub/email signup and ignore truly zero‑auth tools. Results often outdated or listing dead projects.",
+      "userComplaints": [
+        "Requires GitHub OAuth even for free tier",
+        "Free tier limited to 20 suggestions per day"
+      ]
+    },
+    {
+      "keyword": "ai coding tools that don't send your code to the cloud",
+      "searchVolume": 650,
+      "difficulty": 20,
+      "intent": "transactional",
+      "serpWeakness": "Almost no dedicated comparison page; only scattered forum questions. Opportunity to rank for privacy-concerned developers.",
+      "userComplaints": [
+        "Tool sends entire repo to cloud without clear opt-out",
+        "Enterprise customers forced to accept telemetry"
+      ]
+    },
+    {
+      "keyword": "cheapest ai coding assistant",
+      "searchVolume": 720,
+      "difficulty": 40,
+      "intent": "commercial",
+      "serpWeakness": "Current top results focus only on monthly price, ignoring hidden limits, free tiers, or self-hosted options. No cost-per-feature breakdown.",
+      "userComplaints": [
+        "Suddenly limited after free trial ends",
+        "Hidden $20/mo for team features"
+      ]
+    },
+    {
+      "keyword": "best ai code generator for python",
+      "searchVolume": 2100,
+      "difficulty": 65,
+      "intent": "commercial",
+      "serpWeakness": "Generic 'best AI tools' lists with one or two Python mentions, no dedicated Python‑only analysis. Missing pandas/ML-specific nuance.",
+      "userComplaints": [
+        "Suggestions fail on typing/domain-specific code",
+        "Doesn't understand pandas API well"
+      ]
+    },
+    {
+      "keyword": "ai pair programming tools 2025",
+      "searchVolume": 900,
+      "difficulty": 45,
+      "intent": "informational/commercial",
+      "serpWeakness": "Most pages from 2023; few mention real‑time cursor sharing or in‑IDE voice pairing. Opportunity for fresh take with multi‑player features.",
+      "userComplaints": [
+        "Pair programming mode requires both having same tool",
+        "No shared session except via screen sharing"
+      ]
+    },
+    {
+      "keyword": "ai code review tools comparison",
+      "searchVolume": 1400,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Many compare GitHub Copilot review vs CodeRabbit, but miss newer entrants like WhatTheDiff or Codium. No table of supported VCS integrations.",
+      "userComplaints": [
+        "Review tools miss security vulnerabilities in PRs",
+        "Too many false positives"
+      ]
+    },
+    {
+      "keyword": "github copilot alternatives 2025",
+      "searchVolume": 2900,
+      "difficulty": 70,
+      "intent": "commercial",
+      "serpWeakness": "Lists from 2023 still rank well; many mention outdated tools (e.g., Kite) and lack deep comparisons with context handling. Updates needed.",
+      "userComplaints": [
+        "Alternative lists just describe each tool without real comparison",
+        "Missing self-hosted / open-source alternatives"
+      ]
+    },
+    {
+      "keyword": "ai code generation accuracy benchmark",
+      "searchVolume": 520,
+      "difficulty": 25,
+      "intent": "informational",
+      "serpWeakness": "Most results are academic papers (arxiv) or single-tool blog posts. No user-friendly, regularly updated benchmark site comparing multiple tools on real tasks.",
+      "userComplaints": [
+        "Benchmarks only use toy problems, not real-world multi-file projects",
+        "No data on non-English programming languages"
+      ]
+    },
+    {
+      "keyword": "best ai coding plugin for vscode",
+      "searchVolume": 3100,
+      "difficulty": 78,
+      "intent": "commercial",
+      "serpWeakness": "Microsoft store links and outdated 'best of' lists dominate. Few compare plugin performance impact, memory usage, or conflict detection.",
+      "userComplaints": [
+        "Plugins crash VS Code on large files",
+        "Too many pop-ups asking for upgrades"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Tools send source code to cloud servers with inadequate transparency or opt-out controls",
+    "Inconsistent code quality especially for non‑mainstream languages and frameworks",
+    "Aggressive subscription pricing with hidden limits and annoying upsell prompts",
+    "Plugins slow down the IDE or cause crashes on large codebases",
+    "Comparisons rarely include actual accuracy benchmarks or side‑by‑side testing on real tasks"
+  ],
+  "recommendedAngles": [
+    "Privacy-first AI coding tool matrix with clear data‑handling and offline capability columns",
+    "Head‑to‑head accuracy benchmark on real‑world multi‑file features (e.g., adding a feature to a Django app)",
+    "Total cost of ownership calculator for indie devs, comparing free vs paid tiers across $0‑$20/mo",
+    "Interactive 'choose your priority' quiz that recommends a tool based on privacy, language support, and budget"
+  ]
+}

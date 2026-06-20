@@ -1,0 +1,20 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Title length exceeds 60 characters on page 3 (\"Cursor vs Codeium: Which AI Code Assistant Wins? (2025 Comparison)\" - 66 chars) and page 5 (\"AI Coding Tools That Don't Send Your Code to the Cloud (2025)\" - 61 chars).",
+    "Sample page URL is '/undefined' – missing or placeholder slug; check all pages for proper slugs.",
+    "No FAQPage schema detected on sample page despite having 2 FAQs.",
+    "Internal linking data not provided – cannot verify anchor text diversity or topic clusters; ensure each page has 2–8 internal links.",
+    "No information on robots.txt, sitemap.xml, or canonical tags – verify technical SEO foundations."
+  ],
+  "optimizations": [
+    "Shorten titles on pages 3 and 5 to 60 characters or fewer; move '2025' or secondary keywords later if needed.",
+    "Ensure all page URLs are descriptive, hyphenated, and include a primary keyword (e.g., /best-ai-coding-assistant-2025).",
+    "Add FAQPage structured data (JSON-LD) to any page with FAQ content.",
+    "Implement internal linking with varied anchor text (exact match, partial, brand, generic) across all 5 pages.",
+    "Set canonical URLs, check robots.txt allows indexing, and confirm sitemap includes all pages."
+  ],
+  "anchorTextDiversity": {},
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

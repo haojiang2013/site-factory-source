@@ -1,48 +1,70 @@
 /**
- * Index submission endpoint — runs Google sitemap ping + IndexNow from Vercel cloud
- * GET /api/submit-index?secret=CRON_SECRET
+ * IndexNow + Google Ping endpoint — submits ALL pages across all 25 domains.
+ *
+ * Usage:
+ *   GET /api/submit-index?secret=CRON_SECRET           → all 25 domains
+ *   GET /api/submit-index?secret=CRON_SECRET&dry=1     → dry run (count only)
+ *
+ * IndexNow key: fa71c99a2cd5449fbbfc0c37f2cf6080
+ * Key file: /indexnow-fa71c99a2cd5449fbbfc0c37f2cf6080.txt → must serve the key
  */
 import { NextRequest, NextResponse } from 'next/server';
 
-const ALL_DOMAINS = [
-  'gomovecalc.xyz','payitoff.xyz','paintwise.xyz','aitoolshelf.xyz','lootcove.xyz',
-  'pourtrue.8zla.com','floorfound.8zla.com','devtooltrove.8zla.com','renowise.8zla.com',
-  'bossbreak.8zla.com','designtooltrove.8zla.com','markettooltrove.8zla.com','videotooltrove.8zla.com',
-  'itemarchive.8zla.com','buildcraft.8zla.com','voltwise.8zla.com','soilwise.8zla.com',
-  'cleancalc.8zla.com','solarwise.8zla.com','hvacwise.8zla.com','prodtooltrove.8zla.com',
-  'wavecraft.8zla.com','datatooltrove.8zla.com','weaponwise.8zla.com','npcvault.8zla.com',
-];
+const INDEXNOW_KEY = 'fa71c99a2cd5449fbbfc0c37f2cf6080';
 
-async function pingGoogle(domain: string): Promise<{ ok: boolean; status: number; body: string }> {
-  try {
-    const url = `https://www.google.com/ping?sitemap=${encodeURIComponent(`https://${domain}/sitemap.xml`)}`;
-    const res = await fetch(url, { signal: AbortSignal.timeout(3000) });
-    return { ok: res.ok, status: res.status, body: (await res.text()).substring(0, 100) };
-  } catch (e: any) {
-    return { ok: false, status: 0, body: e.message?.substring(0, 100) || 'unknown' };
-  }
+// Load all sites dynamically
+function loadAllDomains(): { domain: string; pages: any[] }[] {
+  const fs = require('fs');
+  const path = require('path');
+  const dataDir = path.resolve(process.cwd(), 'src', 'data');
+  const dirs = fs.readdirSync(dataDir).filter((d: string) => d.startsWith('site-')).sort();
+  return dirs.map((d: string) => {
+    const cfg = JSON.parse(fs.readFileSync(path.join(dataDir, d, 'config.json'), 'utf8'));
+    const pages = JSON.parse(fs.readFileSync(path.join(dataDir, d, 'pages.json'), 'utf8'));
+    return { domain: cfg.domain, pages };
+  });
 }
 
-async function submitIndexNow(domain: string): Promise<{ ok: boolean; status: number; body: string }> {
-  const apiKey = 'fa71c99a2cd5449fbbfc0c37f2cf6080';
+function getAllUrls(site: { domain: string; pages: any[] }): string[] {
+  const urls = [
+    `https://${site.domain}/`,
+    `https://${site.domain}/about`,
+    `https://${site.domain}/contact`,
+    `https://${site.domain}/privacy`,
+    `https://${site.domain}/terms`,
+  ];
+  for (const page of site.pages) {
+    if (page.slug) {
+      urls.push(`https://${site.domain}/${page.slug}/`);
+    }
+  }
+  return [...new Set(urls)]; // dedupe
+}
+
+async function submitIndexNow(domain: string, urlList: string[]): Promise<{ ok: boolean; status: number; body: string }> {
   try {
+    // IndexNow max is 10,000 URLs per request, our max is ~14 per domain — well within limit
     const res = await fetch('https://api.indexnow.org/IndexNow', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         host: domain,
-        key: apiKey,
-        keyLocation: `https://${domain}/indexnow-${apiKey}.txt`,
-        urlList: [
-          `https://${domain}/`,
-          `https://${domain}/about`,
-          `https://${domain}/contact`,
-          `https://${domain}/privacy`,
-          `https://${domain}/terms`,
-        ],
+        key: INDEXNOW_KEY,
+        keyLocation: `https://${domain}/indexnow-${INDEXNOW_KEY}.txt`,
+        urlList,
       }),
-      signal: AbortSignal.timeout(15000),
+      signal: AbortSignal.timeout(20000),
     });
+    return { ok: res.ok, status: res.status, body: (await res.text()).substring(0, 150) };
+  } catch (e: any) {
+    return { ok: false, status: 0, body: e.message?.substring(0, 100) || 'unknown' };
+  }
+}
+
+async function pingGoogle(domain: string): Promise<{ ok: boolean; status: number; body: string }> {
+  try {
+    const url = `https://www.google.com/ping?sitemap=${encodeURIComponent(`https://${domain}/sitemap.xml`)}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(5000) });
     return { ok: res.ok, status: res.status, body: (await res.text()).substring(0, 100) };
   } catch (e: any) {
     return { ok: false, status: 0, body: e.message?.substring(0, 100) || 'unknown' };
@@ -55,30 +77,57 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
-  // Fire ALL requests in parallel (25 Google + 25 IndexNow = 50 concurrent)
-  const googlePromises = ALL_DOMAINS.map(d => pingGoogle(d));
-  const googleSettled = await Promise.allSettled(googlePromises);
+  const isDry = req.nextUrl.searchParams.get('dry') === '1';
+  const sites = loadAllDomains();
+  let totalUrls = 0;
 
-  const results = googleSettled.map((s, i) => {
-    const r = s.status === 'fulfilled' ? s.value : { ok: false, status: 0, body: 'rejected' };
-    return { domain: ALL_DOMAINS[i], google: r.ok ? `OK ${r.status}` : `FAIL ${r.status}`, indexnow: 'pending' };
+  // Count URLs
+  const allUrls: { domain: string; urls: string[] }[] = [];
+  for (const site of sites) {
+    const urls = getAllUrls(site);
+    allUrls.push({ domain: site.domain, urls });
+    totalUrls += urls.length;
+  }
+
+  if (isDry) {
+    return NextResponse.json({
+      success: true,
+      dry: true,
+      domains: sites.length,
+      totalUrls,
+      breakdown: allUrls.map(a => ({ domain: a.domain, urls: a.urls.length })),
+    });
+  }
+
+  // Submit to IndexNow (25 requests in parallel)
+  const ixSettled = await Promise.allSettled(
+    allUrls.map(a => submitIndexNow(a.domain, a.urls))
+  );
+
+  // Ping Google sitemaps
+  const googleSettled = await Promise.allSettled(
+    allUrls.map(a => pingGoogle(a.domain))
+  );
+
+  const results = allUrls.map((a, i) => {
+    const ix = ixSettled[i];
+    const g = googleSettled[i];
+    return {
+      domain: a.domain,
+      urls: a.urls.length,
+      indexnow: ix.status === 'fulfilled' && ix.value.ok ? 'OK' : 'FAIL',
+      google: g.status === 'fulfilled' && g.value.ok ? 'OK' : 'FAIL',
+    };
   });
 
-  const indexNowPromises = ALL_DOMAINS.map(d => submitIndexNow(d));
-  const ixSettled = await Promise.allSettled(indexNowPromises);
-  ixSettled.forEach((s, i) => {
-    const r = s.status === 'fulfilled' ? s.value : { ok: false, status: 0, body: 'rejected' };
-    results[i].indexnow = r.ok ? `OK ${r.status}` : `FAIL ${r.status}`;
-  });
-
-  const googleOk = results.filter(r => r.google?.startsWith('OK')).length;
-  const indexnowOk = results.filter(r => r.indexnow?.startsWith('OK')).length;
+  const ixOk = results.filter(r => r.indexnow === 'OK').length;
+  const gOk = results.filter(r => r.google === 'OK').length;
 
   return NextResponse.json({
     success: true,
-    total: ALL_DOMAINS.length,
-    google: `${googleOk}/${ALL_DOMAINS.length} OK`,
-    indexnow: `${indexnowOk}/${ALL_DOMAINS.length} OK`,
+    totalUrls,
+    indexnow: `${ixOk}/${sites.length} OK`,
+    google: `${gOk}/${sites.length} OK`,
     results,
   });
 }

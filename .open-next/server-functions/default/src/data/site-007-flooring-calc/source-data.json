@@ -1,0 +1,147 @@
+{
+  "data": {
+    "materialCostPerSqFt": {
+      "carpet": {
+        "min": 1.5,
+        "max": 7,
+        "typical": 3.5,
+        "unit": "USD/sqft"
+      },
+      "hardwood": {
+        "min": 5,
+        "max": 15,
+        "typical": 8,
+        "unit": "USD/sqft"
+      },
+      "laminate": {
+        "min": 1.5,
+        "max": 6,
+        "typical": 3,
+        "unit": "USD/sqft"
+      },
+      "luxuryVinylPlank": {
+        "min": 3.5,
+        "max": 8,
+        "typical": 5,
+        "unit": "USD/sqft"
+      },
+      "vinylSheet": {
+        "min": 1.5,
+        "max": 4,
+        "typical": 2.5,
+        "unit": "USD/sqft"
+      },
+      "ceramicTile": {
+        "min": 3,
+        "max": 8,
+        "typical": 5,
+        "unit": "USD/sqft"
+      },
+      "porcelainTile": {
+        "min": 4,
+        "max": 10,
+        "typical": 6,
+        "unit": "USD/sqft"
+      },
+      "stoneTile": {
+        "min": 8,
+        "max": 20,
+        "typical": 12,
+        "unit": "USD/sqft"
+      }
+    },
+    "laborCostPerSqFt": {
+      "carpet": {
+        "min": 0.5,
+        "max": 1.5,
+        "typical": 1,
+        "unit": "USD/sqft"
+      },
+      "hardwood": {
+        "min": 2,
+        "max": 5,
+        "typical": 3,
+        "unit": "USD/sqft"
+      },
+      "laminate": {
+        "min": 1,
+        "max": 3,
+        "typical": 1.5,
+        "unit": "USD/sqft"
+      },
+      "luxuryVinylPlank": {
+        "min": 1,
+        "max": 3,
+        "typical": 1.5,
+        "unit": "USD/sqft"
+      },
+      "vinylSheet": {
+        "min": 1,
+        "max": 2,
+        "typical": 1.25,
+        "unit": "USD/sqft"
+      },
+      "ceramicTile": {
+        "min": 2,
+        "max": 5,
+        "typical": 3,
+        "unit": "USD/sqft"
+      },
+      "porcelainTile": {
+        "min": 2.5,
+        "max": 6,
+        "typical": 4,
+        "unit": "USD/sqft"
+      },
+      "stoneTile": {
+        "min": 4,
+        "max": 10,
+        "typical": 6,
+        "unit": "USD/sqft"
+      }
+    },
+    "wasteFactor": {
+      "typical": 0.1,
+      "forTile": 0.15,
+      "unit": "decimal (10% = 0.10)"
+    },
+    "underlaymentCostPerSqFt": {
+      "typical": {
+        "min": 0.25,
+        "max": 1,
+        "typical": 0.5,
+        "unit": "USD/sqft"
+      }
+    },
+    "removalCostPerSqFt": {
+      "typical": {
+        "min": 0.5,
+        "max": 2,
+        "typical": 1,
+        "unit": "USD/sqft"
+      }
+    },
+    "averageProjectSize_sqft": {
+      "typical": 500,
+      "unit": "sqft"
+    }
+  },
+  "_meta": {
+    "sources": [
+      "HomeAdvisor flooring cost guide (https://www.homeadvisor.com/cost/flooring/)",
+      "Angi floor installation cost guide (https://www.angi.com/articles/cost-to-install-flooring.htm)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-07",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "materialCostPerSqFt (all subcategories)",
+      "laborCostPerSqFt (all subcategories)",
+      "wasteFactor",
+      "underlaymentCostPerSqFt",
+      "removalCostPerSqFt",
+      "averageProjectSize_sqft"
+    ],
+    "confidenceNotes": "Data is based on typical industry ranges from memory of HomeAdvisor and Angi guides, but has not been independently verified in this response due to lack of real-time access. Actual source numbers may differ. This data should be cross-checked before use in production calculators."
+  }
+}

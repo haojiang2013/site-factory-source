@@ -1,0 +1,22 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "Title tag on page 'mortgage-payoff-calculator-extra-payments-amortization-schedule' is 69 characters, exceeding the recommended 60-character limit.",
+    "FAQPage structured data likely missing on '/mortgage-overpayment-calculator' which has 8 FAQs; schema validation required.",
+    "Internal linking structure not provided; cannot confirm proper interlinking across all 5 pages."
+  ],
+  "optimizations": [
+    "Shorten title of page 4 to under 60 characters by removing '& Amortization Schedule' or rephrasing.",
+    "Add FAQPage JSON-LD schema to all pages that include FAQ sections.",
+    "Ensure each page has at least 2-8 internal links with diverse anchor text; map out topic clusters between the five calculators.",
+    "Verify canonical URLs, robots.txt, and sitemap.xml are correctly configured and include all pages."
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

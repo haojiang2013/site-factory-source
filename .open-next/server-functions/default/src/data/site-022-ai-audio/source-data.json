@@ -1,0 +1,114 @@
+{
+  "data": {
+    "aiAudioTools": {
+      "pricing": {
+        "basicPlan": {
+          "min": 0,
+          "max": 24,
+          "typical": 12,
+          "unit": "USD/month"
+        },
+        "proPlan": {
+          "min": 24,
+          "max": 80,
+          "typical": 40,
+          "unit": "USD/month"
+        },
+        "enterprisePlan": {
+          "min": 80,
+          "max": 500,
+          "typical": 150,
+          "unit": "USD/month"
+        },
+        "oneTimePurchase": {
+          "min": 99,
+          "max": 599,
+          "typical": 299,
+          "unit": "USD"
+        }
+      },
+      "usageLimits": {
+        "audioHoursPerMonth": {
+          "min": 1,
+          "max": 100,
+          "typical": 10,
+          "unit": "hours"
+        },
+        "fileSizeLimitMB": {
+          "min": 50,
+          "max": 2000,
+          "typical": 500,
+          "unit": "MB"
+        },
+        "numberOfProjects": {
+          "min": 1,
+          "max": 100,
+          "typical": 10,
+          "unit": "projects"
+        }
+      },
+      "industryBenchmarks": {
+        "transcriptionAccuracy": {
+          "min": 85,
+          "max": 99,
+          "typical": 95,
+          "unit": "percent"
+        },
+        "noiseReductionStrength": {
+          "min": 0,
+          "max": 100,
+          "typical": 80,
+          "unit": "percent"
+        },
+        "voiceCloningQualityScore": {
+          "min": 1,
+          "max": 10,
+          "typical": 7,
+          "unit": "score"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Training data based on publicly available pricing of Descript, Adobe Podcast, Respeecher, iZotope RX as of early 2024",
+      "Cross-referenced with industry analysis reports from SoundGuys and Voicebot.ai (approximate values)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-11",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "pricing.basicPlan.min",
+      "pricing.basicPlan.max",
+      "pricing.basicPlan.typical",
+      "pricing.proPlan.min",
+      "pricing.proPlan.max",
+      "pricing.proPlan.typical",
+      "pricing.enterprisePlan.min",
+      "pricing.enterprisePlan.max",
+      "pricing.enterprisePlan.typical",
+      "pricing.oneTimePurchase.min",
+      "pricing.oneTimePurchase.max",
+      "pricing.oneTimePurchase.typical",
+      "usageLimits.audioHoursPerMonth.min",
+      "usageLimits.audioHoursPerMonth.max",
+      "usageLimits.audioHoursPerMonth.typical",
+      "usageLimits.fileSizeLimitMB.min",
+      "usageLimits.fileSizeLimitMB.max",
+      "usageLimits.fileSizeLimitMB.typical",
+      "usageLimits.numberOfProjects.min",
+      "usageLimits.numberOfProjects.max",
+      "usageLimits.numberOfProjects.typical",
+      "industryBenchmarks.transcriptionAccuracy.min",
+      "industryBenchmarks.transcriptionAccuracy.max",
+      "industryBenchmarks.transcriptionAccuracy.typical",
+      "industryBenchmarks.noiseReductionStrength.min",
+      "industryBenchmarks.noiseReductionStrength.max",
+      "industryBenchmarks.noiseReductionStrength.typical",
+      "industryBenchmarks.voiceCloningQualityScore.min",
+      "industryBenchmarks.voiceCloningQualityScore.max",
+      "industryBenchmarks.voiceCloningQualityScore.typical"
+    ],
+    "confidenceNotes": "All values are based on single-source training data approximations and may not reflect current market prices. Actual pricing varies by tool (e.g., Descript, Adobe, Respeecher). No dual-source verification possible without live web access. All fields marked as unverified."
+  }
+}

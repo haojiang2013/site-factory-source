@@ -1,0 +1,149 @@
+{
+  "niche": "game loot database",
+  "keywords": [
+    {
+      "keyword": "game loot database",
+      "searchVolume": 1200,
+      "difficulty": 32,
+      "intent": "informational",
+      "serpWeakness": "Top results are outdated game-specific wikis and forum threads; no modern cross-game database exists.",
+      "userComplaints": [
+        "Pages are cluttered with ads",
+        "Data is often outdated after game updates"
+      ]
+    },
+    {
+      "keyword": "video game loot table",
+      "searchVolume": 600,
+      "difficulty": 28,
+      "intent": "informational",
+      "serpWeakness": "Most results are text-heavy blog lists, lacking structured sortable tables.",
+      "userComplaints": [
+        "Hard to compare across games",
+        "No consistent format"
+      ]
+    },
+    {
+      "keyword": "drop rate database",
+      "searchVolume": 1600,
+      "difficulty": 42,
+      "intent": "informational",
+      "serpWeakness": "Top sites are niche-specific (e.g., PoE DB, Warframe) with no unified cross-title source.",
+      "userComplaints": [
+        "Drop rates not verified",
+        "Outdated numbers after patches"
+      ]
+    },
+    {
+      "keyword": "best game loot database",
+      "searchVolume": 350,
+      "difficulty": 22,
+      "intent": "commercial",
+      "serpWeakness": "SERP dominated by old listicles with affiliate links; no interactive comparator.",
+      "userComplaints": [
+        "Biased towards sites that pay for promotion",
+        "Doesn't actually compare features"
+      ]
+    },
+    {
+      "keyword": "loot database api",
+      "searchVolume": 220,
+      "difficulty": 18,
+      "intent": "commercial",
+      "serpWeakness": "Very few results, mostly deprecated APIs or project pages; no affordable, well-documented API.",
+      "userComplaints": [
+        "No free tier beyond basic access",
+        "Poor documentation"
+      ]
+    },
+    {
+      "keyword": "diablo 4 loot table",
+      "searchVolume": 2800,
+      "difficulty": 58,
+      "intent": "informational",
+      "serpWeakness": "Dominant sites like Maxroll are desktop-optimized and heavy, poor mobile UX.",
+      "userComplaints": [
+        "Too many ads and slow loading",
+        "Hard to use on mobile"
+      ]
+    },
+    {
+      "keyword": "path of exile item database",
+      "searchVolume": 1900,
+      "difficulty": 52,
+      "intent": "informational",
+      "serpWeakness": "poedb.tw is functional but dated UI, slow, and very text-heavy.",
+      "userComplaints": [
+        "Clunky search filters",
+        "No build integration"
+      ]
+    },
+    {
+      "keyword": "destiny 2 loot pool",
+      "searchVolume": 2400,
+      "difficulty": 62,
+      "intent": "informational",
+      "serpWeakness": "Light.gg is dominant but poorly optimized for mobile; lacks advanced filtering.",
+      "userComplaints": [
+        "Confusing navigation",
+        "No personal collection tracker"
+      ]
+    },
+    {
+      "keyword": "borderlands 3 legendary loot list",
+      "searchVolume": 1600,
+      "difficulty": 46,
+      "intent": "informational",
+      "serpWeakness": "Wiki pages are fragmented; no single comprehensive table with visual icons and farm locations.",
+      "userComplaints": [
+        "Missing item images",
+        "No direct map links"
+      ]
+    },
+    {
+      "keyword": "world of warcraft loot table",
+      "searchVolume": 3200,
+      "difficulty": 72,
+      "intent": "informational",
+      "serpWeakness": "Wowhead dominates but is ad-saturated and slow; requires login for some features.",
+      "userComplaints": [
+        "Ads make site unusable",
+        "Forced login for wishlist"
+      ]
+    },
+    {
+      "keyword": "gacha game drop rates",
+      "searchVolume": 1300,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "Information scattered across subreddits and wikis; no central, verified database with history.",
+      "userComplaints": [
+        "No aggregated rate history",
+        "Fan-sourced data often inaccurate"
+      ]
+    },
+    {
+      "keyword": "mmorpg loot database",
+      "searchVolume": 450,
+      "difficulty": 26,
+      "intent": "informational",
+      "serpWeakness": "No dedicated cross-MMORPG database; results are listicles or forum threads.",
+      "userComplaints": [
+        "Each game requires separate site",
+        "Hard to find legacy content"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Existing databases are overloaded with ads and painfully slow, especially on mobile devices.",
+    "Loot data is frequently outdated after game patches and expansions, with no reliable update mechanism.",
+    "Lack of advanced filtering, search, and comparison tools across items and drop locations.",
+    "Missing personal tracking features like wishlists, owned item checklists, or build-specific recommendations.",
+    "No unified cross-game loot platform; players must juggle multiple ad-heavy wikis and tools."
+  ],
+  "recommendedAngles": [
+    "Build a blazing-fast, mobile-first loot database that covers multiple popular games, with a community-driven verification system to keep drop rates current.",
+    "Launch a 'personal loot tracker' app that integrates with character builds and optimizes farming routes to reduce grind time.",
+    "Offer a clean, developer-friendly REST API with a generous free tier, enabling third-party tools and community projects to access structured loot data."
+  ]
+}

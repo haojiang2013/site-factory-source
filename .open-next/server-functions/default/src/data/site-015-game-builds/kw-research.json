@@ -1,0 +1,176 @@
+{
+  "niche": "game character build calculator",
+  "keywords": [
+    {
+      "keyword": "elden ring build calculator",
+      "searchVolume": 12000,
+      "difficulty": 65,
+      "intent": "transactional",
+      "serpWeakness": "Top site (eldenring.puredmg.com) has broken armor optimization and slow load times. Mobile UX is poor.",
+      "userComplaints": [
+        "doesn't account for recent patch changes",
+        "inventory import fails after game updates"
+      ]
+    },
+    {
+      "keyword": "path of exile skill tree planner",
+      "searchVolume": 8000,
+      "difficulty": 72,
+      "intent": "transactional",
+      "serpWeakness": "PoEPlanner.com dominates but requires manual updates for new leagues; no integrated item calculator. Path of Building (community fork) is desktop-only.",
+      "userComplaints": [
+        "Path of Building crashes with large trees",
+        "no official mobile version, just third-party apps with ads"
+      ]
+    },
+    {
+      "keyword": "diablo 4 build calculator",
+      "searchVolume": 9500,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "Diablo 4 builds on Maxroll.gg and Icy Veins lack direct stat import from game, forcing manual entry. D4Planner.io is newer but missing paragon board sections.",
+      "userComplaints": [
+        "maxroll build planner assumes all gear is perfect, unrealistic",
+        "no way to import character from battle.net"
+      ]
+    },
+    {
+      "keyword": "lost ark build planner",
+      "searchVolume": 5500,
+      "difficulty": 45,
+      "intent": "transactional",
+      "serpWeakness": "Lost Ark Planner (larkit) works but hasn't been updated for new class releases. Many results are outdated YouTube embed pages.",
+      "userComplaints": [
+        "tool doesn't include relic gear sets",
+        "engraving calculator doesn't sync with in-game prices"
+      ]
+    },
+    {
+      "keyword": "wow talent calculator",
+      "searchVolume": 15000,
+      "difficulty": 75,
+      "intent": "transactional",
+      "serpWeakness": "Blizzard's official talent calculator is slow and not shareable as a link. Wowhead's calculator has heavy ads and forced cookie walls.",
+      "userComplaints": [
+        "official tool can't export to raidbots sim",
+        "wowhead requires logging in to save builds"
+      ]
+    },
+    {
+      "keyword": "best build calculator for elden ring",
+      "searchVolume": 2400,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "Top articles are blog listicles from 2022, many calculators no longer maintained. A fresh, authoritative comparison can rank.",
+      "userComplaints": [
+        "lists include abandoned tools"
+      ]
+    },
+    {
+      "keyword": "ffxiv job gear builder",
+      "searchVolume": 3200,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Ariyala's toolkit hasn't been updated since Endwalker; Etro is gaining but lacks melding suggestions. Gearsets are mostly spreadsheet links.",
+      "userComplaints": [
+        "no automatic BiS solver, just manual slot filling"
+      ]
+    },
+    {
+      "keyword": "monster hunter rise build maker",
+      "searchVolume": 1800,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "MHRise.wiki-db.com builder is basic, not updated for Sunbreak content. Reddit threads rank high but lack interactive tool.",
+      "userComplaints": [
+        "decorations slotting ain't intuitive"
+      ]
+    },
+    {
+      "keyword": "raidbots alternative",
+      "searchVolume": 900,
+      "difficulty": 40,
+      "intent": "commercial",
+      "serpWeakness": "WordPress blogs listing alternatives are outdated. Direct SimCraft download alternative sites rank by domain authority, not functionality.",
+      "userComplaints": [
+        "raidbots free tier only allows one sim per day"
+      ]
+    },
+    {
+      "keyword": "how much does path of building cost",
+      "searchVolume": 80,
+      "difficulty": 10,
+      "intent": "informational",
+      "serpWeakness": "Only a couple of forum threads address this. No dedicated page clarifies it's free/open source, missing opportunity to funnel users to alternatives.",
+      "userComplaints": [
+        "people think it's a premium tool because of complex install"
+      ]
+    },
+    {
+      "keyword": "build calculator without ads",
+      "searchVolume": 600,
+      "difficulty": 25,
+      "intent": "commercial",
+      "serpWeakness": "No dedicated ad-free comparison. Most SERP results are forum rants, no curated list.",
+      "userComplaints": [
+        "every tool has video popups or banner ads"
+      ]
+    },
+    {
+      "keyword": "dark and darker build planner",
+      "searchVolume": 400,
+      "difficulty": 20,
+      "intent": "transactional",
+      "serpWeakness": "Only a fan-made Google Sheet in top results. No interactive web tool yet.",
+      "userComplaints": [
+        "spreadsheet hard to use on phone",
+        "no stat weight calculations"
+      ]
+    },
+    {
+      "keyword": "destiny 2 build calculator",
+      "searchVolume": 2200,
+      "difficulty": 55,
+      "intent": "transactional",
+      "serpWeakness": "DIM optimizer is overwhelming for casuals. Light.gg lacks a visual armor picker. Many results are YouTube tutorials, not interactive tools.",
+      "userComplaints": [
+        "DIM optimizer asks for third-party login",
+        "no ‘what exotic should I use’ wizard"
+      ]
+    },
+    {
+      "keyword": "mobile-friendly wow talent calculator",
+      "searchVolume": 350,
+      "difficulty": 15,
+      "intent": "commercial",
+      "serpWeakness": "Zero pages target this phrase. Most calculators are desktop-only or have tiny touch targets.",
+      "userComplaints": [
+        "buttons too small on phone"
+      ]
+    },
+    {
+      "keyword": "path of exile build calculator import character",
+      "searchVolume": 500,
+      "difficulty": 30,
+      "intent": "transactional",
+      "serpWeakness": "Forum posts from 2020 explain manual process. No modern guide or tool integrates smooth import.",
+      "userComplaints": [
+        "import from profile is broken after league migration"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Calculators are not updated for latest game patches/expansions, making suggestions obsolete.",
+    "Forced logins or account creation to save builds, often with data loss on unsaved changes.",
+    "Poor mobile support with tiny buttons, horizontal scroll, or unresponsive layouts.",
+    "Intrusive ads (video popups, full-screen takeovers) that ruin the planning experience.",
+    "No integration with in-game data (character import, live item prices) requiring tedious manual entry."
+  ],
+  "recommendedAngles": [
+    "Universal build planner with automatic patch syncing via community data scrapers, guaranteeing up-to-date trees and stats.",
+    "Mobile-first PWA that works offline, allows drag-and-drop nodes, and stores builds locally without an account.",
+    "Ad-free, open-source platform where users can create ‘recipes’ for any game; monetize via cosmetic skins or one-time pro-feature unlock.",
+    "One-click character import via official APIs (e.g., Blizzard OAuth, Steam inventory) to auto-populate gear and skill trees.",
+    "AI build optimizer that analyzes current game meta from Reddit/forums and suggests viable alternatives, with explanations."
+  ]
+}

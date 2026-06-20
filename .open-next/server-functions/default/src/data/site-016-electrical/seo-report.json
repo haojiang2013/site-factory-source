@@ -1,0 +1,20 @@
+{
+  "overallVerdict": "PASS",
+  "issues": [
+    "Missing FAQPage schema on /electrical-load-calculator which has 7 FAQs"
+  ],
+  "optimizations": [
+    "Add FAQPage schema to all pages with FAQs",
+    "Verify meta descriptions for all pages are between 140-160 characters and include primary keyword",
+    "Ensure internal links between calculator pages",
+    "Consider adding WebApplication schema for calculator/tool pages"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

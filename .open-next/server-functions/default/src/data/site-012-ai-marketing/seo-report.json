@@ -1,0 +1,25 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All pages have placeholder URL '/undefined' instead of descriptive, keyword-rich slugs",
+    "Missing FAQPage structured data on the sample page which contains 4 FAQs",
+    "No internal links provided; pages may be orphans or lack topic cluster linking",
+    "Only one page's meta description is shown; others are missing or unverified"
+  ],
+  "optimizations": [
+    "Assign unique, short, hyphenated URLs containing primary keywords (e.g., /best-ai-marketing-tools-2025)",
+    "Add valid JSON-LD FAQPage schema to any page with FAQs",
+    "Create an internal linking strategy ensuring each page has 2-8 contextually relevant links with diverse anchor text",
+    "Write unique meta descriptions (140–160 chars) for all five pages that include primary keywords and compel clicks",
+    "Set correct canonical tags reflecting the final URLs",
+    "Verify sitemap.xml includes all pages and robots.txt allows indexing"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

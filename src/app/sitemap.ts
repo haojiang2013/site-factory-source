@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
 import { getAllEntries } from '@/lib/page-registry';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Detect which domain is requesting the sitemap
-  const heads = headers();
+  const heads = await headers();
   const host = (heads.get('x-forwarded-host') || heads.get('host') || '').replace(/:\d+$/, '');
 
   const allPages = getAllEntries();

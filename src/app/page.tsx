@@ -41,6 +41,8 @@ import c23 from '@/data/site-023-ai-data/config.json'; import p23 from '@/data/s
 import c24 from '@/data/site-024-game-weapons/config.json'; import p24 from '@/data/site-024-game-weapons/pages.json'; import t24 from '@/data/site-024-game-weapons/tool-code.json';
 import c25 from '@/data/site-025-game-npcs/config.json'; import p25 from '@/data/site-025-game-npcs/pages.json'; import t25 from '@/data/site-025-game-npcs/tool-code.json';
 
+export const dynamic = 'force-dynamic';
+
 const SITES: Record<string, { config: any; pages: any; tool: any }> = Object.fromEntries([
   ['gomovecalc.xyz',{c:c1,p:p1,t:t1}],['payitoff.xyz',{c:c2,p:p2,t:t2}],['paintwise.xyz',{c:c3,p:p3,t:t3}],['aitoolshelf.xyz',{c:c4,p:p4,t:t4}],['lootcove.xyz',{c:c5,p:p5,t:t5}],
   ['pourtrue.8zla.com',{c:c6,p:p6,t:t6}],['floorfound.8zla.com',{c:c7,p:p7,t:t7}],['devtooltrove.8zla.com',{c:c8,p:p8,t:t8}],['renowise.8zla.com',{c:c9,p:p9,t:t9}],['bossbreak.8zla.com',{c:c10,p:p10,t:t10}],
@@ -49,13 +51,13 @@ const SITES: Record<string, { config: any; pages: any; tool: any }> = Object.fro
   ['prodtooltrove.8zla.com',{c:c21,p:p21,t:t21}],['wavecraft.8zla.com',{c:c22,p:p22,t:t22}],['datatooltrove.8zla.com',{c:c23,p:p23,t:t23}],['weaponwise.8zla.com',{c:c24,p:p24,t:t24}],['npcvault.8zla.com',{c:c25,p:p25,t:t25}],
 ].map(([d,o])=>[d,{config:(o as any).c,pages:(o as any).p,tool:(o as any).t}]));
 
-function getHost() {
-  const heads = headers();
+async function getHost() {
+  const heads = await headers();
   return (heads.get('x-forwarded-host') || heads.get('host') || '').replace(/:\d+$/, '');
 }
 
-export function generateMetadata(): Metadata {
-  const host = getHost();
+export async function generateMetadata(): Promise<Metadata> {
+  const host = await getHost();
   const site = SITES[host] || SITES['gomovecalc.xyz'];
   const brand = site.config.designConfig.brandName;
   const desc = (site.pages[0] as PageContent).metaDescription || '';
@@ -84,9 +86,9 @@ export function generateMetadata(): Metadata {
   };
 }
 
-export default function HomePage(props: any) {
+export default async function HomePage(props: any) {
   const searchParams = props.searchParams || {};
-  const host = getHost();
+  const host = await getHost();
   // Allow ?site= query param for testing — maps slug to domain key
   const siteMap: Record<string,string> = {
     'site-001':'gomovecalc.xyz','site-002':'payitoff.xyz','site-003':'paintwise.xyz',
@@ -115,7 +117,7 @@ export default function HomePage(props: any) {
           title: page.title,
           metaDescription: page.metaDescription,
           h1: page.h1,
-          introBody: page.sections.find((s: any) => s.type === 'text')?.body || '',
+          introBody: page.introBody || page.sections?.[0]?.body || '',
           columns: [
             { key: 'name', label: 'Name' },
             { key: 'price', label: 'Price', sortable: true },
@@ -132,7 +134,7 @@ export default function HomePage(props: any) {
             },
             detail: `<p>${kw.userComplaints?.join('. ') || 'No details available.'}</p>`,
           })),
-          sections: page.sections.filter((s: any) => s.type === 'text').map((s: any) => ({ heading: s.heading, body: s.body })),
+          sections: (page.sections || []).map((s: any) => ({ heading: s.heading, body: s.body })),
           faqs: page.faqs || [],
           affiliateCTA: page.affiliateCTA || null,
         }}
@@ -152,22 +154,14 @@ export default function HomePage(props: any) {
           title: page.title,
           metaDescription: page.metaDescription,
           h1: page.h1,
-          introBody: page.sections.find((s: any) => s.type === 'text')?.body || '',
-          tocItems: page.sections.filter((s: any) => s.type === 'text').map((s: any, i: number) => ({
+          introBody: page.introBody || page.sections?.[0]?.body || '',
+          tocItems: (page.sections || []).map((s: any, i: number) => ({
             id: `section-${i}`, text: s.heading, level: 2,
           })),
-          sections: page.sections.filter((s: any) => s.type === 'text').map((s: any, i: number) => ({
+          sections: (page.sections || []).map((s: any, i: number) => ({
             id: `section-${i}`, heading: s.heading, body: s.body,
           })),
-          dataCards: (site.config.keywords || []).slice(0, 6).map((kw: any) => ({
-            title: kw.keyword,
-            subtitle: `搜索量: ${kw.searchVolume || 'N/A'} · 难度: ${kw.difficulty || 'N/A'}`,
-            stats: [
-              { label: '意图', value: kw.intent || '-' },
-              { label: '竞品弱点', value: kw.serpWeakness?.slice(0, 50) || '-' },
-            ],
-            notes: kw.userComplaints?.[0] || '',
-          })),
+          dataCards: page.dataCards || [],
           miniToolCode: site.tool.jsCode?.slice(0, 3000) || '',
           faqs: page.faqs || [],
         }}

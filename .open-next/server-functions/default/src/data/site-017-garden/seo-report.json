@@ -1,0 +1,15 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "No FAQPage schema found on FAQ page /garden-soil-calculator (7 FAQs present)",
+    "Internal linking structure cannot be verified from provided data"
+  ],
+  "optimizations": [
+    "Add FAQPage JSON-LD schema to /garden-soil-calculator",
+    "Ensure each page has 2-8 internal links with diverse anchor text",
+    "Review title tags for keyword cannibalization risk across similar calculator pages"
+  ],
+  "anchorTextDiversity": {},
+  "internalLinkCount": null,
+  "schemaValidation": "missing"
+}

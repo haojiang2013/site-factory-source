@@ -4,6 +4,8 @@ import { COLOR_PALETTES } from '@/lib/design-tokens';
 import { TableOfContents } from './TableOfContents';
 import { DataCard, DataCardItem } from './DataCard';
 import { RelatedPages } from '@/components/RelatedPages';
+import BossDifficultyWidget from './BossDifficultyWidget';
+import LootLookupWidget from './LootLookupWidget';
 
 export interface GuidePageContent {
   title: string;
@@ -62,6 +64,17 @@ export function GuidePage({ page, brandName, designConfig, domain, currentSlug, 
           </p>
         </header>
 
+        {/* Quick Answer Box — mobile-first TL;DR */}
+        <section className="mb-6 p-4 sm:p-5 bg-amber-50 border border-amber-200 rounded-lg">
+          <h2 className="text-sm font-bold text-amber-800 uppercase tracking-wide mb-2">⚡ Quick Answer</h2>
+          <ul className="text-sm text-amber-900 space-y-1 list-disc list-inside">
+            {page.tocItems.slice(0, 4).map(item => (
+              <li key={item.id}>{item.text}</li>
+            ))}
+          </ul>
+          <p className="text-xs text-amber-600 mt-2">Scroll down for detailed strategies, data tables, and the interactive boss difficulty tool.</p>
+        </section>
+
         {/* Intro */}
         {page.introBody && (
           <section className="mb-8">
@@ -94,14 +107,25 @@ export function GuidePage({ page, brandName, designConfig, domain, currentSlug, 
           </section>
         )}
 
-        {/* Embedded Mini Tool */}
-        {page.miniToolCode && (
-          <section className="my-10 border rounded-lg p-6 bg-gray-50">
-            <h2 className="text-xl font-bold mb-4">Quick Tool</h2>
-            <div dangerouslySetInnerHTML={{ __html: `<script>${page.miniToolCode}</script>` }} />
-            <p className="text-xs text-gray-400 mt-2">This tool runs automatically on page load</p>
+        {/* Interactive Tool — domain-specific widget */}
+        {domain?.includes('bossbreak') ? (
+          <section className="my-10">
+            <h2 className="text-xl font-bold mb-2">🎮 Boss Difficulty Calculator</h2>
+            <p className="text-sm text-gray-500 mb-4">Select your game, level, and build to see every boss ranked by difficulty.</p>
+            <BossDifficultyWidget />
           </section>
-        )}
+        ) : domain?.includes('lootcove') ? (
+          <section className="my-10">
+            <h2 className="text-xl font-bold mb-2">🗡️ Loot Lookup — Search Drop Rates & Sources</h2>
+            <p className="text-sm text-gray-500 mb-4">Find item drop rates, sources, and locations across games.</p>
+            <LootLookupWidget />
+          </section>
+        ) : page.miniToolCode ? (
+          <section className="my-10 border rounded-lg p-6 bg-gradient-to-br from-blue-50 to-slate-50">
+            <h2 className="text-xl font-bold mb-2">Quick Tool</h2>
+            <div dangerouslySetInnerHTML={{ __html: `<script>${page.miniToolCode}</script>` }} />
+          </section>
+        ) : null}
 
         {/* FAQ */}
         {page.faqs.length > 0 && (

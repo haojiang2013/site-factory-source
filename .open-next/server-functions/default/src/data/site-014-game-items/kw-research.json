@@ -1,0 +1,161 @@
+{
+  "niche": "game item stats database",
+  "keywords": [
+    {
+      "keyword": "elden ring weapon stats comparison",
+      "searchVolume": 3900,
+      "difficulty": 45,
+      "intent": "commercial",
+      "serpWeakness": "Top results are ad-heavy wikis without interactive side-by-side comparison, just static tables.",
+      "userComplaints": [
+        "No way to see DPS scaling across infusions without opening multiple tabs"
+      ]
+    },
+    {
+      "keyword": "diablo 4 unique item list filterable",
+      "searchVolume": 2400,
+      "difficulty": 35,
+      "intent": "transactional",
+      "serpWeakness": "Existing databases lack real-time filters and often show outdated season data.",
+      "userComplaints": [
+        "Fextralife ads make scrolling on mobile impossible"
+      ]
+    },
+    {
+      "keyword": "lost ark gear progression calculator",
+      "searchVolume": 1600,
+      "difficulty": 25,
+      "intent": "transactional",
+      "serpWeakness": "Few dedicated calculators; most are Google Sheets shared on Reddit, no clean UI.",
+      "userComplaints": [
+        "Spreadsheet calculators are clunky and break on mobile"
+      ]
+    },
+    {
+      "keyword": "path of exile unique item database with stat weights",
+      "searchVolume": 1800,
+      "difficulty": 50,
+      "intent": "commercial",
+      "serpWeakness": "poe.ninja dominates but lacks user-friendly feature like weight filtering for builds.",
+      "userComplaints": [
+        "Can't filter uniques by specific build-enabling mods"
+      ]
+    },
+    {
+      "keyword": "wow best in slot gear list dragonflight",
+      "searchVolume": 9900,
+      "difficulty": 72,
+      "intent": "transactional",
+      "serpWeakness": "Wowhead/Icy Veins mobile experience is terrible; pages are heavy with ads.",
+      "userComplaints": [
+        "Wowhead pages reload every time I switch tabs",
+        "Icy Veins forced login to save favorite builds"
+      ]
+    },
+    {
+      "keyword": "ffxiv crafting material database arr",
+      "searchVolume": 1200,
+      "difficulty": 30,
+      "intent": "commercial",
+      "serpWeakness": "No clean, fast database; most tools rely on community-maintained wikis that are incomplete.",
+      "userComplaints": [
+        "Garland Tools database often misses gathering node updates"
+      ]
+    },
+    {
+      "keyword": "genshin impact weapon tier list with stats 2025",
+      "searchVolume": 5400,
+      "difficulty": 55,
+      "intent": "informational",
+      "serpWeakness": "Tier lists are static JPEGs or blog posts; no interactive tool to compare based on characters.",
+      "userComplaints": [
+        "Tier lists don't update after minor patches",
+        "No way to see weapon stats factoring refinements"
+      ]
+    },
+    {
+      "keyword": "elden ring build planner no sign up",
+      "searchVolume": 2900,
+      "difficulty": 65,
+      "intent": "transactional",
+      "serpWeakness": "MugenMonkey and others require email; slow load times; outdated DLC items.",
+      "userComplaints": [
+        "MugenMonkey asks for email to save builds",
+        "Build planner doesn't include DLC talismans"
+      ]
+    },
+    {
+      "keyword": "dark souls 3 armor stats comparison by weight",
+      "searchVolume": 990,
+      "difficulty": 38,
+      "intent": "informational",
+      "serpWeakness": "Only static tables on wikis; no tool to sort by poise/weight ratio.",
+      "userComplaints": [
+        "Can't compare armor pieces side-by-side with fat roll thresholds"
+      ]
+    },
+    {
+      "keyword": "warframe prime weapon stats database",
+      "searchVolume": 2200,
+      "difficulty": 32,
+      "intent": "informational",
+      "serpWeakness": "Many databases stop updating after new Prime releases; no dps comparisons.",
+      "userComplaints": [
+        "Stats are often wrong after hotfixes"
+      ]
+    },
+    {
+      "keyword": "destiny 2 weapon god roll app",
+      "searchVolume": 4100,
+      "difficulty": 60,
+      "intent": "transactional",
+      "serpWeakness": "light.gg is ad-supported and clunky; no offline mode.",
+      "userComplaints": [
+        "light.gg takes forever to load on phone",
+        "No offline access when the API is down"
+      ]
+    },
+    {
+      "keyword": "diablo 2 resurrected runeword calculator offline",
+      "searchVolume": 1500,
+      "difficulty": 20,
+      "intent": "transactional",
+      "serpWeakness": "Most calculators are 20-year-old websites not optimized for mobile.",
+      "userComplaints": [
+        "Old calculators don't fit screen on iPhone"
+      ]
+    },
+    {
+      "keyword": "monster hunter rise sunbreak weapon damage calculator",
+      "searchVolume": 1300,
+      "difficulty": 40,
+      "intent": "transactional",
+      "serpWeakness": "Existing tools are split between spreadsheets and half-baked sites.",
+      "userComplaints": [
+        "Spreadsheet calculators forget to include sharpness modifiers"
+      ]
+    },
+    {
+      "keyword": "borderlands 3 legendary item world drop list",
+      "searchVolume": 2800,
+      "difficulty": 42,
+      "intent": "informational",
+      "serpWeakness": "Wikis are a mess of pop-ups; no way to track personal collection.",
+      "userComplaints": [
+        "Fextralife auto-play videos are unbearable"
+      ]
+    }
+  ],
+  "topUserComplaints": [
+    "Fextralife and other wikis are ad-laden, auto-play videos, and almost unusable on mobile",
+    "No interactive filtering or side-by-side stat comparison; only static tables",
+    "Build planners force sign-ups or save limits, then become outdated after DLC",
+    "Existing databases don't update quickly after patches and hotfixes",
+    "Mobile experience is terrible: slow load times, broken layouts, and no offline mode"
+  ],
+  "recommendedAngles": [
+    "Ad-free, fast static site generation with live filtering, sorting, and comparison built-in",
+    "Auto-sync with game APIs (where available) or community patch notes to guarantee day-one updates",
+    "Progressive web app that works offline, saves builds locally with no account required"
+  ]
+}

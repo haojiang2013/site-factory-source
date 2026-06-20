@@ -1,0 +1,171 @@
+{
+  "data": {
+    "standardCleaning": {
+      "perCleaning": {
+        "min": 100,
+        "max": 250,
+        "typical": 175,
+        "unit": "USD per cleaning"
+      },
+      "hourlyRate": {
+        "min": 50,
+        "max": 80,
+        "typical": 65,
+        "unit": "USD per hour"
+      },
+      "perSqFt": {
+        "min": 0.1,
+        "max": 0.18,
+        "typical": 0.14,
+        "unit": "USD per sq ft"
+      }
+    },
+    "deepCleaning": {
+      "perCleaning": {
+        "min": 200,
+        "max": 400,
+        "typical": 300,
+        "unit": "USD per cleaning"
+      },
+      "hourlyRate": {
+        "min": 75,
+        "max": 110,
+        "typical": 90,
+        "unit": "USD per hour"
+      },
+      "perSqFt": {
+        "min": 0.18,
+        "max": 0.3,
+        "typical": 0.24,
+        "unit": "USD per sq ft"
+      }
+    },
+    "moveOutCleaning": {
+      "perCleaning": {
+        "min": 250,
+        "max": 500,
+        "typical": 350,
+        "unit": "USD per cleaning"
+      },
+      "perSqFt": {
+        "min": 0.15,
+        "max": 0.3,
+        "typical": 0.2,
+        "unit": "USD per sq ft"
+      }
+    },
+    "addOns": {
+      "ovenCleaning": {
+        "min": 30,
+        "max": 60,
+        "typical": 45,
+        "unit": "USD each"
+      },
+      "fridgeCleaning": {
+        "min": 25,
+        "max": 50,
+        "typical": 35,
+        "unit": "USD each"
+      },
+      "windowCleaning": {
+        "min": 5,
+        "max": 15,
+        "typical": 10,
+        "unit": "USD per window (interior)"
+      },
+      "carpetCleaning": {
+        "min": 25,
+        "max": 75,
+        "typical": 50,
+        "unit": "USD per room"
+      }
+    },
+    "frequencyDiscounts": {
+      "weekly": {
+        "discountPercent": {
+          "min": 15,
+          "max": 30,
+          "typical": 20,
+          "unit": "percent"
+        }
+      },
+      "biweekly": {
+        "discountPercent": {
+          "min": 10,
+          "max": 20,
+          "typical": 15,
+          "unit": "percent"
+        }
+      },
+      "monthly": {
+        "discountPercent": {
+          "min": 5,
+          "max": 10,
+          "typical": 7,
+          "unit": "percent"
+        }
+      }
+    },
+    "houseSizeCategories": {
+      "small": {
+        "sqft": {
+          "max": 1000,
+          "unit": "sq ft"
+        },
+        "cleaningTimeHours": {
+          "min": 1.5,
+          "max": 2.5,
+          "typical": 2
+        }
+      },
+      "medium": {
+        "sqft": {
+          "min": 1000,
+          "max": 2000,
+          "unit": "sq ft"
+        },
+        "cleaningTimeHours": {
+          "min": 2.5,
+          "max": 4,
+          "typical": 3
+        }
+      },
+      "large": {
+        "sqft": {
+          "min": 2000,
+          "max": 3000,
+          "unit": "sq ft"
+        },
+        "cleaningTimeHours": {
+          "min": 4,
+          "max": 6,
+          "typical": 5
+        }
+      },
+      "extraLarge": {
+        "sqft": {
+          "min": 3000,
+          "unit": "sq ft"
+        },
+        "cleaningTimeHours": {
+          "min": 5,
+          "max": 8,
+          "typical": 6.5
+        }
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "HomeAdvisor: Average cost of house cleaning (homeadvisor.com/cost/home-services/house-cleaning/)",
+      "Angi: Cost of house cleaning (angi.com/articles/how-much-does-house-cleaning-cost.htm)",
+      "Thumbtack: House cleaning rates (thumbtack.com/maid-service/rates)",
+      "The Spruce: Typical cleaning costs (thespruce.com/how-much-does-house-cleaning-cost-4795642)"
+    ],
+    "freshnessTTL_days": 90,
+    "collectedAt": "2025-04-08",
+    "verifiedBySecondSource": true,
+    "unverifiedFields": [],
+    "confidenceNotes": "Data based on multiple aggregator sources with typical ranges. Individual rates vary by location and company. Discounts are general estimates."
+  }
+}

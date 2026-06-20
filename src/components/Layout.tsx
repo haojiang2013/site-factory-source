@@ -19,6 +19,14 @@ export function Layout({ brandName, designConfig, children }: LayoutProps) {
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link href={`https://fonts.googleapis.com/css2?family=${fonts.googleUrl}&display=swap`} rel="stylesheet" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: 'Steven Kuep',
+        jobTitle: 'Tool Developer',
+        sameAs: ['https://github.com/pank770766', 'https://x.com/stevenkuep'],
+        description: 'Independent developer building free, no-signup utility tools.',
+      }) }} />
 
       <div style={{ minHeight:'100vh', display:'flex', flexDirection:'column', background:palette.bg, fontFamily:`'${fonts.body}',system-ui,sans-serif` }}>
         {/* Minimal nav — just brand + hub link */}
@@ -35,7 +43,7 @@ export function Layout({ brandName, designConfig, children }: LayoutProps) {
         </header>
 
         {/* Main */}
-        <main style={{ flex:1, maxWidth:960, margin:'0 auto', padding:'24px 20px', width:'100%' }}>
+        <main style={{ flex:1, maxWidth:960, margin:'0 auto', padding:'24px 16px', width:'100%', overflowX:'hidden', boxSizing:'border-box' }}>
           {children}
         </main>
 
@@ -59,7 +67,10 @@ export function Layout({ brandName, designConfig, children }: LayoutProps) {
               <a href="/terms" style={{ color:palette.muted, textDecoration:'none' }}>Terms</a>
               <a href="/contact" style={{ color:palette.muted, textDecoration:'none' }}>Contact</a>
             </nav>
-            <p style={{ marginTop:12, color:'#ccc', fontSize:10 }}>© {year} {brandName}</p>
+            <p style={{ margin:'12px 0 4px', color:'#aaa', fontSize:11 }}>
+              📅 Last updated: June {year} · Reviewed by: Steven Kuep
+            </p>
+            <p style={{ margin:'4px 0 0', color:'#ccc', fontSize:10 }}>© {year} {brandName}</p>
           </div>
         </footer>
       </div>

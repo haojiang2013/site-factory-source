@@ -1,19 +1,22 @@
 import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+
+export const dynamic = 'force-dynamic';
 import { getPageByDomainAndSlug, getRelatedPagesForDomain } from '@/lib/page-registry';
 import { CalculatorPage } from '@/templates/template-a-calculator/page-template';
 import { DataPage } from '@/templates/template-b-data/DataPage';
 import { GuidePage } from '@/templates/template-c-guide/GuidePage';
 import { PageContent, DesignConfig } from '@/lib/site-config';
 
-function getHost() {
-  const heads = headers();
+async function getHost() {
+  const heads = await headers();
   return (heads.get('x-forwarded-host') || heads.get('host') || '').replace(/:\d+$/, '');
 }
 
-export function generateMetadata({ params, searchParams }: { params: { slug: string }; searchParams?: any }): Metadata {
-  const host = getHost();
+export async function generateMetadata({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams?: any }): Promise<Metadata> {
+  const { slug } = await params;
+  const host = await getHost();
   const siteMap: Record<string,string> = {
     'site-001':'gomovecalc.xyz','site-002':'payitoff.xyz','site-003':'paintwise.xyz',
     'site-004':'aitoolshelf.xyz','site-005':'lootcove.xyz',
@@ -26,19 +29,19 @@ export function generateMetadata({ params, searchParams }: { params: { slug: str
     'site-024':'weaponwise.8zla.com','site-025':'npcvault.8zla.com',
   };
   const lookupHost = (searchParams?.site && siteMap[searchParams.site]) ? siteMap[searchParams.site] : host;
-  const entry = getPageByDomainAndSlug(lookupHost, params.slug);
+  const entry = getPageByDomainAndSlug(lookupHost, slug);
   if (!entry) return { title: 'Not Found' };
 
   const brand = entry.config.designConfig.brandName;
   const page = entry.page as PageContent;
   const domain = entry.config.domain.replace(/^www\./, '');
-  const url = `https://${domain}/${params.slug}`;
+  const url = `https://${domain}/${slug}`;
 
   return {
     title: `${page.h1} | ${brand}`,
     description: page.metaDescription || '',
     metadataBase: new URL(`https://${domain.replace(/^www\./, '')}`),
-    alternates: { canonical: `/${params.slug}` },
+    alternates: { canonical: `/${slug}` },
     openGraph: {
       title: `${page.h1} | ${brand}`,
       description: page.metaDescription || '',
@@ -56,8 +59,9 @@ export function generateMetadata({ params, searchParams }: { params: { slug: str
   };
 }
 
-export default function SubPage({ params, searchParams }: { params: { slug: string }; searchParams?: any }) {
-  const host = getHost();
+export default async function SubPage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams?: any }) {
+  const { slug } = await params;
+  const host = await getHost();
   // Allow ?site= query param for testing
   const siteMap: Record<string,string> = {
     'site-001':'gomovecalc.xyz','site-002':'payitoff.xyz','site-003':'paintwise.xyz',
@@ -71,7 +75,7 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
     'site-024':'weaponwise.8zla.com','site-025':'npcvault.8zla.com',
   };
   const lookupHost = (searchParams?.site && siteMap[searchParams.site]) ? siteMap[searchParams.site] : host;
-  const entry = getPageByDomainAndSlug(lookupHost, params.slug);
+  const entry = getPageByDomainAndSlug(lookupHost, slug);
 
   if (!entry) {
     notFound();
@@ -92,7 +96,7 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
           title: page.title,
           metaDescription: page.metaDescription,
           h1: page.h1,
-          introBody: page.sections.find((s: any) => s.type === 'text')?.body || '',
+          introBody: (page as any).introBody || page.sections?.[0]?.body || '',
           columns: [
             { key: 'name', label: 'Name' },
             { key: 'price', label: 'Price', sortable: true },
@@ -117,7 +121,7 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
         designConfig={designConfig}
         domain={domain}
         relatedPages={relatedPages}
-        currentSlug={params.slug}
+        currentSlug={slug}
       />
     );
   }
@@ -129,22 +133,14 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
           title: page.title,
           metaDescription: page.metaDescription,
           h1: page.h1,
-          introBody: page.sections.find((s: any) => s.type === 'text')?.body || '',
-          tocItems: page.sections.filter((s: any) => s.type === 'text').map((s: any, i: number) => ({
+          introBody: (page as any).introBody || page.sections?.[0]?.body || '',
+          tocItems: (page.sections || []).map((s: any, i: number) => ({
             id: `section-${i}`, text: s.heading, level: 2,
           })),
-          sections: page.sections.filter((s: any) => s.type === 'text').map((s: any, i: number) => ({
+          sections: (page.sections || []).map((s: any, i: number) => ({
             id: `section-${i}`, heading: s.heading, body: s.body,
           })),
-          dataCards: (entry.config.keywords || []).slice(0, 6).map((kw: any) => ({
-            title: kw.keyword,
-            subtitle: `搜索量: ${kw.searchVolume || 'N/A'} · 难度: ${kw.difficulty || 'N/A'}`,
-            stats: [
-              { label: '意图', value: kw.intent || '-' },
-              { label: '竞品弱点', value: kw.serpWeakness?.slice(0, 50) || '-' },
-            ],
-            notes: kw.userComplaints?.[0] || '',
-          })),
+          dataCards: page.dataCards || [],
           miniToolCode: entry.tool.jsCode?.slice(0, 3000) || '',
           faqs: page.faqs || [],
         }}
@@ -152,7 +148,7 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
         designConfig={designConfig}
         domain={domain}
         relatedPages={relatedPages}
-        currentSlug={params.slug}
+        currentSlug={slug}
       />
     );
   }
@@ -166,7 +162,7 @@ export default function SubPage({ params, searchParams }: { params: { slug: stri
       designConfig={designConfig}
       domain={domain}
       relatedPages={relatedPages}
-      currentSlug={params.slug}
+      currentSlug={slug}
     />
   );
 }

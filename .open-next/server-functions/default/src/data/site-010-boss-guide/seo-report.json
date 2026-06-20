@@ -1,0 +1,29 @@
+{
+  "overallVerdict": "FAIL",
+  "issues": [
+    "All pages have URL slug '/undefined' instead of a meaningful, keyword-rich slug",
+    "Sample page meta description is under 140 characters (actual: 130 chars)",
+    "H1 duplicates title tag, reducing uniqueness per page",
+    "No structured data found: FAQPage schema missing on page with 5 FAQs",
+    "No internal links detected between pages (orphan pages)",
+    "No canonical URL set",
+    "No robots.txt or sitemap.xml reference available"
+  ],
+  "optimizations": [
+    "Set unique, keyword-rich URL slugs for each page (e.g., /elden-ring-boss-order-guide)",
+    "Expand meta descriptions to 140–160 characters with compelling call-to-action",
+    "Differentiate H1 from title tag (e.g., use a more conversational H1)",
+    "Add FAQPage JSON-LD schema on pages with FAQ content",
+    "Implement internal linking between related pages to form topic clusters",
+    "Set self-referencing canonical tags on all pages",
+    "Create and submit robots.txt and sitemap.xml"
+  ],
+  "anchorTextDiversity": {
+    "exact": 0,
+    "partial": 0,
+    "brand": 0,
+    "generic": 0
+  },
+  "internalLinkCount": 0,
+  "schemaValidation": "missing"
+}

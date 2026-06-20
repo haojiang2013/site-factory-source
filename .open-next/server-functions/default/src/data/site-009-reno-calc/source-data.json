@@ -1,0 +1,74 @@
+{
+  "data": {
+    "interior_renovation_costs": {
+      "kitchen_minor": {
+        "min": 15000,
+        "max": 30000,
+        "typical": 24000,
+        "unit": "USD"
+      },
+      "kitchen_major": {
+        "min": 40000,
+        "max": 80000,
+        "typical": 60000,
+        "unit": "USD"
+      },
+      "bathroom_standard": {
+        "min": 7000,
+        "max": 15000,
+        "typical": 10000,
+        "unit": "USD"
+      },
+      "bathroom_luxury": {
+        "min": 15000,
+        "max": 30000,
+        "typical": 22000,
+        "unit": "USD"
+      },
+      "basement_finishing": {
+        "min": 20,
+        "max": 50,
+        "typical": 35,
+        "unit": "USD_per_sqft"
+      },
+      "whole_house_remodel": {
+        "min": 50,
+        "max": 150,
+        "typical": 100,
+        "unit": "USD_per_sqft"
+      },
+      "room_addition": {
+        "min": 100,
+        "max": 250,
+        "typical": 150,
+        "unit": "USD_per_sqft"
+      },
+      "interior_painting": {
+        "min": 2,
+        "max": 6,
+        "typical": 4,
+        "unit": "USD_per_sqft"
+      }
+    }
+  },
+  "_meta": {
+    "sources": [
+      "Remodeling Magazine Cost vs Value Report 2024",
+      "HomeAdvisor True Cost Guide 2024"
+    ],
+    "freshnessTTL_days": 365,
+    "collectedAt": "2025-04-10",
+    "verifiedBySecondSource": false,
+    "unverifiedFields": [
+      "kitchen_minor",
+      "kitchen_major",
+      "bathroom_standard",
+      "bathroom_luxury",
+      "basement_finishing",
+      "whole_house_remodel",
+      "room_addition",
+      "interior_painting"
+    ],
+    "confidenceNotes": "All fields are approximate based on typical industry ranges from two common sources, but exact dual-source verification within 10% has not been performed. These values are suitable for ballpark estimation but should be updated with precise, cited data for a production tool."
+  }
+}
