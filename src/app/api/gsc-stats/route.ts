@@ -25,40 +25,52 @@ export async function GET(req: Request) {
 
     // If domain specified, query that one
     if (reqDomain) {
-      const siteUrl = `sc-domain:${reqDomain}`;
-      try {
-        const res = await searchconsole.searchanalytics.query({
-          siteUrl,
-          requestBody: {
-            startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
-            endDate: new Date().toISOString().split('T')[0],
-            dimensions: ['query'],
-            rowLimit: 20,
-          },
-        });
+      // Try both formats: domain property (sc-domain:) and URL prefix
+      const tryUrls = reqDomain.includes('://')
+        ? [reqDomain]
+        : [`sc-domain:${reqDomain}`, `https://${reqDomain}/`];
+      let siteUrl = '';
+      let res: any = null;
 
-        const rows = (res.data.rows || []).map((row: any) => ({
-          query: row.keys?.[0] || '',
-          clicks: row.clicks || 0,
-          impressions: row.impressions || 0,
-          ctr: row.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
-          position: row.position ? Math.round(row.position * 10) / 10 : 0,
-        }));
-
-        return NextResponse.json({
-          domain: reqDomain,
-          siteUrl,
-          queries: rows,
-          totalClicks: rows.reduce((s: number, r: any) => s + r.clicks, 0),
-          totalImpressions: rows.reduce((s: number, r: any) => s + r.impressions, 0),
-          fetchedAt: new Date().toISOString(),
-        });
-      } catch (e: any) {
-        if (e.code === 403) {
-          return NextResponse.json({ domain: reqDomain, error: 'Site not verified or no access' }, { status: 403 });
+      for (const url of tryUrls) {
+        try {
+          res = await searchconsole.searchanalytics.query({
+            siteUrl: url,
+            requestBody: {
+              startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
+              endDate: new Date().toISOString().split('T')[0],
+              dimensions: ['query'],
+              rowLimit: 20,
+            },
+          });
+          siteUrl = url;
+          break; // success — stop trying
+        } catch (e: any) {
+          if (e.code === 403 || e.message?.includes('not a valid')) continue;
+          throw e;
         }
-        throw e;
       }
+
+      if (!siteUrl) {
+        return NextResponse.json({ domain: reqDomain, error: 'Site not verified or no access (tried both formats)' }, { status: 403 });
+      }
+
+      const rows = (res.data.rows || []).map((row: any) => ({
+        query: row.keys?.[0] || '',
+        clicks: row.clicks || 0,
+        impressions: row.impressions || 0,
+        ctr: row.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
+        position: row.position ? Math.round(row.position * 10) / 10 : 0,
+      }));
+
+      return NextResponse.json({
+        domain: reqDomain,
+        siteUrl,
+        queries: rows,
+        totalClicks: rows.reduce((s: number, r: any) => s + r.clicks, 0),
+        totalImpressions: rows.reduce((s: number, r: any) => s + r.impressions, 0),
+        fetchedAt: new Date().toISOString(),
+      });
     }
 
     // No domain — return summary from config domains (first 5)
@@ -72,26 +84,30 @@ export async function GET(req: Request) {
 
     const summaries: any[] = [];
     for (const domain of domains.slice(0, 5)) {
-      const siteUrl = `sc-domain:${domain}`;
-      try {
-        const res = await searchconsole.searchanalytics.query({
-          siteUrl,
-          requestBody: {
-            startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
-            endDate: new Date().toISOString().split('T')[0],
-            rowLimit: 1,
-          },
-        });
-        const row = (res.data.rows || [])[0];
-        summaries.push({
-          domain,
-          clicks: row?.clicks || 0,
-          impressions: row?.impressions || 0,
-          ctr: row?.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
-        });
-      } catch {
-        summaries.push({ domain, error: 'not_verified' });
+      let found = false;
+      for (const url of [`sc-domain:${domain}`, `https://${domain}/`]) {
+        try {
+          const res = await searchconsole.searchanalytics.query({
+            siteUrl: url,
+            requestBody: {
+              startDate: new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0],
+              endDate: new Date().toISOString().split('T')[0],
+              rowLimit: 1,
+            },
+          });
+          const row = (res.data.rows || [])[0];
+          summaries.push({
+            domain,
+            siteUrl: url,
+            clicks: row?.clicks || 0,
+            impressions: row?.impressions || 0,
+            ctr: row?.ctr ? Math.round(row.ctr * 10000) / 100 : 0,
+          });
+          found = true;
+          break;
+        } catch { continue; }
       }
+      if (!found) summaries.push({ domain, error: 'not_verified' });
     }
 
     const verified = summaries.filter(s => !s.error).length;
