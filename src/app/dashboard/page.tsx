@@ -23,6 +23,13 @@ const dirGroup: Record<string,string> = {
   'site-005':'game-dark','site-010':'game-dark','site-014':'game-dark','site-015':'game-dark','site-024':'game-dark','site-025':'game-dark',
 };
 
+// Country code → flag emoji
+const countryFlag = (code: string): string => {
+  if (!code || code.length !== 2) return '';
+  const base = 0x1F1E6 - 65;
+  return String.fromCodePoint(base + code.charCodeAt(0), base + code.charCodeAt(1));
+};
+
 export default function DashboardPage() {
   const [sites, setSites] = useState<SiteItem[]>([]);
   const [totalPages, setTotalPages] = useState(0);
@@ -31,6 +38,13 @@ export default function DashboardPage() {
   const [compare, setCompare] = useState<string[]>([]);
   const [toolResults, setToolResults] = useState<{total:number;healthy:number;unhealthy:number;results:any[]}|null>(null);
   const [checkingTools, setCheckingTools] = useState(false);
+  const [gaData, setGaData] = useState<any>(null);
+  const [gscData, setGscData] = useState<any>(null);
+
+  useEffect(()=>{
+    fetch('/api/ga-stats/').then(r=>r.json()).then(d=>{if(!d.error)setGaData(d)}).catch(()=>{});
+    fetch('/api/gsc-stats/').then(r=>r.json()).then(d=>{if(!d.error)setGscData(d)}).catch(()=>{});
+  },[]);
 
   const toggleCompare = (domain:string)=>{
     setCompare(prev=>prev.includes(domain)?prev.filter(d=>d!==domain):prev.length<2?[...prev,domain]:prev);
@@ -332,20 +346,75 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* ── EXTERNAL DATA PLACEHOLDERS ── */}
+        {/* ── GA4 + GSC LIVE DATA ── */}
         <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:12,marginBottom:28}}>
-          {[
-            {icon:'🌍',title:'访问地区',desc:'国家分布 + 旗帜可视化',need:'GA4 API',color:'#ec4899'},
-            {icon:'🔗',title:'流量入口',desc:'直接/Google/Reddit/其他来源',need:'GA4 API',color:'#ec4899'},
-            {icon:'🔑',title:'关键词点击',desc:'GSC 关键词展示/点击量',need:'GSC API',color:'#ec4899'},
-          ].map((card,i)=>(
-            <div key={i} style={{background:'#fff',border:`1px solid ${card.color}20`,borderRadius:12,padding:18,textAlign:'center',borderTop:`3px solid ${card.color}`}}>
-              <div style={{fontSize:24,marginBottom:8}}>{card.icon}</div>
-              <div style={{fontSize:13,fontWeight:600,marginBottom:4}}>{card.title}</div>
-              <div style={{fontSize:11,color:'#71717a',marginBottom:8}}>{card.desc}</div>
-              <span style={{fontSize:10,background:'#f4f4f5',color:'#a1a1aa',padding:'3px 10px',borderRadius:12}}>需要 {card.need}</span>
-            </div>
-          ))}
+          {/* ⑫ Geography */}
+          <div style={{background:'#fff',border:'1px solid #ec489920',borderRadius:12,padding:18,borderTop:'3px solid #ec4899'}}>
+            <div style={{fontSize:13,fontWeight:600,marginBottom:12}}>🌍 访问地区</div>
+            {gaData?.geo?.length>0 ? (
+              <div style={{display:'flex',flexDirection:'column',gap:6}}>
+                {gaData.geo.slice(0,6).map((g:any,i:number)=>(
+                  <div key={i} style={{display:'flex',justifyContent:'space-between',fontSize:12,alignItems:'center'}}>
+                    <span>{countryFlag(g.country)} {g.country}</span>
+                    <span style={{color:'#a1a1aa'}}>{g.users} 用户</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div style={{fontSize:11,color:'#a1a1aa',textAlign:'center',padding:'20px 0'}}>{gaData?.error||'配置后显示国家分布数据'}</div>
+            )}
+          </div>
+
+          {/* ⑬ Traffic */}
+          <div style={{background:'#fff',border:'1px solid #ec489920',borderRadius:12,padding:18,borderTop:'3px solid #ec4899'}}>
+            <div style={{fontSize:13,fontWeight:600,marginBottom:12}}>🔗 流量入口</div>
+            {gaData?.categories ? (
+              <div style={{display:'flex',flexDirection:'column',gap:8}}>
+                {[
+                  {k:'google',label:'Google',icon:'🔍'},
+                  {k:'direct',label:'直接访问',icon:'↗️'},
+                  {k:'reddit',label:'Reddit',icon:'🤖'},
+                  {k:'other',label:'其他',icon:'🔗'},
+                ].map(({k,label,icon})=>{
+                  const d=gaData.categories[k];
+                  return (
+                    <div key={k} style={{display:'flex',alignItems:'center',gap:8,fontSize:12}}>
+                      <span>{icon}</span><span style={{flex:1}}>{label}</span>
+                      <span style={{color:'#71717a'}}>{d.sessions.toLocaleString()}</span>
+                      <span style={{fontWeight:600,color:'#2563eb',minWidth:36,textAlign:'right'}}>{d.pct}%</span>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div style={{fontSize:11,color:'#a1a1aa',textAlign:'center',padding:'20px 0'}}>{gaData?.error||'配置后显示流量来源分布'}</div>
+            )}
+          </div>
+
+          {/* ⑰ GSC Keywords */}
+          <div style={{background:'#fff',border:'1px solid #ec489920',borderRadius:12,padding:18,borderTop:'3px solid #ec4899'}}>
+            <div style={{fontSize:13,fontWeight:600,marginBottom:12}}>🔑 关键词点击 {gscData?.verified>0&&<span style={{fontSize:10,fontWeight:400,color:'#059669'}}>已验证 {gscData.verified} 站</span>}</div>
+            {gscData?.sites?.length>0 ? (
+              <div style={{display:'flex',flexDirection:'column',gap:6,fontSize:12}}>
+                <div style={{display:'flex',justifyContent:'space-between',color:'#71717a',fontWeight:600,marginBottom:4}}>
+                  <span>站点</span><span>点击/展示</span>
+                </div>
+                {gscData.sites.filter((s:any)=>!s.error).slice(0,6).map((s:any,i:number)=>(
+                  <div key={i} style={{display:'flex',justifyContent:'space-between'}}>
+                    <span>{s.domain}</span>
+                    <span style={{color:'#71717a'}}>{s.clicks}/{s.impressions}</span>
+                  </div>
+                ))}
+                {gscData.totalClicks>0&&(
+                  <div style={{marginTop:8,paddingTop:8,borderTop:'1px solid #f4f4f5',display:'flex',justifyContent:'space-between',fontWeight:600}}>
+                    <span>合计</span><span style={{color:'#2563eb'}}>{gscData.totalClicks} 点击 / {gscData.totalImpressions.toLocaleString()} 展示</span>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div style={{fontSize:11,color:'#a1a1aa',textAlign:'center',padding:'20px 0'}}>{gscData?.error||'配置后显示关键词点击数据'}</div>
+            )}
+          </div>
         </div>
 
         <div style={{textAlign:'center',fontSize:11,color:'#d4d4d8'}}>
