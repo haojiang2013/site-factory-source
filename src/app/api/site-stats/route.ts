@@ -17,14 +17,19 @@ export async function GET() {
       const cfg = JSON.parse(fs.readFileSync(path.join(dataDir, dir, 'config.json'), 'utf8'));
       const pages = JSON.parse(fs.readFileSync(path.join(dataDir, dir, 'pages.json'), 'utf8'));
       const hasTool = fs.existsSync(path.join(dataDir, dir, 'tool-code.json'));
+      const pagesStat = fs.statSync(path.join(dataDir, dir, 'pages.json'));
+      const lastUpdated = pagesStat.mtime.toISOString();
+      const kwTarget = cfg.keywords?.length || 0;
       return {
         domain: cfg.domain,
         brand: cfg.designConfig.brandName,
         niche: cfg.niche,
         template: cfg.template,
         pages: pages.length,
-        keywords: cfg.keywords?.length || 0,
+        keywords: kwTarget,
+        kwTarget,
         hasTool,
+        lastUpdated,
       };
     } catch { return null; }
   }).filter(Boolean);

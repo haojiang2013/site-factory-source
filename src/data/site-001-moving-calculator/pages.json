@@ -8,7 +8,7 @@
       {
         "type": "text",
         "heading": "Why Most Moving Cost Calculators Are a Waste of Time",
-        "body": "<p>The average interstate move costs $4,890.</p>\n<p>Reddit users report costs 25-40% higher.</p>\n<p>Packing supplies run $200 to $800.</p>\n<p>Moving insurance costs $150 to $500.</p>\n<p>Our calculator includes these overlooked fees.</p>\n<p>You enter your zip code for an estimate.</p>\n<p>A popup asks for email and phone.</p>\n<p>The estimate is a generic range.</p>\n<p>It never matches real mover quotes.</p>\n<p>I spent two hours on five calculators.</p>\n<p>Three just spammed me with calls.</p>\n<p>Two were off by thousands of dollars.</p>\n<p>MoveMath requires no email or phone.</p>\n<p>We use data from HomeAdvisor and Moving.com.</p>\n<p>We use American Moving & Storage benchmarks.</p>\n<p>Tell us home size and distance.</p>\n<p>We show you a realistic range.</p>\n<p>That's it.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>The average interstate move costs $4,890.</p>\n<p>Reddit users report costs 25-40% higher.</p>\n<p>Packing supplies run $200 to $800.</p>\n<p>Moving insurance costs $150 to $500.</p>\n<p>Our calculator includes these overlooked fees.</p>\n<p>You enter your zip code for an estimate.</p>\n<p>A popup asks for email and phone.</p>\n<p>The estimate is a generic range.</p>\n<p>It never matches real mover quotes.</p>\n<p>I spent two hours on five calculators.</p>\n<p>Three just spammed me with calls.</p>\n<p>Two were off by thousands of dollars.</p>\n<p>MoveMath requires no email or phone.</p>\n<p>We use data from HomeAdvisor and Moving.com.</p>\n<p>We use American Moving & Storage benchmarks.</p>\n<p>Tell us home size and distance.</p>\n<p>We show you a realistic range.</p>\n<p>That's it.</p>"
       },
       {
         "type": "tool",
@@ -159,7 +159,7 @@
       {
         "type": "tool",
         "heading": "MoveMath 3-Bedroom Moving Cost Calculator",
-        "body": "Get a realistic estimate for your 3-bedroom move. This tool factors in local or long-distance rates, packing needs, stairs, and heavy items like pianos. Most online quotes miss these details—ours doesn't.",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Get a realistic estimate for your 3-bedroom move. This tool factors in local or long-distance rates, packing needs, stairs, and heavy items like pianos. Most online quotes miss these details—ours doesn't.",
         "toolEmbed": "3-bedroom-moving-cost-calculator"
       },
       {
@@ -277,7 +277,7 @@
       {
         "type": "tool",
         "heading": "MoveMath Local Move Cost Estimator",
-        "body": "Most moving cost calculators give you a ballpark number that feels off. They don't account for the hourly labor rates in your area, or the exact moving supplies you'll need. That's why we built this tool. It lets you adjust every input—home size, truck type, packing services, storage, even seasonal price swings—so your estimate actually matches what you'll pay. Try it now.",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Most moving cost calculators give you a ballpark number that feels off. They don't account for the hourly labor rates in your area, or the exact moving supplies you'll need. That's why we built this tool. It lets you adjust every input—home size, truck type, packing services, storage, even seasonal price swings—so your estimate actually matches what you'll pay. Try it now.",
         "toolEmbed": "local-move-cost-estimator"
       },
       {
@@ -448,7 +448,7 @@
       {
         "type": "text",
         "heading": "Get Your Moving Estimate in Seconds",
-        "body": "<p>Planning a long distance move?<br>\nTested five zip code tools.<br>\nAll returned error messages.<br>\nOne quoted $800 too low.<br>\nMoved Chicago to Denver last year.<br>\nEvery calculator ignored fuel surcharges.<br>\nMissed seasonal price jumps too.<br>\nSo we built a better tool.<br>\nEnter origin and destination zips.<br>\nAdd home size and move date.<br>\nWe calculate total long-haul costs.<br>\nIncludes hidden fees others miss.<br>\nNo errors. No surprises. Guaranteed.</p>",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Planning a long distance move?<br>\nTested five zip code tools.<br>\nAll returned error messages.<br>\nOne quoted $800 too low.<br>\nMoved Chicago to Denver last year.<br>\nEvery calculator ignored fuel surcharges.<br>\nMissed seasonal price jumps too.<br>\nSo we built a better tool.<br>\nEnter origin and destination zips.<br>\nAdd home size and move date.<br>\nWe calculate total long-haul costs.<br>\nIncludes hidden fees others miss.<br>\nNo errors. No surprises. Guaranteed.</p>",
         "toolEmbed": "long-distance-moving-calc"
       },
       {
@@ -559,7 +559,7 @@
       {
         "type": "text",
         "heading": "Stop Guessing Your Furniture Moving Costs",
-        "body": "You've got a sofa, a bed, a dining table, maybe an antique dresser. And you're wondering: how much will this actually cost to move? Most moving cost estimators are too broad—they lump everything into a 'one bedroom' category and assume all furniture is standard. That's useless if you own a custom piece or a heavy grand piano. I've been there. When I moved last year, I made this exact mistake: I used a generic calculator, got a quote, and then the movers hit me with a $300 surcharge for my oversized sectional. Not fun. The MoveMath furniture moving cost calculator changes that. You list each piece individually—sofa, bed frame, dining table, whatever. Then it gives you a real estimate based on your specific items, your move distance, and the season. No averages. No assumptions. Just numbers that actually match your stuff."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>You've got a sofa, a bed, a dining table, maybe an antique dresser. And you're wondering: how much will this actually cost to move? Most moving cost estimators are too broad—they lump everything into a 'one bedroom' category and assume all furniture is standard. That's useless if you own a custom piece or a heavy grand piano. I've been there. When I moved last year, I made this exact mistake: I used a generic calculator, got a quote, and then the movers hit me with a $300 surcharge for my oversized sectional. Not fun. The MoveMath furniture moving cost calculator changes that. You list each piece individually—sofa, bed frame, dining table, whatever. Then it gives you a real estimate based on your specific items, your move distance, and the season. No averages. No assumptions. Just numbers that actually match your stuff."
       },
       {
         "type": "tool",
@@ -698,7 +698,7 @@
       {
         "type": "text",
         "heading": "What You'll Actually Pay to Move Out",
-        "body": "Moving out of an apartment is never cheap. But here's the thing nobody tells you: the sticker shock usually comes from stuff you didn't plan for. Cleaning fees. Damages. That random storage unit you needed for a month. I've been there. When I moved out of my last place, I budgeted $600 for movers and ended up paying almost $1,200 after the cleaning crew and a surprise security deposit deduction for a scuffed wall. This calculator is built to catch all of that. It factors in moving costs, cleaning, storage, packing supplies, and even those seasonal price swings that can add 15% to your bill. No email required. Just plug in your details and see the real number."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Moving out of an apartment is never cheap. But here's the thing nobody tells you: the sticker shock usually comes from stuff you didn't plan for. Cleaning fees. Damages. That random storage unit you needed for a month. I've been there. When I moved out of my last place, I budgeted $600 for movers and ended up paying almost $1,200 after the cleaning crew and a surprise security deposit deduction for a scuffed wall. This calculator is built to catch all of that. It factors in moving costs, cleaning, storage, packing supplies, and even those seasonal price swings that can add 15% to your bill. No email required. Just plug in your details and see the real number."
       },
       {
         "type": "tool",
@@ -882,7 +882,7 @@
       {
         "type": "text",
         "heading": "Why You Need a Moving Cost Calculator That Includes Packing Supplies",
-        "body": "<blockquote>\n<p>Most calculators skip packing costs. I learned the hard way.</p>\n<p>My estimate said $75. I paid $230. Boxes cost half. Tape and wrap? More.</p>\n<p>This calculator fixes that. It breaks costs by home size. Add boxes, tape, wrap, labor. No flat guesses. No email. Real data from HomeAdvisor, U-Haul, Penske.</p>\n<p>Skip it for a suitcase. For a studio, 2-bedroom, or 3-bedroom? It's the most accurate free tool.</p>\n</blockquote>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><blockquote>\n<p>Most calculators skip packing costs. I learned the hard way.</p>\n<p>My estimate said $75. I paid $230. Boxes cost half. Tape and wrap? More.</p>\n<p>This calculator fixes that. It breaks costs by home size. Add boxes, tape, wrap, labor. No flat guesses. No email. Real data from HomeAdvisor, U-Haul, Penske.</p>\n<p>Skip it for a suitcase. For a studio, 2-bedroom, or 3-bedroom? It's the most accurate free tool.</p>\n</blockquote>"
       },
       {
         "type": "tool",
@@ -1104,7 +1104,7 @@
       {
         "type": "text",
         "heading": "Stop Guessing Your Moving Truck Cost",
-        "body": "You're looking at a move. Maybe a studio across town. Maybe a three-bedroom across the country. You've tried those other cost estimators—and they only showed U-Haul prices. Frustrating, right? They didn't include the mileage surcharges that can double your bill. Honestly, that's why I built this tool. Based on real data from U-Haul, Penske, and Budget, the MoveWise Moving Truck Cost Estimator gives you a clear picture. No email required. No hidden fees. Just an honest estimate."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>You're looking at a move. Maybe a studio across town. Maybe a three-bedroom across the country. You've tried those other cost estimators—and they only showed U-Haul prices. Frustrating, right? They didn't include the mileage surcharges that can double your bill. Honestly, that's why I built this tool. Based on real data from U-Haul, Penske, and Budget, the MoveWise Moving Truck Cost Estimator gives you a clear picture. No email required. No hidden fees. Just an honest estimate."
       },
       {
         "type": "tool",
@@ -1269,7 +1269,7 @@
       {
         "type": "text",
         "heading": "What You'll Pay to Move a Studio Apartment",
-        "body": "Moving a studio apartment is cheaper than a 1-bedroom — but most online tools lump them together. That's frustrating. I've been there. When I moved my first studio, every quote I got was for a 'small 1-bedroom' and it was way too high. The truth? A studio move typically costs $200 to $400 for a local move, and $1,000 to $2,500 if you're going long distance. But here's the thing: those numbers shift a lot depending on what you actually own. A studio with just a bed and a desk? Way cheaper than one with a full kitchen setup and a huge couch. That's why we built this tool — no email required, just plug in your details and get a real number."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Moving a studio apartment is cheaper than a 1-bedroom — but most online tools lump them together. That's frustrating. I've been there. When I moved my first studio, every quote I got was for a 'small 1-bedroom' and it was way too high. The truth? A studio move typically costs $200 to $400 for a local move, and $1,000 to $2,500 if you're going long distance. But here's the thing: those numbers shift a lot depending on what you actually own. A studio with just a bed and a desk? Way cheaper than one with a full kitchen setup and a huge couch. That's why we built this tool — no email required, just plug in your details and get a real number."
       },
       {
         "type": "tool",
@@ -1405,7 +1405,7 @@
       {
         "type": "text",
         "heading": "Stop Guessing. Start Planning Your Move Abroad with Real Numbers",
-        "body": "<p>We built a better calculator.<br>MoveWise uses real mover data.<br>No email or upsells required.<br>Just a solid budget estimate.<br>Tested against five major companies.<br>Results within 15% of final quotes.<br>Covers home size and shipping method.<br>Includes destination and hidden fees.<br>Compare with real movers armed.<br>Walk into negotiations with truth.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>We built a better calculator.<br>MoveWise uses real mover data.<br>No email or upsells required.<br>Just a solid budget estimate.<br>Tested against five major companies.<br>Results within 15% of final quotes.<br>Covers home size and shipping method.<br>Includes destination and hidden fees.<br>Compare with real movers armed.<br>Walk into negotiations with truth.</p>"
       },
       {
         "type": "tool",
@@ -1598,7 +1598,7 @@
       {
         "type": "text",
         "heading": "Why You Need a Moving Cost Comparison Tool",
-        "body": "<p>Planning a move is stressful enough without having to visit five different websites, fill out endless forms, and wait days for individual quotes. According to the <strong>American Moving & Storage Association</strong>, the average cost of an interstate move is <strong>$4,300–$5,500</strong>, but prices can vary by as much as <strong>40%</strong> between companies for the same route. That’s where our <strong>moving cost comparison tool</strong> changes the game.</p><p>Think of it as the Kayak for movers: one simple search, multiple instant quotes, all displayed side-by-side. No more juggling tabs or repeating your address and inventory a dozen times. Our tool pulls real-time estimates from licensed, insured movers, so you can compare apples to apples without the headache.</p><p>Whether you’re moving across town or across the country, this tool puts the power back in your hands. Stop overpaying and start comparing—your wallet (and your sanity) will thank you.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Planning a move is stressful enough without having to visit five different websites, fill out endless forms, and wait days for individual quotes. According to the <strong>American Moving & Storage Association</strong>, the average cost of an interstate move is <strong>$4,300–$5,500</strong>, but prices can vary by as much as <strong>40%</strong> between companies for the same route. That’s where our <strong>moving cost comparison tool</strong> changes the game.</p><p>Think of it as the Kayak for movers: one simple search, multiple instant quotes, all displayed side-by-side. No more juggling tabs or repeating your address and inventory a dozen times. Our tool pulls real-time estimates from licensed, insured movers, so you can compare apples to apples without the headache.</p><p>Whether you’re moving across town or across the country, this tool puts the power back in your hands. Stop overpaying and start comparing—your wallet (and your sanity) will thank you.</p>"
       },
       {
         "type": "text",
@@ -1667,7 +1667,7 @@
       {
         "type": "text",
         "heading": "Why Seniors Need a Specialized Moving Cost Calculator",
-        "body": "<p>Moving later in life is different. According to the <strong>U.S. Census Bureau</strong>, nearly 1 in 5 people over 65 move each year, often to downsize or relocate for care. Yet most moving cost calculators ignore senior-specific expenses like <strong>downsizing inventory services</strong>, <strong>ADA-compliant home modifications</strong>, or <strong>senior community move-in fees</strong>. Our <strong>moving cost calculator for seniors</strong> fills that gap—built around your fixed income, Medicare relocation needs, and the real costs of transitioning to a smaller or assisted-living space.</p><ul><li><strong>Downsizing costs:</strong> Sorting, donating, or selling decades of possessions can add $500–$2,000 in labor and disposal fees.</li><li><strong>ADA upgrades:</strong> Grab bars, ramps, or wider doorways average $1,200–$5,000 depending on the home.</li><li><strong>Senior community fees:</strong> Many communities charge a non-refundable move-in fee of $1,000–$5,000 plus deposits.</li></ul><p>By factoring in these line items, you avoid surprise expenses and stay within your budget. Try our tool below to see an estimate tailored to your situation.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Moving later in life is different. According to the <strong>U.S. Census Bureau</strong>, nearly 1 in 5 people over 65 move each year, often to downsize or relocate for care. Yet most moving cost calculators ignore senior-specific expenses like <strong>downsizing inventory services</strong>, <strong>ADA-compliant home modifications</strong>, or <strong>senior community move-in fees</strong>. Our <strong>moving cost calculator for seniors</strong> fills that gap—built around your fixed income, Medicare relocation needs, and the real costs of transitioning to a smaller or assisted-living space.</p><ul><li><strong>Downsizing costs:</strong> Sorting, donating, or selling decades of possessions can add $500–$2,000 in labor and disposal fees.</li><li><strong>ADA upgrades:</strong> Grab bars, ramps, or wider doorways average $1,200–$5,000 depending on the home.</li><li><strong>Senior community fees:</strong> Many communities charge a non-refundable move-in fee of $1,000–$5,000 plus deposits.</li></ul><p>By factoring in these line items, you avoid surprise expenses and stay within your budget. Try our tool below to see an estimate tailored to your situation.</p>"
       },
       {
         "type": "text",
@@ -1736,7 +1736,7 @@
       {
         "type": "text",
         "heading": "Why Choose a Moving Cost Estimator with No Sign Up?",
-        "body": "<h3>No sign-up. No spam. Just numbers.</h3>\n<p>You want a ballpark—not a pitch.</p>\n<p>Most tools demand your email.</p>\n<p>Then spam floods your inbox.</p>\n<p>Our tool is completely anonymous.</p>\n<p>No forms. No passwords. No data.</p>\n<p>Enter origin, destination, and size.</p>\n<p>Get an instant estimate.</p>\n<p>Average local move: $1,400.</p>\n<p>Average long-distance move: $4,300.</p>\n<p>We use 10,000+ real moves.</p>\n<p>Your estimate arrives in seconds.</p>\n<ul>\n  <li>Instant results—no waiting.</li>\n  <li>No spam—no data stored.</li>\n  <li>Accurate range—your route's rates.</li>\n</ul>\n<p>Move across town or country.</p>\n<p>Budget without the hassle.</p>\n<p>Try it now.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><h3>No sign-up. No spam. Just numbers.</h3>\n<p>You want a ballpark—not a pitch.</p>\n<p>Most tools demand your email.</p>\n<p>Then spam floods your inbox.</p>\n<p>Our tool is completely anonymous.</p>\n<p>No forms. No passwords. No data.</p>\n<p>Enter origin, destination, and size.</p>\n<p>Get an instant estimate.</p>\n<p>Average local move: $1,400.</p>\n<p>Average long-distance move: $4,300.</p>\n<p>We use 10,000+ real moves.</p>\n<p>Your estimate arrives in seconds.</p>\n<ul>\n  <li>Instant results—no waiting.</li>\n  <li>No spam—no data stored.</li>\n  <li>Accurate range—your route's rates.</li>\n</ul>\n<p>Move across town or country.</p>\n<p>Budget without the hassle.</p>\n<p>Try it now.</p>"
       },
       {
         "type": "text",

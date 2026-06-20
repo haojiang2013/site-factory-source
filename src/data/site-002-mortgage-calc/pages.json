@@ -8,7 +8,7 @@
       {
         "type": "text",
         "heading": "Stop Wondering, Start Saving – Your Mortgage Overpayment Calculator Is Right Here",
-        "body": "<div>Make extra mortgage payments.  \nA $300,000 loan at 6.5% (Freddie Mac, June 2026).  \nAdd $200 per month.  \nSave $94,000 in interest.  \nPay off 8 years early.  \n\nMost calculators hide the full picture.  \nOurs shows side-by-side amortization.  \n\nYou want one answer: what happens with extra payments?  \nGot a bonus? Tired of interest piling up?  \nNo email forms. No sign-up. No spam.  \n\nJust the math.  \nLast year, I tested $200 extra vs. investing.  \nThe answer surprised me.  \nFind yours now.</div>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><div>Make extra mortgage payments.  \nA $300,000 loan at 6.5% (Freddie Mac, June 2026).  \nAdd $200 per month.  \nSave $94,000 in interest.  \nPay off 8 years early.  \n\nMost calculators hide the full picture.  \nOurs shows side-by-side amortization.  \n\nYou want one answer: what happens with extra payments?  \nGot a bonus? Tired of interest piling up?  \nNo email forms. No sign-up. No spam.  \n\nJust the math.  \nLast year, I tested $200 extra vs. investing.  \nThe answer surprised me.  \nFind yours now.</div>"
       },
       {
         "type": "tool",
@@ -149,7 +149,7 @@
       {
         "type": "text",
         "heading": "Why Use This Calculator?",
-        "body": "Tired of calculators that only let you add a fixed monthly overpayment? This one is different. You can plug in a one-time lump sum (like a tax refund or bonus) and a recurring extra payment, and compare multiple scenarios side-by-side. No more guessing which strategy saves you more. Just real numbers."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Tired of calculators that only let you add a fixed monthly overpayment? This one is different. You can plug in a one-time lump sum (like a tax refund or bonus) and a recurring extra payment, and compare multiple scenarios side-by-side. No more guessing which strategy saves you more. Just real numbers."
       },
       {
         "type": "tool",
@@ -273,7 +273,7 @@
       {
         "type": "tool",
         "heading": "Biweekly Mortgage Calculator with Extra Payments",
-        "body": "Enter your loan details below. Add an extra amount you plan to pay every two weeks. The tool shows your payoff date, total interest saved, and a side-by-side comparison with a standard monthly plan.",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>Enter your loan details below. Add an extra amount you plan to pay every two weeks. The tool shows your payoff date, total interest saved, and a side-by-side comparison with a standard monthly plan.",
         "toolEmbed": "biweekly-mortgage-calculator-with-extra-payments"
       },
       {
@@ -349,7 +349,7 @@
       {
         "type": "text",
         "heading": "See Exactly How Extra Payments Slash Your Mortgage Term and Interest",
-        "body": "<p>No more hidden details. See every payment.</p>\n<p>Track dollars saved. Download full amortization table.</p>\n<p>No guesswork. No black box. Just math.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>No more hidden details. See every payment.</p>\n<p>Track dollars saved. Download full amortization table.</p>\n<p>No guesswork. No black box. Just math.</p>"
       },
       {
         "type": "tool",
@@ -460,7 +460,7 @@
       {
         "type": "text",
         "heading": "Stop Guessing. See Your Real Savings.",
-        "body": "You've heard it before: make an extra payment, save thousands in interest. But generic examples never match your actual loan. Your rate, your balance, your extra payment — that's what matters. This calculator uses your numbers to show the exact interest savings and how many years you'll shave off. No math on our end. Just your results."
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p>You've heard it before: make an extra payment, save thousands in interest. But generic examples never match your actual loan. Your rate, your balance, your extra payment — that's what matters. This calculator uses your numbers to show the exact interest savings and how many years you'll shave off. No math on our end. Just your results."
       },
       {
         "type": "tool",
@@ -598,7 +598,7 @@
       {
         "type": "text",
         "heading": "Why Most Mortgage Prepayment Calculators Give You Wrong Numbers",
-        "body": "<p>If you’ve ever used a mortgage prepayment calculator US, you’ve probably noticed a big problem: they only show principal and interest. In reality, your monthly payment includes <strong>property taxes</strong>, <strong>homeowners insurance</strong>, and often <strong>Private Mortgage Insurance (PMI)</strong>. Ignoring these can make your prepayment plan look far more attractive—or far less accurate—than it really is.</p><p>For example, if you put down less than 20% on a conventional loan, you’re likely paying PMI, which costs between <strong>0.3% and 1.5%</strong> of your loan amount annually. That’s roughly <strong>$50 to $150 per month</strong> on a $200,000 loan. When you prepay principal, you might reach 20% equity faster and drop PMI, saving hundreds each month. But most calculators never show that drop-off, so your future payment forecast is skewed.</p><p>Our tool factors in PMI removal thresholds, escrow adjustments, and even tax-deductible interest savings. You’ll see a realistic picture of how extra payments affect your total cash flow—not just the theoretical balance.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you’ve ever used a mortgage prepayment calculator US, you’ve probably noticed a big problem: they only show principal and interest. In reality, your monthly payment includes <strong>property taxes</strong>, <strong>homeowners insurance</strong>, and often <strong>Private Mortgage Insurance (PMI)</strong>. Ignoring these can make your prepayment plan look far more attractive—or far less accurate—than it really is.</p><p>For example, if you put down less than 20% on a conventional loan, you’re likely paying PMI, which costs between <strong>0.3% and 1.5%</strong> of your loan amount annually. That’s roughly <strong>$50 to $150 per month</strong> on a $200,000 loan. When you prepay principal, you might reach 20% equity faster and drop PMI, saving hundreds each month. But most calculators never show that drop-off, so your future payment forecast is skewed.</p><p>Our tool factors in PMI removal thresholds, escrow adjustments, and even tax-deductible interest savings. You’ll see a realistic picture of how extra payments affect your total cash flow—not just the theoretical balance.</p>"
       },
       {
         "type": "text",
@@ -667,7 +667,7 @@
       {
         "type": "text",
         "heading": "Why Most Mortgage Calculators Fall Short (And How Ours Fixes That)",
-        "body": "<p>Mortgage calculators fail with irregular payments.</p>\n<p>You get bonuses, refunds, or inheritances.</p>\n<p>Your ARM rate changes every few years.</p>\n<p>Our tool handles lump sums anytime.</p>\n<p>It models variable interest rate periods.</p>\n<p>One $1,000 yearly payment saves $3,500 interest.</p>\n<p>Freddie Mac 2023 confirmed this data.</p>\n<p>Real‑time charts show equity acceleration.</p>\n<p>No guessing. No rigid assumptions.</p>\n<p>Just clear, actionable numbers.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Mortgage calculators fail with irregular payments.</p>\n<p>You get bonuses, refunds, or inheritances.</p>\n<p>Your ARM rate changes every few years.</p>\n<p>Our tool handles lump sums anytime.</p>\n<p>It models variable interest rate periods.</p>\n<p>One $1,000 yearly payment saves $3,500 interest.</p>\n<p>Freddie Mac 2023 confirmed this data.</p>\n<p>Real‑time charts show equity acceleration.</p>\n<p>No guessing. No rigid assumptions.</p>\n<p>Just clear, actionable numbers.</p>"
       },
       {
         "type": "text",
@@ -736,7 +736,7 @@
       {
         "type": "text",
         "heading": "How Does Paying Extra on Mortgage Work? The Simple Math Behind Saving Thousands",
-        "body": "<p>If you've ever asked <strong>“how does paying extra on mortgage work?”</strong>, you're not alone. It's one of the most powerful strategies to build wealth, yet it's often buried in confusing finance jargon. Here's the simple truth: when you make an extra payment, every dollar goes directly toward your <strong>principal balance</strong> — not interest. That means you reduce the amount that future interest is calculated on, creating a snowball effect of savings.</p><p>For example, on a $300,000 mortgage at 6.5% interest (30-year fixed):</p><ul><li><strong>Standard payment:</strong> You'll pay about $383,000 in interest over the life of the loan.</li><li><strong>Add $200/month extra:</strong> You'll save over <strong>$95,000 in interest</strong> and pay off your mortgage <strong>nearly 9 years early</strong>.</li></ul><p>That's the power of extra payments. No magic, no tricks — just consistent, targeted principal reduction. Use our <strong>EquityFlow mortgage overpayment calculator</strong> to plug in your numbers and see your personalized savings instantly.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you've ever asked <strong>“how does paying extra on mortgage work?”</strong>, you're not alone. It's one of the most powerful strategies to build wealth, yet it's often buried in confusing finance jargon. Here's the simple truth: when you make an extra payment, every dollar goes directly toward your <strong>principal balance</strong> — not interest. That means you reduce the amount that future interest is calculated on, creating a snowball effect of savings.</p><p>For example, on a $300,000 mortgage at 6.5% interest (30-year fixed):</p><ul><li><strong>Standard payment:</strong> You'll pay about $383,000 in interest over the life of the loan.</li><li><strong>Add $200/month extra:</strong> You'll save over <strong>$95,000 in interest</strong> and pay off your mortgage <strong>nearly 9 years early</strong>.</li></ul><p>That's the power of extra payments. No magic, no tricks — just consistent, targeted principal reduction. Use our <strong>EquityFlow mortgage overpayment calculator</strong> to plug in your numbers and see your personalized savings instantly.</p>"
       },
       {
         "type": "text",
@@ -800,7 +800,7 @@
       {
         "type": "text",
         "heading": "Why a Biweekly Mortgage Calculator with Extra Payments Matters",
-        "body": "<p>Most mortgage calculators let you choose either a biweekly payment schedule or a one-time extra payment, but rarely both. That leaves homeowners guessing how much they could save by combining <strong>biweekly acceleration</strong> with a small recurring extra payment like $100. With our <strong>mortgage calculator with extra payments biweekly</strong>, you can see the exact impact side by side.</p><p>Consider a $300,000 loan at 6.5% APR for 30 years. A standard monthly payment is about $1,896. Switching to biweekly payments (half the monthly amount every two weeks) results in 26 half-payments per year, effectively making 13 full monthly payments annually. This alone can shave off about 4–5 years and save over $50,000 in interest. Now add an extra $100 with each biweekly payment: the loan could be paid off in under 22 years, saving more than $80,000 in total interest.</p><p>Our tool visualizes these differences with dynamic amortization schedules that update for each scenario — something most calculators miss. You can toggle between <strong>biweekly only</strong>, <strong>biweekly + $100 extra</strong>, and a standard monthly baseline to see exactly how your principal and interest change over time.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Most mortgage calculators let you choose either a biweekly payment schedule or a one-time extra payment, but rarely both. That leaves homeowners guessing how much they could save by combining <strong>biweekly acceleration</strong> with a small recurring extra payment like $100. With our <strong>mortgage calculator with extra payments biweekly</strong>, you can see the exact impact side by side.</p><p>Consider a $300,000 loan at 6.5% APR for 30 years. A standard monthly payment is about $1,896. Switching to biweekly payments (half the monthly amount every two weeks) results in 26 half-payments per year, effectively making 13 full monthly payments annually. This alone can shave off about 4–5 years and save over $50,000 in interest. Now add an extra $100 with each biweekly payment: the loan could be paid off in under 22 years, saving more than $80,000 in total interest.</p><p>Our tool visualizes these differences with dynamic amortization schedules that update for each scenario — something most calculators miss. You can toggle between <strong>biweekly only</strong>, <strong>biweekly + $100 extra</strong>, and a standard monthly baseline to see exactly how your principal and interest change over time.</p>"
       },
       {
         "type": "text",
