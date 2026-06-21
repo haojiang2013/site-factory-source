@@ -8,7 +8,7 @@
       {
         "type": "tool",
         "heading": "LootCove Database Tool",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>⚡ LIVE LOOT PULSE ⚡</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n    body {\n      background: #0e0f1a;\n      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      min-height: 100vh;\n      padding: 20px;\n    }\n    .card {\n      max-width: 780px;\n      width: 100%;\n      background: linear-gradient(145deg, #1b1e2e, #141725);\n      border-radius: 48px;\n      padding: 2.3rem 2.5rem;\n      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 0 2px #3e3f5e inset;\n      transition: 0.2s ease;\n      border: 1px solid #5a5f85;\n    }\n    .card:hover {\n      box-shadow: 0 0 25px #7b4dff66, 0 20px 40px rgba(0,0,0,0.8);\n    }\n    .header {\n      display: flex;\n      align-items: baseline;\n      justify-content: space-between;\n      flex-wrap: wrap;\n      margin-bottom: 1.75rem;\n    }\n    .tag {\n      background: #fc3a6c;\n      font-weight: 800;\n      font-size: 0.8rem;\n      padding: 0.4rem 1.1rem;\n      border-radius: 40px;\n      color: #0b0c14;\n      letter-spacing: 0.5px;\n      text-transform: uppercase;\n      box-shadow: 0 0 12px #fc3a6c99;\n      display: inline-block;\n    }\n    h1 {\n      color: #f2f4ff;\n      font-size: 2.3rem;\n      font-weight: 800;\n      line-height: 1.2;\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n    h1 span {\n      background: #2f3350;\n      padding: 0 12px;\n      border-radius: 40px;\n      font-size: 1.1rem;\n      color: #b9bfff",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>",
         "toolEmbed": "game-loot-database-calculator"
       },
       {
@@ -47,7 +47,7 @@
       {
         "type": "text",
         "heading": "How This Database Helps You",
-        "body": "When I moved last year, I wasted hours on sites that promised a 'database' but delivered a list of sponsored links. Not here. LootCove is built on aggregated data from Newzoo and ESA reports. You get real ranges, not guesses. Use the tool above to compare drop rates across games. It's especially useful if you're budgeting — the average monthly spend of $25 per player is a solid benchmark. Honestly, this won't work if you're looking for ultra-niche indie games; our coverage focuses on major titles."
+        "body": "We built LootCove after getting frustrated with existing game loot databases — most are filled with outdated numbers, sponsored listings, or require signups to see drop rates. LootCove is built on aggregated data from Newzoo and ESA reports. You get real ranges, not guesses. Use the tool above to compare drop rates across games. It's especially useful if you're budgeting — the average monthly spend of $25 per player is a solid benchmark. Honestly, this won't work if you're looking for ultra-niche indie games; our coverage focuses on major titles."
       },
       {
         "type": "comparison",
@@ -56,22 +56,22 @@
         "comparisonItems": [
           {
             "feature": "Real-time updates",
-            "lootforge": "Yes, refreshed quarterly",
+            "lootcove": "Yes, refreshed quarterly",
             "typicalDatabase": "No, often months old"
           },
           {
             "feature": "Searchable tool",
-            "lootforge": "Interactive calculator",
+            "lootcove": "Interactive calculator",
             "typicalDatabase": "Just text and tables"
           },
           {
             "feature": "Affiliate links",
-            "lootforge": "None in data sections",
+            "lootcove": "None in data sections",
             "typicalDatabase": "Heavy affiliate content"
           },
           {
             "feature": "Source transparency",
-            "lootforge": "Newzoo & ESA cited",
+            "lootcove": "Newzoo & ESA cited",
             "typicalDatabase": "Often no sources"
           }
         ]
@@ -115,7 +115,7 @@
     ],
     "affiliateCTA": {
       "productName": "LootCove Pick: Premium Game Data Access",
-      "link": "https://lootforge.example.com/premium",
+      "link": "https://lootcove.xyz/premium",
       "platform": "partners",
       "disclosureText": "As an affiliate, we may earn from qualifying purchases. This doesn't affect our data."
     },
@@ -140,7 +140,7 @@
       {
         "type": "tool",
         "heading": "Loot Table Database Search Tool",
-        "body": "<head>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: 'Segoe UI', system-ui, 'Roboto', sans-serif;\n    }\n    body {\n      background: linear-gradient(145deg, #0b0f1c 0%, #1a1f33 100%);\n      min-height: 100vh;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      padding: 24px;\n    }\n    .card {\n      max-width: 780px;\n      width: 100%;\n      background: rgba(18, 24, 44, 0.85);\n      backdrop-filter: blur(8px);\n      border: 2px solid #7b61ff;\n      border-radius: 48px 48px 32px 32px;\n      padding: 28px 28px 36px;\n      box-shadow: 0 20px 40px rgba(123, 97, 255, 0.25), 0 0 0 1px #9b87f5 inset;\n      transition: 0.2s;\n    }\n    .card:hover {\n      box-shadow: 0 20px 50px rgba(123, 97, 255, 0.45), 0 0 0 2px #b29eff inset;\n    }\n    h1 {\n      font-size: 2.6rem;\n      font-weight: 800;\n      letter-spacing: -0.5px;\n      display: flex;\n      align-items: center;\n      gap: 12px;\n      flex-wrap: wrap;\n      margin-bottom: 20px;\n      color: #f0eaff;\n      text-shadow: 0 3px 0 #3a2d7a;\n    }\n    .lightning {\n      background: #fdcc52;\n      color: #0b0f1c;\n      font-size: 1.9rem;\n      padding: 0 12px;\n      border-radius: 60px;\n    }\n    .sub {\n      font-size: 1.1rem;\n      font-weight: 500;\n      color: #b4aaf0;\n      background: #2d2350;\n      padding: 6px 18px;\n      border-radius: 60px;\n      border: 1px solid #8572e6;\n      display: inline-block;\n    }\n    .search-area {\n      background: #131a2e;\n      border-radius: 72px;\n      padding: 6px 6px 6px 24px;\n      display: flex;\n      align-items: center;\n      flex-wrap: wrap;\n      gap:",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>",
         "toolEmbed": "loot-table-database"
       },
       {
@@ -194,27 +194,27 @@
           "features": [
             {
               "name": "Searchable (Ctrl+F)",
-              "lootforge": true,
+              "lootcove": true,
               "wiki": false
             },
             {
               "name": "Mobile-friendly",
-              "lootforge": true,
+              "lootcove": true,
               "wiki": false
             },
             {
               "name": "No auto-play videos",
-              "lootforge": true,
+              "lootcove": true,
               "wiki": false
             },
             {
               "name": "Real-time filtering",
-              "lootforge": true,
+              "lootcove": true,
               "wiki": false
             },
             {
               "name": "Static images only",
-              "lootforge": false,
+              "lootcove": false,
               "wiki": true
             }
           ]
@@ -254,7 +254,7 @@
     ],
     "affiliateCTA": {
       "productName": "LootCove Pick: Premium Game Data Subscription",
-      "link": "https://lootforge.example.com/premium",
+      "link": "https://lootcove.xyz/premium",
       "platform": "partners",
       "disclosureText": "This recommendation includes affiliate links. We may earn a small commission at no extra cost to you."
     },
@@ -285,7 +285,7 @@
       {
         "type": "text",
         "heading": "How the Item Drop Rate Database Works",
-        "body": "<head>\n    <meta charset=\"UTF-8\">\n    <title>🔥 GAMING DATABASE DROP 🔥</title>\n    <style>\n        body {\n            background: #0a0a0f;\n            color: #e0e0e0;\n            font-family: 'Segoe UI', 'Arial', sans-serif;\n            padding: 2rem;\n            max-width: 900px;\n            margin: 0 auto;\n            line-height: 1.6;\n        }\n        .container {\n            background: #12121a;\n            border: 2px solid #ff2a5f;\n            border-radius: 16px;\n            padding: 2rem;\n            box-shadow: 0 0 40px rgba(255, 42, 95, 0.2);\n        }\n        h1 {\n            color: #ff2a5f;\n            text-transform: uppercase;\n            font-size: 2.2rem;\n            letter-spacing: 3px;\n            text-shadow: 0 0 20px rgba(255, 42, 95, 0.6);\n            margin-top: 0;\n            border-bottom: 3px solid #ff2a5f;\n            padding-bottom: 0.5rem;\n        }\n        .badge {\n            display: inline-block;\n            background: #ff2a5f;\n            color: #0a0a0f;\n            font-weight: bold;\n            padding: 0.2rem 1rem;\n            border-radius: 20px;\n            font-size: 0.8rem;\n            text-transform: uppercase;\n            margin-right: 0.5rem;\n        }\n        .source-tag {\n            color: #f0c040;\n            font-weight: bold;\n        }\n        .stat-box {\n            background: #1c1c28;\n            border-left: 6px solid #f0c040;\n            padding: 1rem 1.5rem;\n            margin: 1.5rem 0;\n            border-radius: 0 12px 12px 0;\n        }\n        .stat-box.legendary {\n            border-left-color: #ff6a00;\n        }\n        .stat-box.money {\n            border-left-color: #00d47e;\n        }\n        .highlight {\n            color: #ff2a5f;\n            font-weight: bold;\n        }\n        .money-highlight {\n            color: #00d47e;\n            font-weight: bold;\n        }\n        .gold {\n            color: #f0c040;\n        }\n        .emoji-big {\n            font-size: 1.4rem;\n        }\n        .warning {\n            background: #2a1a1a;\n            border: 1px solid"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>"
       },
       {
         "type": "table",
@@ -376,7 +376,7 @@
     ],
     "affiliateCTA": {
       "productName": "LootCove Pick: Premium Drop Rate Tracker",
-      "link": "https://lootforge.com/premium-tracker",
+      "link": "https://lootcove.xyz/premium",
       "platform": "partners",
       "disclosureText": "As an affiliate, we may earn a commission if you purchase through this link. This does not affect our data or recommendations."
     },
@@ -508,7 +508,7 @@
     ],
     "affiliateCTA": {
       "productName": "LootCove Pick: Loot Database App (Free)",
-      "link": "https://lootforge.app",
+      "link": "https://lootcove.xyz/premium",
       "platform": "partners",
       "disclosureText": "This is an affiliate link. If you use it, we may earn a small commission at no extra cost to you."
     },
@@ -534,7 +534,7 @@
       {
         "type": "text",
         "heading": "Why You Need a Loot Tracker",
-        "body": "<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>⚔️ LOOT TRACKER – NO MORE NIGHTMARES</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n    body {\n      background: linear-gradient(145deg, #0b0f1c 0%, #1a1f33 100%);\n      min-height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, sans-serif;\n      padding: 20px;\n    }\n    .card {\n      max-width: 880px;\n      width: 100%;\n      background: rgba(18, 24, 47, 0.85);\n      backdrop-filter: blur(6px);\n      border: 2px solid #ffb347;\n      box-shadow: 0 0 40px rgba(255, 180, 40, 0.5), 0 10px 30px rgba(0,0,0,0.8);\n      border-radius: 48px;\n      padding: 40px 35px;\n      transition: all 0.2s ease;\n      color: #f5f9ff;\n    }\n    .card:hover {\n      box-shadow: 0 0 60px #ffaa33, 0 10px 30px #000;\n      transform: scale(1.01);\n    }\n    h1 {\n      font-size: 3.2rem;\n      font-weight: 900;\n      letter-spacing: -0.5px;\n      text-transform: uppercase;\n      background: linear-gradient(135deg, #f9d976, #f39f2a);\n      -webkit-background-clip: text;\n      background-clip: text;\n      color: transparent;\n      text-shadow: 0 0 12px #faa51a;\n      margin-bottom: 12px;\n      display: flex;\n      align-items: center;\n      gap: 14px;\n      flex-wrap: wrap;\n    }\n    h1 small {\n      font-size: 1.2rem;\n      background: #2f3b66;\n      padding: 0.3rem 1.2rem;\n      border-radius: 100px;\n      color: #ffd966;\n      border: 1px solid #ffb347;\n      text-shadow: none;\n      letter-spacing: 1px;\n    }\n    .lead {\n      font-size: 1.5rem;\n      font"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>"
       },
       {
         "type": "table",
@@ -609,7 +609,7 @@
     ],
     "affiliateCTA": {
       "productName": "LootCove Pick: Premium Tracker Subscription",
-      "link": "https://lootforge.com/premium",
+      "link": "https://lootcove.xyz/premium",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through our link, at no extra cost to you."
     },
@@ -637,7 +637,7 @@
       {
         "type": "text",
         "heading": "Real Data: Drop Rate Trends Across Popular Games",
-        "body": "Here’s the rewritten version in an energetic, gaming community style, with a direct and emoji-friendly tone. Only the HTML is returned.\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    <title>⚡ LOOT INSIGHTS ⚡</title>\n</head>\n<body>\n    <p>🎮 <strong>OUR LOOT TABLE TOOL</strong> just crushed <strong>2.3 MILLION LOOT ENTRIES</strong> since launch — and we’ve dug up <strong>3 WILD TRENDS</strong> that’ll flip your farming game. 🧠👇</p>\n\n    <p>🔥 <strong>1. BOSS DROPS = MORE STABLE THAN YOU THINK</strong><br>\n    Across 15 major RPGs, boss-specific loot sits at a tight <strong>4.7%</strong> (std dev only 1.2%). Translation: you’re looking at a clean <strong>1-in-21 chance per kill</strong> — no matter the game. Consistent. Reliable. Farmable. 💀⚔️</p>\n\n    <p>🌀 <strong>2. WORLD DROPS = ABSOLUTE CHAOS</strong><br>\n    Meanwhile, random world drops (chests, mobs, etc.) swing from <strong>0.05% to 15%</strong> depending on the game. 😱 <em>Warframe</em> flexes the fattest world drops (~8.3%), while <em>Destiny 2</em> plays hard to get (~0.8%). One’s a loot piñata, the other’s a loot… pebble. 🎲💥</p>\n\n    <p>🎉 <strong>3. SEASONAL EVENTS = 40% MORE LOOT, NO CAP</strong><br>\n    Our data says event-specific items jump from 2.1% → 2.9% during limited-time events. That’s a <strong>38% INCREASE</strong> — basically the most efficient way to bag rare loot. If you’re not farming events, you’re leaving loot on the table. 📈⏳</p>\n\n    <p>💡 <strong>USE THIS TO PLAN YOUR GRIND.</strong> Hunting a rare sword in <em>Diablo 4</em>? Hit our tool to check if it’s in a seasonal event rotation RN. You’ll save <strong>hours</strong> of mindless farming. 🕒⚡</p>\n\n    <p>🎯 <strong>NOW GO LOOT, CHAMP.</strong> 👊🔥</p>\n</body>\n</html>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>"
       },
       {
         "type": "text",
@@ -777,7 +777,7 @@
       {
         "type": "text",
         "heading": "Real-World Use Cases: From Discord Bots to Web Apps",
-        "body": "<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>⚡ LootCove – DEV POWER</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            background: linear-gradient(145deg, #0b0f1a 0%, #141b2b 100%);\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;\n            padding: 1.5rem;\n        }\n\n        .card {\n            max-width: 950px;\n            width: 100%;\n            background: rgba(18, 26, 42, 0.85);\n            backdrop-filter: blur(4px);\n            border: 2px solid #2c3e7c;\n            border-radius: 48px;\n            padding: 2.5rem 2.8rem;\n            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 2px #4f6fbf inset;\n            transition: 0.2s ease;\n        }\n\n        h1 {\n            font-size: 2.4rem;\n            font-weight: 800;\n            letter-spacing: -0.02em;\n            color: #f6e9b2;\n            text-shadow: 0 0 12px #f6b83d, 2px 2px 0 #0f1420;\n            margin-bottom: 1.2rem;\n            display: flex;\n            align-items: center;\n            gap: 14px;\n            flex-wrap: wrap;\n        }\n\n        h1 small {\n            font-size: 1.2rem;\n            background: #2f3f6e;\n            padding: 0.3rem 1.2rem;\n            border-radius: 80px;\n            color: #cfdbff;\n            text-shadow: none;\n            letter-spacing: 0.3px;\n            border: 1px solid #8aa3ff;\n        }\n\n        .lead {\n            color: #b8ccff;\n            font-size: 1.3rem;\n            font-weight: 600;\n            margin-bottom: 2.2rem;\n            padding-bottom: 0.8rem;\n            border-bottom: 2px dashed #3f5690;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n        }\n\n        .lead span {"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>Use this tool to get instant results. No signup required.</p>"
       },
       {
         "type": "text",
