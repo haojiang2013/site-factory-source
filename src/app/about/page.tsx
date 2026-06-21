@@ -67,8 +67,25 @@ export default async function AboutPage() {
 
       <section style={{ marginBottom: 32 }}>
         <h2 style={{ fontSize: 20, fontWeight: 700, color: '#0f172a', marginBottom: 10 }}>Who Built This</h2>
-        <p>{brand} is part of a network of <strong>25 free utility tools</strong> built and maintained by one developer who believes useful tools should be free, fast, and private.</p>
-        <p style={{ marginTop: 8 }}>Every tool follows the same principles: <strong>no signup required, no email gates, no ads, no tracking.</strong> Just instant answers.</p>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 16 }}>
+          <img
+            src="https://github.com/haojiang2013.png"
+            alt="stevenkuep"
+            width={64}
+            height={64}
+            style={{ borderRadius: '50%', border: '2px solid #e2e8f0' }}
+          />
+          <div>
+            <div style={{ fontWeight: 700, fontSize: 17, color: '#0f172a' }}>stevenkuep</div>
+            <div style={{ fontSize: 13, color: '#64748b', marginTop: 2 }}>Indie developer · Built 25 free tools</div>
+            <div style={{ display: 'flex', gap: 12, marginTop: 6 }}>
+              <a href="https://github.com/haojiang2013" target="_blank" rel="noopener" style={{ fontSize: 13, color: '#2563eb', textDecoration: 'none' }}>🐙 GitHub</a>
+              <a href="https://x.com/stevenkuep" target="_blank" rel="noopener" style={{ fontSize: 13, color: '#2563eb', textDecoration: 'none' }}>🐦 X / Twitter</a>
+            </div>
+          </div>
+        </div>
+        <p>{brand} is part of a network of <strong>25 free utility tools</strong> built and maintained by stevenkuep — an indie developer who believes useful tools should be free, fast, and private.</p>
+        <p style={{ marginTop: 8 }}>Every tool follows the same principles: <strong>no signup required, no email gates, no ads, no tracking.</strong> Just instant answers. Built in public. <a href="https://x.com/stevenkuep" target="_blank" rel="noopener" style={{ color: '#2563eb' }}>Follow the journey on X →</a></p>
       </section>
 
       <section style={{ marginBottom: 32 }}>

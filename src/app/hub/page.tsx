@@ -13,6 +13,22 @@ import c16 from '@/data/site-016-electrical/config.json'; import c17 from '@/dat
 import c19 from '@/data/site-019-solar/config.json'; import c20 from '@/data/site-020-hvac/config.json'; import c21 from '@/data/site-021-ai-productivity/config.json';
 import c22 from '@/data/site-022-ai-audio/config.json'; import c23 from '@/data/site-023-ai-data/config.json'; import c24 from '@/data/site-024-game-weapons/config.json';
 import c25 from '@/data/site-025-game-npcs/config.json';
+// Page imports — used to count total pages at build time
+import p1 from '@/data/site-001-moving-calculator/pages.json'; import p2 from '@/data/site-002-mortgage-calc/pages.json';
+import p3 from '@/data/site-003-paint-calc/pages.json'; import p4 from '@/data/site-004-ai-tools/pages.json';
+import p5 from '@/data/site-005-game-guide/pages.json'; import p6 from '@/data/site-006-concrete-calc/pages.json';
+import p7 from '@/data/site-007-flooring-calc/pages.json'; import p8 from '@/data/site-008-ai-coding/pages.json';
+import p9 from '@/data/site-009-reno-calc/pages.json'; import p10 from '@/data/site-010-boss-guide/pages.json';
+import p11 from '@/data/site-011-ai-design/pages.json'; import p12 from '@/data/site-012-ai-marketing/pages.json';
+import p13 from '@/data/site-013-ai-video/pages.json'; import p14 from '@/data/site-014-game-items/pages.json';
+import p15 from '@/data/site-015-game-builds/pages.json'; import p16 from '@/data/site-016-electrical/pages.json';
+import p17 from '@/data/site-017-garden/pages.json'; import p18 from '@/data/site-018-cleaning/pages.json';
+import p19 from '@/data/site-019-solar/pages.json'; import p20 from '@/data/site-020-hvac/pages.json';
+import p21 from '@/data/site-021-ai-productivity/pages.json'; import p22 from '@/data/site-022-ai-audio/pages.json';
+import p23 from '@/data/site-023-ai-data/pages.json'; import p24 from '@/data/site-024-game-weapons/pages.json';
+import p25 from '@/data/site-025-game-npcs/pages.json';
+
+const PAGE_COUNT = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25].reduce((sum, pages) => sum + (Array.isArray(pages) ? pages.length : 0), 0);
 
 const SITES = [c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24,c25];
 
@@ -54,7 +70,7 @@ export default function HubPage() {
         </p>
         <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
           {[
-            [216, 'Total Pages'],
+            [PAGE_COUNT, 'Total Pages'],
             [stats.A, 'Calculators'],
             [stats.B, 'Comparisons'],
             [stats.C, 'Guides'],
@@ -77,7 +93,7 @@ export default function HubPage() {
       <Section title="🎮 Game Guides & Databases" subtitle="2 tools — boss strategies, loot tables, NPC databases" cards={CARDS.filter(c => c.template === 'C')} />
 
       <footer style={{ textAlign: 'center', padding: '32px 20px', borderTop: '1px solid #e2e8f0', fontSize: 13, color: '#94a3b8' }}>
-        Part of the <a href="https://gomovecalc.xyz/" style={{ color: '#2563eb' }}>Site Factory</a> network · 25 sites · 216+ pages · Free forever
+        Part of the <a href="https://gomovecalc.xyz/" style={{ color: '#2563eb' }}>Site Factory</a> network · 25 sites · {PAGE_COUNT}+ pages · Free forever
       </footer>
     </div>
   );
