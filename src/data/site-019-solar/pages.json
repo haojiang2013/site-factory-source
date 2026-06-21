@@ -192,6 +192,12 @@
       "link": "https://raycalc.com/solar-panel-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through our links, at no extra cost to you. This helps us keep the calculator free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -256,6 +262,12 @@
       "link": "https://raycalc.com/tools/solar-panel-cost-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through our links, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -291,12 +303,39 @@
         "body": "1. Use the calculator above with your own numbers.\n2. Check if your roof gets enough sun (south-facing is ideal).\n3. Get 3 quotes from local installers. Compare their cost per watt.\n4. Apply for the 30% federal tax credit on your next tax return.\n\nThat's it. No sales pitch. No hidden fees. Just a smarter way to go solar."
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many solar panels do I need for a 2,000 sq ft house?",
+        "answer": "Typically 20-30 panels for a 2,000 sq ft home. But it depends more on your electricity usage (kWh/month) than square footage. A home using 1,000 kWh/month needs about 25 panels (400W each). Use our calculator with your actual electric bill for an accurate number."
+      },
+      {
+        "question": "Do I need a battery with my solar panels?",
+        "answer": "Not required, but strongly recommended if you want backup power during outages or if your utility has time-of-use rates. Without a battery, you sell excess power to the grid during the day and buy it back at night. With a battery, you store and use your own power. Our calculator shows savings both ways."
+      },
+      {
+        "question": "Is this solar calculator free? No sales calls?",
+        "answer": "Yes. Completely free. No phone number required. No sales calls. No lead selling. Just honest numbers."
+      },
+      {
+        "question": "Why do other solar calculators show much lower costs?",
+        "answer": "They often quote pre-incentive system price without installation, permitting, or electrical work. Our calculator includes the full installed cost before incentives, then applies the 30% federal tax credit and state rebates. This matches what you'll actually pay."
+      },
+      {
+        "question": "How long does it take to break even on solar panels?",
+        "answer": "The national average payback period is 6-10 years. In high-cost electricity states (CA, MA, NY), payback can be as short as 4-5 years. In low-cost states, it may take 10-12 years. Our calculator shows your specific payback based on your electricity rate and system cost."
+      }
+    ],
     "affiliateCTA": {
       "productName": "RayCalc Solar Calculator Tool",
       "link": "https://raycalc.com/tools/solar-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you use RayCalc. This does not affect your estimates."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -501,6 +540,12 @@
       "link": "https://www.amazon.com/dp/B07Y8M6L9P",
       "platform": "amazon",
       "disclosureText": "We may earn a small commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -681,7 +726,35 @@
       "link": "https://www.raycalc.com/solar-panel-savings-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a small commission if you use this tool. Your price stays the same. FTC disclosure."
-    }
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    },
+    "faqs": [
+      {
+        "question": "How much can I really save with solar panels?",
+        "answer": "The average US homeowner saves $1,500-$2,500 per year on electricity bills with solar. Over a 25-year panel lifespan, that's $30,000-$60,000 in total savings. Your exact savings depend on your local electricity rate, roof orientation, and available incentives."
+      },
+      {
+        "question": "Does the 30% federal solar tax credit apply to me?",
+        "answer": "Yes, if you own the system (not lease). The 30% federal tax credit has no cap, applies to both equipment and installation, and can be carried forward to future years if you don't have enough tax liability this year. Our calculator automatically applies it."
+      },
+      {
+        "question": "Will solar panels increase my home value?",
+        "answer": "Yes. Studies by Zillow and Berkeley Lab show solar homes sell for 4.1% more on average — about $15,000 on a $370,000 home. Plus, solar homes sell 20% faster. The premium is highest in states with high electricity rates."
+      },
+      {
+        "question": "What happens to my savings if electricity rates go up?",
+        "answer": "Your savings increase. Solar panels lock in your electricity cost at the system price. If utility rates rise 4% annually (historical average), your savings compound over time. Our calculator models a range of rate increase scenarios so you can see best and worst cases."
+      },
+      {
+        "question": "Is this calculator free? No email required?",
+        "answer": "Yes. No email, no phone, no sales calls. Just real numbers."
+      }
+    ]
   },
   {
     "h1": "Solar Payback Calculator: Get a Realistic ROI with Maintenance & Rate Changes",
@@ -750,7 +823,13 @@
     "slug": "solar-payback-calculator",
     "title": "Solar Payback Calculator: Get a Realistic ROI with Maintenance & Rate Changes",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Solar Panel Sizing Calculator – Map-Based & Accurate",
@@ -819,7 +898,13 @@
     "slug": "solar-panel-sizing-calculator",
     "title": "Free Solar Panel Sizing Calculator – Map-Based & Accurate",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best Solar Panel Calculator: Free Side-by-Side Comparison Tool",
@@ -888,7 +973,13 @@
     "slug": "best-solar-panel-calculator",
     "title": "Best Solar Panel Calculator: Free Side-by-Side Comparison Tool",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Solar ROI Calculator – Free Tool with Tax Incentives & Energy Escalation",
@@ -957,7 +1048,13 @@
     "slug": "solar-roi-calculator",
     "title": "Solar ROI Calculator – Free Tool with Tax Incentives & Energy Escalation",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Are Solar Panels Worth It? Use This Free Calculator for Instant Savings",
@@ -1026,7 +1123,13 @@
     "slug": "are-solar-panels-worth-it-calculator",
     "title": "Are Solar Panels Worth It? Use This Free Calculator for Instant Savings",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Solar Panel Output Calculator – Accurate Monthly Estimates",
@@ -1095,6 +1198,12 @@
     "slug": "solar-panel-output-calculator",
     "title": "Free Solar Panel Output Calculator – Accurate Monthly Estimates",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

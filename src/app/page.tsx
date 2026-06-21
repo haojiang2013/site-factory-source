@@ -137,6 +137,8 @@ export default async function HomePage(props: any) {
           sections: (page.sections || []).map((s: any) => ({ heading: s.heading, body: s.body })),
           faqs: page.faqs || [],
           affiliateCTA: page.affiliateCTA || null,
+          lastUpdated: page.lastUpdated,
+          author: page.author,
         }}
         brandName={brand}
         designConfig={site.config.designConfig as DesignConfig}
@@ -164,6 +166,8 @@ export default async function HomePage(props: any) {
           dataCards: page.dataCards || [],
           miniToolCode: site.tool.jsCode?.slice(0, 3000) || '',
           faqs: page.faqs || [],
+          lastUpdated: page.lastUpdated,
+          author: page.author,
         }}
         brandName={brand}
         designConfig={site.config.designConfig as DesignConfig}

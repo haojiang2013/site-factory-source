@@ -4,3 +4,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Performance: defer rendering of below-fold sections */
+section:not(:first-of-type),
+[data-lazy-section] {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+/* Reduce layout shift for embedded widgets */
+iframe, .calc-widget, [data-widget] {
+  contain: layout style;
+}

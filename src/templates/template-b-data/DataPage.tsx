@@ -14,6 +14,8 @@ export interface DataPageContent {
   sections: { heading: string; body: string }[];
   faqs: { question: string; answer: string }[];
   affiliateCTA: { productName: string; link: string; platform: string; disclosureText: string } | null;
+  lastUpdated?: string;
+  author?: { name: string; url: string; jobTitle?: string };
 }
 
 export function DataPage({ page, brandName, designConfig, domain, currentSlug, relatedPages }: {
@@ -36,6 +38,9 @@ export function DataPage({ page, brandName, designConfig, domain, currentSlug, r
       applicationCategory: 'BusinessApplication',
       operatingSystem: 'All',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+      ...(page.lastUpdated ? { dateModified: page.lastUpdated } : {}),
+      ...(page.author ? { author: { '@type': 'Person', name: page.author.name, url: page.author.url } } : {}),
+      publisher: { '@type': 'Organization', name: brandName, url: domain ? `https://${domain}` : undefined, sameAs: ['https://github.com/pank770766', 'https://x.com/stevenkuep'] },
     },
   ];
   if (page.faqs.length > 0) {
@@ -51,7 +56,7 @@ export function DataPage({ page, brandName, designConfig, domain, currentSlug, r
   }
 
   return (
-    <Layout brandName={brandName} designConfig={designConfig}>
+    <Layout brandName={brandName} designConfig={designConfig} lastUpdated={page.lastUpdated} author={page.author}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson.length === 1 ? schemaJson[0] : { '@context': 'https://schema.org', '@graph': schemaJson }) }} />
       <article className="max-w-5xl mx-auto px-4 py-8">
         <header className="mb-8">

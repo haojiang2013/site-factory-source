@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>站点指挥中心</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f0fdf4;color:#18181b;font-family:system-ui,'PingFang SC','Microsoft YaHei',sans-serif;padding:32px 40px;min-height:100vh}
+.wrap{max-width:1400px;margin:0 auto}
+
+/* ── HEADER ── */
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;padding:18px 24px;background:#fff;border:1px solid #e4e4e7;border-radius:16px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
+.topbar h1{font-size:20px;font-weight:600;letter-spacing:-0.3px}
+.tag{padding:4px 14px;border-radius:24px;font-size:12px;font-weight:500}
+.tag.dim{background:#f4f4f5;color:#71717a}.tag.warn{background:rgba(245,158,11,0.1);color:#d97706}.tag.good{background:rgba(16,185,129,0.1);color:#059669}.tag.info{background:#eff6ff;color:#2563eb}
+
+/* ── KPI ── */
+.kpi{display:flex;gap:14px;margin-bottom:24px}
+.kpi .b{flex:1;background:#fff;border:1px solid #e4e4e7;border-radius:14px;padding:20px 22px;text-align:center;box-shadow:0 1px 2px rgba(0,0,0,0.02)}
+.kpi .b .v{font-size:36px;font-weight:700;letter-spacing:-1px;line-height:1.1}
+.kpi .b .lb{font-size:12px;color:#a1a1aa;margin-top:4px}
+
+/* ── TABS ── */
+.tabs{display:flex;gap:6px;margin-bottom:20px}
+.tab{padding:8px 20px;border-radius:10px;font-size:13px;color:#71717a;cursor:pointer;border:1px solid #e4e4e7;background:#fff;font-weight:500;transition:all .15s}
+.tab.sel{background:#18181b;color:#fafafa;border-color:#18181b}
+
+/* ── ALERTS ── */
+.alert{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.alert span{padding:10px 18px;border-radius:10px;font-size:13px;font-weight:500}
+.alert .w{background:rgba(245,158,11,0.08);color:#d97706;border:1px solid rgba(245,158,11,0.2)}
+.alert .ok{background:rgba(16,185,129,0.06);color:#059669;border:1px solid rgba(16,185,129,0.15)}
+
+/* ── SITE GRID ── */
+.grid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:28px}
+
+.site{background:#fff;border:1px solid #e4e4e7;border-radius:14px;padding:20px;transition:all .2s;text-decoration:none;color:inherit;display:block;position:relative;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,0.02)}
+.site::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--c)}
+.site:hover{border-color:var(--c);box-shadow:0 8px 24px rgba(0,0,0,0.08);transform:translateY(-2px)}
+.site .head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;padding-right:36px}
+.site .name{font-size:15px;font-weight:600}
+.site .cat{font-size:10px;padding:2px 8px;border-radius:4px;font-weight:600}
+.site .desc{font-size:13px;color:#71717a;margin-bottom:14px;line-height:1.5;padding-right:36px}
+.site .meta{display:flex;gap:16px;font-size:12px;color:#a1a1aa;padding-top:12px;border-top:1px solid #f4f4f5}
+.site .score{position:absolute;top:16px;right:16px;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px}
+.site .dot{width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:4px}
+.site .trend{font-size:11px;font-weight:600}
+
+/* ── SECTION HEADINGS ── */
+.section-title{font-size:16px;font-weight:600;margin-bottom:14px;color:#18181b}
+
+/* ── BOTTOM PANELS ── */
+.bottom-row{display:flex;gap:16px;margin-bottom:24px}
+.bottom-row .col{flex:1;min-width:0}
+.panel{background:#fff;border:1px solid #e4e4e7;border-radius:14px;padding:20px 22px;box-shadow:0 1px 2px rgba(0,0,0,0.02)}
+.panel h3{font-size:14px;font-weight:600;margin-bottom:14px;color:#18181b}
+.panel .row{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:12px;line-height:1.6}
+.panel .bar{flex:1;height:6px;background:#f4f4f5;border-radius:3px;overflow:hidden}
+.panel .bar div{height:100%;border-radius:3px}
+.panel .val{font-weight:600;min-width:40px;text-align:right;font-size:12px}
+.panel .tip{font-size:11px;color:#a1a1aa;margin-top:10px;padding-top:8px;border-top:1px solid #f4f4f5}
+
+/* ── SUGGESTION LIST ── */
+.sug-item{padding:10px 14px;background:#f8fafc;border-radius:8px;margin-bottom:6px;font-size:12px;line-height:1.6;border:1px solid transparent}
+.sug-item.warn{border-color:rgba(245,158,11,0.2);background:rgba(245,158,11,0.04)}
+
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.2}}
+
+/* ── COMPARE ── */
+.compare-box{display:flex;gap:20px;font-size:13px;margin-top:8px;align-items:center}
+.compare-box .side{flex:1;padding:14px 16px;background:#f8fafc;border-radius:10px;border:1px solid #e4e4e7}
+.compare-box .side b{font-size:14px}
+.compare-box .vs{font-size:18px;color:#a1a1aa;font-weight:600}
+.compare-box .stat-row{display:flex;justify-content:space-between;margin-top:6px;padding-top:6px;border-top:1px solid #f4f4f5}
+</style></head>
+<body>
+<div class="wrap">
+
+<!-- ═══ HEADER ═══ -->
+<div class="topbar">
+  <div style="display:flex;align-items:center;gap:16px">
+    <h1>🏭 站点指挥中心</h1>
+    <span class="tag dim">25 站 · 270 页</span>
+    <span class="tag good">全部在线</span>
+    <span class="tag info">⭐ 收藏 5 站</span>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <span class="tag dim" style="cursor:pointer">🔄 刷新在线检测</span>
+    <span class="tag dim" style="cursor:pointer">GA 后台 →</span>
+    <span class="tag dim" style="cursor:pointer">Vercel →</span>
+  </div>
+</div>
+
+<!-- ═══ KPI ═══ -->
+<div class="kpi">
+  <div class="b"><div class="v" style="color:#2563eb">25</div><div class="lb">站点总数</div></div>
+  <div class="b"><div class="v" style="color:#7c3aed">270</div><div class="lb">页面总数</div></div>
+  <div class="b"><div class="v" style="color:#059669">15</div><div class="lb">A 级站</div></div>
+  <div class="b"><div class="v" style="color:#d97706">8</div><div class="lb">B 级站</div></div>
+  <div class="b"><div class="v" style="color:#dc2626">2</div><div class="lb">需关注</div></div>
+  <div class="b"><div class="v" style="color:#0891b2">87%</div><div class="lb">关键词覆盖率</div></div>
+</div>
+
+<!-- ═══ ALERTS ═══ -->
+<div class="alert">
+  <span class="w">⚠ ThermoWise 仅 5 页——建议补到 8 页以上</span>
+  <span class="w">⚠ hvacwise 缺关键词研究文件——无法生成新内容</span>
+  <span class="ok">✓ 其余 23 站质量正常</span>
+</div>
+
+<!-- ═══ TABS ═══ -->
+<div class="section-title">站点列表</div>
+<div class="tabs">
+  <button class="tab sel">全部 25 站</button>
+  <button class="tab">⭐ 收藏 5 站</button>
+  <button class="tab">🧮 计算器 12 站</button>
+  <button class="tab">📊 数据对比 11 站</button>
+  <button class="tab">🎮 游戏攻略 2 站</button>
+</div>
+
+<!-- ═══ SITE CARDS ═══ -->
+<div class="grid2">
+  <!-- A组 -->
+  <a class="site" style="--c:#6366f1" href="#">
+    <span class="score" style="background:#dcfce7;color:#166534">A</span>
+    <div class="head"><span class="name">🧮 CodeBench</span><span class="cat" style="background:#eef2ff;color:#4f46e5">计算器</span></div>
+    <div class="desc">AI 编程工具对比 · devtooltrove.8zla.com</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#10b981;animation:pulse 2s infinite"></span>在线</span>
+      <span>📄 12 页</span><span>🔑 12 词</span>
+      <span class="trend" style="color:#059669">↑ 2</span>
+    </div>
+  </a>
+  <!-- B组 -->
+  <a class="site" style="--c:#2563eb" href="#">
+    <span class="score" style="background:#dcfce7;color:#166534">A</span>
+    <div class="head"><span class="name">🧮 MoveWise</span><span class="cat" style="background:#eff6ff;color:#2563eb">计算器</span></div>
+    <div class="desc">搬家费用计算器 · gomovecalc.xyz</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#10b981;animation:pulse 2s infinite"></span>在线</span>
+      <span>📄 13 页</span><span>🔑 18 词</span>
+      <span class="trend" style="color:#059669">↑ 3</span>
+    </div>
+  </a>
+  <!-- C组 -->
+  <a class="site" style="--c:#10b981" href="#">
+    <span class="score" style="background:#fef3c7;color:#92400e">B</span>
+    <div class="head"><span class="name">🧮 EarthWise</span><span class="cat" style="background:#ecfdf5;color:#059669">计算器</span></div>
+    <div class="desc">花园土壤计算器 · soilwise.8zla.com</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#10b981;animation:pulse 2s infinite"></span>在线</span>
+      <span>📄 13 页</span><span>🔑 15 词</span>
+    </div>
+  </a>
+  <!-- D组 -->
+  <a class="site" style="--c:#ea580c" href="#">
+    <span class="score" style="background:#dcfce7;color:#166534">A</span>
+    <div class="head"><span class="name">🧮 MixWise</span><span class="cat" style="background:#fff7ed;color:#ea580c">计算器</span></div>
+    <div class="desc">混凝土用量计算器 · pourtrue.8zla.com</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#10b981;animation:pulse 2s infinite"></span>在线</span>
+      <span>📄 9 页</span><span>🔑 10 词</span>
+    </div>
+  </a>
+  <!-- E组 -->
+  <a class="site" style="--c:#a855f7" href="#">
+    <span class="score" style="background:#fef3c7;color:#92400e">B</span>
+    <div class="head"><span class="name">🎮 BossPlan</span><span class="cat" style="background:#f5f3ff;color:#a855f7">攻略</span></div>
+    <div class="desc">游戏 Boss 攻略指南 · bossbreak.8zla.com</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#10b981;animation:pulse 2s infinite"></span>在线</span>
+      <span>📄 13 页</span><span>🔑 14 词</span>
+    </div>
+  </a>
+  <!-- 问题站 -->
+  <a class="site" style="--c:#dc2626" href="#">
+    <span class="score" style="background:#fee2e2;color:#991b1b">C</span>
+    <div class="head"><span class="name">🧮 ThermoWise</span><span class="cat" style="background:#fff7ed;color:#ea580c">计算器</span></div>
+    <div class="desc">⚠ 仅 5 页 · 建议补到 8 页以上</div>
+    <div class="meta">
+      <span><span class="dot" style="background:#a1a1aa"></span>未检测</span>
+      <span>📄 5 页</span><span>🔑 14 词</span>
+      <span class="trend" style="color:#dc2626">⚠</span>
+    </div>
+  </a>
+</div>
+
+<!-- ═══ BOTTOM ROW ═══ -->
+<div class="section-title">数据面板</div>
+<div class="bottom-row">
+  <!-- Panel 1: 智能建议 + 对比 -->
+  <div class="col">
+    <div class="panel" style="margin-bottom:16px">
+      <h3>💡 智能建议</h3>
+      <div class="sug-item warn">ThermoWise 仅 5 页——建议补到 8 页以上</div>
+      <div class="sug-item warn">hvacwise 缺关键词研究文件</div>
+      <div class="sug-item">MixWise 9 页——可补到 12 页目标</div>
+      <div class="sug-item">23 站质量良好，继续保持</div>
+      <div class="tip">基于当前数据自动生成 · 实时更新</div>
+    </div>
+
+    <div class="panel">
+      <h3>🔄 快速对比</h3>
+      <div class="compare-box">
+        <div class="side"><b>MoveWise</b><div class="stat-row"><span>页数</span><span>13</span></div><div class="stat-row"><span>关键词</span><span>18</span></div><div class="stat-row"><span>评级</span><span style="color:#059669">A</span></div></div>
+        <div class="vs">VS</div>
+        <div class="side"><b>MixWise</b><div class="stat-row"><span>页数</span><span>9</span></div><div class="stat-row"><span>关键词</span><span>10</span></div><div class="stat-row"><span>评级</span><span style="color:#059669">A</span></div></div>
+      </div>
+      <div class="tip">勾选任意 2 站触发对比</div>
+    </div>
+  </div>
+
+  <!-- Panel 2: 地区 + 流量 -->
+  <div class="col">
+    <div class="panel" style="margin-bottom:16px">
+      <h3>🌍 访问地区</h3>
+      <div class="row"><span>🇺🇸 美国</span><span style="flex:1"></span><span class="val">58%</span><div class="bar"><div style="width:58%;background:#2563eb"></div></div></div>
+      <div class="row"><span>🇬🇧 英国</span><span class="val">12%</span><div class="bar"><div style="width:12%;background:#7c3aed"></div></div></div>
+      <div class="row"><span>🇨🇦 加拿大</span><span class="val">8%</span><div class="bar"><div style="width:8%;background:#059669"></div></div></div>
+      <div class="row"><span>🇦🇺 澳大利亚</span><span class="val">5%</span><div class="bar"><div style="width:5%;background:#d97706"></div></div></div>
+      <div class="row"><span>🌐 其他地区</span><span class="val">17%</span><div class="bar"><div style="width:17%;background:#a1a1aa"></div></div></div>
+      <div class="tip">等流量数据累积后自动生成</div>
+    </div>
+
+    <div class="panel">
+      <h3>🔗 流量来源</h3>
+      <div class="row"><span>🔍 Google 搜索</span><span class="val">45%</span><div class="bar"><div style="width:45%;background:#2563eb"></div></div></div>
+      <div class="row"><span>🟢 直接访问</span><span class="val">30%</span><div class="bar"><div style="width:30%;background:#059669"></div></div></div>
+      <div class="row"><span>🦊 Reddit</span><span class="val">15%</span><div class="bar"><div style="width:15%;background:#ea580c"></div></div></div>
+      <div class="row"><span>📌 Pinterest</span><span class="val">5%</span><div class="bar"><div style="width:5%;background:#dc2626"></div></div></div>
+      <div class="tip">等流量数据累积后自动生成</div>
+    </div>
+  </div>
+
+  <!-- Panel 3: 分布图 + 反馈 -->
+  <div class="col">
+    <div class="panel" style="margin-bottom:16px">
+      <h3>🗺️ 分组分布</h3>
+      <div style="display:flex;gap:12px;font-size:13px;flex-wrap:wrap;margin-top:4px">
+        <div style="padding:14px 18px;background:#eef2ff;border-radius:10px;text-align:center;min-width:80px"><div style="font-size:22px;font-weight:700;color:#4f46e5">11</div><div style="font-size:11px;color:#71717a;margin-top:4px">AI 工具</div></div>
+        <div style="padding:14px 18px;background:#eff6ff;border-radius:10px;text-align:center;min-width:80px"><div style="font-size:22px;font-weight:700;color:#2563eb">2</div><div style="font-size:11px;color:#71717a;margin-top:4px">金融</div></div>
+        <div style="padding:14px 18px;background:#ecfdf5;border-radius:10px;text-align:center;min-width:80px"><div style="font-size:22px;font-weight:700;color:#059669">4</div><div style="font-size:11px;color:#71717a;margin-top:4px">家用</div></div>
+        <div style="padding:14px 18px;background:#fff7ed;border-radius:10px;text-align:center;min-width:80px"><div style="font-size:22px;font-weight:700;color:#ea580c">5</div><div style="font-size:11px;color:#71717a;margin-top:4px">工业</div></div>
+        <div style="padding:14px 18px;background:#f5f3ff;border-radius:10px;text-align:center;min-width:80px"><div style="font-size:22px;font-weight:700;color:#a855f7">3</div><div style="font-size:11px;color:#71717a;margin-top:4px">游戏</div></div>
+      </div>
+      <div class="tip">5 组分布均匀 · 工业组最多</div>
+    </div>
+
+    <div class="panel">
+      <h3>💬 用户反馈信号</h3>
+      <div class="row">📧 邮件订阅 — <b>3 人</b></div>
+      <div class="row">🔗 Reddit 提及 — <b>0 次</b></div>
+      <div class="row">📝 站内反馈 — <b>0 条</b></div>
+      <div class="row">⭐ 收藏站点 — <b>5 站</b></div>
+      <div class="tip">刚起步 · 随着时间积累</div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;font-size:11px;color:#d4d4d8;margin-top:8px;padding:16px">
+  所有功能在一个页面 · 滚动查看 · 左卡+右数据+底对比 · 字大够清晰
+</div>
+
+</div></body></html>

@@ -170,6 +170,12 @@
       "link": "https://www.floorwise.com",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link. This does not affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -326,6 +332,12 @@
       "link": "https://www.amazon.com/dp/B0009PXY4A",
       "platform": "amazon",
       "disclosureText": "We earn a commission if you purchase, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -505,6 +517,12 @@
       "link": "https://www.shawfloors.com/laminate",
       "platform": "partners",
       "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -681,6 +699,12 @@
       "link": "https://www.floorwise.com/dream-weaver-carpet",
       "platform": "partners",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This does not affect our recommendations."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -856,6 +880,12 @@
       "link": "https://www.amazon.com/dp/B0018CQ6XG",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This doesn't affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -925,7 +955,13 @@
     "slug": "hardwood-flooring-calculator",
     "title": "Free Hardwood Flooring Calculator – Accurate Cost & Waste Estimator",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Laminate Flooring Calculator – Accurate Cost with Underlayment & Irregular Rooms",
@@ -994,7 +1030,13 @@
     "slug": "laminate-flooring-calculator",
     "title": "Free Laminate Flooring Calculator – Accurate Cost with Underlayment & Irregular Rooms",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Flooring Estimate Calculator – No Phone Number Required",
@@ -1058,7 +1100,13 @@
     "slug": "flooring-estimate-calculator",
     "title": "Free Flooring Estimate Calculator – No Phone Number Required",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Vinyl Flooring Calculator: Instantly Estimate LVP & Luxury Plank Costs",
@@ -1127,6 +1175,12 @@
     "slug": "vinyl-flooring-calculator",
     "title": "Free Vinyl Flooring Calculator: Instantly Estimate LVP & Luxury Plank Costs",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

@@ -116,6 +116,8 @@ export default async function SubPage({ params, searchParams }: { params: Promis
           sections: page.sections.filter((s: any) => s.type === 'text').map((s: any) => ({ heading: s.heading, body: s.body })),
           faqs: page.faqs || [],
           affiliateCTA: page.affiliateCTA || null,
+          lastUpdated: page.lastUpdated,
+          author: page.author,
         }}
         brandName={brand}
         designConfig={designConfig}
@@ -143,6 +145,8 @@ export default async function SubPage({ params, searchParams }: { params: Promis
           dataCards: page.dataCards || [],
           miniToolCode: entry.tool.jsCode?.slice(0, 3000) || '',
           faqs: page.faqs || [],
+          lastUpdated: page.lastUpdated,
+          author: page.author,
         }}
         brandName={brand}
         designConfig={designConfig}

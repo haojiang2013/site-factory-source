@@ -17,6 +17,8 @@ export interface GuidePageContent {
   dataCards: DataCardItem[];
   miniToolCode?: string;
   faqs: { question: string; answer: string }[];
+  lastUpdated?: string;
+  author?: { name: string; url: string; jobTitle?: string };
 }
 
 export function GuidePage({ page, brandName, designConfig, domain, currentSlug, relatedPages }: {
@@ -36,7 +38,11 @@ export function GuidePage({ page, brandName, designConfig, domain, currentSlug, 
       '@type': 'Article',
       headline: page.h1,
       description: page.metaDescription,
-      author: { '@type': 'Organization', name: brandName },
+      author: page.author
+        ? { '@type': 'Person', name: page.author.name, url: page.author.url }
+        : { '@type': 'Organization', name: brandName },
+      ...(page.lastUpdated ? { dateModified: page.lastUpdated, datePublished: page.lastUpdated } : {}),
+      publisher: { '@type': 'Organization', name: brandName, url: domain ? `https://${domain}` : undefined, sameAs: ['https://github.com/pank770766', 'https://x.com/stevenkuep'] },
     },
   ];
   if (page.faqs.length > 0) {
@@ -52,7 +58,7 @@ export function GuidePage({ page, brandName, designConfig, domain, currentSlug, 
   }
 
   return (
-    <Layout brandName={brandName} designConfig={designConfig}>
+    <Layout brandName={brandName} designConfig={designConfig} lastUpdated={page.lastUpdated} author={page.author}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson.length === 1 ? schemaJson[0] : { '@context': 'https://schema.org', '@graph': schemaJson }) }} />
       <article className="max-w-5xl mx-auto px-4 py-8">
         <header className="mb-8">

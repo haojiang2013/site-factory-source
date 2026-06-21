@@ -138,6 +138,12 @@
       "link": "https://www.rocketmortgage.com",
       "platform": "partners",
       "disclosureText": "If you refinance or get a new mortgage through this link, we may earn a small commission at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -262,6 +268,12 @@
       "link": "https://www.equityflow.com/mortgage-payoff-planner",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link. No extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -338,6 +350,12 @@
       "link": "https://equityflow.com/tools/biweekly-mortgage-calculator-with-extra-payments",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through our links. This does not affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -449,6 +467,12 @@
       "link": "https://equityflow.com/mortgage-payoff-accelerator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link. This does not affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -589,6 +613,12 @@
       "link": "https://equityflow.com/tools/mortgage-overpayment-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you use EquityFlow's tools or services. This does not affect our calculator results."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -658,7 +688,13 @@
     "slug": "mortgage-prepayment-calculator-us",
     "title": "Free Mortgage Prepayment Calculator US – See Your Real Savings with PMI & Escrow",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Extra Principal Payment Calculator – Model Irregular Payments & ARM Rates",
@@ -727,7 +763,13 @@
     "slug": "extra-principal-payment-calculator",
     "title": "Free Extra Principal Payment Calculator – Model Irregular Payments & ARM Rates",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "How Does Paying Extra on Mortgage Work? See Your Savings with $200/mo",
@@ -791,7 +833,13 @@
     "slug": "how-does-paying-extra-on-mortgage-work",
     "title": "How Does Paying Extra on Mortgage Work? See Your Savings with $200/mo",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Mortgage Calculator with Extra Payments Biweekly – Side-by-Side Comparison Tool",
@@ -860,6 +908,12 @@
     "slug": "mortgage-calculator-with-extra-payments-biweekly",
     "title": "Mortgage Calculator with Extra Payments Biweekly – Side-by-Side Comparison Tool",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

@@ -178,6 +178,12 @@
       "link": "https://www.homedepot.com/p/AmpFlow-200-Amp-30-Space-60-Circuit-Main-Breaker-Load-Center-AF200M/309876543",
       "platform": "homedepot",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -246,12 +252,39 @@
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "What is a residential electrical load calculation?",
+        "answer": "It's the process of adding up all electrical loads in your home — lights, appliances, HVAC, water heater — to determine the minimum panel size you need. It's required for permits, panel upgrades, and new builds per NEC Article 220."
+      },
+      {
+        "question": "How do I know if my panel is oversized or undersized?",
+        "answer": "If your main breaker trips when running the AC and dryer at the same time, your panel is likely undersized. If you have a 200A panel but the calculator shows only 80A of load, it may be oversized. Our calculator shows your calculated load vs. recommended panel size."
+      },
+      {
+        "question": "Is this calculator free? No email required?",
+        "answer": "Yes. No email, no signup. Just enter your appliances and get the load calculation instantly."
+      },
+      {
+        "question": "Can I use this for a permit application?",
+        "answer": "This calculator follows NEC Article 220 methodology and provides a reasonable estimate. Most jurisdictions require a licensed electrician's signed load calculation for permits. Use our result as a starting point, but get a pro to finalize for your permit application."
+      },
+      {
+        "question": "What appliances draw the most power?",
+        "answer": "HVAC systems (3,500-6,000W), electric water heaters (4,500W), electric dryers (5,000W), and electric ranges (8,000W) are the biggest draws. EVs add 7,200-11,500W. Our calculator accounts for demand factors — not all loads run simultaneously."
+      }
+    ],
     "affiliateCTA": {
       "productName": "AmpFlow Pick: Klein Tools CL800 Digital Clamp Meter",
       "link": "https://www.amazon.com/Klein-Tools-CL800-Auto-Ranging-600-Volt/dp/B07G4JZNY8",
       "platform": "amazon",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you. This helps us keep the calculator free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -323,6 +356,12 @@
       "link": "https://www.ampflow.com/load-calculator-pro",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link. This doesn't affect our recommendations."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -462,6 +501,12 @@
       "link": "https://www.amazon.com/dp/1455927378",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This helps us keep the tool free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -658,6 +703,12 @@
       "link": "https://www.amazon.com/Klein-Tools-CL800-Auto-Ranging-Capacitance/dp/B07F82N3Y3",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate we earn from qualifying purchases. This doesn't affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -727,7 +778,13 @@
     "slug": "how-to-do-a-load-calculation-for-a-house",
     "title": "How to Do a Load Calculation for a House – Free AmpFlow Electrical Load Calculator",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best Electrical Load Calculator App for iPad & iPhone – Free & Reliable",
@@ -791,7 +848,13 @@
     "slug": "best-electrical-load-calculator-app",
     "title": "Best Electrical Load Calculator App for iPad & iPhone – Free & Reliable",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free EV Charger Load Calculator – Accurate Load Calculation for Electric Car Charger",
@@ -860,7 +923,13 @@
     "slug": "load-calculation-for-electric-car-charger",
     "title": "Free EV Charger Load Calculator – Accurate Load Calculation for Electric Car Charger",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Electrical Load Calculation Software for Windows – Modern, Fast & Cloud-Ready",
@@ -929,6 +998,12 @@
     "slug": "free-electrical-load-calculation-software-for-windows",
     "title": "Free Electrical Load Calculation Software for Windows – Modern, Fast & Cloud-Ready",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

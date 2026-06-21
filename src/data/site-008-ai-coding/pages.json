@@ -111,7 +111,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "best-ai-coding-assistant-2026-compare-pricing-and-features"
+    "slug": "best-ai-coding-assistant-2026-compare-pricing-and-features",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "GitHub Copilot vs Cursor: Which AI Code Assistant Is Best?",
@@ -199,7 +205,13 @@
         "question": "Do these tools work offline?",
         "answer": "No, both require an internet connection as AI processing happens in the cloud. However, Copilot does cache recent suggestions, and Cursor can work with reduced functionality on slower connections."
       }
-    ]
+    ],
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "Cursor vs Codeium: Which AI Code Assistant Wins? (2026 Comparison)",
@@ -304,7 +316,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "cursor-vs-codeium-choosing-the-best-ai-code-assistant"
+    "slug": "cursor-vs-codeium-choosing-the-best-ai-code-assistant",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "Best Free AI Coding Assistants Without Login (2026)",
@@ -426,7 +444,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "free-ai-coding-assistant-no-login-top-tools-compared"
+    "slug": "free-ai-coding-assistant-no-login-top-tools-compared",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "AI Coding Tools That Don't Send Your Code to the Cloud (2026)",
@@ -548,7 +572,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "best-ai-coding-tools-that-dont-send-your-code-to-the-cloud"
+    "slug": "best-ai-coding-tools-that-dont-send-your-code-to-the-cloud",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Find the Cheapest AI Coding Assistant: Hidden Costs & Free Tiers Compared",
@@ -617,7 +647,13 @@
     "slug": "cheapest-ai-coding-assistant",
     "title": "Find the Cheapest AI Coding Assistant: Hidden Costs & Free Tiers Compared",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best AI Code Generator for Python: Find the Perfect Tool for Pandas & ML",
@@ -686,7 +722,13 @@
     "slug": "best-ai-code-generator-for-python",
     "title": "Best AI Code Generator for Python: Find the Perfect Tool for Pandas & ML",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best AI Pair Programming Tools 2026: Real-Time Collaboration & Voice Features",
@@ -755,7 +797,13 @@
     "slug": "ai-pair-programming-tools-2026",
     "title": "Best AI Pair Programming Tools 2026: Real-Time Collaboration & Voice Features",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "AI Code Review Tools Comparison: Find the Best Fit for Your Team",
@@ -824,7 +872,13 @@
     "slug": "ai-code-review-tools-comparison",
     "title": "AI Code Review Tools Comparison: Find the Best Fit for Your Team",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best GitHub Copilot Alternatives 2026: Top AI Coding Tools Compared",
@@ -893,7 +947,13 @@
     "slug": "github-copilot-alternatives-2026",
     "title": "Best GitHub Copilot Alternatives 2026: Top AI Coding Tools Compared",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "AI Code Generation Accuracy Benchmark: Real-World Multi-File Projects & Non-English Languages",
@@ -962,7 +1022,13 @@
     "slug": "ai-code-generation-accuracy-benchmark",
     "title": "AI Code Generation Accuracy Benchmark: Real-World Multi-File Projects & Non-English Languages",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Find the Best AI Coding Plugin for VS Code: Performance & Stability Compared",
@@ -1026,6 +1092,12 @@
     "slug": "best-ai-coding-plugin-for-vscode",
     "title": "Find the Best AI Coding Plugin for VS Code: Performance & Stability Compared",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

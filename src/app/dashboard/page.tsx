@@ -30,6 +30,22 @@ const countryFlag = (code: string): string => {
   return String.fromCodePoint(base + code.charCodeAt(0), base + code.charCodeAt(1));
 };
 
+// Country code → Chinese name
+const countryCN = (code: string): string => {
+  const map: Record<string,string> = {
+    US:'美国',SG:'新加坡',CN:'中国',AE:'阿联酋',CA:'加拿大',FR:'法国',JP:'日本',
+    CL:'智利',DE:'德国',IR:'伊朗',RU:'俄罗斯',TW:'台湾',HK:'香港',KR:'韩国',
+    GB:'英国',AU:'澳大利亚',IN:'印度',BR:'巴西',IT:'意大利',ES:'西班牙',
+    MX:'墨西哥',NL:'荷兰',SE:'瑞典',CH:'瑞士',NO:'挪威',DK:'丹麦',
+    FI:'芬兰',PL:'波兰',TR:'土耳其',SA:'沙特',TH:'泰国',VN:'越南',
+    ID:'印尼',MY:'马来西亚',PH:'菲律宾',NZ:'新西兰',IE:'爱尔兰',AT:'奥地利',
+    BE:'比利时',PT:'葡萄牙',CZ:'捷克',GR:'希腊',HU:'匈牙利',RO:'罗马尼亚',
+    UA:'乌克兰',ZA:'南非',EG:'埃及',NG:'尼日利亚',KE:'肯尼亚',IL:'以色列',
+    PK:'巴基斯坦',BD:'孟加拉',CO:'哥伦比亚',AR:'阿根廷',PE:'秘鲁',
+  };
+  return map[code] || '';
+};
+
 export default function DashboardPage() {
   const [sites, setSites] = useState<SiteItem[]>([]);
   const [totalPages, setTotalPages] = useState(0);
@@ -355,7 +371,7 @@ export default function DashboardPage() {
               <div style={{display:'flex',flexDirection:'column',gap:6}}>
                 {gaData.geo.slice(0,6).map((g:any,i:number)=>(
                   <div key={i} style={{display:'flex',justifyContent:'space-between',fontSize:12,alignItems:'center'}}>
-                    <span>{countryFlag(g.country)} {g.country}</span>
+                    <span>{countryFlag(g.country)} {countryCN(g.country) || g.country}</span>
                     <span style={{color:'#a1a1aa'}}>{g.users} 用户</span>
                   </div>
                 ))}

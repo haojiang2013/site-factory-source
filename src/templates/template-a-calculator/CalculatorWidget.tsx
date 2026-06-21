@@ -1,5 +1,16 @@
 'use client';
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
+
+// Determine best inputMode based on field name/type
+function getInputMode(name: string, placeholder?: string): 'decimal' | 'numeric' | 'text' {
+  // Integer-only fields (counts, bags, doors, windows, levels, etc.)
+  if (/bags|doors|windows|coats|levels|stories|people|rooms|bedrooms|floors|units|count/i.test(name)) return 'numeric';
+  // Decimal fields (distance, area, cost, rate, etc.)
+  if (/distance|width|length|height|area|cost|price|rate|amount|payment|term|miles|km|ft|sqft|sqm|percent|gallon|litre|liter/i.test(name)) return 'decimal';
+  // Check placeholder for hints
+  if (placeholder && /\$|cost|price|rate/i.test(placeholder)) return 'decimal';
+  return 'decimal'; // default to decimal for calculator inputs
+}
 
 const DEFAULT_PARAMS = [
   { name:'movingType',label:'Move Type',type:'select',options:[['local','🏠 Local'],['long_distance','🚚 Long Distance'],['international','✈️ International']] },
@@ -34,8 +45,9 @@ export function CalculatorWidget({ toolCode, brandName, ctaText, buttonStyle, in
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [inputs, setInputs] = useState<Record<string, string|boolean>>({});
+  const urlUpdatedRef = useRef(false);
 
-  // Init engine + read dynamic params
+  // Init engine + read dynamic params + URL param prefill
   useEffect(() => {
     try {
       const fn=new Function(toolCode+';return typeof calculator!==\'undefined\'?calculator:null;');
@@ -43,14 +55,35 @@ export function CalculatorWidget({ toolCode, brandName, ctaText, buttonStyle, in
       // Read CALC_PARAMS for dynamic form fields
       const paramsFn=new Function(toolCode+';return typeof CALC_PARAMS!==\'undefined\'?CALC_PARAMS:null;');
       const params=paramsFn();
-      if(params){ const defaultInputs:Record<string,string|boolean>={}; params.forEach((p:any)=>{ defaultInputs[p.name]=p.type==='checkbox'?false:p.type==='select'&&p.options?p.options[0][0]:''; }); setInputs(defaultInputs); setCalcParams(params); setHasInteracted(true); }
+      const effectiveParams = params || DEFAULT_PARAMS;
+
+      // Try to read pre-filled values from URL query string
+      const urlParams = typeof window !== 'undefined' ? new URL(window.location.href).searchParams : null;
+      const defaultInputs: Record<string, string|boolean> = {};
+      let hasUrlParams = false;
+
+      effectiveParams.forEach((p: any) => {
+        const urlVal = urlParams?.get(p.name);
+        if (urlVal !== null && urlVal !== undefined) {
+          // URL param found — use it
+          defaultInputs[p.name] = p.type === 'checkbox' ? (urlVal === 'true' || urlVal === '1') : urlVal;
+          hasUrlParams = true;
+        } else {
+          defaultInputs[p.name] = p.type === 'checkbox' ? false : p.type === 'select' && p.options ? p.options[0][0] : '';
+        }
+      });
+
+      setInputs(defaultInputs);
+      if (params) setCalcParams(params);
+      if (hasUrlParams) { setShowAdvanced(true); setHasInteracted(true); }
+      else if (params) setHasInteracted(true);
     } catch { setCalc(null); }
   }, [toolCode]);
   const [calcParams, setCalcParams] = useState<any[]|null>(null);
 
   const update = (k:string, v:string|boolean) => { setInputs(prev=>({...prev,[k]:v})); setHasInteracted(true); };
 
-  // Auto-calc debounced — fires on ANY input change when calc engine is ready
+  // Auto-calc debounced + URL sync — fires on ANY input change when calc engine is ready
   useEffect(() => {
     if (!calc) return;
     const t = setTimeout(() => {
@@ -63,6 +96,20 @@ export function CalculatorWidget({ toolCode, brandName, ctaText, buttonStyle, in
       }
       // Skip if no meaningful values
       const nonEmpty = Object.values(vals).filter(v => v !== '' && v !== 0 && v !== false).length;
+      // Sync URL with current inputs (replaceState to avoid history spam)
+      if (typeof window !== 'undefined' && hasInteracted) {
+        const url = new URL(window.location.href);
+        const params = calcParams || DEFAULT_PARAMS;
+        params.forEach((p: any) => {
+          const val = inputs[p.name];
+          if (val !== '' && val !== false && val !== undefined && val !== null) {
+            url.searchParams.set(p.name, String(val));
+          } else {
+            url.searchParams.delete(p.name);
+          }
+        });
+        window.history.replaceState(null, '', url.toString());
+      }
       if (nonEmpty === 0) return;
       try {
         const r = calc.calculate ? calc.calculate(vals) : calc(vals);
@@ -101,7 +148,7 @@ export function CalculatorWidget({ toolCode, brandName, ctaText, buttonStyle, in
               {showAdvanced && (
                 <div style={{display:'flex',gap:24,marginBottom:16,paddingTop:12,borderTop:'1px solid #f0f0f0',flexWrap:'wrap'}}>
                   {(calcParams||DEFAULT_PARAMS).filter((p:any)=>p.type==='checkbox').map((p:any)=>(
-                    <label key={p.name} style={{display:'flex',alignItems:'center',gap:8,fontSize:13,cursor:'pointer'}}><input type="checkbox" checked={!!inputs[p.name]} onChange={e=>update(p.name,e.target.checked)} /> {p.label}</label>
+                    <label key={p.name} style={{display:'flex',alignItems:'center',gap:10,fontSize:14,cursor:'pointer',padding:'8px 0',minHeight:44}}><input type="checkbox" checked={!!inputs[p.name]} onChange={e=>update(p.name,e.target.checked)} style={{width:20,height:20,cursor:'pointer',accentColor:'#2563eb'}} /> {p.label}</label>
                   ))}
                 </div>
               )}
@@ -148,6 +195,7 @@ export function CalculatorWidget({ toolCode, brandName, ctaText, buttonStyle, in
           <div style={{display:'flex',gap:8,marginTop:16,flexWrap:'wrap'}}>
             <button onClick={saveResult} style={{padding:'6px 14px',borderRadius:20,border:'1px solid #d0d0d0',background:saved?'#dcfce7':'#fff',fontSize:12,cursor:'pointer'}}>{saved?'✓ Saved':'💾 Save'}</button>
             <CopyLinkButton inputs={inputs} />
+            <ShareButton brandName={brandName} results={results} />
             <EmbedCodeButton />
             <button onClick={()=>window.print()} style={{padding:'6px 14px',borderRadius:20,border:'1px solid #d0d0d0',background:'#fff',fontSize:12,cursor:'pointer'}}>📄 Print</button>
           </div>
@@ -191,7 +239,7 @@ function SelectField({label,name,opts,value,onChange,sty,isDark,labelColor}:{lab
 }
 function NumberField({label,name,placeholder,value,onChange,sty,isDark,labelColor}:{label:string;name:string;placeholder:string;value:Record<string,string|boolean>;onChange:(k:string,v:string|boolean)=>void;sty?:string;isDark?:boolean;labelColor?:string}) {
   return <div><label style={{fontSize:13,fontWeight:600,color:labelColor||'#555',display:'block',marginBottom:4}}>{label}</label>
-    <input value={String(value[name]||'')} onChange={e=>onChange(name,e.target.value)} type="number" inputMode="decimal" placeholder={placeholder} style={selectStyle(sty,isDark)} /></div>;
+    <input value={String(value[name]||'')} onChange={e=>onChange(name,e.target.value)} type="number" inputMode={getInputMode(name, placeholder)} placeholder={placeholder} style={selectStyle(sty,isDark)} /></div>;
 }
 
 // Share link — encodes all inputs in URL query string
@@ -207,6 +255,28 @@ function CopyLinkButton({ inputs }: { inputs: Record<string, string | boolean> }
     }).catch(() => {});
   };
   return <button onClick={copy} style={{ padding: '6px 14px', borderRadius: 20, border: '1px solid #d0d0d0', background: copied ? '#dbeafe' : '#fff', fontSize: 12, cursor: 'pointer' }}>{copied ? '✓ Link Copied!' : '🔗 Copy Link'}</button>;
+}
+
+// Share on social — pre-filled text with results
+function ShareButton({ brandName, results }: { brandName: string; results: Record<string, string> | null }) {
+  const [show, setShow] = useState(false);
+  if (!results) return null;
+  const totalVal = results.total ? String(results.total) : '';
+  const text = encodeURIComponent(`I just used ${brandName} — ${totalVal ? 'my estimate came out to ' + totalVal + '. ' : ''}Free tool, no signup needed.`);
+  const url = typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : '';
+  return (
+    <div style={{ position: 'relative', display: 'inline' }}>
+      <button onClick={() => setShow(!show)} style={{ padding: '6px 14px', borderRadius: 20, border: '1px solid #d0d0d0', background: '#fff', fontSize: 12, cursor: 'pointer' }}>📤 Share</button>
+      {show && (
+        <div style={{ position: 'absolute', bottom: 40, right: 0, background: '#fff', padding: 10, borderRadius: 10, fontSize: 12, width: 200, zIndex: 20, boxShadow: '0 4px 16px rgba(0,0,0,0.12)', border: '1px solid #e2e8f0' }}>
+          <a href={`https://twitter.com/intent/tweet?text=${text}&url=${url}`} target="_blank" rel="noopener" style={{ display: 'block', padding: '6px 8px', color: '#1d9bf0', textDecoration: 'none', borderRadius: 6 }}>𝕏 Share on X</a>
+          <a href={`https://www.reddit.com/submit?url=${url}&title=${text}`} target="_blank" rel="noopener" style={{ display: 'block', padding: '6px 8px', color: '#ff4500', textDecoration: 'none', borderRadius: 6 }}>💬 Share on Reddit</a>
+          <a href={`mailto:?subject=${encodeURIComponent('Check out ' + brandName)}&body=${text}%0A%0A${url}`} style={{ display: 'block', padding: '6px 8px', color: '#334155', textDecoration: 'none', borderRadius: 6 }}>✉️ Share via Email</a>
+          <button onClick={() => setShow(false)} style={{ display: 'block', width: '100%', marginTop: 4, padding: '4px', border: 'none', background: '#f1f5f9', borderRadius: 6, fontSize: 11, cursor: 'pointer' }}>Close</button>
+        </div>
+      )}
+    </div>
+  );
 }
 
 // Embed code — generates iframe snippet

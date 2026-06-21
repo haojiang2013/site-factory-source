@@ -191,6 +191,12 @@
       "link": "https://www.remodeling.hw.net/cost-vs-value/2024/",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you. This helps us keep our tools free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -327,6 +333,12 @@
       "link": "https://www.homeadvisor.com/cost/kitchens/",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you use this service. It helps keep our tools free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -362,12 +374,43 @@
         "body": "Use the calculator above. Enter your zip code. Choose standard or luxury. BuildCost will show you a realistic estimate. No sign-up. No spam. Just a number you can trust."
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How much does a bathroom remodel cost in 2026?",
+        "answer": "The national average is $12,000-$35,000. A basic refresh (paint, fixtures, toilet) runs $5,000-$10,000. A full gut renovation with tile, tub/shower, vanity, and plumbing averages $20,000-$35,000. Luxury remodels can exceed $50,000. Use our calculator with your ZIP code for localized estimates."
+      },
+      {
+        "question": "Why does my ZIP code affect remodel costs?",
+        "answer": "Labor rates vary dramatically by region. A bathroom remodel in San Francisco or New York City costs 2-3x more than the same job in rural Ohio. Material costs also vary by market. Our calculator adjusts for local labor rates, permit fees, and material costs by location."
+      },
+      {
+        "question": "Is this calculator free? No email required?",
+        "answer": "Yes. No email, no sign-up, no hidden upsells. Just use it and get your estimate."
+      },
+      {
+        "question": "What does the estimate include and exclude?",
+        "answer": "Includes: materials (tile, fixtures, vanity, toilet, lighting), labor (plumbing, electrical, tiling, carpentry), and standard permit fees. Excludes: structural repairs, asbestos/lead abatement, design fees, and unexpected issues found during demo."
+      },
+      {
+        "question": "How accurate is this bathroom remodel cost estimator?",
+        "answer": "It's based on the 2026 Remodeling Magazine Cost vs. Value Report and HomeAdvisor True Cost Guide. Accuracy is typically ±15-20%. For exact pricing, always get 3+ contractor quotes — but our estimate gives you a solid starting number for budgeting."
+      },
+      {
+        "question": "Should I DIY or hire a contractor?",
+        "answer": "For cosmetic updates (paint, hardware, mirror), DIY saves money. For plumbing, electrical, or tile work — hire a licensed pro. Mistakes in wet areas cause water damage that costs far more than the labor you saved. Our estimate assumes professional installation."
+      }
+    ],
     "affiliateCTA": {
       "productName": "BuildCost Pick: Bathroom Remodel Cost Calculator",
       "link": "https://buildcost.com/bathroom-remodel-cost-estimate",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you use our tool. This helps keep BuildCost free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -542,6 +585,12 @@
       "link": "https://buildcost.com/whole-house-remodel-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -737,6 +786,12 @@
       "link": "https://www.homeadvisor.com/profinder/",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book a service through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -806,7 +861,13 @@
     "slug": "free-renovation-budget-template-excel",
     "title": "Free Renovation Budget Template Excel – Customizable & Renovation-Specific",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Renovation Cost Estimator Without Email – Instant, No Sign-Up Required",
@@ -870,7 +931,13 @@
     "slug": "renovation-cost-estimator-without-email",
     "title": "Free Renovation Cost Estimator Without Email – Instant, No Sign-Up Required",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best Renovation Cost Estimator App – Free, Fast & Mobile-Friendly",
@@ -939,7 +1006,13 @@
     "slug": "best-renovation-cost-estimator-app",
     "title": "Best Renovation Cost Estimator App – Free, Fast & Mobile-Friendly",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Interior Renovation Cost Breakdown Room by Room – Free Interactive Tool",
@@ -1008,6 +1081,12 @@
     "slug": "interior-renovation-cost-breakdown-room-by-room",
     "title": "Interior Renovation Cost Breakdown Room by Room – Free Interactive Tool",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

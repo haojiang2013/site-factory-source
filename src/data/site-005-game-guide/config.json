@@ -148,7 +148,7 @@
       "cardShadow": "sm",
       "inputStyle": "outlined"
     },
-    "brandName": "LootLedger",
+    "brandName": "LootCove",
     "accessibilityCheck": {
       "contrastRatio": "7.2:1",
       "passes": true

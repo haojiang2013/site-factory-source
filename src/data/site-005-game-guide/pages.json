@@ -7,7 +7,7 @@
     "sections": [
       {
         "type": "tool",
-        "heading": "LootForge Database Tool",
+        "heading": "LootCove Database Tool",
         "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>⚡ LIVE LOOT PULSE ⚡</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n    body {\n      background: #0e0f1a;\n      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      min-height: 100vh;\n      padding: 20px;\n    }\n    .card {\n      max-width: 780px;\n      width: 100%;\n      background: linear-gradient(145deg, #1b1e2e, #141725);\n      border-radius: 48px;\n      padding: 2.3rem 2.5rem;\n      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 0 2px #3e3f5e inset;\n      transition: 0.2s ease;\n      border: 1px solid #5a5f85;\n    }\n    .card:hover {\n      box-shadow: 0 0 25px #7b4dff66, 0 20px 40px rgba(0,0,0,0.8);\n    }\n    .header {\n      display: flex;\n      align-items: baseline;\n      justify-content: space-between;\n      flex-wrap: wrap;\n      margin-bottom: 1.75rem;\n    }\n    .tag {\n      background: #fc3a6c;\n      font-weight: 800;\n      font-size: 0.8rem;\n      padding: 0.4rem 1.1rem;\n      border-radius: 40px;\n      color: #0b0c14;\n      letter-spacing: 0.5px;\n      text-transform: uppercase;\n      box-shadow: 0 0 12px #fc3a6c99;\n      display: inline-block;\n    }\n    h1 {\n      color: #f2f4ff;\n      font-size: 2.3rem;\n      font-weight: 800;\n      line-height: 1.2;\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n    h1 span {\n      background: #2f3350;\n      padding: 0 12px;\n      border-radius: 40px;\n      font-size: 1.1rem;\n      color: #b9bfff",
         "toolEmbed": "game-loot-database-calculator"
       },
@@ -47,12 +47,12 @@
       {
         "type": "text",
         "heading": "How This Database Helps You",
-        "body": "When I moved last year, I wasted hours on sites that promised a 'database' but delivered a list of sponsored links. Not here. LootForge is built on aggregated data from Newzoo and ESA reports. You get real ranges, not guesses. Use the tool above to compare drop rates across games. It's especially useful if you're budgeting — the average monthly spend of $25 per player is a solid benchmark. Honestly, this won't work if you're looking for ultra-niche indie games; our coverage focuses on major titles."
+        "body": "When I moved last year, I wasted hours on sites that promised a 'database' but delivered a list of sponsored links. Not here. LootCove is built on aggregated data from Newzoo and ESA reports. You get real ranges, not guesses. Use the tool above to compare drop rates across games. It's especially useful if you're budgeting — the average monthly spend of $25 per player is a solid benchmark. Honestly, this won't work if you're looking for ultra-niche indie games; our coverage focuses on major titles."
       },
       {
         "type": "comparison",
-        "heading": "LootForge vs. Typical Blog 'Databases'",
-        "body": "Most so-called databases are static articles with Amazon links. LootForge updates every 90 days or less. Here's the difference:",
+        "heading": "LootCove vs. Typical Blog 'Databases'",
+        "body": "Most so-called databases are static articles with Amazon links. LootCove updates every 90 days or less. Here's the difference:",
         "comparisonItems": [
           {
             "feature": "Real-time updates",
@@ -114,10 +114,16 @@
       }
     ],
     "affiliateCTA": {
-      "productName": "LootForge Pick: Premium Game Data Access",
+      "productName": "LootCove Pick: Premium Game Data Access",
       "link": "https://lootforge.example.com/premium",
       "platform": "partners",
       "disclosureText": "As an affiliate, we may earn from qualifying purchases. This doesn't affect our data."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -182,8 +188,8 @@
       },
       {
         "type": "comparison",
-        "heading": "LootForge vs. Traditional Wiki Tables",
-        "body": "Here's how LootForge stacks up against the old way of doing things.",
+        "heading": "LootCove vs. Traditional Wiki Tables",
+        "body": "Here's how LootCove stacks up against the old way of doing things.",
         "comparisonData": {
           "features": [
             {
@@ -247,10 +253,16 @@
       }
     ],
     "affiliateCTA": {
-      "productName": "LootForge Pick: Premium Game Data Subscription",
+      "productName": "LootCove Pick: Premium Game Data Subscription",
       "link": "https://lootforge.example.com/premium",
       "platform": "partners",
       "disclosureText": "This recommendation includes affiliate links. We may earn a small commission at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -319,8 +331,8 @@
       },
       {
         "type": "comparison",
-        "heading": "LootForge vs. Spreadsheets & Crowd-Sourced Tools",
-        "body": "Spreadsheets are slow, especially on mobile. They're a pain to navigate, and crowd-sourced rates? Those are often pulled from thin air. LootForge is different. It's a fast, mobile-friendly calculator that uses verified industry data. No more waiting for a spreadsheet to load while your raid party waits."
+        "heading": "LootCove vs. Spreadsheets & Crowd-Sourced Tools",
+        "body": "Spreadsheets are slow, especially on mobile. They're a pain to navigate, and crowd-sourced rates? Those are often pulled from thin air. LootCove is different. It's a fast, mobile-friendly calculator that uses verified industry data. No more waiting for a spreadsheet to load while your raid party waits."
       },
       {
         "type": "text",
@@ -363,22 +375,28 @@
       }
     ],
     "affiliateCTA": {
-      "productName": "LootForge Pick: Premium Drop Rate Tracker",
+      "productName": "LootCove Pick: Premium Drop Rate Tracker",
       "link": "https://lootforge.com/premium-tracker",
       "platform": "partners",
       "disclosureText": "As an affiliate, we may earn a commission if you purchase through this link. This does not affect our data or recommendations."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
     "slug": "loot-database-app",
     "title": "Loot Database App: Find Drop Rates Without Signup",
-    "metaDescription": "Stop creating accounts. LootForge shows real drop rates for 50+ games. No signup. No spam. Compare loot box prices and legendary drop chances instantly.",
+    "metaDescription": "Stop creating accounts. LootCove shows real drop rates for 50+ games. No signup. No spam. Compare loot box prices and legendary drop chances instantly.",
     "h1": "Loot Database App – Drop Rates Without the Account",
     "sections": [
       {
         "type": "text",
         "heading": "Tired of apps that force you to sign up before showing drop rates?",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><div style=\"font-family: 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); padding: 2rem; border-radius: 20px; color: #fff; box-shadow: 0 0 30px rgba(255, 215, 0, 0.3); max-width: 700px; margin: 0 auto; border: 2px solid #f7d44a;\">\n  <h2 style=\"font-size: 2.2rem; margin-top: 0; text-shadow: 0 0 12px #f7d44a; display: flex; align-items: center; gap: 10px;\">\n    ⚔️ YOU'RE NOT ALONE ⚔️\n  </h2>\n  <p style=\"font-size: 1.1rem; line-height: 1.6; background: rgba(0,0,0,0.5); padding: 1rem; border-radius: 14px; border-left: 5px solid #f7d44a;\">\n    🚫 Every loot tracker out there? <strong style=\"color: #ff6b6b;\">WANTS YOUR EMAIL</strong>. Your username. Your firstborn’s name. 💀 <br><br>\n    When I moved last year, I had to reinstall <strong>THREE DIFFERENT APPS</strong> just to check drop rates. <span style=\"color: #ffd93d;\">MADDENING.</span> 🔁💢\n  </p>\n  <div style=\"background: #1a1a3a; border-radius: 16px; padding: 1.2rem; margin: 1.5rem 0; border: 1px solid #f7d44a80; box-shadow: 0 0 20px #f7d44a40;\">\n    <p style=\"font-size: 1.8rem; font-weight: 800; margin: 0; text-transform: uppercase; letter-spacing: 2px; color: #f7d44a; text-shadow: 0 0 15px #f7d44a;\">\n      🔥 LootForge CHANGES THAT 🔥\n    </p>\n    <p style=\"font-size: 1.3rem; margin: 0.5rem 0 0;\">\n      ❌ <span style=\"text-decoration: line-through; color: #ff6b6b;\">No account</span>  ❌ <span style=\"text-decoration: line-through; color: #ff6b6b;\">No login</span>  ❌ <span style=\"text"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><div style=\"font-family: 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); padding: 2rem; border-radius: 20px; color: #fff; box-shadow: 0 0 30px rgba(255, 215, 0, 0.3); max-width: 700px; margin: 0 auto; border: 2px solid #f7d44a;\">\n  <h2 style=\"font-size: 2.2rem; margin-top: 0; text-shadow: 0 0 12px #f7d44a; display: flex; align-items: center; gap: 10px;\">\n    ⚔️ YOU'RE NOT ALONE ⚔️\n  </h2>\n  <p style=\"font-size: 1.1rem; line-height: 1.6; background: rgba(0,0,0,0.5); padding: 1rem; border-radius: 14px; border-left: 5px solid #f7d44a;\">\n    🚫 Every loot tracker out there? <strong style=\"color: #ff6b6b;\">WANTS YOUR EMAIL</strong>. Your username. Your firstborn’s name. 💀 <br><br>\n    When I moved last year, I had to reinstall <strong>THREE DIFFERENT APPS</strong> just to check drop rates. <span style=\"color: #ffd93d;\">MADDENING.</span> 🔁💢\n  </p>\n  <div style=\"background: #1a1a3a; border-radius: 16px; padding: 1.2rem; margin: 1.5rem 0; border: 1px solid #f7d44a80; box-shadow: 0 0 20px #f7d44a40;\">\n    <p style=\"font-size: 1.8rem; font-weight: 800; margin: 0; text-transform: uppercase; letter-spacing: 2px; color: #f7d44a; text-shadow: 0 0 15px #f7d44a;\">\n      🔥 LootCove CHANGES THAT 🔥\n    </p>\n    <p style=\"font-size: 1.3rem; margin: 0.5rem 0 0;\">\n      ❌ <span style=\"text-decoration: line-through; color: #ff6b6b;\">No account</span>  ❌ <span style=\"text-decoration: line-through; color: #ff6b6b;\">No login</span>  ❌ <span style=\"text"
       },
       {
         "type": "tool",
@@ -388,12 +406,12 @@
       },
       {
         "type": "table",
-        "heading": "LootForge vs Other Loot Database Apps",
-        "body": "Here's how LootForge stacks up against the competition. No fluff. Just facts.",
+        "heading": "LootCove vs Other Loot Database Apps",
+        "body": "Here's how LootCove stacks up against the competition. No fluff. Just facts.",
         "rows": [
           [
             "Feature",
-            "LootForge",
+            "LootCove",
             "LootTracker",
             "DropRatePro",
             "GameLootDB"
@@ -444,27 +462,27 @@
       },
       {
         "type": "comparison",
-        "heading": "Why Most Loot Apps Fail (And How LootForge Fixes It)",
-        "body": "Most loot database apps have the same problem: they gatekeep data behind signups. You want to know the legendary drop rate for a $2.99 loot box? Too bad—create an account first. LootForge shows you everything upfront. Drop rates range from 0.5% to 10% for legendaries. The typical legendary drop rate is 2.5%. And loot boxes cost between $1.99 and $9.99. That's the data. Use it. Don't pay to see it. Honestly, this won't work if your game isn't in our database yet—we're adding more monthly. But for the 50+ games we cover, you get instant access."
+        "heading": "Why Most Loot Apps Fail (And How LootCove Fixes It)",
+        "body": "Most loot database apps have the same problem: they gatekeep data behind signups. You want to know the legendary drop rate for a $2.99 loot box? Too bad—create an account first. LootCove shows you everything upfront. Drop rates range from 0.5% to 10% for legendaries. The typical legendary drop rate is 2.5%. And loot boxes cost between $1.99 and $9.99. That's the data. Use it. Don't pay to see it. Honestly, this won't work if your game isn't in our database yet—we're adding more monthly. But for the 50+ games we cover, you get instant access."
       },
       {
         "type": "text",
         "heading": "What Users Really Spend on Loot Boxes",
-        "body": "In my experience, most players don't realize how much they're spending. The average monthly spend per player ranges from $15 to $45. That's $180 to $540 a year. For what? A 2.5% chance at a legendary item. LootForge doesn't judge—we just show the numbers. Use the calculator above to see your personal spending. No account. No judgment."
+        "body": "In my experience, most players don't realize how much they're spending. The average monthly spend per player ranges from $15 to $45. That's $180 to $540 a year. For what? A 2.5% chance at a legendary item. LootCove doesn't judge—we just show the numbers. Use the calculator above to see your personal spending. No account. No judgment."
       },
       {
         "type": "text",
         "heading": "Cross-Game Support Without the Bloat",
-        "body": "You shouldn't need five different apps to track drop rates across your favorite games. LootForge covers 50+ titles in one place. From RPGs to shooters to battle royales. All the data, one interface. No multiple installs. No wasted storage. Just search, find, play."
+        "body": "You shouldn't need five different apps to track drop rates across your favorite games. LootCove covers 50+ titles in one place. From RPGs to shooters to battle royales. All the data, one interface. No multiple installs. No wasted storage. Just search, find, play."
       }
     ],
     "faqs": [
       {
-        "question": "Do I need to create an account to use LootForge?",
+        "question": "Do I need to create an account to use LootCove?",
         "answer": "Nope. No account. No email. No spam. Just open the app and see drop rates."
       },
       {
-        "question": "How many games does LootForge support?",
+        "question": "How many games does LootCove support?",
         "answer": "Over 50 games currently. We add new titles monthly based on user requests. If your game isn't listed, drop us a line and we'll prioritize it."
       },
       {
@@ -472,7 +490,7 @@
         "answer": "We pull data from verified community sources and publisher disclosures. Legendary drop rates range from 0.5% to 10%, with a typical value around 2.5%. But actual rates can vary by game and event. We update our database every 90 days."
       },
       {
-        "question": "Does LootForge track my spending?",
+        "question": "Does LootCove track my spending?",
         "answer": "Only if you use our optional spending calculator. We don't store your data. The calculator runs locally in your browser."
       },
       {
@@ -480,7 +498,7 @@
         "answer": "Yes. Prices range from $1.99 to $9.99 per box. We show typical prices for each game so you know what to expect."
       },
       {
-        "question": "Is LootForge free?",
+        "question": "Is LootCove free?",
         "answer": "Yes. Full access, no paywalls. We don't charge for drop rate data. Ever."
       },
       {
@@ -489,10 +507,16 @@
       }
     ],
     "affiliateCTA": {
-      "productName": "LootForge Pick: Loot Database App (Free)",
+      "productName": "LootCove Pick: Loot Database App (Free)",
       "link": "https://lootforge.app",
       "platform": "partners",
       "disclosureText": "This is an affiliate link. If you use it, we may earn a small commission at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -558,7 +582,7 @@
       {
         "type": "text",
         "heading": "Next Steps",
-        "body": "Ready to streamline your loot hunting? Use the calculator above to estimate your costs, then set up your LootForge account. Import your game data, tag items as needed, and never double-farm again. The tool is free for basic tracking, with premium features for multi-game support."
+        "body": "Ready to streamline your loot hunting? Use the calculator above to estimate your costs, then set up your LootCove account. Import your game data, tag items as needed, and never double-farm again. The tool is free for basic tracking, with premium features for multi-game support."
       }
     ],
     "faqs": [
@@ -584,25 +608,31 @@
       }
     ],
     "affiliateCTA": {
-      "productName": "LootForge Pick: Premium Tracker Subscription",
+      "productName": "LootCove Pick: Premium Tracker Subscription",
       "link": "https://lootforge.com/premium",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through our link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
-    "h1": "Video Game Loot Table: Compare Drops Across Games with LootLedger",
-    "metaDescription": "Stop struggling with inconsistent loot data. LootLedger's free video game loot table tool lets you compare drop rates across 50+ games in a sortable, structured format.",
+    "h1": "Video Game Loot Table: Compare Drops Across Games with LootCove",
+    "metaDescription": "Stop struggling with inconsistent loot data. LootCove's free video game loot table tool lets you compare drop rates across 50+ games in a sortable, structured format.",
     "sections": [
       {
         "type": "text",
         "heading": "Why Most Video Game Loot Tables Fail You",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you've ever tried to compare loot drops across games like <strong>Destiny 2</strong>, <strong>World of Warcraft</strong>, or <strong>Diablo 4</strong>, you know the pain. Most online resources are text-heavy blog posts that list items in inconsistent formats—some use percentages, others use fractions like \"1 in 100,\" and many omit critical data like <strong>drop sources</strong> or <strong>minimum level requirements</strong>.</p><p>According to a 2024 survey by LootLedger, <strong>73% of gamers</strong> reported spending over 30 minutes manually cross-referencing loot tables from different sources. That's time you could spend actually playing. Our free <strong>video game loot table</strong> tool solves this by aggregating data from 50+ titles into a single, sortable, filterable interface.</p><p>Here's what you get:</p><ul><li><strong>Standardized drop rates</strong> — all values shown as percentages (e.g., 2.5%) and as fractions (e.g., 1 in 40).</li><li><strong>Sortable columns</strong> — click to sort by game, item type, drop chance, or source.</li><li><strong>Cross-game comparison</strong> — see how a 5% drop in <em>Elden Ring</em> compares to a 0.5% drop in <em>Path of Exile</em>.</li><li><strong>Real-time updates</strong> — data refreshed weekly from official patch notes and community-sourced reports.</li></ul><p>Stop guessing. Start looting smarter.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you've ever tried to compare loot drops across games like <strong>Destiny 2</strong>, <strong>World of Warcraft</strong>, or <strong>Diablo 4</strong>, you know the pain. Most online resources are text-heavy blog posts that list items in inconsistent formats—some use percentages, others use fractions like \"1 in 100,\" and many omit critical data like <strong>drop sources</strong> or <strong>minimum level requirements</strong>.</p><p>According to a 2024 survey by LootCove, <strong>73% of gamers</strong> reported spending over 30 minutes manually cross-referencing loot tables from different sources. That's time you could spend actually playing. Our free <strong>video game loot table</strong> tool solves this by aggregating data from 50+ titles into a single, sortable, filterable interface.</p><p>Here's what you get:</p><ul><li><strong>Standardized drop rates</strong> — all values shown as percentages (e.g., 2.5%) and as fractions (e.g., 1 in 40).</li><li><strong>Sortable columns</strong> — click to sort by game, item type, drop chance, or source.</li><li><strong>Cross-game comparison</strong> — see how a 5% drop in <em>Elden Ring</em> compares to a 0.5% drop in <em>Path of Exile</em>.</li><li><strong>Real-time updates</strong> — data refreshed weekly from official patch notes and community-sourced reports.</li></ul><p>Stop guessing. Start looting smarter.</p>"
       },
       {
         "type": "text",
         "heading": "How Our Video Game Loot Table Tool Works (No Manual Data Entry)",
-        "body": "<p>Unlike static blog lists, LootLedger's <strong>video game loot table</strong> is built for action. Here's how to use it in three steps:</p><p><strong>Step 1: Select your game</strong> — Choose from over 50 titles, including <em>Warframe</em>, <em>Borderlands 3</em>, <em>Genshin Impact</em>, and <em>Monster Hunter World</em>. Each game's loot table is curated by our team of data analysts and verified by the community.</p><p><strong>Step 2: Filter by item type or source</strong> — Need a specific weapon? Filter by \"Swords\" or \"Exotic.\" Looking for boss drops? Select \"Boss\" under source. Our tool supports up to <strong>12 filter categories</strong> simultaneously.</p><p><strong>Step 3: Sort and compare</strong> — Click any column header to sort by drop rate, item name, or game. For example, sort by drop rate descending to find the rarest items across all games. Our data shows that the average rare drop rate across all tracked games is <strong>3.2%</strong>, but some items—like the <em>Exalted Orb</em> in Path of Exile—sit at just 0.1%.</p><p>We also include a <strong>\"Compare\" feature</strong> that lets you select up to 5 items side-by-side. See their drop rates, sources, and even community drop confirmation counts (e.g., \"Confirmed by 1,234 players\").</p>"
+        "body": "<p>Unlike static blog lists, LootCove's <strong>video game loot table</strong> is built for action. Here's how to use it in three steps:</p><p><strong>Step 1: Select your game</strong> — Choose from over 50 titles, including <em>Warframe</em>, <em>Borderlands 3</em>, <em>Genshin Impact</em>, and <em>Monster Hunter World</em>. Each game's loot table is curated by our team of data analysts and verified by the community.</p><p><strong>Step 2: Filter by item type or source</strong> — Need a specific weapon? Filter by \"Swords\" or \"Exotic.\" Looking for boss drops? Select \"Boss\" under source. Our tool supports up to <strong>12 filter categories</strong> simultaneously.</p><p><strong>Step 3: Sort and compare</strong> — Click any column header to sort by drop rate, item name, or game. For example, sort by drop rate descending to find the rarest items across all games. Our data shows that the average rare drop rate across all tracked games is <strong>3.2%</strong>, but some items—like the <em>Exalted Orb</em> in Path of Exile—sit at just 0.1%.</p><p>We also include a <strong>\"Compare\" feature</strong> that lets you select up to 5 items side-by-side. See their drop rates, sources, and even community drop confirmation counts (e.g., \"Confirmed by 1,234 players\").</p>"
       },
       {
         "type": "text",
@@ -612,26 +642,26 @@
       {
         "type": "text",
         "heading": "Pro Tips for Using a Video Game Loot Table Effectively",
-        "body": "<p>Knowing the drop rate is only half the battle. Here are three practical tips to maximize your loot efficiency using LootLedger's <strong>video game loot table</strong>:</p><ul><li><strong>Check drop sources carefully.</strong> Many items have multiple sources (e.g., boss drop AND world drop). Our tool lists all known sources. For example, the <em>Gjallarhorn</em> in Destiny 2 drops from both the Grasp of Avarice dungeon (5% chance) and Xur's weekly engram (0.7% chance). Focus on the higher-probability source.</li><li><strong>Use the \"Time to Drop\" estimator.</strong> Based on average kill times and drop rates, our tool estimates how many hours you'll need to farm. For a 2% drop rate with a 30-second kill cycle, expect about 25 minutes of farming on average. This helps you decide if a grind is worth it.</li><li><strong>Set alerts for rate changes.</strong> Loot tables change with patches. Enable notifications in your LootLedger account (free) and get an email when a tracked item's drop rate changes. In 2024, we sent over 50,000 alerts to users—many of whom snagged rare items before rates were nerfed.</li></ul><p>Our tool is updated within <strong>24 hours</strong> of any official patch note release. No more relying on outdated Reddit threads.</p>"
+        "body": "<p>Knowing the drop rate is only half the battle. Here are three practical tips to maximize your loot efficiency using LootCove's <strong>video game loot table</strong>:</p><ul><li><strong>Check drop sources carefully.</strong> Many items have multiple sources (e.g., boss drop AND world drop). Our tool lists all known sources. For example, the <em>Gjallarhorn</em> in Destiny 2 drops from both the Grasp of Avarice dungeon (5% chance) and Xur's weekly engram (0.7% chance). Focus on the higher-probability source.</li><li><strong>Use the \"Time to Drop\" estimator.</strong> Based on average kill times and drop rates, our tool estimates how many hours you'll need to farm. For a 2% drop rate with a 30-second kill cycle, expect about 25 minutes of farming on average. This helps you decide if a grind is worth it.</li><li><strong>Set alerts for rate changes.</strong> Loot tables change with patches. Enable notifications in your LootCove account (free) and get an email when a tracked item's drop rate changes. In 2024, we sent over 50,000 alerts to users—many of whom snagged rare items before rates were nerfed.</li></ul><p>Our tool is updated within <strong>24 hours</strong> of any official patch note release. No more relying on outdated Reddit threads.</p>"
       },
       {
         "type": "text",
-        "heading": "Why LootLedger Outperforms Traditional Loot Lists",
-        "body": "<p>Most loot resources are static blog posts written by a single author. They're often incomplete, biased, or outdated. LootLedger's <strong>video game loot table</strong> is different:</p><ul><li><strong>Community-verified data:</strong> Every entry has a \"verified by\" count. Over 12,000 active contributors help confirm drop rates. If a rate is disputed, it's flagged until resolved.</li><li><strong>API integration:</strong> Developers can pull our data via REST API for use in companion apps or stream overlays. Over 200 apps currently use our data.</li><li><strong>No ads, no fluff:</strong> We don't clutter the page with irrelevant content. Just clean, sortable tables with the data you need.</li><li><strong>Mobile-friendly:</strong> 45% of our users access loot tables on mobile. Our interface is fully responsive and loads in under 2 seconds.</li></ul><p>Try it now: search for any item or game, and see the difference structured data makes. Your next rare drop is just a sort away.</p>"
+        "heading": "Why LootCove Outperforms Traditional Loot Lists",
+        "body": "<p>Most loot resources are static blog posts written by a single author. They're often incomplete, biased, or outdated. LootCove's <strong>video game loot table</strong> is different:</p><ul><li><strong>Community-verified data:</strong> Every entry has a \"verified by\" count. Over 12,000 active contributors help confirm drop rates. If a rate is disputed, it's flagged until resolved.</li><li><strong>API integration:</strong> Developers can pull our data via REST API for use in companion apps or stream overlays. Over 200 apps currently use our data.</li><li><strong>No ads, no fluff:</strong> We don't clutter the page with irrelevant content. Just clean, sortable tables with the data you need.</li><li><strong>Mobile-friendly:</strong> 45% of our users access loot tables on mobile. Our interface is fully responsive and loads in under 2 seconds.</li></ul><p>Try it now: search for any item or game, and see the difference structured data makes. Your next rare drop is just a sort away.</p>"
       }
     ],
     "faqs": [
       {
         "question": "What is a video game loot table and why do I need one?",
-        "answer": "A video game loot table is a structured list of items that can drop from enemies, bosses, or chests, along with their drop rates. You need one to efficiently farm rare items without wasting time on low-probability sources. LootLedger aggregates data across games so you can compare and plan your farming sessions."
+        "answer": "A video game loot table is a structured list of items that can drop from enemies, bosses, or chests, along with their drop rates. You need one to efficiently farm rare items without wasting time on low-probability sources. LootCove aggregates data across games so you can compare and plan your farming sessions."
       },
       {
-        "question": "How accurate are the drop rates in LootLedger's loot table?",
+        "question": "How accurate are the drop rates in LootCove's loot table?",
         "answer": "Drop rates are sourced from official patch notes, datamined game files, and community confirmation (with over 12,000 contributors). Each entry shows a verification count. If a rate has fewer than 50 confirmations, it's marked as 'unverified' until more data is collected. We aim for 95% accuracy within 1% margin."
       },
       {
         "question": "Can I compare loot tables across different games?",
-        "answer": "Yes. Our video game loot table tool allows you to filter by game and then sort by drop rate, item type, or source. You can also use the 'Compare' feature to view up to 5 items side-by-side, regardless of which game they come from. This is unique to LootLedger."
+        "answer": "Yes. Our video game loot table tool allows you to filter by game and then sort by drop rate, item type, or source. You can also use the 'Compare' feature to view up to 5 items side-by-side, regardless of which game they come from. This is unique to LootCove."
       },
       {
         "question": "Is the loot table tool really free? Are there any hidden costs?",
@@ -655,73 +685,85 @@
       }
     ],
     "slug": "video-game-loot-table",
-    "title": "Video Game Loot Table: Compare Drops Across Games with LootLedger",
+    "title": "Video Game Loot Table: Compare Drops Across Games with LootCove",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best Game Loot Database: Compare Drops, Rates & Values Without Bias",
     "metaDescription": "Find the best game loot database with unbiased comparisons, real drop rates, and interactive tools. No paid promotions, just accurate loot data.",
     "sections": [
       {
-        "heading": "Why Most Game Loot Databases Fail You (And How LootLedger Fixes It)",
-        "body": "<p>🔥 TIRED OF FAKE LOOT DATABASES? 🔥<br>\nYou know the struggle — you search for the <strong>BEST game loot database</strong> and all you get is sponsored trash. 💩<br>\nA 2023 study by GameData Insights dropped the truth bomb: <strong>68% of gamers</strong> don’t trust loot databases because of biased garbage recommendations. 🚩<br>\nMost top sites are just 2020 listicles stuffed with affiliate links to games that paid for hype. 🗑️<br>\n<br>\nEnter <strong>LootLedger</strong> — we play by different rules. 🎯<br>\n✅ <strong>100% unbiased</strong> — zero paid listings, zero BS.<br>\n✅ Every drop rate, item value, and comparison verified against real community data & official patch notes. 📊<br>\n<br>\nExample? <em>Destiny 2</em> loot pools: other sites only get <strong>12% of exotics</strong> right. 🥴<br>\nWe push that to <strong>within 2% of actual game data</strong>. 💥<br>\n<br>\nPlus, interactive filters let you compare loot across <strong>World of Warcraft, Path of Exile, and Diablo 4</strong> side-by-side.<br>\nNobody else offers that for FREE. 🆓🔥<br>\n<br>\nStop trusting sponsored lies. Start winning with real data. 💪<br>\n#LootLedger #NoBS #GameLootGod</p>"
+        "heading": "Why Most Game Loot Databases Fail You (And How LootCove Fixes It)",
+        "body": "<p>🔥 TIRED OF FAKE LOOT DATABASES? 🔥<br>\nYou know the struggle — you search for the <strong>BEST game loot database</strong> and all you get is sponsored trash. 💩<br>\nA 2023 study by GameData Insights dropped the truth bomb: <strong>68% of gamers</strong> don’t trust loot databases because of biased garbage recommendations. 🚩<br>\nMost top sites are just 2020 listicles stuffed with affiliate links to games that paid for hype. 🗑️<br>\n<br>\nEnter <strong>LootCove</strong> — we play by different rules. 🎯<br>\n✅ <strong>100% unbiased</strong> — zero paid listings, zero BS.<br>\n✅ Every drop rate, item value, and comparison verified against real community data & official patch notes. 📊<br>\n<br>\nExample? <em>Destiny 2</em> loot pools: other sites only get <strong>12% of exotics</strong> right. 🥴<br>\nWe push that to <strong>within 2% of actual game data</strong>. 💥<br>\n<br>\nPlus, interactive filters let you compare loot across <strong>World of Warcraft, Path of Exile, and Diablo 4</strong> side-by-side.<br>\nNobody else offers that for FREE. 🆓🔥<br>\n<br>\nStop trusting sponsored lies. Start winning with real data. 💪<br>\n#LootCove #NoBS #GameLootGod</p>"
       },
       {
         "heading": "Interactive Comparator: Compare Loot Side-by-Side in Seconds",
-        "body": "<p>Unlike old listicles that force you to scroll through endless paragraphs, LootLedger’s <strong>interactive comparator</strong> lets you select up to 5 items or games and view their drop rates, rarity, and market value in a clean table. For instance, when comparing the <strong>‘Gjallarhorn’</strong> from Destiny 2 with the <strong>‘Shako’</strong> from Diablo 4, you’ll see real-time data: Gjallarhorn has a <strong>5% drop rate</strong> from Xur’s exotic engram, while Shako has a <strong>0.0001% chance</strong> from Uber Duriel. Our tool updates automatically when game patches change — we track over <strong>50,000 items</strong> across 12 major games, with daily updates from official sources. You can also filter by <strong>‘most searched’</strong> or <strong>‘highest value’</strong> to find what matters to you. No other free database offers this level of interactivity, which is why our users report <strong>40% faster loot research</strong> compared to traditional sites.</p>"
+        "body": "<p>Unlike old listicles that force you to scroll through endless paragraphs, LootCove’s <strong>interactive comparator</strong> lets you select up to 5 items or games and view their drop rates, rarity, and market value in a clean table. For instance, when comparing the <strong>‘Gjallarhorn’</strong> from Destiny 2 with the <strong>‘Shako’</strong> from Diablo 4, you’ll see real-time data: Gjallarhorn has a <strong>5% drop rate</strong> from Xur’s exotic engram, while Shako has a <strong>0.0001% chance</strong> from Uber Duriel. Our tool updates automatically when game patches change — we track over <strong>50,000 items</strong> across 12 major games, with daily updates from official sources. You can also filter by <strong>‘most searched’</strong> or <strong>‘highest value’</strong> to find what matters to you. No other free database offers this level of interactivity, which is why our users report <strong>40% faster loot research</strong> compared to traditional sites.</p>"
       },
       {
         "heading": "Real Drop Rates, Verified by the Community",
-        "body": "<p>We know that <strong>accurate drop rates</strong> are the #1 pain point for gamers. A 2024 study by LootStats found that <strong>73% of players</strong> have been misled by fake or outdated drop rates on popular databases. At LootLedger, we crowdsource data from <strong>over 100,000 active players</strong> and cross-reference it with official game files (where available). For example, in <em>Path of Exile</em>, we tracked <strong>1.2 million loot drops</strong> over six months to confirm that the ‘Headhunter’ belt has a <strong>0.02% drop rate</strong> from Nemesis monsters — a figure that matches GGG’s internal data within 0.5%. We also publish our methodology, so you can see exactly how we calculate each rate. This transparency has earned us a <strong>4.8/5 trust rating</strong> from users, compared to the industry average of 3.2. Plus, our <strong>‘Report a Bug’</strong> feature lets you flag incorrect data, and we typically fix it within 24 hours.</p>"
+        "body": "<p>We know that <strong>accurate drop rates</strong> are the #1 pain point for gamers. A 2024 study by LootStats found that <strong>73% of players</strong> have been misled by fake or outdated drop rates on popular databases. At LootCove, we crowdsource data from <strong>over 100,000 active players</strong> and cross-reference it with official game files (where available). For example, in <em>Path of Exile</em>, we tracked <strong>1.2 million loot drops</strong> over six months to confirm that the ‘Headhunter’ belt has a <strong>0.02% drop rate</strong> from Nemesis monsters — a figure that matches GGG’s internal data within 0.5%. We also publish our methodology, so you can see exactly how we calculate each rate. This transparency has earned us a <strong>4.8/5 trust rating</strong> from users, compared to the industry average of 3.2. Plus, our <strong>‘Report a Bug’</strong> feature lets you flag incorrect data, and we typically fix it within 24 hours.</p>"
       },
       {
         "heading": "No Affiliate Links, No Sponsored Listings — Just Pure Data",
-        "body": "<p>Every other top-ranked loot database site generates revenue through <strong>affiliate links</strong> to game stores or item marketplaces. This creates a conflict of interest: they might overhype a weapon’s drop rate because the game developer pays for promotion. At LootLedger, we operate on a <strong>donation-based model</strong> with optional premium features (like export to CSV), but <strong>all core data is free and ad-free</strong>. We don’t accept payments from game studios or item sellers. In fact, we recently rejected a <strong>$50,000 sponsorship</strong> from a major game publisher because it would have required us to inflate drop rates for their game. Instead, we rely on community support — over <strong>5,000 monthly donors</strong> keep us independent. Our ‘Transparency Report’ (updated quarterly) shows exactly how we use funds: <strong>80% goes to server costs and data verification</strong>, 15% to development, and 5% to community rewards. This means when you search for the <strong>best game loot database</strong>, you get honest answers — not paid placements.</p>"
+        "body": "<p>Every other top-ranked loot database site generates revenue through <strong>affiliate links</strong> to game stores or item marketplaces. This creates a conflict of interest: they might overhype a weapon’s drop rate because the game developer pays for promotion. At LootCove, we operate on a <strong>donation-based model</strong> with optional premium features (like export to CSV), but <strong>all core data is free and ad-free</strong>. We don’t accept payments from game studios or item sellers. In fact, we recently rejected a <strong>$50,000 sponsorship</strong> from a major game publisher because it would have required us to inflate drop rates for their game. Instead, we rely on community support — over <strong>5,000 monthly donors</strong> keep us independent. Our ‘Transparency Report’ (updated quarterly) shows exactly how we use funds: <strong>80% goes to server costs and data verification</strong>, 15% to development, and 5% to community rewards. This means when you search for the <strong>best game loot database</strong>, you get honest answers — not paid placements.</p>"
       },
       {
-        "heading": "How LootLedger Compares to Competitors (With Real Numbers)",
-        "body": "<p>Let’s look at the facts. The top 3 loot database sites on Google (as of June 2024) are <strong>LootDB, GameLootHub, and DropsTracker</strong>. All three have affiliate links and outdated data. For example, LootDB still lists the <em>‘Anarchy’</em> shotgun from Destiny 2 as a <strong>20% drop rate</strong> from the Last Wish raid, but Bungie nerfed it to <strong>10% in 2023</strong>. GameLootHub has sponsored listings for <em>‘Diablo 4’</em> items that overstate rarity by <strong>300%</strong> to drive sales. In contrast, LootLedger’s data is <strong>97% accurate</strong> according to our internal audits, and we update within <strong>48 hours</strong> of any game patch. Our <strong>interactive comparator</strong> is unique — no competitor offers this feature. We also have a <strong>community forum</strong> with over <strong>200,000 posts</strong> where players share verified drop data. If you’re tired of biased listicles, try LootLedger and see the difference: our users save an average of <strong>15 minutes per search</strong> compared to other sites.</p>"
+        "heading": "How LootCove Compares to Competitors (With Real Numbers)",
+        "body": "<p>Let’s look at the facts. The top 3 loot database sites on Google (as of June 2024) are <strong>LootDB, GameLootHub, and DropsTracker</strong>. All three have affiliate links and outdated data. For example, LootDB still lists the <em>‘Anarchy’</em> shotgun from Destiny 2 as a <strong>20% drop rate</strong> from the Last Wish raid, but Bungie nerfed it to <strong>10% in 2023</strong>. GameLootHub has sponsored listings for <em>‘Diablo 4’</em> items that overstate rarity by <strong>300%</strong> to drive sales. In contrast, LootCove’s data is <strong>97% accurate</strong> according to our internal audits, and we update within <strong>48 hours</strong> of any game patch. Our <strong>interactive comparator</strong> is unique — no competitor offers this feature. We also have a <strong>community forum</strong> with over <strong>200,000 posts</strong> where players share verified drop data. If you’re tired of biased listicles, try LootCove and see the difference: our users save an average of <strong>15 minutes per search</strong> compared to other sites.</p>"
       }
     ],
     "faqs": [
       {
         "question": "What is the best game loot database for accurate drop rates?",
-        "answer": "LootLedger is widely considered the best game loot database because it provides verified, unbiased drop rates from community crowdsourcing and official sources. Unlike competitors, we don’t accept payments for listings, ensuring you get real data — for example, our drop rates for 'Destiny 2' exotics are accurate within 2% of game files."
+        "answer": "LootCove is widely considered the best game loot database because it provides verified, unbiased drop rates from community crowdsourcing and official sources. Unlike competitors, we don’t accept payments for listings, ensuring you get real data — for example, our drop rates for 'Destiny 2' exotics are accurate within 2% of game files."
       },
       {
-        "question": "Does LootLedger have an interactive comparator?",
-        "answer": "Yes, LootLedger offers a free interactive comparator that lets you compare up to 5 items or games side-by-side, showing drop rates, rarity, and market value in real time. This feature is unique among loot databases and helps you make faster, more informed decisions."
+        "question": "Does LootCove have an interactive comparator?",
+        "answer": "Yes, LootCove offers a free interactive comparator that lets you compare up to 5 items or games side-by-side, showing drop rates, rarity, and market value in real time. This feature is unique among loot databases and helps you make faster, more informed decisions."
       },
       {
-        "question": "How does LootLedger ensure its data is unbiased?",
+        "question": "How does LootCove ensure its data is unbiased?",
         "answer": "We operate on a donation-based model with no affiliate links or sponsored listings. We reject all payments from game studios or item sellers — for instance, we turned down a $50,000 sponsorship to maintain independence. Our data is verified by over 100,000 community members and cross-checked with official patch notes."
       },
       {
-        "question": "Are drop rates on LootLedger updated regularly?",
+        "question": "Are drop rates on LootCove updated regularly?",
         "answer": "Yes, we update our database within 48 hours of any game patch. We track over 50,000 items across 12 major games, with daily checks from official sources and community reports. For example, when 'Path of Exile' changed drop rates in patch 3.24, we updated the 'Headhunter' belt data within 24 hours."
       },
       {
-        "question": "Can I report incorrect data on LootLedger?",
-        "answer": "Absolutely. LootLedger has a 'Report a Bug' feature that lets you flag inaccurate drop rates or item values. Our team typically fixes reported issues within 24 hours, and we publish a changelog so you can see all updates. This community-driven approach keeps our data 97% accurate."
+        "question": "Can I report incorrect data on LootCove?",
+        "answer": "Absolutely. LootCove has a 'Report a Bug' feature that lets you flag inaccurate drop rates or item values. Our team typically fixes reported issues within 24 hours, and we publish a changelog so you can see all updates. This community-driven approach keeps our data 97% accurate."
       },
       {
-        "question": "Is LootLedger free to use?",
+        "question": "Is LootCove free to use?",
         "answer": "Yes, all core features — including the interactive comparator, drop rate database, and community forum — are completely free. We offer optional premium features like CSV export for $5/month, but 100% of the loot data is accessible without any payment or ads."
       },
       {
-        "question": "How does LootLedger compare to other loot databases?",
-        "answer": "Unlike top competitors like LootDB or GameLootHub, LootLedger has no affiliate links, no sponsored listings, and an interactive comparator that no other site offers. Our data is 97% accurate (vs. 70-80% for competitors), and we update within 48 hours of patches. Users report saving 15 minutes per search on average."
+        "question": "How does LootCove compare to other loot databases?",
+        "answer": "Unlike top competitors like LootDB or GameLootHub, LootCove has no affiliate links, no sponsored listings, and an interactive comparator that no other site offers. Our data is 97% accurate (vs. 70-80% for competitors), and we update within 48 hours of patches. Users report saving 15 minutes per search on average."
       },
       {
-        "question": "What games does LootLedger cover?",
+        "question": "What games does LootCove cover?",
         "answer": "We currently cover 12 major games, including Destiny 2, World of Warcraft, Path of Exile, Diablo 4, Elden Ring, Final Fantasy XIV, Warframe, Borderlands 3, Monster Hunter World, Genshin Impact, Starfield, and Baldur's Gate 3. We add new games based on community requests — suggest yours on our forum."
       }
     ],
     "slug": "best-game-loot-database",
     "title": "Best Game Loot Database: Compare Drops, Rates & Values Without Bias",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Loot Database API – Fast, Reliable & Well-Documented Game Loot Data",
@@ -730,12 +772,12 @@
       {
         "type": "text",
         "heading": "Why Most Loot Database APIs Fail (And How Ours Is Different)",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you've searched for a <strong>loot database API</strong>, you've likely hit a wall. Most existing solutions are either deprecated (like the old WoW API v1), locked behind expensive subscriptions with no free tier, or documented so poorly that you waste hours reverse-engineering endpoints. According to a 2024 survey by RapidAPI, 68% of developers abandon an API if documentation is unclear or incomplete. At <strong>LootLedger</strong>, we built the opposite: a free, modern, and thoroughly documented loot database API that any developer can start using in under five minutes.</p><p>Our API covers over 50 games (including <em>World of Warcraft</em>, <em>Destiny 2</em>, <em>Path of Exile</em>, <em>Final Fantasy XIV</em>, and <em>Elder Scrolls Online</em>) with real-time drop rates, item stats, vendor prices, and crafting recipes. We serve 2.3 million requests per month with 99.97% uptime, and our free tier gives you <strong>10,000 requests per day</strong>—no credit card required. That's 300,000 requests per month, enough to power a small gaming community site or a personal loot tracker.</p><p>We've also published a 40-page interactive documentation site with code examples in Python, JavaScript, Ruby, and cURL. Each endpoint includes response schemas, rate limits, and error codes. No more guessing what a 403 means or why your query returns empty arrays.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>If you've searched for a <strong>loot database API</strong>, you've likely hit a wall. Most existing solutions are either deprecated (like the old WoW API v1), locked behind expensive subscriptions with no free tier, or documented so poorly that you waste hours reverse-engineering endpoints. According to a 2024 survey by RapidAPI, 68% of developers abandon an API if documentation is unclear or incomplete. At <strong>LootCove</strong>, we built the opposite: a free, modern, and thoroughly documented loot database API that any developer can start using in under five minutes.</p><p>Our API covers over 50 games (including <em>World of Warcraft</em>, <em>Destiny 2</em>, <em>Path of Exile</em>, <em>Final Fantasy XIV</em>, and <em>Elder Scrolls Online</em>) with real-time drop rates, item stats, vendor prices, and crafting recipes. We serve 2.3 million requests per month with 99.97% uptime, and our free tier gives you <strong>10,000 requests per day</strong>—no credit card required. That's 300,000 requests per month, enough to power a small gaming community site or a personal loot tracker.</p><p>We've also published a 40-page interactive documentation site with code examples in Python, JavaScript, Ruby, and cURL. Each endpoint includes response schemas, rate limits, and error codes. No more guessing what a 403 means or why your query returns empty arrays.</p>"
       },
       {
         "type": "text",
         "heading": "Real-World Use Cases: From Discord Bots to Web Apps",
-        "body": "<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>⚡ LootLedger – DEV POWER</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            background: linear-gradient(145deg, #0b0f1a 0%, #141b2b 100%);\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;\n            padding: 1.5rem;\n        }\n\n        .card {\n            max-width: 950px;\n            width: 100%;\n            background: rgba(18, 26, 42, 0.85);\n            backdrop-filter: blur(4px);\n            border: 2px solid #2c3e7c;\n            border-radius: 48px;\n            padding: 2.5rem 2.8rem;\n            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 2px #4f6fbf inset;\n            transition: 0.2s ease;\n        }\n\n        h1 {\n            font-size: 2.4rem;\n            font-weight: 800;\n            letter-spacing: -0.02em;\n            color: #f6e9b2;\n            text-shadow: 0 0 12px #f6b83d, 2px 2px 0 #0f1420;\n            margin-bottom: 1.2rem;\n            display: flex;\n            align-items: center;\n            gap: 14px;\n            flex-wrap: wrap;\n        }\n\n        h1 small {\n            font-size: 1.2rem;\n            background: #2f3f6e;\n            padding: 0.3rem 1.2rem;\n            border-radius: 80px;\n            color: #cfdbff;\n            text-shadow: none;\n            letter-spacing: 0.3px;\n            border: 1px solid #8aa3ff;\n        }\n\n        .lead {\n            color: #b8ccff;\n            font-size: 1.3rem;\n            font-weight: 600;\n            margin-bottom: 2.2rem;\n            padding-bottom: 0.8rem;\n            border-bottom: 2px dashed #3f5690;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n        }\n\n        .lead span {"
+        "body": "<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>⚡ LootCove – DEV POWER</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            background: linear-gradient(145deg, #0b0f1a 0%, #141b2b 100%);\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;\n            padding: 1.5rem;\n        }\n\n        .card {\n            max-width: 950px;\n            width: 100%;\n            background: rgba(18, 26, 42, 0.85);\n            backdrop-filter: blur(4px);\n            border: 2px solid #2c3e7c;\n            border-radius: 48px;\n            padding: 2.5rem 2.8rem;\n            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 2px #4f6fbf inset;\n            transition: 0.2s ease;\n        }\n\n        h1 {\n            font-size: 2.4rem;\n            font-weight: 800;\n            letter-spacing: -0.02em;\n            color: #f6e9b2;\n            text-shadow: 0 0 12px #f6b83d, 2px 2px 0 #0f1420;\n            margin-bottom: 1.2rem;\n            display: flex;\n            align-items: center;\n            gap: 14px;\n            flex-wrap: wrap;\n        }\n\n        h1 small {\n            font-size: 1.2rem;\n            background: #2f3f6e;\n            padding: 0.3rem 1.2rem;\n            border-radius: 80px;\n            color: #cfdbff;\n            text-shadow: none;\n            letter-spacing: 0.3px;\n            border: 1px solid #8aa3ff;\n        }\n\n        .lead {\n            color: #b8ccff;\n            font-size: 1.3rem;\n            font-weight: 600;\n            margin-bottom: 2.2rem;\n            padding-bottom: 0.8rem;\n            border-bottom: 2px dashed #3f5690;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n        }\n\n        .lead span {"
       },
       {
         "type": "text",
@@ -759,7 +801,7 @@
         "answer": "A loot database API is a programmatic interface that lets you query and retrieve video game loot data—such as item names, drop rates, sources, vendor prices, and crafting recipes—directly from a server. Developers use it to build loot trackers, price comparison tools, Discord bots, and analytics dashboards."
       },
       {
-        "question": "Is the LootLedger loot database API really free?",
+        "question": "Is the LootCove loot database API really free?",
         "answer": "Yes, the free tier gives you 10,000 requests per day (300,000 per month) with full access to all endpoints, documentation, and 50+ games. No credit card is required, and there are no hidden limits on data fields. You only need to sign up for an API key to get started."
       },
       {
@@ -772,7 +814,7 @@
       },
       {
         "question": "Can I use the API for commercial projects?",
-        "answer": "Yes, the free tier can be used for commercial projects as long as you stay within the 10,000 requests/day limit. For higher volume commercial use, we offer a Pro tier at $19/month. There are no attribution requirements, but we appreciate a link back to LootLedger if you're feeling generous."
+        "answer": "Yes, the free tier can be used for commercial projects as long as you stay within the 10,000 requests/day limit. For higher volume commercial use, we offer a Pro tier at $19/month. There are no attribution requirements, but we appreciate a link back to LootCove if you're feeling generous."
       },
       {
         "question": "How do I handle rate limits or errors?",
@@ -790,7 +832,13 @@
     "slug": "loot-database-api",
     "title": "Free Loot Database API – Fast, Reliable & Well-Documented Game Loot Data",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Diablo 4 Loot Table – Fast, Ad-Free, Mobile-Friendly Database",
@@ -819,7 +867,7 @@
       {
         "type": "text",
         "heading": "Mobile Optimization – Why We’re the Fastest Loot Table on Any Device",
-        "body": "<p>We built LootLedger from the ground up for mobile users. Here’s what that means for you:</p><ul><li><strong>Page load time under 1 second</strong> – we use static HTML with no JavaScript frameworks. Even on 4G, you get the loot table in 0.8s.</li><li><strong>Touch-friendly interface</strong> – all buttons are at least 48x48px, swipe gestures for pagination, and pinch-to-zoom works naturally.</li><li><strong>No ads, no trackers</strong> – zero third-party requests. Your data stays private, and your battery lasts longer.</li><li><strong>Offline mode</strong> – once loaded, the loot table works offline. Bookmark it before a dungeon run.</li><li><strong>Dark mode by default</strong> – easy on the eyes during late-night farming.</li></ul><p>Compare that to Maxroll: their loot guide loads 3.2MB of JavaScript and 12 external trackers, taking 6-8 seconds on mobile. Icy Veins is better but still loads 1.8MB of ads. We’re under 50KB total.</p><p>Test it yourself: open this page on your phone, then try loading a Maxroll loot table. You’ll feel the difference immediately. No lag, no frustration – just the data you need.</p>"
+        "body": "<p>We built LootCove from the ground up for mobile users. Here’s what that means for you:</p><ul><li><strong>Page load time under 1 second</strong> – we use static HTML with no JavaScript frameworks. Even on 4G, you get the loot table in 0.8s.</li><li><strong>Touch-friendly interface</strong> – all buttons are at least 48x48px, swipe gestures for pagination, and pinch-to-zoom works naturally.</li><li><strong>No ads, no trackers</strong> – zero third-party requests. Your data stays private, and your battery lasts longer.</li><li><strong>Offline mode</strong> – once loaded, the loot table works offline. Bookmark it before a dungeon run.</li><li><strong>Dark mode by default</strong> – easy on the eyes during late-night farming.</li></ul><p>Compare that to Maxroll: their loot guide loads 3.2MB of JavaScript and 12 external trackers, taking 6-8 seconds on mobile. Icy Veins is better but still loads 1.8MB of ads. We’re under 50KB total.</p><p>Test it yourself: open this page on your phone, then try loading a Maxroll loot table. You’ll feel the difference immediately. No lag, no frustration – just the data you need.</p>"
       }
     ],
     "faqs": [
@@ -859,7 +907,13 @@
     "slug": "diablo-4-loot-table",
     "title": "Diablo 4 Loot Table – Fast, Ad-Free, Mobile-Friendly Database",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Path of Exile Item Database: Fast, Filtered & Build-Ready Search",
@@ -923,57 +977,63 @@
     "slug": "path-of-exile-item-database",
     "title": "Path of Exile Item Database: Fast, Filtered & Build-Ready Search",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Master the Destiny 2 Loot Pool: Track, Filter & Find Every Weapon & Armor Piece",
-    "metaDescription": "Stop guessing. Use LootLedger's free tool to search the full Destiny 2 loot pool, filter by perk, source, and season, and track your personal collection.",
+    "metaDescription": "Stop guessing. Use LootCove's free tool to search the full Destiny 2 loot pool, filter by perk, source, and season, and track your personal collection.",
     "sections": [
       {
         "type": "text",
         "heading": "Why the Destiny 2 Loot Pool Feels Overwhelming (And How We Fix It)",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>With over <strong>1,500 legendary weapons</strong>, hundreds of exotic armor pieces, and new seasonal additions every three months, the <strong>Destiny 2 loot pool</strong> is massive and constantly shifting. Bungie's official API updates weekly, but third-party tools like Light.gg often leave you scrolling endlessly on mobile or missing key filters. The result? You spend more time tabbing between websites than actually playing.</p><p>At LootLedger, we built a tool that solves three core frustrations:</p><ul><li><strong>Confusing navigation:</strong> Our search bar auto-completes weapon names, armor sets, and perk combos. No more buried menus.</li><li><strong>No personal collection tracker:</strong> Log in with your Bungie ID and see exactly which god-rolls you own versus what's still in the loot pool.</li><li><strong>Mobile-first design:</strong> Every table, filter, and button works seamlessly on your phone. Test it right now.</li></ul><p>We index all sources—from <em>Prophecy dungeon</em> to <em>Iron Banner</em>—and update within 24 hours of a patch. That means you can plan your farming sessions with confidence, knowing your data is fresh.</p>"
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><p>With over <strong>1,500 legendary weapons</strong>, hundreds of exotic armor pieces, and new seasonal additions every three months, the <strong>Destiny 2 loot pool</strong> is massive and constantly shifting. Bungie's official API updates weekly, but third-party tools like Light.gg often leave you scrolling endlessly on mobile or missing key filters. The result? You spend more time tabbing between websites than actually playing.</p><p>At LootCove, we built a tool that solves three core frustrations:</p><ul><li><strong>Confusing navigation:</strong> Our search bar auto-completes weapon names, armor sets, and perk combos. No more buried menus.</li><li><strong>No personal collection tracker:</strong> Log in with your Bungie ID and see exactly which god-rolls you own versus what's still in the loot pool.</li><li><strong>Mobile-first design:</strong> Every table, filter, and button works seamlessly on your phone. Test it right now.</li></ul><p>We index all sources—from <em>Prophecy dungeon</em> to <em>Iron Banner</em>—and update within 24 hours of a patch. That means you can plan your farming sessions with confidence, knowing your data is fresh.</p>"
       },
       {
         "type": "text",
         "heading": "Advanced Filtering: Slice the Loot Pool by Perk, Source, and Season",
-        "body": "<p>⚡ <strong>Light.gg</strong> lets you filter by weapon type &amp; archetype — cool, but kinda basic. What if you’re hunting <strong>every rapid-fire frame shotgun</strong> that can drop with <em>Threat Detector</em> + <em>One-Two Punch</em>? 🔥 Or all <em>Season of the Wish</em> armor with 65+ base stats? <strong>LootLedger’s</strong> advanced filter system slaps those results faster than you can say “god roll.” 🚀 Under a second. Every time.</p>\n    \n    <p>🎯 Here’s what you can do <strong>RIGHT NOW</strong>:</p>\n    <ul>\n        <li>🎲 <strong>Perk combos:</strong> Stack up to 4 perks (barrel, mag, trait 1, trait 2) and see ONLY weapons that can roll ALL of ‘em. No guesswork.</li>\n        <li>🚫 <strong>Source exclusion:</strong> Sick of sunset trash? Hide anything from raids you never touch. Laser-focus on the <strong>Destiny 2 loot pool</strong> you actually grind. 💪</li>\n        <li>📅 <strong>Seasonal range:</strong> Set your start &amp; end season (e.g., S19 → S23) and yeet old gear into the void. Fresh loot only.</li>\n        <li>📊 <strong>Stat thresholds:</strong> Armor junkies — filter by minimum total stats AND individual stat floors (Mob, Res, Disc, etc.). Build your perfect stat monster.</li>\n    </ul>\n    \n    <p>📈 <strong>Fact:</strong> Players using advanced filters find their target roll <strong>3.2x FASTER</strong> than scrubs scrolling endless tables. 🏆 Stop wasting time. <strong>Refine your search. Dominate your vault.</strong></p>"
+        "body": "<p>⚡ <strong>Light.gg</strong> lets you filter by weapon type &amp; archetype — cool, but kinda basic. What if you’re hunting <strong>every rapid-fire frame shotgun</strong> that can drop with <em>Threat Detector</em> + <em>One-Two Punch</em>? 🔥 Or all <em>Season of the Wish</em> armor with 65+ base stats? <strong>LootCove’s</strong> advanced filter system slaps those results faster than you can say “god roll.” 🚀 Under a second. Every time.</p>\n    \n    <p>🎯 Here’s what you can do <strong>RIGHT NOW</strong>:</p>\n    <ul>\n        <li>🎲 <strong>Perk combos:</strong> Stack up to 4 perks (barrel, mag, trait 1, trait 2) and see ONLY weapons that can roll ALL of ‘em. No guesswork.</li>\n        <li>🚫 <strong>Source exclusion:</strong> Sick of sunset trash? Hide anything from raids you never touch. Laser-focus on the <strong>Destiny 2 loot pool</strong> you actually grind. 💪</li>\n        <li>📅 <strong>Seasonal range:</strong> Set your start &amp; end season (e.g., S19 → S23) and yeet old gear into the void. Fresh loot only.</li>\n        <li>📊 <strong>Stat thresholds:</strong> Armor junkies — filter by minimum total stats AND individual stat floors (Mob, Res, Disc, etc.). Build your perfect stat monster.</li>\n    </ul>\n    \n    <p>📈 <strong>Fact:</strong> Players using advanced filters find their target roll <strong>3.2x FASTER</strong> than scrubs scrolling endless tables. 🏆 Stop wasting time. <strong>Refine your search. Dominate your vault.</strong></p>"
       },
       {
         "type": "text",
         "heading": "Personal Collection Tracker: Never Farm for a Weapon You Already Own",
-        "body": "<p>One of the biggest pain points in Destiny 2 is accidentally dismantling a god-roll, then spending hours farming for it again. Or worse: chasing a weapon from the <strong>Destiny 2 loot pool</strong> that you already have in your vault. LootLedger's <strong>personal collection tracker</strong> syncs with your Bungie account to show you exactly what you own—and what you're missing.</p><p>Here's how it works:</p><ul><li><strong>One-click sync:</strong> Authorize via Bungie.net, and we pull your entire inventory, vault, and postmaster. It takes about 10 seconds.</li><li><strong>Visual indicators:</strong> Weapons you own are marked with a green check; missing rolls show a red X. Filter by 'missing only' to see your exact farming list.</li><li><strong>Roll comparison:</strong> See how your current roll stacks up against the community's most popular perks for that weapon. If you have a 4/5 god-roll, we'll tell you.</li><li><strong>No data storage:</strong> Your collection data is cached temporarily and never saved on our servers. Privacy first.</li></ul><p>As of <strong>October 2024</strong>, over 12,000 Guardians have synced their accounts, and the average user saves <strong>45 minutes per week</strong> by not re-farming duplicates. Try it—you'll wonder how you played without it.</p>"
+        "body": "<p>One of the biggest pain points in Destiny 2 is accidentally dismantling a god-roll, then spending hours farming for it again. Or worse: chasing a weapon from the <strong>Destiny 2 loot pool</strong> that you already have in your vault. LootCove's <strong>personal collection tracker</strong> syncs with your Bungie account to show you exactly what you own—and what you're missing.</p><p>Here's how it works:</p><ul><li><strong>One-click sync:</strong> Authorize via Bungie.net, and we pull your entire inventory, vault, and postmaster. It takes about 10 seconds.</li><li><strong>Visual indicators:</strong> Weapons you own are marked with a green check; missing rolls show a red X. Filter by 'missing only' to see your exact farming list.</li><li><strong>Roll comparison:</strong> See how your current roll stacks up against the community's most popular perks for that weapon. If you have a 4/5 god-roll, we'll tell you.</li><li><strong>No data storage:</strong> Your collection data is cached temporarily and never saved on our servers. Privacy first.</li></ul><p>As of <strong>October 2024</strong>, over 12,000 Guardians have synced their accounts, and the average user saves <strong>45 minutes per week</strong> by not re-farming duplicates. Try it—you'll wonder how you played without it.</p>"
       },
       {
         "type": "text",
         "heading": "Mobile-Optimized Tables: Compare Loot Without Pinch-Zooming",
-        "body": "<p>Light.gg's desktop layout is functional, but on mobile, the tables are cramped, buttons overlap, and you often have to rotate your phone just to see perk columns. LootLedger was designed mobile-first. Every table is responsive, with collapsible rows and swipeable columns.</p><p>Key mobile features:</p><ul><li><strong>Sticky headers:</strong> The weapon name and archetype always stay visible as you scroll down.</li><li><strong>Perk pop-ups:</strong> Tap a perk name to see its full description and community rating without leaving the page.</li><li><strong>Quick filters:</strong> Use the bottom toolbar to toggle between 'All', 'Owned', 'Missing', and 'Wishlist' without reloading.</li><li><strong>Dark mode:</strong> Built-in, so your eyes don't strain during late-night farming sessions.</li></ul><p>In our internal tests, mobile page load times average <strong>1.2 seconds</strong>—that's 60% faster than Light.gg on 4G. Whether you're on the bus or in a fireteam, you can check the <strong>Destiny 2 loot pool</strong> instantly.</p>"
+        "body": "<p>Light.gg's desktop layout is functional, but on mobile, the tables are cramped, buttons overlap, and you often have to rotate your phone just to see perk columns. LootCove was designed mobile-first. Every table is responsive, with collapsible rows and swipeable columns.</p><p>Key mobile features:</p><ul><li><strong>Sticky headers:</strong> The weapon name and archetype always stay visible as you scroll down.</li><li><strong>Perk pop-ups:</strong> Tap a perk name to see its full description and community rating without leaving the page.</li><li><strong>Quick filters:</strong> Use the bottom toolbar to toggle between 'All', 'Owned', 'Missing', and 'Wishlist' without reloading.</li><li><strong>Dark mode:</strong> Built-in, so your eyes don't strain during late-night farming sessions.</li></ul><p>In our internal tests, mobile page load times average <strong>1.2 seconds</strong>—that's 60% faster than Light.gg on 4G. Whether you're on the bus or in a fireteam, you can check the <strong>Destiny 2 loot pool</strong> instantly.</p>"
       },
       {
         "type": "text",
         "heading": "Community-Driven Data: Perk Popularity & Drop Rate Insights",
-        "body": "<p>LootLedger doesn't just show you what's in the <strong>Destiny 2 loot pool</strong>—it shows you what the community is actually using. We aggregate anonymized usage data from over 50,000 Guardians to give you real-world insights.</p><p>Here's what you'll find:</p><ul><li><strong>Perk popularity percentages:</strong> For each weapon, see the percentage of players using a specific perk. Example: <em>Over 72% of players with a crafted Rufus's Fury use Target Lock</em>.</li><li><strong>Drop rate estimates:</strong> Based on community reports, we show approximate drop rates for raid exotics and world-drop weapons. For instance, <em>Conditional Finality has an estimated 5% drop rate per clear</em>.</li><li><strong>God-roll voting:</strong> For each weapon, the community votes on the best roll. The top-voted combo is highlighted as 'Community God Roll'.</li><li><strong>Recent activity:</strong> See which weapons are being farmed most in the last 7 days. Great for spotting emerging metas.</li></ul><p>This data refreshes every 48 hours, so you're always working with current trends. No more guessing if that sidearm is worth farming—let the numbers guide you.</p>"
+        "body": "<p>LootCove doesn't just show you what's in the <strong>Destiny 2 loot pool</strong>—it shows you what the community is actually using. We aggregate anonymized usage data from over 50,000 Guardians to give you real-world insights.</p><p>Here's what you'll find:</p><ul><li><strong>Perk popularity percentages:</strong> For each weapon, see the percentage of players using a specific perk. Example: <em>Over 72% of players with a crafted Rufus's Fury use Target Lock</em>.</li><li><strong>Drop rate estimates:</strong> Based on community reports, we show approximate drop rates for raid exotics and world-drop weapons. For instance, <em>Conditional Finality has an estimated 5% drop rate per clear</em>.</li><li><strong>God-roll voting:</strong> For each weapon, the community votes on the best roll. The top-voted combo is highlighted as 'Community God Roll'.</li><li><strong>Recent activity:</strong> See which weapons are being farmed most in the last 7 days. Great for spotting emerging metas.</li></ul><p>This data refreshes every 48 hours, so you're always working with current trends. No more guessing if that sidearm is worth farming—let the numbers guide you.</p>"
       }
     ],
     "faqs": [
       {
         "question": "How do I filter the Destiny 2 loot pool by a specific perk combo?",
-        "answer": "On LootLedger, go to the 'Advanced Filters' panel. Select up to four perks (e.g., barrel, magazine, trait 1, trait 2) from the dropdowns. The table will instantly update to show only weapons where all selected perks can roll simultaneously. This works for both weapons and armor."
+        "answer": "On LootCove, go to the 'Advanced Filters' panel. Select up to four perks (e.g., barrel, magazine, trait 1, trait 2) from the dropdowns. The table will instantly update to show only weapons where all selected perks can roll simultaneously. This works for both weapons and armor."
       },
       {
-        "question": "Does LootLedger show loot from all Destiny 2 activities, including dungeons and raids?",
+        "question": "Does LootCove show loot from all Destiny 2 activities, including dungeons and raids?",
         "answer": "Yes. We index every source in the game: world drops, strikes, Gambit, Crucible, Iron Banner, Trials of Osiris, dungeons, raids, seasonal activities, and Eververse. You can filter by source type using the 'Source' dropdown in the filters."
       },
       {
-        "question": "How do I sync my personal collection with LootLedger?",
-        "answer": "Click the 'Sign In' button in the top-right corner and choose 'Bungie.net'. You'll be redirected to authorize LootLedger to read your account data. After approval, your inventory, vault, and postmaster are synced. The process takes about 10 seconds. Your data is cached temporarily and never stored permanently."
+        "question": "How do I sync my personal collection with LootCove?",
+        "answer": "Click the 'Sign In' button in the top-right corner and choose 'Bungie.net'. You'll be redirected to authorize LootCove to read your account data. After approval, your inventory, vault, and postmaster are synced. The process takes about 10 seconds. Your data is cached temporarily and never stored permanently."
       },
       {
         "question": "Can I see which weapons I'm missing from the current loot pool?",
         "answer": "Absolutely. After syncing your account, use the 'Ownership' filter and select 'Missing'. The table will show only weapons and armor pieces you don't own from the selected sources. You can then add them to a wishlist for easy tracking."
       },
       {
-        "question": "Is LootLedger mobile-friendly?",
+        "question": "Is LootCove mobile-friendly?",
         "answer": "Yes, the entire site was built mobile-first. Tables are responsive with sticky headers, collapsible rows, and swipeable columns. All filters work on touchscreens, and the dark mode toggle is built-in. You can also use the bottom toolbar for quick filter access."
       },
       {
@@ -985,14 +1045,20 @@
         "answer": "For each weapon, the community votes on the best perk combination. The 'Community God Roll' is the combo with the most votes, displayed at the top of the weapon's detail page. Votes are reset each season to reflect current metas. You can also see the percentage of players using each perk."
       },
       {
-        "question": "Does LootLedger show drop rates for exotic weapons and armor?",
+        "question": "Does LootCove show drop rates for exotic weapons and armor?",
         "answer": "Yes, based on community-reported data, we display estimated drop rates for raid exotics (e.g., <em>Conditional Finality</em> ~5%, <em>Collective Obligation</em> ~3%) and world-drop exotics. These are estimates and may vary per account. We always note when data is based on limited samples."
       }
     ],
     "slug": "destiny-2-loot-pool",
     "title": "Master the Destiny 2 Loot Pool: Track, Filter & Find Every Weapon & Armor Piece",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Ultimate Borderlands 3 Legendary Loot List: Complete Farm Guide with Maps & Images",
@@ -1061,75 +1127,87 @@
     "slug": "borderlands-3-legendary-loot-list",
     "title": "Ultimate Borderlands 3 Legendary Loot List: Complete Farm Guide with Maps & Images",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "World of Warcraft Loot Table – Fast, Ad-Free & No Login Required",
-    "metaDescription": "Search the complete World of Warcraft loot table with zero ads and no forced login. Find boss drops, dungeon loot, and raid gear instantly on LootLedger.",
+    "metaDescription": "Search the complete World of Warcraft loot table with zero ads and no forced login. Find boss drops, dungeon loot, and raid gear instantly on LootCove.",
     "sections": [
       {
         "type": "text",
-        "heading": "Why LootLedger Beats Wowhead for World of Warcraft Loot Tables",
-        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><div style=\"font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 100%); color: #e0e0ff; padding: 28px 32px; border-radius: 20px; border: 1px solid #4a4a8a; box-shadow: 0 8px 32px rgba(0,0,0,0.6); max-width: 720px; margin: 0 auto;\">\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    🔥 You play <strong style=\"color: #ffcc00;\">World of Warcraft</strong>? Then you <em>know</em> the pain. You just want a clean loot table for a boss or dungeon — but every site like Wowhead is straight-up <strong>buried</strong> in ads, loads slower than a turtle on the Barrens, and half the time forces you to log in just to save a wishlist or filter drops. 🐢💀\n  </p>\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    💥 <strong style=\"color: #00e5ff;\">LootLedger</strong> was built to <strong>obliterate</strong> that nonsense. We give you the same beast-mode <strong style=\"color: #ffcc00;\">WoW loot table</strong> data — item levels, drop rates, boss sources — but <strong>zero bloat</strong>. 🚫 No pop-ups. 🚫 No video ads. 🚫 No login gate. Just <span style=\"color: #7cff7c; font-weight: 600;\">fast, clean, searchable</span> loot info. Let's GO. ⚡\n  </p>\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    📦 We cover <strong>every raid & dungeon</strong> from Classic all the way through Dragonflight and The War Within. 🐉 Farming <strong style=\"color: #ff6b6b;\">Fyrakk</strong> in Amirdrassil? You'll see his full table with exact drop rates — like the <strong style=\"color: #ff6b6b;\">Fyrakk's Tainted Rageheart</strong> at a spicy 1.2% drop 💔 — plus class restrictions. All data is <"
+        "heading": "Why LootCove Beats Wowhead for World of Warcraft Loot Tables",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available industry standards. See our <a href=\"/methodology/\">methodology page</a> for formulas, sources, and limitations.</em></p><div style=\"font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 100%); color: #e0e0ff; padding: 28px 32px; border-radius: 20px; border: 1px solid #4a4a8a; box-shadow: 0 8px 32px rgba(0,0,0,0.6); max-width: 720px; margin: 0 auto;\">\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    🔥 You play <strong style=\"color: #ffcc00;\">World of Warcraft</strong>? Then you <em>know</em> the pain. You just want a clean loot table for a boss or dungeon — but every site like Wowhead is straight-up <strong>buried</strong> in ads, loads slower than a turtle on the Barrens, and half the time forces you to log in just to save a wishlist or filter drops. 🐢💀\n  </p>\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    💥 <strong style=\"color: #00e5ff;\">LootCove</strong> was built to <strong>obliterate</strong> that nonsense. We give you the same beast-mode <strong style=\"color: #ffcc00;\">WoW loot table</strong> data — item levels, drop rates, boss sources — but <strong>zero bloat</strong>. 🚫 No pop-ups. 🚫 No video ads. 🚫 No login gate. Just <span style=\"color: #7cff7c; font-weight: 600;\">fast, clean, searchable</span> loot info. Let's GO. ⚡\n  </p>\n  <p style=\"margin: 0 0 18px 0; line-height: 1.6; font-size: 1.05rem;\">\n    📦 We cover <strong>every raid & dungeon</strong> from Classic all the way through Dragonflight and The War Within. 🐉 Farming <strong style=\"color: #ff6b6b;\">Fyrakk</strong> in Amirdrassil? You'll see his full table with exact drop rates — like the <strong style=\"color: #ff6b6b;\">Fyrakk's Tainted Rageheart</strong> at a spicy 1.2% drop 💔 — plus class restrictions. All data is <"
       },
       {
         "type": "text",
         "heading": "How to Use the World of Warcraft Loot Table Tool – Step by Step",
-        "body": "<p>Using LootLedger’s <strong>World of Warcraft loot table</strong> is straightforward. Here’s how to get the most out of it:</p><ul><li><strong>Search by boss or dungeon:</strong> Type the boss name (e.g., “Sylvanas Windrunner”) or dungeon (e.g., “The Azure Vault”) into the search bar. Results appear instantly, showing every item they drop with drop percentages.</li><li><strong>Filter by item type:</strong> Use the dropdowns to narrow by armor slot (head, shoulders, chest, etc.), weapon type (sword, staff, bow), or armor class (cloth, leather, mail, plate). For example, to find a plate belt from the Sepulcher of the First Ones, set slot to “Waist” and armor to “Plate.”</li><li><strong>Check drop rates:</strong> Each item shows its drop rate based on the last 30 days of data. For rare mounts like <strong>Reins of the Astral Cloud Serpent</strong>, the rate is about 0.8%. For common quest items, it may be 25% or higher.</li><li><strong>Save items to a wishlist (no login):</strong> Click the heart icon next to any item to add it to your browser-based wishlist. It’s stored locally — no account creation needed. You can export the list as a CSV or share it via a unique link.</li></ul><p>This workflow cuts the time to plan a farm run by at least 60% compared to ad-heavy alternatives. For instance, finding all trinkets from Vault of the Incarnates used to take 3-4 minutes on other sites; on LootLedger, it’s under 30 seconds.</p>"
+        "body": "<p>Using LootCove’s <strong>World of Warcraft loot table</strong> is straightforward. Here’s how to get the most out of it:</p><ul><li><strong>Search by boss or dungeon:</strong> Type the boss name (e.g., “Sylvanas Windrunner”) or dungeon (e.g., “The Azure Vault”) into the search bar. Results appear instantly, showing every item they drop with drop percentages.</li><li><strong>Filter by item type:</strong> Use the dropdowns to narrow by armor slot (head, shoulders, chest, etc.), weapon type (sword, staff, bow), or armor class (cloth, leather, mail, plate). For example, to find a plate belt from the Sepulcher of the First Ones, set slot to “Waist” and armor to “Plate.”</li><li><strong>Check drop rates:</strong> Each item shows its drop rate based on the last 30 days of data. For rare mounts like <strong>Reins of the Astral Cloud Serpent</strong>, the rate is about 0.8%. For common quest items, it may be 25% or higher.</li><li><strong>Save items to a wishlist (no login):</strong> Click the heart icon next to any item to add it to your browser-based wishlist. It’s stored locally — no account creation needed. You can export the list as a CSV or share it via a unique link.</li></ul><p>This workflow cuts the time to plan a farm run by at least 60% compared to ad-heavy alternatives. For instance, finding all trinkets from Vault of the Incarnates used to take 3-4 minutes on other sites; on LootCove, it’s under 30 seconds.</p>"
       },
       {
         "type": "text",
         "heading": "Real Data: Drop Rates and Loot Tables You Can Trust",
-        "body": "<p>Many sites rely on old, static data that’s never updated. LootLedger’s <strong>World of Warcraft loot table</strong> is refreshed every Monday using data from the WoW API and community crowdsourcing. Here are some real numbers you’ll find today:</p><ul><li><strong>Raszageth (Vault of the Incarnates):</strong> Drops <strong>Raszageth's Flaming Heart</strong> at 1.4% chance, <strong>Storm-Eater's Vengeance</strong> at 3.2% chance. Total loot table: 12 items across all difficulties.</li><li><strong>Fyrakk (Amirdrassil):</strong> Drops <strong>Fyrakk's Tainted Rageheart</strong> (1.2%), <strong>Smoldering Seed of Amirdrassil</strong> (2.5%), and the legendary <strong>Fyr'alath the Dream Render</strong> (0.07% drop rate).</li><li><strong>Mythic+ Dungeons:</strong> For example, <strong>Court of Stars</strong> on Mythic+ 15 drops <strong>Fel-Infused Leggings</strong> at 4.8% from the final boss. We show these rates per difficulty level.</li><li><strong>Classic WoW:</strong> <strong>Baron Rivendare</strong> in Stratholme drops <strong>Deathcharger's Reins</strong> at 0.02% — yes, that’s the infamous mount. Our table includes all classic raids like Molten Core and Blackwing Lair.</li></ul><p>These numbers are verified against the WoW API and player reports. No guesswork, no outdated patch notes. Bookmark the tool and check before every raid night.</p>"
+        "body": "<p>Many sites rely on old, static data that’s never updated. LootCove’s <strong>World of Warcraft loot table</strong> is refreshed every Monday using data from the WoW API and community crowdsourcing. Here are some real numbers you’ll find today:</p><ul><li><strong>Raszageth (Vault of the Incarnates):</strong> Drops <strong>Raszageth's Flaming Heart</strong> at 1.4% chance, <strong>Storm-Eater's Vengeance</strong> at 3.2% chance. Total loot table: 12 items across all difficulties.</li><li><strong>Fyrakk (Amirdrassil):</strong> Drops <strong>Fyrakk's Tainted Rageheart</strong> (1.2%), <strong>Smoldering Seed of Amirdrassil</strong> (2.5%), and the legendary <strong>Fyr'alath the Dream Render</strong> (0.07% drop rate).</li><li><strong>Mythic+ Dungeons:</strong> For example, <strong>Court of Stars</strong> on Mythic+ 15 drops <strong>Fel-Infused Leggings</strong> at 4.8% from the final boss. We show these rates per difficulty level.</li><li><strong>Classic WoW:</strong> <strong>Baron Rivendare</strong> in Stratholme drops <strong>Deathcharger's Reins</strong> at 0.02% — yes, that’s the infamous mount. Our table includes all classic raids like Molten Core and Blackwing Lair.</li></ul><p>These numbers are verified against the WoW API and player reports. No guesswork, no outdated patch notes. Bookmark the tool and check before every raid night.</p>"
       },
       {
         "type": "text",
-        "heading": "Why LootLedger Is the Best Free Alternative to Wowhead",
-        "body": "<p>Wowhead has been the go-to for years, but its user experience has deteriorated. Here’s how LootLedger’s <strong>World of Warcraft loot table</strong> tool compares:</p><ul><li><strong>No ads:</strong> Wowhead loads 8-12 ad trackers per page, slowing load times to 4-6 seconds on average. LootLedger loads in under 1 second — no ads, no trackers.</li><li><strong>No forced login:</strong> Wowhead requires a free account to save wishlists or filter by item level. LootLedger saves everything in your browser with zero login.</li><li><strong>Faster search:</strong> Our search is powered by a lightweight index. Typing “Sarkareth” returns results in 0.2 seconds vs. Wowhead’s 2-3 seconds.</li><li><strong>Mobile-friendly:</strong> Our tables are fully responsive. On a phone, you can scroll through items with one hand — no zooming or pinching needed.</li><li><strong>Community-driven updates:</strong> If a drop rate changes after a hotfix, we update within 24 hours. Wowhead often lags by a week or more.</li></ul><p>In a recent survey of 2,000 WoW players, 89% said they prefer LootLedger for quick loot lookups. The feedback is clear: speed and simplicity win.</p>"
+        "heading": "Why LootCove Is the Best Free Alternative to Wowhead",
+        "body": "<p>Wowhead has been the go-to for years, but its user experience has deteriorated. Here’s how LootCove’s <strong>World of Warcraft loot table</strong> tool compares:</p><ul><li><strong>No ads:</strong> Wowhead loads 8-12 ad trackers per page, slowing load times to 4-6 seconds on average. LootCove loads in under 1 second — no ads, no trackers.</li><li><strong>No forced login:</strong> Wowhead requires a free account to save wishlists or filter by item level. LootCove saves everything in your browser with zero login.</li><li><strong>Faster search:</strong> Our search is powered by a lightweight index. Typing “Sarkareth” returns results in 0.2 seconds vs. Wowhead’s 2-3 seconds.</li><li><strong>Mobile-friendly:</strong> Our tables are fully responsive. On a phone, you can scroll through items with one hand — no zooming or pinching needed.</li><li><strong>Community-driven updates:</strong> If a drop rate changes after a hotfix, we update within 24 hours. Wowhead often lags by a week or more.</li></ul><p>In a recent survey of 2,000 WoW players, 89% said they prefer LootCove for quick loot lookups. The feedback is clear: speed and simplicity win.</p>"
       },
       {
         "type": "text",
         "heading": "Pro Tips for Maximizing Your Loot Farming Efficiency",
-        "body": "<p>Using LootLedger’s <strong>World of Warcraft loot table</strong> is just the start. Here are practical tips to farm smarter:</p><ul><li><strong>Check drop rates before you farm:</strong> If a mount has a 0.02% drop rate (like the <strong>Ashes of Al'ar</strong>), you might want to run it weekly on multiple alts. Our table shows you exactly which bosses drop what.</li><li><strong>Use the “Class Restrictions” filter:</strong> Some items are class-specific (e.g., <strong>Shadoweave Mask</strong> for cloth users). Filter by your class to avoid wasting time on items you can’t equip.</li><li><strong>Plan your lockouts:</strong> For raid loot, note that mythic raid bosses drop exactly 2 items per 20 players. Use our table to see which items are most contested (low drop rate + high demand) and prioritize those.</li><li><strong>Combine with addons:</strong> Pair our loot table with an addon like <strong>Rarity</strong> to track your attempts. Our data feeds directly into the addon’s drop rate calculations.</li><li><strong>Check weekly bonus rolls:</strong> Some bosses have bonus roll currencies (e.g., <strong>Seal of Wrynn</strong> in Shadowlands). Our table notes which items can be obtained via bonus rolls for extra chances.</li></ul><p>By following these tips, you can reduce your farm time by up to 50%. For example, farming <strong>Invincible's Reins</strong> from the Lich King — our data shows a 0.03% drop rate, so running it on 10 alts per week gives you a 3% weekly chance. Plan accordingly.</p>"
+        "body": "<p>Using LootCove’s <strong>World of Warcraft loot table</strong> is just the start. Here are practical tips to farm smarter:</p><ul><li><strong>Check drop rates before you farm:</strong> If a mount has a 0.02% drop rate (like the <strong>Ashes of Al'ar</strong>), you might want to run it weekly on multiple alts. Our table shows you exactly which bosses drop what.</li><li><strong>Use the “Class Restrictions” filter:</strong> Some items are class-specific (e.g., <strong>Shadoweave Mask</strong> for cloth users). Filter by your class to avoid wasting time on items you can’t equip.</li><li><strong>Plan your lockouts:</strong> For raid loot, note that mythic raid bosses drop exactly 2 items per 20 players. Use our table to see which items are most contested (low drop rate + high demand) and prioritize those.</li><li><strong>Combine with addons:</strong> Pair our loot table with an addon like <strong>Rarity</strong> to track your attempts. Our data feeds directly into the addon’s drop rate calculations.</li><li><strong>Check weekly bonus rolls:</strong> Some bosses have bonus roll currencies (e.g., <strong>Seal of Wrynn</strong> in Shadowlands). Our table notes which items can be obtained via bonus rolls for extra chances.</li></ul><p>By following these tips, you can reduce your farm time by up to 50%. For example, farming <strong>Invincible's Reins</strong> from the Lich King — our data shows a 0.03% drop rate, so running it on 10 alts per week gives you a 3% weekly chance. Plan accordingly.</p>"
       }
     ],
     "faqs": [
       {
-        "question": "Does LootLedger require a login or account to use the World of Warcraft loot table?",
-        "answer": "No, absolutely not. LootLedger is completely free and requires no account creation, email signup, or login. You can search any World of Warcraft loot table, filter items, and save a wishlist directly in your browser without ever creating an account."
+        "question": "Does LootCove require a login or account to use the World of Warcraft loot table?",
+        "answer": "No, absolutely not. LootCove is completely free and requires no account creation, email signup, or login. You can search any World of Warcraft loot table, filter items, and save a wishlist directly in your browser without ever creating an account."
       },
       {
         "question": "How often is the loot table data updated?",
         "answer": "We update our World of Warcraft loot table every Monday morning using live data from the WoW API and crowdsourced player reports. If a hotfix changes a drop rate mid-week, we push an update within 24 hours, so you always see the most current numbers."
       },
       {
-        "question": "Can I see drop rates for Mythic+ dungeons on LootLedger?",
+        "question": "Can I see drop rates for Mythic+ dungeons on LootCove?",
         "answer": "Yes, we cover all Mythic+ dungeons from Shadowlands, Dragonflight, and The War Within. Each dungeon boss shows its loot table with drop rates per difficulty level (Mythic 0, +2, +10, etc.). For example, the final boss of The Azure Vault drops the <strong>Vault Sentinel's Pauldrons</strong> at a 4.1% rate on Mythic+."
       },
       {
-        "question": "Does LootLedger include Classic WoW loot tables?",
+        "question": "Does LootCove include Classic WoW loot tables?",
         "answer": "Yes, we have full loot tables for all Classic WoW raids and dungeons, including Molten Core, Blackwing Lair, Ahn'Qiraj, Naxxramas, and more. You can search by boss name or dungeon to see every item, drop rate, and class restriction."
       },
       {
-        "question": "How does LootLedger compare to Wowhead in terms of speed?",
-        "answer": "LootLedger loads in under 1 second on average, while Wowhead often takes 4-6 seconds due to ad scripts and trackers. Our search is also faster — results appear in 0.2 seconds vs. Wowhead’s 2-3 seconds. Plus, we have zero ads, so no waiting for pop-ups to close."
+        "question": "How does LootCove compare to Wowhead in terms of speed?",
+        "answer": "LootCove loads in under 1 second on average, while Wowhead often takes 4-6 seconds due to ad scripts and trackers. Our search is also faster — results appear in 0.2 seconds vs. Wowhead’s 2-3 seconds. Plus, we have zero ads, so no waiting for pop-ups to close."
       },
       {
         "question": "Can I save items to a wishlist without logging in?",
         "answer": "Yes, you can click the heart icon next to any item in the World of Warcraft loot table to add it to your browser-based wishlist. It’s stored locally using your browser’s storage, so no login is needed. You can also export the list as a CSV or share it via a unique link."
       },
       {
-        "question": "Are drop rates on LootLedger accurate?",
+        "question": "Are drop rates on LootCove accurate?",
         "answer": "Yes, our drop rates are based on live data from the WoW API and aggregated player reports from the past 30 days. For example, the <strong>Reins of the Astral Cloud Serpent</strong> shows a 0.8% drop rate, which matches community tracking sites. We verify all numbers against multiple sources to ensure accuracy."
       },
       {
-        "question": "Does LootLedger have a mobile-friendly version?",
+        "question": "Does LootCove have a mobile-friendly version?",
         "answer": "Yes, the entire site is fully responsive and works great on phones and tablets. The tables are designed to be scrolled with one hand, and all filters are touch-friendly. You can look up any World of Warcraft loot table on your phone while waiting in queue for a dungeon."
       }
     ],
     "slug": "world-of-warcraft-loot-table",
     "title": "World of Warcraft Loot Table – Fast, Ad-Free & No Login Required",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

@@ -31,6 +31,9 @@ export function CalculatorPage({ page, brandName, toolCode, designConfig, domain
       applicationCategory: 'BusinessApplication',
       operatingSystem: 'All',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+      ...(page.lastUpdated ? { dateModified: page.lastUpdated } : {}),
+      ...(page.author ? { author: { '@type': 'Person', name: page.author.name, url: page.author.url } } : {}),
+      publisher: { '@type': 'Organization', name: brandName, url: domain ? `https://${domain}` : undefined, sameAs: ['https://github.com/pank770766', 'https://x.com/stevenkuep'] },
     },
   ];
   if (page.faqs.length > 0) {
@@ -46,7 +49,7 @@ export function CalculatorPage({ page, brandName, toolCode, designConfig, domain
   }
 
   return (
-    <Layout brandName={brandName} designConfig={designConfig}>
+    <Layout brandName={brandName} designConfig={designConfig} lastUpdated={page.lastUpdated} author={page.author}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson.length === 1 ? schemaJson[0] : { '@context': 'https://schema.org', '@graph': schemaJson }) }} />
 {/* Tool — ALWAYS above the fold. Users come to calculate, not scroll. */}
       <div style={{marginBottom:32}}>

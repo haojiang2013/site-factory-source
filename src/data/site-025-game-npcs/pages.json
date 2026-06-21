@@ -152,7 +152,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "best-game-npc-database-tools-compared"
+    "slug": "best-game-npc-database-tools-compared",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "NPC Database API Comparison: Best Tools for Game Developers 2026",
@@ -285,7 +291,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "best-npc-database-apis-for-game-developers"
+    "slug": "best-npc-database-apis-for-game-developers",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "NPC Database for Mod Developers: Cost Comparison Guide",
@@ -403,7 +415,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "npc-database-for-mod-developers-compare-npc-creation-costs"
+    "slug": "npc-database-for-mod-developers-compare-npc-creation-costs",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "Best NPC Database Sites for Game Masters (2026 Comparison)",
@@ -554,7 +572,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "best-npc-database-sites-compared"
+    "slug": "best-npc-database-sites-compared",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "title": "Skyrim NPC Schedule Database: Compare NPC Creation Costs",
@@ -716,7 +740,13 @@
       }
     ],
     "affiliateCTA": null,
-    "slug": "skyrim-npc-schedule-database-npc-creation-costs-comparison"
+    "slug": "skyrim-npc-schedule-database-npc-creation-costs-comparison",
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Elden Ring NPC Quest Tracker – Minimal, Checkbox-Style Tool",
@@ -785,7 +815,13 @@
     "slug": "elden-ring-npc-quest-tracker",
     "title": "Free Elden Ring NPC Quest Tracker – Minimal, Checkbox-Style Tool",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "NPC Item Drop Database – Search & Filter by Drop Chance",
@@ -854,7 +890,13 @@
     "slug": "npc-item-drop-database",
     "title": "NPC Item Drop Database – Search & Filter by Drop Chance",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "The Ultimate NPC Dialogue Database – Search, Copy & Paste Lines Instantly",
@@ -923,7 +965,13 @@
     "slug": "npc-dialogue-database",
     "title": "The Ultimate NPC Dialogue Database – Search, Copy & Paste Lines Instantly",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Mobile Friendly NPC Database – Browse Game NPCs on Any Device",
@@ -992,6 +1040,12 @@
     "slug": "mobile-friendly-npc-database",
     "title": "Mobile Friendly NPC Database – Browse Game NPCs on Any Device",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

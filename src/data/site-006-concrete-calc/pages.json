@@ -71,6 +71,12 @@
       "link": "https://www.amazon.com/SAKRETE-80-lb-High-Strength-Concrete-Mix/dp/B000BQ7G8W",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This helps keep our tools free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -169,6 +175,12 @@
       "link": "https://www.amazon.com/dp/B000BQYH6C",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. Our recommendations are based on real product testing and user reviews."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -248,6 +260,12 @@
       "link": "https://www.amazon.com/dp/B000BQJ8X2",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This doesn't affect your price."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -399,6 +417,12 @@
       "link": "https://www.amazon.com/SAKRETE-80-lb-High-Strength-Concrete/dp/B000BQY9G8",
       "platform": "amazon",
       "disclosureText": "We earn a commission if you purchase, at no extra cost to you. This helps keep our tools free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -569,6 +593,12 @@
       "link": "https://www.amazon.com/dp/B000BZ6Y2E",
       "platform": "amazon",
       "disclosureText": "As an Amazon Associate, we earn from qualifying purchases. This helps us keep the calculator free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -638,7 +668,13 @@
     "slug": "concrete-cost-calculator",
     "title": "Free Concrete Cost Calculator with Delivery & Surcharges Included",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Concrete Yard Calculator – No Signup, Instant Results",
@@ -707,7 +743,13 @@
     "slug": "concrete-yard-calculator",
     "title": "Free Concrete Yard Calculator – No Signup, Instant Results",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Bagged Concrete Calculator – Estimate Bags & Cost for Any Project",
@@ -771,7 +813,13 @@
     "slug": "bagged-concrete-calculator",
     "title": "Free Bagged Concrete Calculator – Estimate Bags & Cost for Any Project",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Ready Mix Concrete Calculator – Avoid Short Load Fees & Get Accurate Estimates",
@@ -840,6 +888,12 @@
     "slug": "ready-mix-concrete-calculator",
     "title": "Free Ready Mix Concrete Calculator – Avoid Short Load Fees & Get Accurate Estimates",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

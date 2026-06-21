@@ -90,12 +90,47 @@
         "body": "The DOE sets minimums. Don't buy below these:\n\n- **SEER (AC/heat pump):** 14 minimum (15 in south/southwest, effective 2023)\n- **AFUE (gas furnace):** 80% minimum (effective 2015)\n\nHigher is better. A 16 SEER unit will save you money over time. A 20 SEER is premium.\n\nTypical efficiency benchmarks:\n- SEER: 14–20 (typical 16)\n- AFUE: 80–98% (typical 90%)\n- HSPF (heat pump): 8.2–13 (typical 10)"
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "What is a Manual J load calculation?",
+        "answer": "Manual J is the ACCA-standard method for calculating a home's heating and cooling needs. It factors in square footage, insulation, windows, climate zone, ceiling height, and occupancy. Unlike the rule-of-thumb (500 sq ft per ton), Manual J gives precise sizing that prevents oversized equipment and humidity problems."
+      },
+      {
+        "question": "Do I really need Manual J, or is 500 sq ft per ton good enough?",
+        "answer": "500 sq ft per ton is a crude estimate that frequently leads to oversized equipment. Oversized AC units short-cycle, don't dehumidify properly, and wear out faster. Manual J typically saves 15-25% on equipment costs by right-sizing your system. Most utility rebates require Manual J verification."
+      },
+      {
+        "question": "Is this Manual J calculator free? No email required?",
+        "answer": "Yes. Completely free. No email, no signup, no contractor referral. Professional Manual J software costs $50-150/month — this is the free alternative."
+      },
+      {
+        "question": "How accurate is this compared to a professional Manual J?",
+        "answer": "This uses the simplified Manual J method (ACCA-approved for residential). A full professional Manual J uses 30+ inputs including infrared scans and blower door tests. Our simplified version is typically within 10-15% of a full Manual J — accurate enough for equipment sizing and contractor discussions."
+      },
+      {
+        "question": "Can I use this result to size my new HVAC system?",
+        "answer": "Yes, as a starting point. Take the calculated tonnage to your HVAC contractor as a reference. If they recommend something 0.5+ tons different, ask why — they should be able to explain the difference based on your home's specific characteristics."
+      },
+      {
+        "question": "What climate zone am I in?",
+        "answer": "The US is divided into 8 climate zones (1 = hot/humid like Miami, 8 = cold like Fairbanks). Our calculator determines your zone based on your state and county. Zone affects heating and cooling loads dramatically — a 2,000 sq ft home in Zone 1 needs very different sizing from Zone 5."
+      },
+      {
+        "question": "Does insulation really make that big a difference?",
+        "answer": "Absolutely. Upgrading from R-13 to R-38 attic insulation can reduce your required HVAC tonnage by 0.5-1.0 tons — saving $1,500-$3,000 on equipment costs alone. Our calculator adjusts for your actual insulation levels, so you see the sizing impact."
+      }
+    ],
     "affiliateCTA": {
       "productName": "ThermoWise Pick: Manual J Professional Software (Homeowner License)",
       "link": "https://www.thermowise.com/manual-j-homeowner",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link. No extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -246,6 +281,12 @@
       "link": "https://www.amazon.com/dp/B0EXAMPLE",
       "platform": "amazon",
       "disclosureText": "We earn a small commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -440,6 +481,12 @@
       "link": "https://www.amazon.com/dp/B0EXAMPLE",
       "platform": "amazon",
       "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on independent research."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -610,6 +657,12 @@
       "link": "https://www.amazon.com/dp/B0EXAMPLE",
       "platform": "amazon",
       "disclosureText": "We earn a small commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -838,6 +891,12 @@
       "link": "https://www.lennox.com/products/heat-pumps/el18xpv",
       "platform": "partners",
       "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   }
 ]

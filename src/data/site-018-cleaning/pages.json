@@ -152,6 +152,12 @@
       "link": "https://www.tidycost.com/house-cleaning-cost-calculator",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book through our partners. This helps us keep the calculator free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -308,6 +314,12 @@
       "link": "https://www.thumbtack.com/maid-service/rates",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book through this link, at no extra cost to you. All estimates are based on independent research."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -481,6 +493,12 @@
       "link": "https://www.tidycost.com/cleaning-services",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book through TidyCost. This helps us keep the calculator free."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -567,6 +585,12 @@
       "link": "https://www.tidycost.com/house-cleaning",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book through this link, at no extra cost to you. All data is independently sourced and verified."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -705,6 +729,12 @@
       "link": "https://www.tidycost.com/deep-cleaning-quote",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you book through this link. Our calculator estimates are based on real data from HomeAdvisor, Angi, and Thumbtack."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -752,7 +782,13 @@
     "slug": "house-cleaning-estimate-by-city",
     "title": "House cleaning estimate by city — Free house cleaning cost estimator",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "House Cleaning Cost Per Square Foot: Get Accurate Pricing with TidyCost",
@@ -821,7 +857,13 @@
     "slug": "house-cleaning-cost-per-square-foot",
     "title": "House Cleaning Cost Per Square Foot: Get Accurate Pricing with TidyCost",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Weekly House Cleaning Cost: Save Big with TidyCost's Interactive Estimator",
@@ -890,7 +932,13 @@
     "slug": "weekly-house-cleaning-cost",
     "title": "Weekly House Cleaning Cost: Save Big with TidyCost's Interactive Estimator",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free House Cleaning Service Cost Estimator – Instant, No Email Required",
@@ -959,7 +1007,13 @@
     "slug": "house-cleaning-service-cost-estimator-free",
     "title": "Free House Cleaning Service Cost Estimator – Instant, No Email Required",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best House Cleaning Cost Estimator: Get Accurate Prices in Seconds",
@@ -1028,6 +1082,12 @@
     "slug": "best-house-cleaning-cost-estimator",
     "title": "Best House Cleaning Cost Estimator: Get Accurate Prices in Seconds",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

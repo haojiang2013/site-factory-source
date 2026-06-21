@@ -98,19 +98,115 @@ Let me know if it helps!`;
 }
 
 // ═══ PINTEREST ═══
+interface Pin {
+  brand: string;
+  domain: string;
+  title: string;
+  description: string;
+  link: string;
+  hashtags: string[];
+  angle: 'pain-point' | 'how-to' | 'comparison' | 'tip' | 'feature' | 'numbers' | 'quiz' | 'before-after' | 'checklist' | 'secret';
+  imageSpec: string;
+}
+
 function generatePinterestPins(sites: SiteBrief[]) {
-  console.log('\n=== Pinterest Pin Content ===\n');
-  console.log('Pin design template: 1000x1500px, tool screenshot + headline\n');
+  const allPins: Pin[] = [];
+  const tagMap: Record<string, string> = { A: 'calculator', B: 'comparison', C: 'guide' };
+  const nicheTag = (s: SiteBrief) => s.niche.replace(/\s+/g, '');
+
+  // 10 pin angles per site
+  const angles: Array<{ angle: Pin['angle']; title: (s: SiteBrief) => string; desc: (s: SiteBrief) => string }> = [
+    {
+      angle: 'pain-point',
+      title: s => `Stop ${s.painPoint.split(' ').slice(0, 5).join(' ')}`,
+      desc: s => `Tired of ${s.painPoint}? Try this free ${s.niche} — no signup, instant results. ${s.domain}`,
+    },
+    {
+      angle: 'how-to',
+      title: s => `How to ${s.h1.replace(/[-–—]/g, '').substring(0, 80)}`,
+      desc: s => `Step-by-step: use our free ${s.niche} to get accurate estimates in 30 seconds. No email required.`,
+    },
+    {
+      angle: 'comparison',
+      title: s => `${s.brand} vs Paying a Pro: Real Cost Difference`,
+      desc: s => `Before you hire someone, run the numbers. Free ${s.niche} saves you from overpaying. ${s.domain}`,
+    },
+    {
+      angle: 'tip',
+      title: s => `One Thing Most People Get Wrong About ${s.niche.replace('calculator', '').replace('estimator', '').trim()}`,
+      desc: s => `Don't guess — calculate. Our free tool uses real industry data. ${s.domain}`,
+    },
+    {
+      angle: 'feature',
+      title: s => `${s.brand}: The Free Tool That Replaces Spreadsheets`,
+      desc: s => `No Excel, no math, no signup. Just open and calculate. ${s.niche} — ${s.domain}`,
+    },
+    {
+      angle: 'numbers',
+      title: s => `Real Numbers: What ${s.niche.replace(' calculator', '').replace(' estimator', '')} Actually Costs in 2026`,
+      desc: s => `Updated 2026 pricing data. Free ${s.niche} with breakdown by category. ${s.domain}`,
+    },
+    {
+      angle: 'quiz',
+      title: s => `Which ${s.niche.split(' ')[0]} Option Is Right For You?`,
+      desc: s => `Answer 3 quick inputs and our free calculator tells you. No signup. ${s.domain}`,
+    },
+    {
+      angle: 'before-after',
+      title: s => `Before Buying ${s.niche.split(' ').slice(0, 2).join(' ')}: Run This First`,
+      desc: s => `5 minutes of planning saves thousands. Free ${s.niche} → ${s.domain}`,
+    },
+    {
+      angle: 'checklist',
+      title: s => `The Ultimate ${s.niche.replace(' calculator', '').replace(' estimator', '')} Checklist (Free Tool Inside)`,
+      desc: s => `Everything you need to know before starting. Plus a free calculator. ${s.domain}`,
+    },
+    {
+      angle: 'secret',
+      title: s => `Industry Secret: How Pros Estimate ${s.niche.split(' ').slice(0, 2).join(' ')} Costs`,
+      desc: s => `We reverse-engineered professional pricing formulas. Try them free. ${s.domain}`,
+    },
+  ];
 
   for (const site of sites) {
-    const headline = site.h1.replace(/[-–—]/g, '').substring(0, 90);
-    console.log(`### ${site.brand}`);
-    console.log(`Title: ${headline}`);
-    console.log(`Description: Free ${site.niche}. No signup, no email. ${site.painPoint} → ${site.domain}`);
-    console.log(`Link: https://${site.domain}/`);
-    console.log(`Hashtags: #${site.niche.replace(/\s+/g, '')} #freetool #${site.template === 'A' ? 'calculator' : site.template === 'B' ? 'comparison' : 'guide'}`);
+    for (const a of angles) {
+      const title = a.title(site).substring(0, 100);
+      allPins.push({
+        brand: site.brand,
+        domain: site.domain,
+        title,
+        description: a.desc(site).substring(0, 500),
+        link: `https://${site.domain}/`,
+        hashtags: [`#${nicheTag(site)}`, '#freetool', `#${tagMap[site.template]}`, '#nocode', '#indiehacker'],
+        angle: a.angle,
+        imageSpec: '1000x1500px — tool screenshot with bold headline overlay, brand colors, clean white bg',
+      });
+    }
+  }
+
+  // Output to console
+  console.log('\n=== Pinterest Pin Content ===\n');
+  console.log(`Generated ${allPins.length} pins (10 per site × ${sites.length} sites)\n`);
+
+  for (let i = 0; i < allPins.length; i++) {
+    const pin = allPins[i];
+    if (i > 0 && i % 10 === 0) console.log(`\n--- ${pin.brand} ---\n`);
+    console.log(`${i + 1}. [${pin.angle}] ${pin.title}`);
+    console.log(`   ${pin.description}`);
+    console.log(`   🔗 ${pin.link}  |  ${pin.hashtags.join(' ')}`);
     console.log();
   }
+
+  // Write JSON file for batch processing
+  const outPath = path.join(process.cwd(), 'src', 'data', 'pinterest-pins.json');
+  fs.writeFileSync(outPath, JSON.stringify(allPins, null, 2));
+  console.log(`\n✓ Saved ${allPins.length} pins to src/data/pinterest-pins.json`);
+
+  // Print summary by angle
+  console.log('\nPin angle distribution:');
+  const angleCount: Record<string, number> = {};
+  allPins.forEach(p => { angleCount[p.angle] = (angleCount[p.angle] || 0) + 1; });
+  Object.entries(angleCount).forEach(([a, c]) => console.log(`  ${a}: ${c} pins`));
 }
 
 // ═══ MASTODON ═══

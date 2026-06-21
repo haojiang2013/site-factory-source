@@ -29,7 +29,7 @@ export async function GET() {
       property: `properties/${propertyId}`,
       requestBody: {
         dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
-        dimensions: [{ name: 'country' }],
+        dimensions: [{ name: 'countryId' }],
         metrics: [{ name: 'activeUsers' }, { name: 'sessions' }],
         orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
         limit: '20',

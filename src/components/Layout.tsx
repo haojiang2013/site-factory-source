@@ -7,9 +7,11 @@ interface LayoutProps {
   brandName: string;
   designConfig?: DesignConfig;
   children: React.ReactNode;
+  lastUpdated?: string;
+  author?: { name: string; url: string; jobTitle?: string };
 }
 
-export function Layout({ brandName, designConfig, children }: LayoutProps) {
+export function Layout({ brandName, designConfig, children, lastUpdated, author }: LayoutProps) {
   const palette = designConfig?.colorScheme ? COLOR_PALETTES[designConfig.colorScheme] : COLOR_PALETTES['denim-canvas'];
   const fonts = designConfig?.fontPair ? FONT_PAIRS[designConfig.fontPair] : FONT_PAIRS['merriweather+opensans'];
   const year = new Date().getFullYear();
@@ -68,7 +70,7 @@ export function Layout({ brandName, designConfig, children }: LayoutProps) {
               <a href="/contact" style={{ color:palette.muted, textDecoration:'none' }}>Contact</a>
             </nav>
             <p style={{ margin:'12px 0 4px', color:'#aaa', fontSize:11 }}>
-              📅 Last updated: June {year} · Reviewed by: Steven Kuep
+              📅 Last updated: {lastUpdated ? new Date(lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : `June ${year}`} · Reviewed by: {author?.name || 'Steven Kuep'}
             </p>
             <p style={{ margin:'4px 0 0', color:'#ccc', fontSize:10 }}>© {year} {brandName}</p>
           </div>

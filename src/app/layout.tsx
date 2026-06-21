@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { AnalyticsTracker } from '@/components/AnalyticsTracker';
 import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import './globals.css';
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {children}
         <Analytics />
+        <SpeedInsights />
         <AnalyticsTracker />
         <GoogleAnalytics />
       </body>

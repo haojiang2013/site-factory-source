@@ -87,6 +87,12 @@
       "link": "https://www.sherwin-williams.com/paint/superpaint-interior-latex",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -203,6 +209,12 @@
       "link": "https://www.sherwin-williams.com/paint/duration-home-interior",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -339,12 +351,43 @@
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many gallons of paint do I need for a 12x12 room?",
+        "answer": "A 12x12 room with 8-foot ceilings has about 384 sq ft of wall space. After subtracting windows and doors (~20 sq ft), you need about 1 gallon per coat. For two coats (recommended), buy 2 gallons. Use our calculator above for precise numbers based on your exact room dimensions."
+      },
+      {
+        "question": "Does paint coverage vary by brand?",
+        "answer": "Yes. Most quality paints cover 350-400 sq ft per gallon, but some premium paints thin to 250-300 sq ft for better hide. Always check the can label — coverage is listed in sq ft per gallon. Our calculator lets you adjust coverage rate for your specific paint."
+      },
+      {
+        "question": "Why do I need two coats of paint?",
+        "answer": "One coat rarely provides even coverage, especially over patched walls or color changes. The first coat seals and primes; the second coat gives uniform color and durability. The only exception: painting the same color over the same color in good condition."
+      },
+      {
+        "question": "Should I subtract windows and doors from my wall area?",
+        "answer": "Yes, but don't over-subtract. Standard windows average 15 sq ft, standard doors 21 sq ft. Subtract them from your total, but keep 5-10% extra paint for touch-ups. Our calculator includes this buffer automatically."
+      },
+      {
+        "question": "Is this paint calculator really free? No email required?",
+        "answer": "Yes. 100% free. No email, no signup, no paywall. Get your paint estimate instantly."
+      },
+      {
+        "question": "What if I'm painting over a dark color with a light color?",
+        "answer": "Add an extra coat. Dark-to-light transitions almost always need 3 coats: primer + 2 finish coats. Use a high-hide primer (gray or white) to reduce the number of finish coats needed."
+      }
+    ],
     "affiliateCTA": {
       "productName": "CoverWise Pick: Sherwin-Williams Duration Interior Paint",
       "link": "https://www.sherwin-williams.com/paint-education/paint-basics/how-much-paint-do-i-need",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -458,6 +501,12 @@
       "link": "https://www.sherwin-williams.com/paint/interior-paint/superpaint-interior-latex",
       "platform": "partners",
       "disclosureText": "We may earn a commission if you purchase through this link, at no extra cost to you."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -553,6 +602,12 @@
       "link": "https://www.homedepot.com/p/Behr-Premium-Plus-1-gal-Interior-Paint-and-Primer-in-One/100077441",
       "platform": "homedepot",
       "disclosureText": "We may earn a commission if you buy through this link, at no extra cost to you. Our picks are based on independent research."
+    },
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
     }
   },
   {
@@ -622,7 +677,13 @@
     "slug": "paint-estimator",
     "title": "Free Paint Estimator: Calculate Exactly How Much Paint You Need",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Paint Square Footage Calculator – Accurate Coverage for Multiple Walls",
@@ -691,7 +752,13 @@
     "slug": "paint-square-footage-calculator",
     "title": "Free Paint Square Footage Calculator – Accurate Coverage for Multiple Walls",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Paint Coverage Per Gallon Calculator: Get Accurate Estimates for Any Room",
@@ -760,7 +827,13 @@
     "slug": "paint-coverage-per-gallon",
     "title": "Paint Coverage Per Gallon Calculator: Get Accurate Estimates for Any Room",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Paint Cost Calculator: Get Accurate Estimates for Paint, Primer & Supplies",
@@ -829,7 +902,13 @@
     "slug": "paint-cost-calculator",
     "title": "Free Paint Cost Calculator: Get Accurate Estimates for Paint, Primer & Supplies",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Best Paint Coverage Calculator for Power Users – CoverWise",
@@ -898,7 +977,13 @@
     "slug": "best-paint-coverage-calculator",
     "title": "Best Paint Coverage Calculator for Power Users – CoverWise",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Paint Calculator for Rooms – CoverWise Handles Sloped Ceilings & Alcoves",
@@ -967,7 +1052,13 @@
     "slug": "paint-calculator-for-rooms",
     "title": "Free Paint Calculator for Rooms – CoverWise Handles Sloped Ceilings & Alcoves",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Paint Calculator Gallons: Get Exact Coverage & Print a Waste-Free Summary",
@@ -1036,7 +1127,13 @@
     "slug": "paint-calculator-gallons",
     "title": "Paint Calculator Gallons: Get Exact Coverage & Print a Waste-Free Summary",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   },
   {
     "h1": "Free Paint Quantity Calculator – Stop Running Out of Paint Mid-Project",
@@ -1105,6 +1202,12 @@
     "slug": "paint-quantity-calculator",
     "title": "Free Paint Quantity Calculator – Stop Running Out of Paint Mid-Project",
     "type": "text",
-    "affiliateCTA": null
+    "affiliateCTA": null,
+    "lastUpdated": "2026-06-20",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

@@ -53,6 +53,12 @@ export interface PageContent {
   }>;
   faqs: FAQ[];
   affiliateCTA: AffiliateCTA | null;
+  lastUpdated?: string;
+  author?: {
+    name: string;
+    url: string;
+    jobTitle?: string;
+  };
 }
 
 // ── Design Config (6D randomization) ──
