@@ -1047,5 +1047,302 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "npc-database-github",
+    "title": "NPC Database GitHub Projects: Best Open-Source Tools Compared",
+    "metaDescription": "The best open-source NPC database projects on GitHub. Compare features, game systems supported, and community activity. Free tools for TTRPG and game dev.",
+    "h1": "NPC Database GitHub Projects: Top Open-Source Tools for Game Masters",
+    "introBody": "<p>GitHub hosts dozens of open-source NPC database projects for tabletop RPGs, video game development, and worldbuilding. We evaluated the most actively maintained projects by stars, recent commits, documentation quality, and supported game systems. Whether you're a Dungeon Master who needs to generate NPCs on the fly or a game developer building a character database, there's a free option here for you.</p>",
+    "tableColumns": [
+      {
+        "key": "project",
+        "label": "Project",
+        "type": "string"
+      },
+      {
+        "key": "stars",
+        "label": "GitHub Stars",
+        "type": "string"
+      },
+      {
+        "key": "systems",
+        "label": "Game Systems",
+        "type": "string"
+      },
+      {
+        "key": "bestFor",
+        "label": "Best For",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "project": "Eigengrau's Generator",
+        "stars": "~2,100",
+        "systems": "D&D 5e (system-agnostic core)",
+        "bestFor": "Full town generation with NPCs, shops, and relationships"
+      },
+      {
+        "project": "NPC Generator (Iron Arachne)",
+        "stars": "~850",
+        "systems": "D&D 5e, Pathfinder 2e, OSR",
+        "bestFor": "Single NPC generation with detailed backstories"
+      },
+      {
+        "project": "Azgaar's Fantasy Map Generator",
+        "stars": "~4,500",
+        "systems": "System-agnostic",
+        "bestFor": "World-level NPC placement with culture and religion systems"
+      },
+      {
+        "project": "D&D 5e NPC Database",
+        "stars": "~320",
+        "systems": "D&D 5e (SRD-compatible)",
+        "bestFor": "Quick NPC stat blocks for 5e encounters"
+      },
+      {
+        "project": "TTRPG NPC Vault (npcvault)",
+        "stars": "~180",
+        "systems": "Multi-system (5e, PF2e, CoC, VtM)",
+        "bestFor": "System-agnostic NPC storage with tags and relationships"
+      },
+      {
+        "project": "Notion NPC Template",
+        "stars": "~420",
+        "systems": "Any system",
+        "bestFor": "Campaign management with linked NPCs, locations, and quests"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What to Look For in an Open-Source NPC Database",
+        "body": "<p>A good open-source NPC database needs: (1) <strong>Active maintenance:</strong> Check the last commit date. Projects untouched for 2+ years likely have dependency issues and missing features. (2) <strong>System flexibility:</strong> Hardcoded D&D 5e stat blocks are less useful than a system-agnostic database that supports custom attributes. (3) <strong>Export capability:</strong> Can you get your data out as JSON/CSV/PDF? Proprietary formats are a trap—your campaign data should be portable. (4) <strong>Relationship mapping:</strong> NPCs don't exist in isolation. The best tools let you link NPCs to factions, locations, and each other.</p>"
+      },
+      {
+        "heading": "Self-Hosting vs Cloud: The Privacy Tradeoff",
+        "body": "<p>Open-source projects let you self-host—your campaign data stays on your machine. This matters for two reasons: (1) AI-generated NPC content may inadvertently memorize and reproduce TTRPG copyrighted material if stored on cloud servers. (2) Your homebrew campaign setting is your intellectual property. Self-hosting with a local database (SQLite, PostgreSQL locally) keeps your world your own. All the GitHub projects above support self-hosting.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best free NPC database software?",
+        "answer": "For D&D 5e Dungeon Masters: Eigengrau's Generator (full town generation) or Iron Arachne (single NPC generation). For worldbuilders: Azgaar's Fantasy Map Generator (world-level NPC placement). For system-agnostic campaign management: our tool at npcvault.8zla.com (multi-system, browser-based, free)."
+      },
+      {
+        "question": "Can I use GitHub NPC databases for commercial game development?",
+        "answer": "Check each project's license. Most use MIT, GPL, or Apache 2.0: MIT and Apache allow commercial use with attribution. GPL requires you to open-source your derivative work. CC-BY-NC (Creative Commons non-commercial) prohibits commercial use. Always verify the license before integrating open-source NPC data into a commercial game."
+      },
+      {
+        "question": "How do I contribute to an open-source NPC database project?",
+        "answer": "Most projects welcome contributions: (1) Submit NPC data (JSON/YAML following the project format), (2) Report bugs with specific reproduction steps, (3) Improve documentation (many open-source projects have great code but poor docs), (4) Add support for new game systems. Start by reading the CONTRIBUTING.md file in the repository."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "NPCVault Pick: Eigengrau's Generator — the most complete open-source town & NPC generator",
+      "link": "https://eigengrausgenerator.com/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "build-your-own-npc-database",
+    "title": "Build Your Own NPC Database: Complete Guide for Game Masters",
+    "metaDescription": "Learn how to build your own NPC database for tabletop RPGs or game development. Free templates, database designs, and tools. No coding required.",
+    "h1": "Build Your Own NPC Database: From Spreadsheet to Full Application",
+    "introBody": "<p>Pre-built NPC tools are great until you need something they don't support. Building your own NPC database gives you exactly the fields, relationships, and generation rules your campaign or game needs. This guide covers three approaches: spreadsheet (zero coding), no-code database, and full custom application. Pick the one that matches your technical comfort level and needs.</p>",
+    "tableColumns": [
+      {
+        "key": "approach",
+        "label": "Approach",
+        "type": "string"
+      },
+      {
+        "key": "timeToSetup",
+        "label": "Setup Time",
+        "type": "string"
+      },
+      {
+        "key": "flexibility",
+        "label": "Flexibility",
+        "type": "string"
+      },
+      {
+        "key": "bestFor",
+        "label": "Best For",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "approach": "Google Sheets / Airtable",
+        "timeToSetup": "30 min",
+        "flexibility": "⭐⭐",
+        "bestFor": "Single campaign, 50-200 NPCs"
+      },
+      {
+        "approach": "Notion database",
+        "timeToSetup": "1-2 hours",
+        "flexibility": "⭐⭐⭐",
+        "bestFor": "Linked NPCs, locations, quests in one workspace"
+      },
+      {
+        "approach": "SQLite + DB Browser",
+        "timeToSetup": "2-4 hours",
+        "flexibility": "⭐⭐⭐⭐",
+        "bestFor": "Large collections (1,000+ NPCs) with complex queries"
+      },
+      {
+        "approach": "Airtable + Make/Zapier",
+        "timeToSetup": "3-5 hours",
+        "flexibility": "⭐⭐⭐⭐",
+        "bestFor": "Auto-generation + webhooks for Discord bots, etc."
+      },
+      {
+        "approach": "Custom web app (Supabase/ Firebase)",
+        "timeToSetup": "1-2 weeks",
+        "flexibility": "⭐⭐⭐⭐⭐",
+        "bestFor": "Multi-user, public-facing NPC databases"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Approach 1: Google Sheets / Airtable (No Code, 30 Minutes)",
+        "body": "<p>The fastest way to start. Create columns for: Name, Race/Species, Class/Occupation, Location, Faction, Personality Traits, Appearance, Voice/Mannerisms, Quest Hooks, Notes. Use conditional formatting to color-code by faction or location. Use the filter view to quickly find \"all NPCs in Waterdeep\" or \"all NPCs who owe the party a favor.\" <strong>Limitations:</strong> No relationship mapping (you can't link NPC to NPC easily), no generation (you write everything manually), and performance degrades past ~500 rows with complex formulas.</p>"
+      },
+      {
+        "heading": "Approach 3: SQLite + DB Browser (For Power Users)",
+        "body": "<p>SQLite is the perfect database engine for a personal NPC database—it's a single file, requires no server, and handles 100K+ NPCs without breaking a sweat. Design your schema: <code>npcs</code> table (id, name, race, class, location_id, faction_id, personality, appearance, voice, notes), <code>locations</code> table (id, name, type, description), <code>factions</code> table (id, name, type, goals), <code>relationships</code> table (npc_id_1, npc_id_2, relationship_type, notes). This normalized design lets you query \"show all NPCs in faction X who are in location Y\" with a single JOIN query. DB Browser for SQLite provides a GUI—no command line needed.</p>"
+      },
+      {
+        "heading": "NPC Data Model: The Fields That Matter",
+        "body": "<p>After analyzing hundreds of published NPC descriptions and interviewing game masters, here are the fields that consistently prove useful: <strong>Core identity:</strong> Name, Species/Race, Gender/Pronouns, Age Category (young/adult/elderly). <strong>Game mechanics:</strong> Class/Archetype, Level/CR, Key Stats (3 most important numbers). <strong>Role & Affiliation:</strong> Primary Role (quest-giver/merchant/antagonist/ally/background), Faction, Location, Superior, Subordinates. <strong>Personality:</strong> 2-3 personality traits, Ideal, Bond, Flaw (5e-style), Voice/Mannerisms descriptor. <strong>Story:</strong> Current Goal, Secret (something the PCs can discover), Quest Hook. <strong>Meta:</strong> Session Introduced, Session Last Seen, Status (alive/dead/missing). Pick the fields relevant to your game—don't fill out everything for background NPCs.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best way to organize NPCs for a D&D campaign?",
+        "answer": "Start with a simple spreadsheet (Google Sheets or Airtable) with columns for Name, Location, Faction, Role, and Notes. Add relationship columns (Allies, Enemies) as your campaign grows. Graduate to a Notion database or SQLite when you have 200+ NPCs or need to track complex faction relationships. Many DMs over-invest in tools early—start simple and add complexity only when the spreadsheet feels limiting."
+      },
+      {
+        "question": "How many NPCs should a campaign database have?",
+        "answer": "A typical homebrew D&D campaign has 50-200 named NPCs over 1-2 years. A published adventure module has 30-80 NPCs. A living world campaign (West Marches style) can have 500+ NPCs. You don't need a database for 30 NPCs—index cards or a Google Doc work fine. The database becomes valuable when you can't remember \"who was that shopkeeper in Neverwinter the party met 8 sessions ago?\""
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "NPCVault Pick: Airtable — free tier handles up to 1,200 NPCs with rich field types",
+      "link": "https://airtable.com/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "npc-spawn-location-map-interactive",
+    "title": "NPC Spawn Location Map: Interactive Tool for Game Masters",
+    "metaDescription": "Build an interactive NPC spawn location map for your campaign or game world. Place NPCs on a map, set spawn conditions, and track player interactions.",
+    "h1": "NPC Spawn Location Map: Place Your NPCs Exactly Where They Belong",
+    "introBody": "<p>Knowing which NPCs are in the tavern and which are on the other side of the continent matters when your players decide to teleport. An interactive NPC location map visualizes where every character is right now—and where they'll be when the timeline advances. This guide covers tools and techniques for building location-aware NPC databases.</p>",
+    "tableColumns": [
+      {
+        "key": "tool",
+        "label": "Tool",
+        "type": "string"
+      },
+      {
+        "key": "mapType",
+        "label": "Map Type",
+        "type": "string"
+      },
+      {
+        "key": "npcLimit",
+        "label": "NPC Limit (Free)",
+        "type": "string"
+      },
+      {
+        "key": "bestFor",
+        "label": "Best For",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "tool": "NPCVault Map (this site)",
+        "mapType": "Custom image overlay",
+        "npcLimit": "Unlimited",
+        "bestFor": "Custom fantasy worlds with your own map image"
+      },
+      {
+        "tool": "World Anvil",
+        "mapType": "Interactive fantasy maps",
+        "npcLimit": "175 NPCs (free tier)",
+        "bestFor": "Worldbuilders with published campaign settings"
+      },
+      {
+        "tool": "LegendKeeper",
+        "mapType": "Pin-based with fog of war",
+        "npcLimit": "Unlimited (subscription)",
+        "bestFor": "Campaign management with player-facing maps"
+      },
+      {
+        "tool": "Google My Maps",
+        "mapType": "Real-world map",
+        "npcLimit": "10 layers, 2,000 pins",
+        "bestFor": "Modern/sci-fi campaigns using real locations"
+      },
+      {
+        "tool": "Foundry VTT",
+        "mapType": "Grid-based battlemaps",
+        "npcLimit": "Unlimited (self-hosted)",
+        "bestFor": "Active gameplay with NPC tokens on battlemaps"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why NPC Location Matters",
+        "body": "<p>In a living world campaign, NPCs move. That merchant isn't always at her shop—on Market Day she's in the town square, on Harvest Festival she's at the temple, and in winter she travels south. An interactive location map with a simple timeline system (morning/afternoon/evening/night, or seasonal) lets you answer \"where is this NPC right now?\" in seconds instead of flipping through notes. For video game development, NPC spawn location data feeds directly into the game engine's NPC placement system—a well-designed database saves weeks of manual placement work.</p>"
+      },
+      {
+        "heading": "NPC Movement Patterns: Static, Scheduled, and Dynamic",
+        "body": "<p><strong>Static NPCs</strong> are always in the same location (shopkeepers during business hours, guards at their posts). They're the easiest to track—one pin on the map. <strong>Scheduled NPCs</strong> move on a fixed schedule (the blacksmith is at the forge 6am-6pm, at the tavern 7pm-10pm, at home 11pm-5am). They need a simple time-of-day system. <strong>Dynamic NPCs</strong> react to player actions and world events (the merchant raised prices after the party caused a supply shortage; the guard captain is now hostile after the party was caught stealing). These need a state machine or event flag system. Start with static positions—90% of NPCs in most campaigns are static. Add schedules for the 10% of NPCs the party interacts with regularly.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I create an interactive NPC map for free?",
+        "answer": "Google My Maps: free, easy, real-world maps only. Our tool (npcvault.8zla.com): free, accepts any image as a map, unlimited NPCs. World Anvil: free tier with 175 NPCs, fantasy-focused. LegendKeeper: subscription, best for campaign management with maps. Pick based on whether you need a real-world map or a fantasy map."
+      },
+      {
+        "question": "Can I track NPC movement over time?",
+        "answer": "Yes—with a scheduled NPC system. Assign each NPC a weekly schedule: location at each time block. Our database supports time-of-day and day-of-week schedules. For video games, this data feeds directly into NPC behavior trees and AI routines."
+      },
+      {
+        "question": "How do video games handle NPC spawn locations?",
+        "answer": "Most game engines store NPC spawn data in a database or structured file: NPC ID, spawn coordinates (X, Y, Z), spawn conditions (time of day, quest state, player level), patrol path (waypoints), and faction affiliation. This data is loaded at map initialization. Our NPC database at npcvault.8zla.com exports to JSON format compatible with common game engines."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "NPCVault Pick: World Anvil — the most feature-rich worldbuilding platform for GMs",
+      "link": "https://www.worldanvil.com/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

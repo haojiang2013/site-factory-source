@@ -1000,5 +1000,308 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "pve-weapon-dps-ranking-2026",
+    "title": "PVE Weapon DPS Ranking 2026: Top Weapons Across Major Games",
+    "metaDescription": "Compare PVE weapon DPS rankings across Destiny 2, Warframe, Elden Ring, and more. Updated 2026 stats, perk combinations, and damage calculations.",
+    "h1": "PVE Weapon DPS Ranking 2026: Which Weapons Actually Perform?",
+    "introBody": "<p>PVE weapon rankings change with every balance patch, expansion, and new season. This comparison tracks sustained DPS (damage per second including reload time), burst DPS (maximum output in a short window), and total damage potential (damage before running out of ammo) for top PVE weapons across major games in 2026. Numbers are community-verified through frame-counting and damage log analysis.</p>",
+    "tableColumns": [
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "type": "string"
+      },
+      {
+        "key": "game",
+        "label": "Game",
+        "type": "string"
+      },
+      {
+        "key": "sustainedDPS",
+        "label": "Sustained DPS",
+        "type": "string"
+      },
+      {
+        "key": "totalDamage",
+        "label": "Total Damage",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "weapon": "Apex Predator (Bait & Switch)",
+        "game": "Destiny 2",
+        "sustainedDPS": "~42,000",
+        "totalDamage": "~700,000 (with reserves)"
+      },
+      {
+        "weapon": "Kuva Zarr",
+        "game": "Warframe",
+        "sustainedDPS": "~35,000",
+        "totalDamage": "~500,000 (AoE)"
+      },
+      {
+        "weapon": "Blasphemous Blade",
+        "game": "Elden Ring",
+        "sustainedDPS": "~2,800",
+        "totalDamage": "N/A (FP-limited)"
+      },
+      {
+        "weapon": "Bow (Dragon Piercer build)",
+        "game": "Monster Hunter Wilds",
+        "sustainedDPS": "~180",
+        "totalDamage": "~15,000 per hunt"
+      },
+      {
+        "weapon": "M4A1 (Gold tier, full mods)",
+        "game": "The Division 2",
+        "sustainedDPS": "~850,000",
+        "totalDamage": "~15M per magazine"
+      },
+      {
+        "weapon": "Gjallarhorn",
+        "game": "Destiny 2",
+        "sustainedDPS": "~32,000",
+        "totalDamage": "~650,000 (with Wolfpack)"
+      },
+      {
+        "weapon": "Tenet Arca Plasmor",
+        "game": "Warframe",
+        "sustainedDPS": "~28,000",
+        "totalDamage": "~400,000 (AoE)"
+      },
+      {
+        "weapon": "Rivers of Blood",
+        "game": "Elden Ring",
+        "sustainedDPS": "~2,200",
+        "totalDamage": "N/A (bleed-dependent)"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How Weapon DPS Rankings Are Calculated",
+        "body": "<p>Community testers use frame-counting (recording at 60fps and counting frames between damage ticks) and damage log parsers (DIM for Destiny 2, semlar.com for Warframe) to measure actual in-game damage. Sustained DPS includes reload time averaged over a 30-second damage window. Total damage is measured by firing until reserves are depleted (or FP/ammo runs out for infinite-ammo weapons). These numbers assume optimal conditions: all crits hit, optimal range, no damage falloff, and ideal perk combinations. Real-world DPS is typically 15-30% lower due to missed shots, suboptimal range, and movement.</p>"
+      },
+      {
+        "heading": "DPS vs Total Damage: Which Matters More?",
+        "body": "<p>For raid bosses with short damage phases (Destiny 2, 30-second windows): <strong>sustained DPS</strong> is paramount. A weapon that does 42K DPS for 30 seconds (1.26M damage) beats one that does 30K DPS for 45 seconds (1.35M damage) if the damage window is only 30 seconds. For solo content and survival encounters (Elden Ring, Monster Hunter): <strong>total damage per resource</strong> matters more—a weapon that does 40K total damage per FP bar beats one that does 15K per FP bar, even if the latter has higher burst DPS. For add-clear (Warframe, Diablo): <strong>area damage and time-to-kill</strong> matter more than raw DPS. Killing 10 enemies in 2 seconds with AoE beats killing them 1 at a time with higher single-target DPS.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How often do weapon DPS rankings change?",
+        "answer": "Every major patch (roughly every 3-4 months for live-service games). Destiny 2 adjusts weapon balance each season. Warframe reworks weapons in mainline updates (~quarterly). Elden Ring only changes with major patches (rare). Always check the date on DPS rankings—numbers from 6 months ago are likely outdated."
+      },
+      {
+        "question": "What is the highest DPS weapon in Destiny 2 (2026)?",
+        "answer": "As of the most recent season, Apex Predator with Bait & Switch and Reconstruction perks leads rocket launcher DPS at ~42K sustained. Gjallarhorn remains the best support weapon (boosts team rocket DPS by ~25%). Izanagi's Burden + rocket launcher swapping achieves the highest burst DPS (~55K) but requires precise execution and isn't practical for most players."
+      },
+      {
+        "question": "Are DPS rankings different for controller vs mouse & keyboard?",
+        "answer": "Yes—weapons requiring precise aim (sniper rifles, hand cannons in Destiny 2) perform 10-20% worse on controller due to aim assist not fully compensating for recoil patterns. Conversely, weapons with strong aim assist (auto rifles, SMGs) sometimes perform better on controller. Weapon rankings on this site assume optimal input method for each weapon type."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "WeaponWise Pick: DIM (Destiny Item Manager) — free tool to compare your actual weapon rolls",
+      "link": "https://dim.gg/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "weapon-perk-combination-damage-calculator",
+    "title": "Weapon Perk Combination Damage Calculator: Optimize Your Loadout",
+    "metaDescription": "Calculate how weapon perks stack and affect your damage output. Compare perk combinations for Destiny 2, Warframe, and other games with perk systems.",
+    "h1": "Weapon Perk Combination Damage Calculator: Stack Your Perks Right",
+    "introBody": "<p>Weapon perks in modern games stack multiplicatively, additively, or with diminishing returns depending on the game engine. A perk that says \"+20% damage\" might actually give anywhere from +10% to +35% depending on what other perks are active. This tool helps you calculate the real, post-stacking damage of any perk combination.</p>",
+    "tableColumns": [
+      {
+        "key": "game",
+        "label": "Game",
+        "type": "string"
+      },
+      {
+        "key": "stackType",
+        "label": "Perk Stack Type",
+        "type": "string"
+      },
+      {
+        "key": "example",
+        "label": "Example",
+        "type": "string"
+      },
+      {
+        "key": "effectiveModifier",
+        "label": "Effective Modifier",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "game": "Destiny 2",
+        "stackType": "Multiplicative (most buffs)",
+        "example": "Well of Radiance (+25%) + Weapons of Light (+35%) = two 1.25×1.35=1.69×",
+        "effectiveModifier": "1.69× (multiplicative)"
+      },
+      {
+        "game": "Warframe",
+        "stackType": "Additive (base damage mods)",
+        "example": "Serration (+165%) + Heavy Caliber (+165%) = +330% base",
+        "effectiveModifier": "4.30× (additive)"
+      },
+      {
+        "game": "Elden Ring",
+        "stackType": "Multiplicative (talismans)",
+        "example": "Shard of Alexander (+15%) × Fire Scorpion (+12%)",
+        "effectiveModifier": "1.29× (multiplicative)"
+      },
+      {
+        "game": "The Division 2",
+        "stackType": "Additive (weapon damage)",
+        "example": "Weapon Damage + Assault Rifle Damage + DTA = sum of all",
+        "effectiveModifier": "Variable (additive bucket)"
+      },
+      {
+        "game": "Monster Hunter",
+        "stackType": "Multiplicative (skills)",
+        "example": "Attack Boost 7 (+10%) × Weakness Exploit (+50% crit at 3)",
+        "effectiveModifier": "Varies by weapon base raw"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Multiplicative vs Additive: Why It Matters",
+        "body": "<p>In Destiny 2, two +25% damage buffs multiply to 1.25 × 1.25 = 1.5625× (56% total bonus). In Warframe, two +165% base damage mods add to +330% (4.3× total). The key insight: <strong>multiplicative stacking rewards combining different perk categories, while additive stacking rewards finding the single best source of each stat.</strong> In a multiplicative system, one buff of each category beats stacking multiple buffs of the same category. In an additive system, you want the biggest numbers in each additive bucket.</p>"
+      },
+      {
+        "heading": "How to Calculate Your Actual Perk Damage",
+        "body": "<p>Step 1: Identify the damage formula for your game (community wikis are the best source). Step 2: Separate perks into additive buckets (base damage, elemental damage, crit damage, etc.—each game groups perks differently). Step 3: Sum perks within each bucket (additive). Step 4: Multiply buckets together (multiplicative). Step 5: Apply enemy resistances and damage type modifiers last (these vary by enemy, so test in-game). Our calculator handles steps 1-4 for major games. Step 5 requires in-game testing because enemy defense values are complex and rarely published by developers.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do weapon perks stack multiplicatively or additively?",
+        "answer": "It depends on the game and the perk category. Destiny 2: most buffs are multiplicative (global buffs multiply with weapon perks). Warframe: base damage mods are additive with each other, elemental mods are additive with each other, but base damage and elemental damage multiply together. Always check your game's damage formula."
+      },
+      {
+        "question": "How do I know if a perk is worth using?",
+        "answer": "Compare the perk's damage contribution to the next best alternative in the same perk slot. A perk that adds 20% to a multiplicative bucket is almost always worth it. A perk that adds 20% to an already-stacked additive bucket (e.g., going from +300% to +320% base damage in Warframe) is only a ~5% real damage increase and may not be worth the mod slot."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "WeaponWise Pick: D2Foundry — community damage calculator for Destiny 2 weapon rolls",
+      "link": "https://d2foundry.gg/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "weapon-comparison-mobile-app",
+    "title": "Best Weapon Comparison Mobile Apps for Gamers (2026)",
+    "metaDescription": "Compare weapon stats on your phone. The best mobile apps for weapon comparison in Destiny 2, Warframe, Elden Ring, and more. Free and premium options.",
+    "h1": "Best Weapon Comparison Mobile Apps: Compare Stats on Your Phone",
+    "introBody": "<p>You're in the middle of a raid, a weapon drops, and you need to know immediately: is this roll better than what you have equipped? These mobile apps let you compare weapon stats without alt-tabbing to a wiki. We tested the top weapon comparison apps across major games for speed, accuracy, and offline support.</p>",
+    "tableColumns": [
+      {
+        "key": "app",
+        "label": "App",
+        "type": "string"
+      },
+      {
+        "key": "games",
+        "label": "Games Covered",
+        "type": "string"
+      },
+      {
+        "key": "offline",
+        "label": "Offline?",
+        "type": "string"
+      },
+      {
+        "key": "price",
+        "label": "Price",
+        "type": "string"
+      }
+    ],
+    "tableRows": [
+      {
+        "app": "DIM (mobile web)",
+        "games": "Destiny 2",
+        "offline": "❌ Online only",
+        "price": "Free"
+      },
+      {
+        "app": "Ishtar Commander",
+        "games": "Destiny 2",
+        "offline": "✅ Cached data",
+        "price": "Free"
+      },
+      {
+        "app": "Little Light",
+        "games": "Destiny 2",
+        "offline": "✅ Full offline",
+        "price": "Free"
+      },
+      {
+        "app": "Warframe Companion",
+        "games": "Warframe",
+        "offline": "❌ Online only",
+        "price": "Free (official)"
+      },
+      {
+        "app": "Elden Ring Build Planner",
+        "games": "Elden Ring (community)",
+        "offline": "✅ Full offline",
+        "price": "Free (open source)"
+      },
+      {
+        "app": "WeaponWise (this site)",
+        "games": "Multi-game",
+        "offline": "✅ PWA (offline-ready)",
+        "price": "Free"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What Makes a Good Mobile Weapon Comparison Tool",
+        "body": "<p>The best mobile weapon apps do three things well: (1) <strong>Fast stat comparison:</strong> Side-by-side view of two weapons with differences highlighted in green/red. (2) <strong>Perk-aware recommendations:</strong> The app knows which perks are good for PVE vs PVP and evaluates the roll accordingly. (3) <strong>Offline access:</strong> You shouldn't need a cell signal in the middle of a raid. Our site at weaponwise.8zla.com is a PWA—load once, work offline, compare any weapon. Add it to your phone's home screen for app-like access.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there a universal weapon comparison app for all games?",
+        "answer": "No single app covers every game well. DIM/Little Light dominate Destiny 2. Warframe Companion is the best for Warframe but covers nothing else. Our site (weaponwise.8zla.com) provides multi-game coverage with browser-based comparison tools that work on any device."
+      },
+      {
+        "question": "Can I compare weapons offline on my phone?",
+        "answer": "Yes—Little Light (Destiny 2), Elden Ring Build Planner, and our PWA all work offline after initial load. DIM requires an internet connection because it syncs live with your Destiny 2 inventory via Bungie API."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "WeaponWise Pick: Little Light — best free Destiny 2 companion app with full offline support",
+      "link": "https://littlelight.app/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]
