@@ -1182,5 +1182,153 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "flooring-installation-cost",
+    "title": "Flooring Installation Cost Calculator: Labor + Materials by Square Foot",
+    "metaDescription": "Estimate flooring installation costs by square foot. Includes labor, materials, and underlayment for hardwood, tile, carpet, vinyl, and laminate.",
+    "h1": "Flooring Installation Cost: Labor + Materials, Calculated by Square Foot",
+    "sections": [
+      {
+        "heading": "What Flooring Installation Actually Costs Per Square Foot",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available contractor pricing and material cost databases. See our <a href=\"/methodology/\">methodology page</a> for sources.</em></p>Flooring installation costs $2-15/sq ft for labor alone, depending on material type. Hardwood installation ($4-8/sq ft labor) is more expensive than carpet ($1-3/sq ft) because it requires precise cutting, nailing, and finishing. Tile installation ($3-10/sq ft labor) varies widely based on tile size (large-format tiles are harder to lay flat) and pattern complexity. Our calculator separates labor and materials so you can price both accurately."
+      },
+      {
+        "type": "tool",
+        "heading": "Flooring Installation Cost Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Room dimensions, flooring type (hardwood/tile/carpet/vinyl/laminate), underlayment, removal of old flooring, zip code</li>\n  <li><strong>Outputs:</strong> Material cost, labor cost, total installed cost per sq ft and total</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Labor Cost by Flooring Type",
+        "body": "<table style=\"width:100%;border-collapse:collapse;font-size:13px\"><tr style=\"background:#f1f5f9\"><th>Flooring Type</th><th>Labor ($/sq ft)</th><th>Materials ($/sq ft)</th><th>Total Installed ($/sq ft)</th></tr><tr><td>Carpet</td><td>$1-3</td><td>$2-7</td><td>$3-10</td></tr><tr><td>Laminate</td><td>$2-4</td><td>$2-5</td><td>$4-9</td></tr><tr><td>Luxury Vinyl Plank</td><td>$2-5</td><td>$3-8</td><td>$5-13</td></tr><tr><td>Engineered Hardwood</td><td>$3-6</td><td>$5-12</td><td>$8-18</td></tr><tr><td>Solid Hardwood</td><td>$4-8</td><td>$6-15</td><td>$10-23</td></tr><tr><td>Ceramic/Porcelain Tile</td><td>$3-10</td><td>$3-10</td><td>$6-20</td></tr><tr><td>Natural Stone Tile</td><td>$8-15</td><td>$10-30</td><td>$18-45</td></tr></table>"
+      },
+      {
+        "heading": "Hidden Costs Most Estimates Miss",
+        "body": "<ul><li><strong>Old flooring removal:</strong> $1-3/sq ft for carpet, $2-5 for tile (tile demolition is heavy, dusty work).</li><li><strong>Subfloor repair:</strong> $30-100 per damaged sheet of plywood/subfloor. Old homes with water damage may need extensive subfloor work.</li><li><strong>Underlayment:</strong> $0.50-3/sq ft depending on type (foam for laminate, cement board for tile, acoustic underlayment for condos).</li><li><strong>Baseboard removal and reinstallation:</strong> $1-3 per linear foot. New flooring is often thicker or thinner than old flooring, requiring baseboard adjustment.</li><li><strong>Door trimming:</strong> $10-25 per door. If the new floor is thicker than the old, doors may need to be trimmed to swing freely.</li><li><strong>Furniture moving:</strong> $100-400 for a whole house. Most flooring contractors don't move furniture—you handle it or pay extra.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does flooring installation cost per square foot?",
+        "answer": "$3-23/sq ft total (labor + materials), depending on flooring type. Carpet is cheapest at $3-10/sq ft. Solid hardwood is most expensive at $10-23/sq ft. Most mid-range flooring (LVP, engineered wood, tile) falls in the $6-18/sq ft range installed."
+      },
+      {
+        "question": "Can I install flooring myself to save money?",
+        "answer": "Laminate, LVP (click-lock), and carpet tile are DIY-friendly—most homeowners can do 200-400 sq ft in a weekend. Hardwood, tile, and sheet vinyl require skill and specialized tools. DIY savings: $2-8/sq ft in labor costs. But a bad DIY floor is visible forever."
+      },
+      {
+        "question": "Should I remove old flooring before installing new?",
+        "answer": "Generally yes—installing new flooring over old creates height transitions at doorways and can trap moisture. Exceptions: some LVP can float over existing vinyl or tile if the surface is flat and stable. Never install new flooring over carpet or damaged/uneven surfaces."
+      },
+      {
+        "question": "How much extra flooring should I buy for waste?",
+        "answer": "Add 10% for straight-lay patterns and 15-20% for diagonal or herringbone patterns. Rooms with many angles, closets, or obstructions need more waste allowance. Buying extra is cheaper than running short mid-installation and finding your batch is discontinued."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "FloorWise Pick: Compare flooring installation quotes from local pros",
+      "link": "https://www.homeadvisor.com/c.Flooring/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "flooring-square-footage-calculator",
+    "title": "Flooring Square Footage Calculator: Measure Any Room Shape",
+    "metaDescription": "Calculate flooring square footage for rooms of any shape. Handles L-shapes, closets, and irregular layouts. Free instant calculator.",
+    "h1": "Flooring Square Footage Calculator: Don't Guess Your Floor Area",
+    "sections": [
+      {
+        "heading": "Why \"Length × Width\" Fails for Most Rooms",
+        "body": "<p class=\"data-note\"><em>📊 Based on standard area calculation methodology. See our <a href=\"/methodology/\">methodology page</a> for formulas.</em></p>A simple L×W works for a perfect rectangle. Real rooms have closets, alcoves, bay windows, and odd angles. Our calculator breaks complex rooms into rectangles and triangles, calculates each separately, adds them up, and applies the correct waste factor for your flooring type and pattern."
+      },
+      {
+        "type": "tool",
+        "heading": "Flooring Square Footage Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Room shapes:</strong> Rectangle, L-shape, T-shape, add multiple sections</li>\n  <li><strong>Outputs:</strong> Net square footage, waste-adjusted total, boxes/ cartons needed</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Square Footage Formulas for Common Room Shapes",
+        "body": "<ul><li><strong>Rectangle:</strong> Length × Width</li><li><strong>L-shape:</strong> Divide into two rectangles, calculate each, add together</li><li><strong>Triangle (bay window):</strong> (Base × Height) ÷ 2</li><li><strong>Circle (round room):</strong> π × Radius² ÷ 144 (convert sq inches to sq ft)</li><li><strong>Trapezoid (angled wall):</strong> (Base1 + Base2) ÷ 2 × Height</li></ul><p>Measure in inches for precision, then divide by 144 to get square feet. Round up to the nearest whole square foot.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I measure square footage for flooring?",
+        "answer": "Measure the longest length and widest width of each room section in inches. Multiply length × width, divide by 144 to get square feet. For irregular rooms, divide into rectangles and triangles, measure each separately, and add them together. Always measure twice—a 2-inch error in a 20-foot wall is a 3.3 sq ft error by the time you buy materials."
+      },
+      {
+        "question": "How much extra flooring do I need for waste?",
+        "answer": "Add 10% for standard straight installation. Add 15-20% for diagonal patterns, herringbone, or rooms with many angles and obstructions. The waste factor accounts for cuts that can't be used, damaged pieces, and future repairs."
+      },
+      {
+        "question": "Should I measure in feet or inches for flooring?",
+        "answer": "Measure in inches for accuracy, then convert to square feet (divide square inches by 144). A measurement of 12'6\" × 15'4\" is easier to calculate as 150\" × 184\" = 27,600 sq inches ÷ 144 = 191.7 sq ft."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "FloorWise Pick: Find top-rated flooring installers in your area",
+      "link": "https://www.thumbtack.com/k/flooring-installation/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "flooring-budget-calculator",
+    "title": "Flooring Budget Calculator: Plan Your Entire Flooring Project",
+    "metaDescription": "Budget your flooring project from start to finish. Includes materials, labor, underlayment, removal, trim, and contingency. Free calculator.",
+    "h1": "Flooring Budget Calculator: The All-In Cost, Not Just Materials",
+    "sections": [
+      {
+        "heading": "Why Most Flooring Budgets Go 30% Over",
+        "body": "<p class=\"data-note\"><em>📊 Based on common residential flooring project costs. See our <a href=\"/methodology/\">methodology page</a> for data sources.</em></p>The sticker price of flooring ($3-8/sq ft for materials) represents only 40-50% of the total project cost. Labor, underlayment, trim, removal, and unexpected subfloor repairs eat the rest. Our budget calculator includes every line item so you're not surprised when the contractor hands you the final invoice."
+      },
+      {
+        "type": "tool",
+        "heading": "Flooring Budget Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Room dimensions, flooring type, underlayment, trim type, removal needed, zip code</li>\n  <li><strong>Outputs:</strong> Itemized budget: materials, labor, underlayment, floor prep, trim, removal, delivery, contingency</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Sample Budget: 500 sq ft Living Room with Hardwood",
+        "body": "<table style=\"width:100%;border-collapse:collapse;font-size:13px\"><tr style=\"background:#f1f5f9\"><th>Line Item</th><th>Estimated Cost</th></tr><tr><td>Hardwood flooring (500 sq ft × $8)</td><td>$4,000</td></tr><tr><td>Underlayment</td><td>$400</td></tr><tr><td>Labor (500 sq ft × $5)</td><td>$2,500</td></tr><tr><td>Baseboard removal & reinstall</td><td>$300</td></tr><tr><td>Old carpet removal & disposal</td><td>$400</td></tr><tr><td>Delivery fee</td><td>$100</td></tr><tr><td>15% contingency</td><td>$1,155</td></tr><tr style=\"font-weight:700\"><td>TOTAL</td><td>$8,855 ($17.71/sq ft)</td></tr></table>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much should I budget for flooring installation?",
+        "answer": "Budget $8-20/sq ft all-in (materials + labor + extras) for mid-range flooring. The material cost is only 40-60% of the total. Add a 15% contingency for unexpected subfloor issues, especially in homes older than 20 years."
+      },
+      {
+        "question": "What is the cheapest flooring to install?",
+        "answer": "Sheet vinyl ($2-4/sq ft total installed) and carpet ($3-6/sq ft) are the cheapest installed options. Luxury vinyl plank ($5-9/sq ft) offers the best balance of affordability, durability, and appearance for most homes."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "FloorWise Pick: Get free flooring estimates from 3 local pros",
+      "link": "https://www.homeadvisor.com/c.Flooring/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

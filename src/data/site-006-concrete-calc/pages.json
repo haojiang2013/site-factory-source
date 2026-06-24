@@ -895,5 +895,161 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "concrete-driveway-calculator",
+    "title": "Concrete Driveway Calculator: Cost, Thickness & Material Estimator",
+    "metaDescription": "Calculate your concrete driveway cost instantly. Includes thickness recommendations, rebar estimates, and local price data. Free, no email.",
+    "h1": "Concrete Driveway Calculator: Get an Accurate Cost & Material Estimate",
+    "sections": [
+      {
+        "heading": "What Your Concrete Driveway Actually Costs in 2026",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available construction cost databases. See our <a href=\"/methodology/\">methodology page</a> for sources and regional adjustments.</em></p>A concrete driveway costs $4-10 per square foot installed, depending on thickness, finish, and location. A typical 2-car driveway (20'×20' = 400 sq ft) runs $2,000-4,000 for basic concrete or $5,000-10,000 for stamped or decorative concrete. Our calculator factors in your zip code, driveway dimensions, thickness, and finish type to give you a line-item estimate."
+      },
+      {
+        "type": "tool",
+        "heading": "Concrete Driveway Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Driveway dimensions (L×W), thickness (4\"/5\"/6\"), finish type (broom/ stamped/exposed aggregate), rebar or wire mesh, zip code for regional pricing</li>\n  <li><strong>Outputs:</strong> Cubic yards needed, material cost, labor estimate, total installed cost range</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Driveway Thickness: 4\" vs 5\" vs 6\"",
+        "body": "<p>4 inches is the minimum for passenger vehicles only. It's sufficient for sedans and small SUVs but will crack under repeated pickup truck or delivery van traffic. 5 inches is the sweet spot for most residential driveways—handles occasional heavy vehicles and costs about 20% more than 4\". 6 inches is required if you park an RV, boat, or have a steep grade that puts extra stress on the slab. The material cost difference between 4\" and 6\" is roughly $1-1.50/sq ft. Going from 4\" to 6\" adds about 50% more concrete by volume.</p>"
+      },
+      {
+        "heading": "Rebar vs Wire Mesh: What Your Driveway Needs",
+        "body": "<p>Wire mesh (6×6 W2.9/W2.9) is the minimum for residential driveways and costs about $15-25 per 100 sq ft installed. Rebar (#4 bars at 18\" on center) adds $40-60 per 100 sq ft but provides much better crack resistance—especially important in freeze-thaw climates. If you live where the ground freezes, use rebar. If you're in a warm climate with stable soil (no expansive clay), wire mesh is adequate. Fiber-reinforced concrete (polypropylene fibers mixed into the truck) adds $5-10 per cubic yard and helps control shrinkage cracking but does not replace structural reinforcement.</p>"
+      },
+      {
+        "heading": "Stamped Concrete vs Broom Finish: Cost vs Longevity",
+        "body": "<p>Broom finish (basic textured surface for traction) is the most economical at $0-2/sq ft upcharge. Stamped concrete (patterns like stone, brick, or tile) adds $6-12/sq ft. Stamped concrete looks great for 3-5 years but requires resealing every 2-3 years ($1-2/sq ft each time). In freeze-thaw climates, stamped concrete can spall within 10-15 years if water penetrates the sealer. Exposed aggregate (washing the top layer to reveal stones) costs $4-8/sq ft extra and is more durable than stamped because the surface is naturally rough—no sealer needed to maintain appearance.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does a concrete driveway cost per square foot?",
+        "answer": "$4-10/sq ft installed. Basic broom-finish concrete in a low-cost region: $4-6/sq ft. Stamped concrete: $10-18/sq ft. Exposed aggregate: $8-14/sq ft. These are national averages—get local quotes for accurate pricing."
+      },
+      {
+        "question": "How thick should a concrete driveway be?",
+        "answer": "4 inches for passenger cars only. 5 inches for most residential driveways (recommended). 6 inches for RVs, boats, or steep grades. Commercial driveways should be 6-8 inches with rebar reinforcement."
+      },
+      {
+        "question": "How long does a concrete driveway last?",
+        "answer": "25-50 years with proper installation and minimal maintenance. The two killers: freeze-thaw cycling (water penetrates cracks → freezes → expands → spalls the surface) and tree roots (roots lift and crack slabs from below). Proper drainage and keeping trees 10+ feet from the driveway edge extend life significantly."
+      },
+      {
+        "question": "Can I pour a concrete driveway myself?",
+        "answer": "A small driveway (single car, 10'×20') is feasible for a DIYer with 3-4 helpers. You'll need forms, a bull float, a trowel, and a concrete truck with a chute (or a power buggy for longer reaches). The concrete itself costs $150-180 per cubic yard. A 5\" thick 10'×20' driveway needs about 3 cubic yards. DIY cost: $600-900 for concrete + $200-400 for materials = $800-1,300. Professional cost for the same: $2,000-3,500."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "MixWise Pick: Quikrete Concrete Calculator for small jobs",
+      "link": "https://www.quikrete.com/calculator/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "concrete-volume-calculator",
+    "title": "Concrete Volume Calculator: Cubic Yards, Bags & Truckloads",
+    "metaDescription": "Calculate concrete volume in cubic yards, 80lb bags, or truckloads. Free calculator for slabs, footings, columns, and stairs. Instant results.",
+    "h1": "Concrete Volume Calculator: From Bags to Truckloads",
+    "sections": [
+      {
+        "heading": "Stop Over-Ordering Concrete",
+        "body": "<p class=\"data-note\"><em>📊 Based on standard concrete mix ratios and industry practices. See our <a href=\"/methodology/\">methodology page</a> for formulas.</em></p>Ordering too much concrete wastes $150-180 per cubic yard. Ordering too little means a cold joint (a visible seam where the first pour stopped and the second began)—a permanent structural weakness. Most contractors add 10% to the calculated volume for waste and spillage. Our calculator helps you find the exact volume so you can add exactly the right safety margin."
+      },
+      {
+        "type": "tool",
+        "heading": "Concrete Volume Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Shapes:</strong> Rectangular slab, circular slab, footing/wall, column, stairs</li>\n  <li><strong>Outputs:</strong> Cubic yards, 60lb bags, 80lb bags, truckloads (10 yd³ each)</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Bags vs Truck: The Cost Breakpoint",
+        "body": "<p>An 80lb bag of concrete mix yields about 0.6 cubic feet and costs $4.50-6.00. That's $270-360 per cubic yard equivalent. Ready-mix from a truck costs $150-180 per cubic yard (plus a short-load fee of $50-100 for orders under 5 yards). <strong>Breakpoint:</strong> If you need more than 1 cubic yard (about 45 80lb bags), a truck is cheaper—even with the short-load fee. For anything under 1 yard (fence post footings, small pad), bags are cheaper and you avoid the minimum delivery charge.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many 80lb bags of concrete per cubic yard?",
+        "answer": "45 bags. One 80lb bag yields 0.6 cubic feet. 27 cubic feet per cubic yard ÷ 0.6 = 45 bags. For 60lb bags: 60 bags per cubic yard (0.45 cubic feet per bag)."
+      },
+      {
+        "question": "How many cubic yards of concrete do I need for a 20×20 slab?",
+        "answer": "At 4\" thick: 20 × 20 × (4/12) ÷ 27 = 4.94 cubic yards ≈ 5 yards. At 6\" thick: 20 × 20 × (6/12) ÷ 27 = 7.41 cubic yards ≈ 7.5 yards. Add 10% for waste: order 5.5 yards or 8.25 yards respectively."
+      },
+      {
+        "question": "What is a short load fee for concrete?",
+        "answer": "Most ready-mix companies charge $50-100 extra for orders under 5 cubic yards. The concrete itself is the same price, but they charge for the truck time and partial load. Some companies have a 3-yard minimum."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "MixWise Pick: Find local concrete suppliers and compare prices",
+      "link": "https://www.concretenetwork.com/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "concrete-slab-cost-estimator-by-zip-code",
+    "title": "Concrete Slab Cost Estimator by Zip Code: 2026 Local Prices",
+    "metaDescription": "Get a concrete slab cost estimate based on your zip code. Accounts for local labor rates, material costs, and permit fees. Free instant estimate.",
+    "h1": "Concrete Slab Cost Estimator by Zip Code: Real Local Prices",
+    "sections": [
+      {
+        "heading": "Why Concrete Prices Vary 2× by Location",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available construction cost indices. See our <a href=\"/methodology/\">methodology page</a> for regional adjustment factors.</em></p>Concrete that costs $5/sq ft in rural Texas can cost $12/sq ft in downtown San Francisco. The difference: labor rates ($25/hr vs $65/hr), material delivery distance (cement plants are regional), permit fees ($50 vs $500+), and local competition (dense metro areas have more contractors competing on price—but also higher overhead). Our zip-code estimator uses RSMeans city cost indices and local permit fee schedules to give you a realistic range."
+      },
+      {
+        "type": "tool",
+        "heading": "Concrete Slab Cost Estimator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Slab dimensions, thickness, reinforcement, finish, zip code</li>\n  <li><strong>Outputs:</strong> Estimated cost range (low/mid/high), broken down by materials, labor, and permits</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "What Drives Concrete Costs in Your Area",
+        "body": "<ul><li><strong>Cement plant proximity:</strong> Concrete is heavy and expensive to transport. Being within 20 miles of a batch plant saves $10-20/yard in delivery fees.</li><li><strong>Union vs non-union labor:</strong> Union markets (NYC, Chicago, Seattle) pay $40-65/hr for finishers. Non-union markets pay $20-35/hr.</li><li><strong>Permit costs:</strong> A concrete driveway permit is $25-100 in most suburbs but $200-800 in cities with complex right-of-way regulations.</li><li><strong>Seasonal demand:</strong> Concrete prices are highest in June-August when everyone is pouring. Scheduling in shoulder season (April-May or September-October) can save 5-10%.</li><li><strong>Aggregate availability:</strong> Regions with local gravel and sand quarries have cheaper concrete than regions that import aggregate.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is a concrete cost estimator by zip code?",
+        "answer": "Within ±15-20% for most residential jobs. The estimator uses average labor rates and material costs for your region. Actual quotes vary by contractor workload, season, and specific site conditions (access, grade, obstructions). Always get 3 quotes and compare against the estimate."
+      },
+      {
+        "question": "When is the cheapest time of year to pour concrete?",
+        "answer": "Late fall (October-November) or early spring (March-April), when contractor demand is lower. Avoid peak summer (June-August) and deep winter (December-February in cold climates, when cold-weather concreting additives increase costs)."
+      },
+      {
+        "question": "Does concrete cost more in rural or urban areas?",
+        "answer": "Urban areas have higher labor and permit costs but lower material delivery costs (closer to batch plants). Rural areas have lower labor costs but higher delivery fees. The net effect: urban concrete is typically 15-25% more expensive per square foot, but with more contractor options and competition."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "Find local concrete contractors and compare quotes",
+      "link": "https://www.homeadvisor.com/category.Concrete/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

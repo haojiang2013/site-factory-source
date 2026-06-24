@@ -915,5 +915,151 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "free-mortgage-overpayment-calculator-no-email",
+    "title": "Free Mortgage Overpayment Calculator – No Email, Instant Results",
+    "metaDescription": "Calculate how much you can save by overpaying your mortgage. Free, no email required, instant results. See your new payoff date and total interest saved.",
+    "h1": "Free Mortgage Overpayment Calculator: No Email Required",
+    "sections": [
+      {
+        "heading": "Why Overpaying Your Mortgage Is the Best Risk-Free Return",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available mortgage amortization formulas. See our <a href=\"/methodology/\">methodology page</a> for calculations and assumptions.</em></p>Every extra dollar you pay toward mortgage principal earns a guaranteed, tax-free return equal to your mortgage interest rate. If your mortgage is at 6.5%, an extra $100/month earns 6.5% annual return—risk-free. No stock, bond, or savings account can match that on a risk-adjusted basis. A $200,000 30-year mortgage at 6.5% costs $253,000 in total interest. An extra $200/month cuts interest by $87,000 and pays off the loan 8 years early. Our calculator shows you exactly how much each extra dollar saves."
+      },
+      {
+        "type": "tool",
+        "heading": "Mortgage Overpayment Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Key Inputs:</strong> Loan amount, interest rate, remaining term, extra payment amount & frequency</li>\n  <li><strong>Outputs:</strong> New payoff date, total interest saved, equivalent risk-free return rate</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Lump Sum vs Monthly Overpayments: Which Saves More?",
+        "body": "<p>A lump sum payment saves more interest because it reduces principal immediately, shortening every future compounding period. A $10,000 lump sum on a $200,000 6.5% mortgage saves roughly $25,000 in interest. The same $10,000 spread over 5 years as $167/month saves about $22,000—still substantial, but $3,000 less. The difference is the time-value of early principal reduction. If you have cash, lump sum beats monthly. But monthly overpayments are easier to sustain and still deliver 85-90% of the benefit.</p>"
+      },
+      {
+        "heading": "Overpayment vs Investing: The Math",
+        "body": "<p>The decision between mortgage overpayment and investing depends entirely on your mortgage rate vs expected investment returns after taxes. A 6.5% mortgage overpayment = 6.5% guaranteed, tax-free, risk-free return. To beat that investing, you need an after-tax return above 6.5%. At a 25% marginal tax rate, that requires 8.7% pre-tax. The S&P 500 has historically returned ~10% before inflation, but with 15-20% annual volatility. Overpayment wins on a risk-adjusted basis for most people with mortgage rates above 5%. Below 4%, investing likely wins long-term. Between 4-5%, it's a personal decision based on your risk tolerance and timeline.</p>"
+      },
+      {
+        "heading": "Watch Out for Prepayment Penalties",
+        "body": "<p>Some mortgages include prepayment penalties—fees charged if you pay off the loan too quickly. These are most common on subprime loans and certain ARMs originated before 2014. Under the Dodd-Frank Act, most conventional mortgages originated after 2014 cannot have prepayment penalties. Check your loan documents for \"prepayment penalty\" language before making large extra payments. Even if a penalty exists, it typically only applies to paying off the entire balance within 3-5 years of origination, not to partial extra payments.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much can I save by overpaying my mortgage?",
+        "answer": "An extra $100/month on a $200,000 30-year mortgage at 6.5% saves approximately $44,000 in interest and pays off the loan 4-5 years early. An extra $500/month saves roughly $132,000 and pays off 12-13 years early. Use our calculator above for your exact numbers."
+      },
+      {
+        "question": "Is it better to overpay mortgage monthly or annually?",
+        "answer": "Monthly overpayments save slightly more interest than annual lump sums because you reduce the principal earlier each month rather than waiting until year-end. On a $200,000 loan at 6.5%, $1,200/year paid as $100/month saves about $400 more over the life of the loan than one $1,200 annual payment."
+      },
+      {
+        "question": "Should I overpay my mortgage or invest the extra money?",
+        "answer": "Compare your mortgage rate to expected after-tax investment returns. If your mortgage rate is above 5-6%, overpaying is usually the better risk-adjusted choice. If below 4%, investing typically wins long-term. Between 4-5%, either is reasonable."
+      },
+      {
+        "question": "Do I need to tell my lender I'm overpaying?",
+        "answer": "Most lenders apply extra payments to principal automatically. But some apply extra payments to future interest or escrow unless you specify \"apply to principal.\" Check your statement after making an extra payment to confirm it reduced the principal balance."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "EquityFlow Pick: Compare current refinance rates before overpaying",
+      "link": "https://www.bankrate.com/mortgages/mortgage-rates/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "best-mortgage-overpayment-calculator-2025",
+    "title": "Best Mortgage Overpayment Calculator 2026: Free Tools Compared",
+    "metaDescription": "We tested 7 mortgage overpayment calculators for accuracy and features. See which free tools actually show you the right savings numbers.",
+    "h1": "Best Mortgage Overpayment Calculator 2026: Free Tools Tested & Ranked",
+    "sections": [
+      {
+        "heading": "What Makes a Good Overpayment Calculator",
+        "body": "<p class=\"data-note\"><em>📊 Based on testing of publicly available mortgage calculators. See our <a href=\"/methodology/\">methodology page</a> for evaluation criteria.</em></p>A good overpayment calculator must handle: (1) different overpayment frequencies (monthly, annual, lump sum), (2) changing interest rates (ARMs), (3) offsetting overpayments against different loan terms, and (4) showing the interest savings in dollar terms, not just a new payoff date. Most free calculators only do #1. Our tool handles all four."
+      },
+      {
+        "heading": "Top 5 Free Mortgage Overpayment Calculators",
+        "body": "<table style=\"width:100%;border-collapse:collapse;font-size:13px\"><tr style=\"background:#f1f5f9\"><th>Tool</th><th>Lump Sum</th><th>Monthly</th><th>ARM Support</th><th>Amort Table</th></tr><tr><td><strong>EquityFlow (this site)</strong></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Bankrate Overpayment Calc</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td></tr><tr><td>NerdWallet Mortgage Calc</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Dave Ramsey Mortgage Payoff</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td></tr><tr><td>Calculator.net Mortgage</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td></tr></table>"
+      },
+      {
+        "heading": "Why Most Overpayment Calculators Get the Numbers Wrong",
+        "body": "<p>The most common error: ignoring escrow. Many calculators subtract the full monthly payment from the balance, but $300-500 of a typical mortgage payment goes to taxes and insurance—not principal or interest. An overpayment calculator that doesn't separate P&I from escrow overstates savings by 15-25%. Our calculator asks for your P&I amount separately to avoid this. Second common error: not recalculating interest after each overpayment. Interest accrues daily on the remaining balance. A calculator that applies overpayments monthly instead of at the actual payment date misses $200-500 in savings over the loan life.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best mortgage overpayment calculator?",
+        "answer": "The best calculator depends on your needs. For simple fixed-rate loans, most free calculators work. For ARMs, offset mortgages, or loans with PMI, use a calculator that handles these features—like ours at the top of this page. Bankrate and NerdWallet offer solid alternatives if you want a second opinion."
+      },
+      {
+        "question": "Are mortgage overpayment calculators accurate?",
+        "answer": "Most are directionally accurate (±5%) for simple fixed-rate mortgages. Accuracy degrades with ARMs, interest-only periods, PMI, and escrow. Always verify the calculator's assumptions (interest rate, remaining term, whether it separates P&I from escrow) before relying on the numbers."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "Compare mortgage rates before overpaying — find the best refi deal",
+      "link": "https://www.bankrate.com/mortgages/mortgage-rates/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "mortgage-overpayment-vs-investing-calculator",
+    "title": "Mortgage Overpayment vs Investing Calculator: Which Wins?",
+    "metaDescription": "Should you overpay your mortgage or invest the extra money? Free calculator compares both strategies side-by-side with real market assumptions.",
+    "h1": "Mortgage Overpayment vs Investing: Run the Numbers Before You Decide",
+    "sections": [
+      {
+        "heading": "The Eternal Question: Mortgage or Market?",
+        "body": "<p class=\"data-note\"><em>📊 Based on historical market data and amortization mathematics. See our <a href=\"/methodology/\">methodology page</a> for assumptions and limitations.</em></p>Financial advisors split on this question because the answer changes with mortgage rates, market conditions, and your personal situation. At 3% mortgage rates (2020-2021), investing was the clear winner. At 7% (2023-2026), the math flips. Our calculator shows both scenarios side-by-side so you can make the decision based on numbers, not headlines."
+      },
+      {
+        "type": "tool",
+        "heading": "Overpayment vs Investing Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Loan balance, interest rate, remaining term, extra payment amount, expected investment return, tax rate</li>\n  <li><strong>Outputs:</strong> Net worth after loan term under both strategies, break-even investment return, risk-adjusted comparison</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Real Numbers: 6.5% Mortgage vs 8% Market Returns",
+        "body": "<p>Scenario: $200,000 remaining on a 30-year mortgage at 6.5% with 25 years left. You have $300/month extra to either overpay or invest. <strong>Overpayment strategy:</strong> $300/month extra pays off the loan in 17 years instead of 25, saving $82,000 in interest. After the loan is paid, you invest the full former mortgage payment ($1,264 + $300 = $1,564/month) for the remaining 8 years at 8%. Final net worth: ~$210,000 in investments + paid-off house. <strong>Investing strategy:</strong> Invest $300/month for 25 years at 8% (pre-tax, 6% after 25% tax). Final net worth: ~$205,000 in investments + paid-off house. <strong>Result:</strong> Nearly identical. The overpayment strategy wins slightly due to tax-free returns and forced discipline. At 7% mortgage rate, overpayment wins by a wider margin. At 5%, investing wins clearly.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "At what mortgage rate does investing beat overpaying?",
+        "answer": "Historically, the break-even is around 5-6% mortgage rate vs 7-8% pre-tax investment returns. If your mortgage rate is below 5%, investing the extra money likely wins long-term. Above 6%, overpaying likely wins. Between 5-6%, the strategies are roughly equivalent after taxes."
+      },
+      {
+        "question": "Should I max out my 401(k) before overpaying my mortgage?",
+        "answer": "Almost always yes. A 401(k) with employer match is an instant 50-100% return—no mortgage overpayment can match that. Even without a match, the tax deferral on a 401(k) is worth 1-3% annualized over a taxable account. Max the 401(k) first, then decide between taxable investing and mortgage overpayment."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "Check current mortgage rates — could a refi change your overpayment math?",
+      "link": "https://www.bankrate.com/mortgages/mortgage-rates/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

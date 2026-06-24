@@ -1088,5 +1088,149 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "diy-vs-contractor-renovation-cost-comparison",
+    "title": "DIY vs Contractor Renovation Cost: 2026 Comparison Calculator",
+    "metaDescription": "Compare DIY costs vs hiring a contractor for your renovation. See labor costs, tool rental, permit requirements, and the real savings of doing it yourself.",
+    "h1": "DIY vs Contractor Renovation: Calculate the Real Cost Difference",
+    "sections": [
+      {
+        "heading": "The DIY Savings Most People Get Wrong",
+        "body": "<p class=\"data-note\"><em>📊 Based on national average contractor pricing and tool/material costs. See our <a href=\"/methodology/\">methodology page</a> for sources.</em></p>DIY renovation saves 30-60% on labor—but that's only half the story. DIY takes 2-4× longer, requires tool purchases or rentals, and risks costly mistakes that a pro wouldn't make. A $5,000 contractor bathroom tile job might cost $1,500 in materials DIY—but a botched waterproofing job that leads to a $3,000 subfloor replacement erases every dollar saved. Our calculator shows you the true total cost of both paths, including tools, permits, and your time."
+      },
+      {
+        "type": "tool",
+        "heading": "DIY vs Contractor Cost Comparison",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Project type (kitchen/bath/basement/etc), project size, material grade, your skill level, zip code</li>\n  <li><strong>Outputs:</strong> Contractor estimate, DIY estimate (materials + tools + permits), savings, risk-adjusted comparison</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "When DIY Wins — And When It Doesn't",
+        "body": "<p><strong>Good DIY projects:</strong> Painting ($2-4/sq ft savings), flooring (laminate/LVP: $2-5/sq ft savings), trim/baseboard ($3-7/linear ft savings), demolition ($500-2,000 savings for a whole room). <strong>Bad DIY projects:</strong> Electrical work beyond replacing fixtures (fire risk + code violations), plumbing beyond replacing fixtures (flood risk), structural changes (load-bearing wall removal), and anything requiring a permit you don't know how to pull. <strong>The rule:</strong> If a mistake would cost more to fix than hiring a pro would have cost originally, hire the pro.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much can I save doing renovation work myself?",
+        "answer": "Typically 30-60% of the total project cost. Labor is 40-70% of most renovation budgets. But factor in: tool purchases/rentals ($100-1,000+), your time (valued at your hourly rate), and the risk of mistakes requiring professional correction."
+      },
+      {
+        "question": "What renovation work requires a permit?",
+        "answer": "Structural changes (walls, beams, foundations), electrical (beyond fixture replacement), plumbing (beyond fixture replacement), HVAC modifications, window/door replacements that change the opening size, and additions. Permit requirements vary by municipality—always check with your local building department."
+      },
+      {
+        "question": "Should I hire a general contractor or individual trades?",
+        "answer": "General contractor (GC) adds 15-25% to the total but handles scheduling, permits, and coordination. For projects involving 3+ trades (kitchen, major bath, addition), a GC is worth it. For single-trade projects (flooring only, painting only), hire the trade directly."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: Get free renovation quotes from licensed contractors",
+      "link": "https://www.homeadvisor.com/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "basement-finishing-cost-estimator-2024",
+    "title": "Basement Finishing Cost Estimator 2026: Per Square Foot Pricing",
+    "metaDescription": "Estimate your basement finishing costs with our free calculator. Covers framing, drywall, flooring, electrical, plumbing, and egress requirements.",
+    "h1": "Basement Finishing Cost Estimator 2026: Real Numbers Per Square Foot",
+    "sections": [
+      {
+        "heading": "What Finishing a Basement Costs in 2026",
+        "body": "<p class=\"data-note\"><em>📊 Data sourced from publicly available contractor pricing databases. See our <a href=\"/methodology/\">methodology page</a> for sources and regional adjustments.</em></p>A basic basement finish (drywall, flooring, ceiling, electrical) costs $40-70/sq ft. A mid-range finish with a bathroom adds $15-25/sq ft. A high-end finish with a wet bar, home theater, or gym can push $100-150/sq ft. The national average for a 1,000 sq ft basement is $50,000-75,000 for a complete finish with bathroom."
+      },
+      {
+        "type": "tool",
+        "heading": "Basement Finishing Cost Estimator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Basement square footage, ceiling height, finish level (basic/mid/high), bathroom included?, egress window needed?, zip code</li>\n  <li><strong>Outputs:</strong> Total estimated cost, cost per sq ft, major line-item breakdown</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Egress Requirements: The Hidden $3,000-8,000 Cost",
+        "body": "<p>Building code requires every habitable basement room (bedroom, home office used daily) to have an egress window or door directly to the outside. A code-compliant egress window with a window well, ladder, and drainage costs $3,000-8,000 installed. Without it, you cannot legally call that basement room a bedroom when you sell. Many homeowners skip egress to save money, then find it flagged during a home inspection. If you're finishing a basement, install egress during construction—retrofitting later costs 2× as much.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to finish a 1,000 sq ft basement?",
+        "answer": "$40,000-75,000 for a complete finish with a bathroom, depending on your region and finish level. Basic finish (drywall + flooring + electrical): $30,000-50,000. High-end with wet bar and home theater: $80,000-150,000."
+      },
+      {
+        "question": "Does finishing a basement add home value?",
+        "answer": "Yes—finished basements typically recoup 50-70% of their cost at resale, according to Remodeling Magazine's Cost vs Value report. In high-cost housing markets where above-ground space is limited, basement finishes can recoup 70-80%. The value is highest when the basement adds functional bedrooms and bathrooms, not just open rec space."
+      },
+      {
+        "question": "Do I need a permit to finish my basement?",
+        "answer": "Almost always yes. Finishing a basement involves electrical, possibly plumbing, and changes the home's occupancy classification. Unpermitted basement work is flagged during home sales and can void homeowners insurance for claims related to the unpermitted space."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: Find basement finishing contractors with verified reviews",
+      "link": "https://www.thumbtack.com/k/basement-finishing/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "renovation-roi-calculator",
+    "title": "Renovation ROI Calculator: Which Upgrades Actually Pay Back",
+    "metaDescription": "Calculate the return on investment for your renovation project. See which upgrades add the most resale value and which are just for you.",
+    "h1": "Renovation ROI Calculator: Don't Spend $50K for a $25K Return",
+    "sections": [
+      {
+        "heading": "The Renovation ROI Reality",
+        "body": "<p class=\"data-note\"><em>📊 Based on Remodeling Magazine Cost vs Value report and real estate market data. See our <a href=\"/methodology/\">methodology page</a> for sources.</em></p>Very few renovations recoup 100% of their cost at resale. The highest-ROI projects in 2026: garage door replacement (95-102%), manufactured stone veneer (90-95%), minor kitchen remodel (85-90%), and HVAC replacement (85-90%). The lowest ROI: upscale master suite addition (40-50%), upscale bathroom addition (45-55%), and backyard patio (45-55%). Our calculator helps you separate \"worth it for resale\" from \"worth it for you.\"</p>"
+      },
+      {
+        "type": "tool",
+        "heading": "Renovation ROI Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Project type, project cost, home value, planned years before selling</li>\n  <li><strong>Outputs:</strong> Estimated resale value added, ROI percentage, break-even timeline</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "ROI Rankings: Highest to Lowest",
+        "body": "<table style=\"width:100%;border-collapse:collapse;font-size:13px\"><tr style=\"background:#f1f5f9\"><th>Project</th><th>Average Cost</th><th>Resale Value</th><th>ROI</th></tr><tr><td>Garage door replacement</td><td>$4,500</td><td>$4,300</td><td>95%</td></tr><tr><td>Minor kitchen remodel</td><td>$27,500</td><td>$23,500</td><td>85%</td></tr><tr><td>Wood deck addition</td><td>$18,000</td><td>$14,500</td><td>80%</td></tr><tr><td>Midrange bathroom remodel</td><td>$25,000</td><td>$18,000</td><td>72%</td></tr><tr><td>Major kitchen remodel</td><td>$80,000</td><td>$45,000</td><td>56%</td></tr><tr><td>Upscale master suite addition</td><td>$340,000</td><td>$155,000</td><td>45%</td></tr></table>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which home renovations have the best ROI?",
+        "answer": "Garage door replacement (~95% ROI), manufactured stone veneer (90-95%), minor kitchen remodel (85-90%), HVAC replacement (85-90%), and entry door replacement (80-85%) consistently top the ROI rankings. These projects are relatively inexpensive and dramatically improve curb appeal or functionality."
+      },
+      {
+        "question": "Do any renovations add more value than they cost?",
+        "answer": "Rarely. In most markets, even the best renovations return 80-95% of their cost. The exception: cosmetic updates (paint, landscaping, deep cleaning) in a dated home can return 200-500% because they cost little but dramatically change buyer perception. A $500 paint job can add $5,000 in perceived value."
+      },
+      {
+        "question": "Should I renovate before selling?",
+        "answer": "Only if your home has specific deal-breaker issues (leaky roof, broken HVAC, severely dated kitchen in a high-end neighborhood). Most pre-sale renovations return 60-80% of their cost. You're usually better off pricing the home to reflect its current condition and letting the buyer renovate to their own taste."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "BuildCost Pick: Compare renovation loan options for your project",
+      "link": "https://www.nerdwallet.com/mortgages/renovation-loans",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]

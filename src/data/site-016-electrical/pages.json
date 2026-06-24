@@ -1005,5 +1005,147 @@
       "url": "https://github.com/pank770766",
       "jobTitle": "Independent Tool Developer"
     }
+  },
+  {
+    "slug": "service-load-calculation-example-nec-2023",
+    "title": "Service Load Calculation Example NEC 2023: Step-by-Step Guide",
+    "metaDescription": "Complete residential service load calculation example following NEC 2023 Article 220. Includes all steps, formulas, and a free calculator.",
+    "h1": "Service Load Calculation Example NEC 2023: A Complete Walkthrough",
+    "sections": [
+      {
+        "heading": "NEC Service Load Calculation — Why It Matters",
+        "body": "<p class=\"data-note\"><em>📊 Based on NEC 2023 Article 220 and industry practice. See our <a href=\"/methodology/\">methodology page</a> for detailed references.</em></p>A residential service load calculation determines the minimum electrical service size for a dwelling. Undersized service means breakers tripping and potential fire risk. Oversized service means wasted money on heavier-gauge wire, larger conduit, and a bigger panel than needed. The NEC standard method (Article 220 Part III) is what building departments require on permit applications. Our calculator runs the full NEC method so you can submit your permit with confidence."
+      },
+      {
+        "type": "tool",
+        "heading": "NEC Service Load Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Inputs:</strong> Square footage, small appliance circuits, laundry circuit, major appliances (nameplate ratings), HVAC (MCA), electric vehicle charger, solar/PV system</li>\n  <li><strong>Outputs:</strong> Total calculated load (VA and Amps), minimum service size (100A/125A/150A/200A/400A)</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "NEC Standard Method: Step by Step",
+        "body": "<ol><li><strong>General lighting & receptacles:</strong> 3 VA per sq ft × total sq ft. First 3,000 VA at 100%, remainder at 35%. Example: 2,500 sq ft × 3 = 7,500 VA. 3,000 + (4,500 × 0.35) = 4,575 VA.</li><li><strong>Small appliance & laundry:</strong> 2 × 1,500 VA for kitchen small appliance circuits + 1 × 1,500 VA for laundry = 4,500 VA.</li><li><strong>Major appliances:</strong> Add nameplate ratings for: range/oven, cooktop, dishwasher, garbage disposal, water heater, dryer, microwave (if built-in). Use actual nameplate values.</li><li><strong>HVAC:</strong> Use the larger of heating or cooling load (not both—they don't run simultaneously). Use MCA (Minimum Circuit Ampacity) from the equipment nameplate.</li><li><strong>EV charger:</strong> Add at 100% of nameplate rating (NEC 220.57 for EVSE). A typical Level 2 charger is 7,200-11,500 VA (30-48A at 240V).</li><li><strong>Total VA ÷ 240V = Amps:</strong> Round up to the next standard service size: 100A, 125A, 150A, 200A, 400A.</li></ol>"
+      },
+      {
+        "heading": "Example: 2,500 sq ft Home with EV Charger",
+        "body": "<p>General lighting: 2,500 × 3 = 7,500 VA → 3,000 + (4,500 × 0.35) = 4,575 VA. Small appliance + laundry: 4,500 VA. Range: 8,000 VA. Dryer: 5,000 VA. Water heater: 4,500 VA. Dishwasher: 1,200 VA. Disposal: 800 VA. HVAC: 6,000 VA (cooling, larger than heating at 4,500 VA). EV charger: 11,500 VA (48A Level 2). Total: 46,075 VA ÷ 240V = 192 Amps → requires 200A service minimum. Without the EV charger: 34,575 VA ÷ 240V = 144 Amps → 150A service. The EV charger alone adds 48 Amps of demand and often pushes homes from 150A to 200A service.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate service load per NEC 2023?",
+        "answer": "Use NEC Article 220 Part III (Standard Method): sum general lighting (3 VA/sq ft), small appliance circuits (4,500 VA), major appliances (nameplate), HVAC (larger of heat or cool, MCA value), and EV charger (nameplate at 100%). Divide total VA by 240V for service amperage. Round up to the next standard size."
+      },
+      {
+        "question": "What size electrical service do I need for a 2,500 sq ft house?",
+        "answer": "Typically 150A-200A. Without EV charging: 125-150A. With one EV charger: 200A. With two EV chargers: 300-400A. Run the calculation with actual appliance nameplates—don't guess."
+      },
+      {
+        "question": "Can I use the optional method instead of the standard method?",
+        "answer": "Yes—NEC 220.82 (Optional Method) is simpler and often yields a lower calculated load for homes over 1,500 sq ft. It applies a single demand factor to the total connected load rather than separate demand factors per category. The optional method is accepted by most building departments. Our calculator supports both methods."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "AmpFlow Pick: NEC 2023 Code Book — essential reference",
+      "link": "https://www.nfpa.org/codes-and-standards/70",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "dwelling-unit-load-calculation-online",
+    "title": "Dwelling Unit Load Calculation Online: Free NEC-Compliant Tool",
+    "metaDescription": "Free online dwelling unit load calculator per NEC 2023. Standard and optional methods. Instant results. No email or signup required.",
+    "h1": "Dwelling Unit Load Calculation Online: NEC 2023 Compliant",
+    "sections": [
+      {
+        "heading": "Dwelling Unit Load Calculation — The Permit Requirement",
+        "body": "<p class=\"data-note\"><em>📊 Based on NEC 2023 Articles 220.82 and 220.83. See our <a href=\"/methodology/\">methodology page</a> for detailed references.</em></p>A dwelling unit load calculation is required whenever you: install a new electrical panel, add a major appliance (EV charger, hot tub, AC), add an addition, or upgrade from fuse box to breakers. Building departments reject permit applications without a load calculation. Our online tool generates a PDF-ready calculation you can attach to your permit application."
+      },
+      {
+        "type": "tool",
+        "heading": "Dwelling Unit Load Calculator",
+        "body": "<html>\n<body>\n<ul>\n  <li><strong>Methods:</strong> NEC Standard (220 Part III) and Optional (220.82)</li>\n  <li><strong>Outputs:</strong> Total load in VA and Amps, recommended service size, printable calculation sheet</li>\n</ul>\n</body>\n</html>",
+        "toolEmbed": true
+      },
+      {
+        "heading": "Standard vs Optional Method: Which to Use",
+        "body": "<p>The Optional Method (NEC 220.82) is simpler and accepted by most AHJs (Authorities Having Jurisdiction) for single-family dwellings. It applies a flat demand factor to the total connected load above 10 kVA rather than per-category demand factors. For homes below 1,500 sq ft, the standard method may yield a lower calculated load. For homes above 1,500 sq ft, the optional method usually gives a lower (more favorable) number. Our calculator runs both and lets you choose—some inspectors prefer one method over the other.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a dwelling unit load calculation?",
+        "answer": "A calculation per NEC Article 220 that determines the minimum electrical service size for a residential dwelling. It accounts for square footage, required circuits, major appliances, and HVAC equipment. The result is expressed in Volt-Amperes (VA) and Amperes (A), which determines your panel size (100A, 150A, 200A, etc.)."
+      },
+      {
+        "question": "Can I do my own load calculation for a permit?",
+        "answer": "Most building departments accept homeowner-prepared load calculations if they follow NEC methodology and show all inputs and calculations clearly. Our tool generates a calculation sheet formatted for permit submission. Some jurisdictions require a licensed electrician's stamp for service upgrades—check with your local building department."
+      },
+      {
+        "question": "What happens if my calculated load exceeds my panel rating?",
+        "answer": "You need a service upgrade (new, larger panel). A 100A panel with a 125A calculated load is overloaded and creates a fire risk. Options: upgrade to 150A or 200A service ($2,000-5,000), or reduce your electrical load (remove or downsize appliances). The panel rating must equal or exceed the calculated load per NEC."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "AmpFlow Pick: Find a licensed electrician for your panel upgrade",
+      "link": "https://www.homeadvisor.com/c.Electrical/",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
+  },
+  {
+    "slug": "mobile-friendly-electrical-load-calculator",
+    "title": "Mobile-Friendly Electrical Load Calculator: Calculate on Your Phone",
+    "metaDescription": "Use our mobile-optimized electrical load calculator on any device. Perfect for electricians in the field. Free, NEC 2023 compliant, no app install.",
+    "h1": "Mobile-Friendly Electrical Load Calculator: Panel Sizing on Your Phone",
+    "sections": [
+      {
+        "heading": "Load Calculations Where You Actually Need Them",
+        "body": "<p class=\"data-note\"><em>📊 NEC 2023 compliant calculations optimized for mobile devices. See our <a href=\"/methodology/\">methodology page</a> for methodology.</em></p>Electricians do load calculations standing in front of the existing panel, not sitting at a desk. Our calculator is built for one-handed phone use: large touch targets (48px minimum), number-pad input for numeric fields, scrollable appliance list, and instant recalculation as you enter data. No app install, no account, no email. Works offline once loaded."
+      },
+      {
+        "heading": "Mobile-Optimized Features",
+        "body": "<ul><li><strong>Touch-friendly inputs:</strong> Every input is at least 48px tall—meets WCAG touch target guidelines for gloved hands and shaky ladders</li><li><strong>Number-pad keyboard:</strong> Numeric fields trigger the phone's number pad (inputmode=\"decimal\"), not the full keyboard</li><li><strong>Auto-save locally:</strong> Your inputs persist in browser storage. Close the page, come back, pick up where you left off.</li><li><strong>Works offline:</strong> Load once with an internet connection, continue using without one. The calculator runs entirely in the browser.</li><li><strong>One-thumb navigation:</strong> Inputs are stacked vertically—no side-scrolling or pinch-zooming needed.</li></ul>"
+      },
+      {
+        "heading": "For Electricians: Faster Than a Spreadsheet",
+        "body": "<p>Most electricians use an Excel spreadsheet or a dedicated app for load calculations. Spreadsheets are hard to use on a phone. Dedicated apps cost $10-50. Our mobile calculator is free, runs in any browser, and uses the same NEC methodology. Bookmark it on your phone's home screen—it works like a native app (PWA). Generate a calculation, screenshot it, and attach it to your permit application.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does the mobile load calculator work without internet?",
+        "answer": "Yes—once the page loads initially, the calculator runs entirely in your browser's JavaScript engine. No server requests are made during calculation. Your inputs are saved to localStorage and persist across sessions."
+      },
+      {
+        "question": "Is the mobile calculator as accurate as NEC software?",
+        "answer": "For residential calculations using the standard or optional method, yes—the formulas are the same. For complex commercial or industrial calculations with demand factors not covered by NEC 220 Part III, use professional engineering software."
+      }
+    ],
+    "affiliateCTA": {
+      "productName": "AmpFlow Pick: Fluke multifunction tester — essential for panel work",
+      "link": "https://www.fluke.com/en-us/products/electrical-testing",
+      "platform": "partners",
+      "disclosureText": "We earn a commission if you purchase through this link, at no extra cost to you. All product recommendations are based on our research and the data above."
+    },
+    "lastUpdated": "2026-06-22",
+    "author": {
+      "name": "Steven Kuep",
+      "url": "https://github.com/pank770766",
+      "jobTitle": "Independent Tool Developer"
+    }
   }
 ]
